@@ -1,0 +1,92 @@
+    with fade
+    "OK."
+    "C'est une journée comme les autres."
+    "Aucun enjeu particulier."
+    "Souffle."
+    "Certes, c'est une académie d'élite, et tu ne croiseras que les plus grands de ce pays."
+    "Mais si t'es là, c'est que tu l'as mérité, non ?"
+    "Personne ne me jugera, ils sont tous passés par là."
+    "C'est une journée comme les autres."
+    "..."
+    "Je sais que c'est un mensonge."
+    "C'est ma première journée à la Cosy Académie, un tournant dans ma vie."
+    "Si je me plante je peux tout foutre en l'air..."
+    "..."
+    "Aaaaargh mais qu'est ce que je fais ic- !!"
+
+
+    show moguri standard
+    with flash
+
+    "BOOONG!!!!!"
+
+    pov "Hey !! Mais ça va pas de foncer dans les gens comme ç- !?"
+
+    "Oh non...."
+    "C'est Moguri..."
+    "Mais s'il est ici, ça veut dire que..."
+
+    hide moguri standard
+    show medoc standard
+    with flash
+
+    "BOOONG!!!!!"
+
+
+    show moguri standard at right
+    show medoc standard at left
+
+    "C'est pas vrai..."
+    "Medoc et Moguri. Dès mon premier jour, je tombe sur eux."
+    "Littéralement en plus."
+    "Moi qui voulais faire une rentrée à peu près discrète, c'est rapé."
+
+    show medoc deg at left
+
+    med "Dis donc, tu comptes nous fixer longtemps, comme ça ?"
+    pov "Je... Non, bien sûr, excusez-moi, c'est juste que..."
+
+    show moguri croise rigole at right
+
+    mog "Ahahah mais enfin Medoc, laisse-le ! Regarde comme il a l'air stressé !"
+
+    show moguri rigole ouvert at right
+
+    mog "Bienvenue à la Cosy Académie, gamin. Ne t'inquiète pas, on n'est pas tous aussi bourru que lui !"
+    "Je suis presque sûr qu'on a le même âge, mais le fait qu'il m'appelle gamin ne me déplait pas particulièrement."
+
+    pov "Aaaah, merci... Je tâcherai de me faire plus discret, désolé !"
+
+    mog "Mais non enfin ! Si tu es ici, c'est que tu as ta place. Aucune raison de se faire discret !"
+
+    show moguri rigole ferme at right
+
+    mog "Sur ce... On va y aller, il s'agirait pas d'arriver en retard ! A plus tard p'tit gars !"
+
+    hide moguri rigole ferme
+    pause 0.5
+    hide medoc deg
+    show medoc deg with fade
+
+    med "Tch."
+    med "Moguri a raison. Tout le monde n'est pas aussi bourru que moi..."
+    med "Mais attention."
+    show medoc deg zoom
+
+    med "Tout le monde n'est pas aussi indulgents que lui..."
+
+    pov "Gloups."
+
+    "Ouch... Près... Très près. Trop près ?"
+    "Pas vraiment."
+
+    show medoc deg
+
+    med "Aller. Fais attention à toi."
+
+    hide medoc deg with fade
+
+    "Ouf."
+    "Ca commence fort."
+    "Même de dos ils sont impressionants..."
+    "Aller, ça va le faire ! On y va !"
