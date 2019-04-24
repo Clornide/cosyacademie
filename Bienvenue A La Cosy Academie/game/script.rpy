@@ -49,7 +49,7 @@ image dieuv smug = "Dieuvomi_BrasCroises_08-SourireYeuxFermes.png"
 # Déclarez les personnages utilisés dans le jeu.
 
 define pov = Character("[povname]", color="#fff")
-define innerpov = Character("[povname]", color="#fff")
+define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df")
 define med = Character('Medoc', color="#fff")
 define mog = Character('Moguri', color="#fff")
 define met = Character('Metalice', color="#fff")
