@@ -4,37 +4,40 @@
 # ex: image eileen heureuse = "eileen_heureuse.png"
 image intro = "BienvenueAlaCosyAcademie_intro.png"
 
+
+
 #image moguri
 
-image moguri standard = "Moguri_PoseStandard_01-BadBoy.png"
-image moguri croise rigole = "Moguri_BrasCroises_08-SourireYeuxFermes.png"
-image moguri rigole ouvert = "Moguri_PoseStandard_06-Sourire.png"
-image moguri rigole ferme = "Moguri_PoseStandard_08-SourireYeuxFermes.png"
-image moguri deg croise = "Moguri_BrasCroises_05-Degoute.png"
-#image medoc
+image moguri standard = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_01-BadBoy.png", "True", "Moguri_low.png")
+image moguri croise rigole = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_08-SourireYeuxFermes.png", "True", "Moguri_low.png")
+image moguri rigole ouvert = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_06-Sourire.png", "True", "Moguri_low.png")
+image moguri rigole ferme = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_08-SourireYeuxFermes.png", "True", "Moguri_low.png")
+image moguri deg croise = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_05-Degoute.png", "True", "Moguri_low.png")
 
-image medoc standard = "Medoc_PoseStandard_01-BadBoy.png"
-image medoc deg =  "Medoc_PoseStandard_05-Degoute.png"
-image medoc deg zoom = "Medoc_PoseStandard_05.1-Degoute-Zoom.png"
-image medoc happy = "Medoc_PoseStandard_08-SourireYeuxFermes.png"
-image medoc colere poing = "Medoc_PosePoings_03-Colere.png"
+
+#image medoc
+image medoc standard = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_01-BadBoy.png", "True", "Medoc_low.png")
+image medoc deg =  ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_05-Degoute.png", "True", "Medoc_low.png")
+image medoc deg zoom = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_05.1-Degoute-Zoom.png", "True", "Medoc_low.png")
+image medoc happy = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_08-SourireYeuxFermes.png", "True", "Medoc_low.png")
+image medoc colere poing = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_03-Colere.png", "True", "Medoc_low.png")
 
 #image metalice
 
-image metalice coucou fermes = "Metalice_PoseCoucou_08-SourireYeuxFermes.png"
-image metalice coucou clindoeil = "Metalice_PoseCoucou_01-Cligne.png"
-image metalice coucou = "Metalice_PoseCoucou_06-Sourire.png"
-image metalice decue = "Metalice_PoseCoucou_10-Triste.png"
-image metalice colere rouge = "Metalice_PoseCoucou_04-ColereRougit.png"
-image metalice deg = "Metalice_PoseCoucou_05-Degoute.png"
+image metalice coucou fermes = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_08-SourireYeuxFermes.png", "True", "Metalice_low.png")
+image metalice coucou clindoeil = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_01-Cligne.png", "True", "Metalice_low.png")
+image metalice coucou = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_06-Sourire.png", "True", "Metalice_low.png")
+image metalice decue = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_10-Triste.png", "True", "Metalice_low.png")
+image metalice colere rouge = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_04-ColereRougit.png", "True", "Metalice_low.png")
+image metalice deg = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_05-Degoute.png", "True", "Metalice_low.png")
 
 #image mickey
 
-image mickey normal= "Mickey_PoseStandard_01-BadBoy.png"
-image mickey chonti= "Mickey_PoseStandard_06-Sourire.png"
-image mickey colere= "Mickey_PoseStandard_03-Colere.png"
-image mickey happy= "Mickey_PoseStandard_08-SourireYeuxFermes.png"
-image mickey deg = "Mickey_PoseStandard_05-Degoute.png"
+image mickey normal= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_01-BadBoy.png", "True", "Mickey_low.png")
+image mickey chonti= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_06-Sourire.png", "True", "Mickey_low.png")
+image mickey colere= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_03-Colere.png", "True", "Mickey_low.png")
+image mickey happy= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_08-SourireYeuxFermes.png", "True", "Mickey_low.png")
+image mickey deg = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_05-Degoute.png", "True", "Mickey_low.png")
 
 
 #image dieuvomi
@@ -60,6 +63,10 @@ define longfade = Fade(0.8, 0.2, 0.8, color="#000")
 define shortflash = Fade(.1, 0, .1, color="#fff")
 define flash = Fade(.25, 0, .75, color="#fff")
 define animintro = Fade(0.8, 0.2, 0.8, color="#fff")
+
+#Musique
+define audio.memento = "music/Memento.mp3"
+
 # Le jeu commence ici
 label start:
 
@@ -93,6 +100,7 @@ label start:
             python:
                 sex = "f"
 
+    play music memento
     scene school entrance
 
     with fade

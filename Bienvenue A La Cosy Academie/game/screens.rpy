@@ -120,6 +120,8 @@ screen say(who, what):
 ## Make the namebox available for styling through the Character object.
 init python:
     config.character_id_prefixes.append('namebox')
+    if persistent.ultra_quality is None:
+        persistent.ultra_quality = False
 
 style window is default
 style say_label is default
@@ -739,14 +741,12 @@ screen preferences():
                     vbox:
                         style_prefix "radio"
                         label _("Qualité")
-                        textbutton _("Low") action NullAction()
-                        textbutton _("Medium") action NullAction()
-                        textbutton _("High") action NullAction()
-                        textbutton _("Ultra") action NullAction()
+                        textbutton _("Bébé cadum") action SetField(persistent, "ultra_quality", False)
+                        textbutton _("Ultra") action SetField(persistent, "ultra_quality", True)
 
                 vbox:
                     style_prefix "radio"
-                    label _("Rembobinage côté")
+                    label _("Rembobinage")
                     textbutton _("Désactivé") action Preference("rollback side", "disable")
                     textbutton _("Gauche") action Preference("rollback side", "left")
                     textbutton _("Droite") action Preference("rollback side", "right")
@@ -786,10 +786,6 @@ screen preferences():
                         hbox:
                             bar value Preference("music volume")
 
-                        label _("Modulation")
-                        hbox:
-                            bar value Preference("music volume")
-
                     if config.has_sound:
 
                         label _("Volume des sons")
@@ -813,8 +809,8 @@ screen preferences():
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing
 
-                        textbutton _("Couper tous les sons"):
-                            action Preference("all mute", "toggle")
+                        textbutton _("Modulation"):
+                            action InvertSelected(Preference("all mute", "toggle"))
                             style "mute_all_button"
 
 
