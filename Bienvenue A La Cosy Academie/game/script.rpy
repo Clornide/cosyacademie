@@ -49,6 +49,7 @@ image dieuv smug = "Dieuvomi_BrasCroises_08-SourireYeuxFermes.png"
 # Déclarez les personnages utilisés dans le jeu.
 
 define pov = Character("[povname]", color="#fff")
+define innerpov = Character("[povname]", color="#fff")
 define med = Character('Medoc', color="#fff")
 define mog = Character('Moguri', color="#fff")
 define met = Character('Metalice', color="#fff")
@@ -104,20 +105,20 @@ label start:
     scene school entrance
 
     with fade
-    "OK."
-    "C'est une journée comme les autres."
-    "Aucun enjeu particulier."
-    "Souffle."
-    "Certes, c'est une académie d'élite, et je ne croiserai que les plus grands de ce pays."
-    "Mais si je suis là, c'est que je l'ai mérité, non ?"
-    "Personne ne me jugera, ils sont tous passés par là."
-    "C'est une journée comme les autres."
-    "..."
-    "Je sais que c'est un mensonge."
-    "C'est ma première journée à la Cosy Académie, un tournant dans ma vie."
-    "Si je me plante je peux tout foutre en l'air..."
-    "..."
-    "Aaaaargh mais qu'est ce que je fais ic- !!"
+    pov "OK."
+    pov "C'est une journée comme les autres."
+    pov "Aucun enjeu particulier."
+    pov "Souffle."
+    pov "Certes, c'est une académie d'élite, et je ne croiserai que les plus grands de ce pays."
+    pov "Mais si je suis là, c'est que je l'ai mérité, non ?"
+    pov "Personne ne me jugera, ils sont tous passés par là."
+    pov "C'est une journée comme les autres."
+    pov "..."
+    pov "Je sais que c'est un mensonge."
+    pov "C'est ma première journée à la Cosy Académie, un tournant dans ma vie."
+    pov "Si je me plante je peux tout foutre en l'air..."
+    pov "..."
+    pov "Aaaaargh mais qu'est ce que je fais ic- !!"
 
 
     show moguri standard
@@ -127,9 +128,9 @@ label start:
 
     pov "Hey !! Mais ça va pas de foncer dans les gens comme ç- !?"
 
-    "Oh non...."
-    "C'est Moguri..."
-    "Mais s'il est ici, ça veut dire que..."
+    pov "Oh non...."
+    pov "C'est Moguri..."
+    pov "Mais s'il est ici, ça veut dire que..."
 
     hide moguri standard
     show medoc standard
@@ -141,10 +142,10 @@ label start:
     show moguri standard at right
     show medoc standard at left
 
-    "C'est pas vrai..."
-    "Medoc et Moguri. Dès mon premier jour, je tombe sur eux."
-    "Littéralement en plus."
-    "Moi qui voulais faire une rentrée à peu près discrète, c'est rapé."
+    pov "C'est pas vrai..."
+    pov "Medoc et Moguri. Dès mon premier jour, je tombe sur eux."
+    pov "Littéralement en plus."
+    pov "Moi qui voulais faire une rentrée à peu près discrète, c'est rapé."
 
     show medoc deg at left
 
@@ -193,19 +194,19 @@ label start:
 
     pov "Gloups."
 
-    "Ouch... Près... Très près. Trop près ?"
-    "Pas vraiment."
+    pov "Ouch... Près... Très près. Trop près ?"
+    pov "Pas vraiment."
 
     show medoc deg
 
-    med "Aller. Fais attention à toi."
+    med "Allez. Fais attention à toi."
 
     hide medoc deg with fade
 
-    "Ouf."
-    "Ca commence fort."
-    "Même de dos ils sont impressionants..."
-    "Aller, ça va le faire ! On y va !"
+    pov "Ouf."
+    pov "Ca commence fort."
+    pov "Même de dos ils sont impressionants..."
+    pov "Aller, ça va le faire ! On y va !"
 
     window hide
 
@@ -228,9 +229,9 @@ label Meeting_Metalice:
     "Bon ben on y va alors !"
 
     if sex=="m":
-        inc "Hep toi, le nouveau là bas !"
+        inc "Hep toi, le nouveau là-bas !"
     else:
-        inc "Hep toi, la nouvelle là bas !"
+        inc "Hep toi, la nouvelle là-bas !"
 
     show metalice coucou fermes with fade
 
@@ -250,7 +251,7 @@ label Meeting_Metalice:
 
     show metalice coucou fermes
 
-    met "Et au vu de ta réaction, ils ont déjà fait fortes impression sur toi apparemment, ahaha !"
+    met "Et au vu de ta réaction, ils ont déjà fait forte impression sur toi apparemment, ahaha !"
 
     show metalice coucou
 
@@ -262,7 +263,7 @@ label Meeting_Metalice:
     show metalice coucou clindoeil
 
     met "Oh arrête, pas à moi hein ! Je suis là pour te donner TOUTES sortes de conseils."
-    "Très subtil ce clin d'oeil..."
+    innerpov "Très subtil ce clin d'oeil..."
 
     show metalice coucou
 
@@ -306,7 +307,7 @@ label Meeting_Metalice:
         show metalice coucou clindoeil
 
         met "Ne t'en fais pas, je vois très bien ce que tu veux dire !"
-        "Encore ce clin d'oeil..."
+        innerpov "Encore ce clin d'oeil..."
 
         show metalice coucou
 
@@ -332,7 +333,7 @@ label Meeting_Metalice:
         pov "Non ! Ce n'est pas ce que je voulais dire. Enfin..."
         show metalice coucou clindoeil
         met "Ne t'en fais pas, je vois très bien ce que tu veux dire !"
-        "Encore ce clin d'oeil..."
+        innerpov "Encore ce clin d'oeil..."
         show metalice clindoeil
         if sex=="m":
             met "Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloqué sur ces deux là !"
@@ -377,7 +378,7 @@ label Premiercours:
     if sex=="m":
         mic "Aujourd'hui, nous avons l'honneur d'accueillir un nouvel étudiant parmi nous."
     else:
-        mic "Aujourd'hui, nous avons l'honneur d'accueillir une nouvelle étudiant parmi nous."
+        mic "Aujourd'hui, nous avons l'honneur d'accueillir une nouvelle étudiante parmi nous."
     mic "[povname], tu veux bien venir au tableau te présenter quelques secondes ?"
     pov "..."
     pov "Bien sûr monsieur Max..."
@@ -422,7 +423,7 @@ label Premiercours:
 
     "BLAM!!"
     med "Bon t'as pas bientôt fini avec ses histoires de 'Je n'ai pas ma place ici, vous valez mieux que moi' ou je sais pas quoi !?"
-    med "T'as pas écouté ce que t'as dit Moguri ou quoi ?!"
+    med "T'as pas écouté ce que t'a dit Moguri ou quoi ?!"
 
     hide medoc colere poing
     show moguri deg croise
@@ -518,14 +519,14 @@ label Premiercours:
     met "Bon. Et bien c'était une grosse première journée pour toi n'est-ce pas ?"
     pov "Oui on peut dire ça..."
     show metalice coucou
-    pov "Dis, c'était que ce type au style de voyou, avec l'accent exotique ?"
+    pov "Dis, c'était qui ce type au style de voyou, avec l'accent exotique ?"
     show metalice coucou clindoeil
     met "Dieuvomi ? C'est pas VRAIMENT un voyou, c'est juste un style qu'il se donne."
     show metalice coucou
     met "Il ne te fera jamais de mal, à moins que tu sois un apocope de bandage pneumatique"
     pov "Un quoi ?"
     show metalice deg
-    met "Un pneu. Il a un soucis avec ça je crois, il aime beaucoup les crever."
+    met "Un pneu. Il a un souci avec ça je crois, il aime beaucoup les crever."
     show metalice coucou
     met "Il s'est débarassé d'un gang qui gangrenait la ville à lui tout seul d'ailleurs !"
     pov "Je t'avoue que je ne vois pas particulièrement le rapport..."
@@ -547,7 +548,7 @@ label Premiercours:
     met "On n'aime pas trop en parler ici... Ca nous rappelle des événements un peu sombre. Tu l'apprendras bien assez tôt je pense."
     pov "..."
     show metalice coucou fermes
-    met "Bon aller, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?"
+    met "Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?"
 
     pause 3
     return
