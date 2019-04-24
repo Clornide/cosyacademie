@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 196, in script
+    if sex=="m":
+  File "game/script.rpy", line 196, in <module>
+    if sex=="m":
+NameError: name 'sex' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 196, in script
+    if sex=="m":
+  File "C:\Users\DAVOU\Desktop\renpy-7.2.2-sdk\renpy\ast.py", line 1807, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\DAVOU\Desktop\renpy-7.2.2-sdk\renpy\python.py", line 1961, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\DAVOU\Desktop\renpy-7.2.2-sdk\renpy\python.py", line 1954, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 196, in <module>
+    if sex=="m":
+NameError: name 'sex' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 7.2.2.491
+ 
+Sun Apr 21 19:06:23 2019
