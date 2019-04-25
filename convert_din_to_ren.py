@@ -17,11 +17,16 @@ THUMB_NUM_COL = 6
 
 MAIN_HEIGHT = 1000
 
+SIDE_H = 700
+SIDE_W = 500
+
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 DIN_FOLDER_USUAL = os.path.join(dir_path, "Arts")
 
-OUT_FOLDER = os.path.join(dir_path, "Bienvenue A La Cosy Academie", "game", "images")
+OUT_FOLDER_GAME = os.path.join(dir_path, "Bienvenue A La Cosy Academie", "game")
+OUT_FOLDER_IMG = os.path.join(OUT_FOLDER_GAME, "images")
+
 
 def build_montages(image_list, montage_shape):
 
@@ -38,6 +43,7 @@ def build_montages(image_list, montage_shape):
 			biggest_width = width
 		if height > biggest_height:
 			biggest_height = height		
+
 
 	montage_image = np.ones(shape=(biggest_height * (montage_shape[1]), biggest_width * montage_shape[0], 4), dtype=np.uint8)
 
@@ -64,6 +70,8 @@ def process_din_art(imgs):
 	perso = None
 	thumbs = []
 	max_width_tb = -1
+	img_definitions = []
+	img_side_definitions = []
 	for img in imgs:
 		file_name = os.path.basename(img)
 		#print(file_name)
@@ -79,7 +87,7 @@ def process_din_art(imgs):
 		height, width = img_obj.shape[:2]
 
 		# create folder
-		out_folder = os.path.join(OUT_FOLDER, perso)
+		out_folder = os.path.join(OUT_FOLDER_IMG, perso)
 		if not os.path.exists(out_folder):
 			os.makedirs(out_folder)
 
@@ -88,16 +96,38 @@ def process_din_art(imgs):
 		new_main_width = math.ceil(width / ratio_main)
 		main_resized = cv2.resize(img_obj, (new_main_width, MAIN_HEIGHT), interpolation = cv2.INTER_CUBIC)		
 		out_file = os.path.join(out_folder, "main_%s_%s_%s.png" % (mainPose, numpose, "_".join(poses_keys)))
+		out_file_def = perso + "/"+ "main_%s_%s_%s.png" % (mainPose, numpose, "_".join(poses_keys))
 		cv2.imwrite(out_file , main_resized)
 
-		SIDE_H = 700
-		SIDE_W = 500
 		from_X = math.floor((width / 2) - (SIDE_W / 2))
 		from_Y = find_first_row_colored(img_obj)
 
 		cropped_side = img_obj[from_Y:from_Y+SIDE_H, from_X:from_X+SIDE_W]
-		out_file = os.path.join(out_folder, "side_%s_%s_%s.png" % (mainPose, numpose, "_".join(poses_keys)))
-		cv2.imwrite(out_file , cropped_side)
+		out_file_side = os.path.join(out_folder, "side_%s_%s_%s.png" % (mainPose, numpose, "_".join(poses_keys)))
+		out_file_side_def = perso + "/"+ "side_%s_%s_%s.png" % (mainPose, numpose, "_".join(poses_keys))
+
+		cropped_side = cv2.resize(cropped_side, None, fx=0.5, fy=0.5, interpolation = cv2.INTER_CUBIC)	
+
+		cv2.imwrite(out_file_side , cropped_side)
+
+		#write image definition line
+		img_def = "image %s %s %s = ConditionSwitch(\"persistent.ultra_quality\", \"%s\", \"True\", \"%s_low.png\")\n" % (perso, mainPose, " ".join(poses_keys), out_file_def, perso)
+		img_side_def = "image side %s %s %s = \"%s\"\n" % (perso, mainPose, " ".join(poses_keys), out_file_side_def)
+		
+		cmd = "show %s %s %s\n" % (perso, mainPose, " ".join(poses_keys))
+
+		out_def_file = os.path.join(OUT_FOLDER_GAME, "images_%s_generated.rpy" % perso)
+
+		with open(out_def_file, 'a') as def_file:
+			def_file.write(img_def)
+			def_file.write(img_side_def)
+
+		with open(out_def_file, 'a') as def_file:
+			def_file.write(img_def)
+			def_file.write(img_side_def)
+
+		with open(os.path.join(DIN_FOLDER_USUAL, "commands.txt"), 'a') as cmd_file:
+			cmd_file.write(cmd)
 
 		# Thumbnail creation
 		ratio =  height / THUMB_HEIGHT
@@ -121,6 +151,8 @@ def process_din_art(imgs):
 
 		thumbs.append(thumb)
 
+
+
 	
 	numRows = math.ceil(len(thumbs) / THUMB_NUM_COL)
 
@@ -129,13 +161,20 @@ def process_din_art(imgs):
 	cv2.imwrite(r"d:\workspace\cosyacademie\Arts\%s.png" % perso , montage)
 
 
-
-
 if __name__ == '__main__':
 	pool = Pool(NUM_THREADS)
-	#din_arts_caro = 
-	persos = (glob.glob(DIN_FOLDER_USUAL +"\\*- *"))
+
+	# first delete older generated files
+	old_files = (glob.glob(OUT_FOLDER_GAME + "\\*_generated.rpy"))
+	for f in old_files:
+		os.remove(f) 
+
+
+	if os.path.exists(os.path.join(DIN_FOLDER_USUAL, "commands.txt")):
+		os.remove(os.path.join(DIN_FOLDER_USUAL, "commands.txt"))
 	
+	persos = (glob.glob(DIN_FOLDER_USUAL +"\\*- *"))
+
 	for perso in persos:
 		print(perso)
 		perso_img = (glob.glob(perso +"\\*\\*.png"))

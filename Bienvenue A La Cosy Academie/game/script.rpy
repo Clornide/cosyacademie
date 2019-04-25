@@ -1,71 +1,34 @@
-﻿# Vous pouvez placer le script de votre jeu dans ce fichier.
+# Vous pouvez placer le script de votre jeu dans ce fichier.
 
 # Déclarez sous cette ligne les images, avec l'instruction 'image'
 # ex: image eileen heureuse = "eileen_heureuse.png"
 image intro = "BienvenueAlaCosyAcademie_intro.png"
 
-
-
-#image moguri
-
-image moguri standard = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_01-BadBoy.png", "True", "Moguri_low.png")
-image moguri croise rigole = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_08-SourireYeuxFermes.png", "True", "Moguri_low.png")
-image moguri rigole ouvert = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_06-Sourire.png", "True", "Moguri_low.png")
-image moguri rigole ferme = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_08-SourireYeuxFermes.png", "True", "Moguri_low.png")
-image moguri deg croise = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_05-Degoute.png", "True", "Moguri_low.png")
-
-
-#image medoc
-image medoc standard = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_01-BadBoy.png", "True", "Medoc_low.png")
-image medoc sourire = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_06-Sourire.png", "True", "Medoc_low.png")
-image medoc deg =  ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_05-Degoute.png", "True", "Medoc_low.png")
-image medoc deg zoom = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_05.1-Degoute-Zoom.png", "True", "Medoc_low.png")
-image medoc happy = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_08-SourireYeuxFermes.png", "True", "Medoc_low.png")
-image medoc colere poing = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_03-Colere.png", "True", "Medoc_low.png")
-
-
-#image metalice
-
-image metalice coucou fermes = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_08-SourireYeuxFermes.png", "True", "Metalice_low.png")
-image metalice coucou clindoeil = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_01-Cligne.png", "True", "Metalice_low.png")
-image metalice coucou clindoeil rougit = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_02-CligneRougit.png", "True", "Metalice_low.png")
-image metalice coucou = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_06-Sourire.png", "True", "Metalice_low.png")
-image metalice decue = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_10-Triste.png", "True", "Metalice_low.png")
-image metalice colere rouge = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_04-ColereRougit.png", "True", "Metalice_low.png")
-image metalice deg = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_05-Degoute.png", "True", "Metalice_low.png")
-
-#image mickey
-
-image mickey normal= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_01-BadBoy.png", "True", "Mickey_low.png")
-image mickey chonti= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_06-Sourire.png", "True", "Mickey_low.png")
-image mickey colere= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_03-Colere.png", "True", "Mickey_low.png")
-image mickey happy= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_08-SourireYeuxFermes.png", "True", "Mickey_low.png")
-image mickey deg = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_05-Degoute.png", "True", "Mickey_low.png")
-
-
-#image dieuvomi
-image dieuv deg = "Dieuvomi_BrasCroises_05-Degoute.png"
-image dieuv col = "Dieuvomi_BrasCroises_03-Colere.png"
-image dieuv smug = "Dieuvomi_BrasCroises_08-SourireYeuxFermes.png"
-image dieuv badBoy = "Dieuviomi_BrasCroises_01-BadBoy.png"
-
 #esprism
-image esprism = "Esprism_Naked.png"
+image Esprism = "Esprism_Naked.png"
 
+#joueur
+image side player = ConditionSwitch("sex==\"m\"", "boy.png", "True", "girl.png")
 
 #fonds
 image classePhysique = "classePhysique.jpg"
 
 # Déclarez les personnages utilisés dans le jeu.
 
-define pov = Character("[povname]", color="#fff")
-define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df")
-define med = Character('Medoc', color="#fff")
-define mog = Character('Moguri', color="#fff")
-define met = Character('Metalice', color="#fff")
-define mic = Character('Mickey', color="#fff")
-define dieuv = Character('Dieuvomi', color="#fff")
-define esprism = Character('Esprism', color="#fff")
+define pov = Character("[povname]", color="#fff", image="player")
+define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player")
+define med = Character('Medoc', color="#fff", image="Medoc")
+define mog = Character('Moguri', color="#fff", image="Moguri")
+define met = Character('Metalice', color="#fff", image="Metalice")
+define mic = Character('Mickey', color="#fff" , image="Mickey")
+define dieuv = Character('Dieuvomi', color="#fff", image="Dieuvomi")
+define esprism = Character('Esprism', color="#fff", image="Esprism")
+define von = Character('Von', color="#fff", image="Von")
+define mat = Character('Mathilde', color="#fff", image="Mathilde")
+define chuen = Character('Chuenpodo', color="#fff", image="Chuenpodo")
+define caro = Character('Caro', color="#fff", image="Caro")
+define din = Character('din', color="#fff", image="din")
+define foulk = Character('Foulk', color="#fff", image="Foulk")
 
 define inc = Character('???', color="#fff")
 define tlm = Character('Tout le monde', color="#fff")
@@ -139,7 +102,7 @@ label start:
     pov "Aaaaargh mais qu'est ce que je fais ic- !!"
 
 
-    show moguri standard
+    show Moguri Standard Badboy Badboy
     with flash
 
     "BOOONG!!!!!"
@@ -150,34 +113,34 @@ label start:
     pov "C'est Moguri..."
     pov "Mais s'il est ici, ça veut dire que..."
 
-    hide moguri standard
-    show medoc standard
+    hide moguri
+    show Medoc Standard Badboy
     with flash
 
     "BOOONG!!!!!"
 
 
-    show moguri standard at right
-    show medoc standard at left
+    show Moguri Standard Badboy at right
+    show Medoc Standard Badboy at left
 
     pov "C'est pas vrai..."
     pov "Medoc et Moguri. Dès mon premier jour, je tombe sur eux."
     pov "Littéralement en plus."
     pov "Moi qui voulais faire une rentrée à peu près discrète, c'est rapé."
 
-    show medoc deg at left
+    show Medoc Standard Degoute at left
 
     med "Dis donc, tu comptes nous fixer longtemps, comme ça ?"
     pov "Je... Non, bien sûr, excusez-moi, c'est juste que..."
 
-    show moguri croise rigole at right
+    show Moguri BrasCroises Sourire at right
 
     if sex=="m":
         mog "Ahahah mais enfin Medoc, laisse-le ! Regarde comme il a l'air stressé !"
     else:
         mog "Ahahah mais enfin Medoc, laisse-la ! Regarde comme elle a l'air stressée !"
 
-    show moguri rigole ouvert at right
+    show Moguri Standard Sourire at right
 
 
 
@@ -194,19 +157,20 @@ label start:
 
 
 
-    show moguri rigole ferme at right
+    show Moguri BrasCroises Sourire at right
 
     mog "Sur ce... On va y aller, il s'agirait pas d'arriver en retard ! A plus tard p'tite tête !"
 
-    hide moguri rigole ferme
+    hide Moguri
     pause 0.5
-    hide medoc deg
-    show medoc deg with fade
+    hide medoc 
+    show Medoc Standard Degoute with fade
 
     med "Tch."
     med "Moguri a raison. Tout le monde n'est pas aussi bourru que moi..."
     med "Mais attention."
-    show medoc deg zoom
+    show Medoc Standard Degoute: 
+        zoom 1.5 yoffset 500
 
     med "Tout le monde n'est pas aussi indulgent que lui..."
 
@@ -215,11 +179,12 @@ label start:
     pov "Ouch... Près... Très près. Trop près ?"
     pov "Pas vraiment."
 
-    show medoc deg
+    show Medoc Standard Degoute: 
+        zoom 1.0 yoffset 0
 
     med "Allez. Fais attention à toi."
 
-    hide medoc deg with fade
+    hide Medoc with fade
 
     pov "Ouf."
     pov "Ca commence fort."
