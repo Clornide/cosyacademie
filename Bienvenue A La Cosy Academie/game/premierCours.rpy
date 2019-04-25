@@ -185,4 +185,4 @@ label Premiercours:
     met "Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?"
 
     pause 3
-    return
+    jump coursPhysique

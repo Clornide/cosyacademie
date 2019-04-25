@@ -17,15 +17,18 @@ image moguri deg croise = ConditionSwitch("persistent.ultra_quality", "Moguri_Br
 
 #image medoc
 image medoc standard = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_01-BadBoy.png", "True", "Medoc_low.png")
+image medoc sourire = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_06-Sourire.png", "True", "Medoc_low.png")
 image medoc deg =  ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_05-Degoute.png", "True", "Medoc_low.png")
 image medoc deg zoom = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_05.1-Degoute-Zoom.png", "True", "Medoc_low.png")
 image medoc happy = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_08-SourireYeuxFermes.png", "True", "Medoc_low.png")
 image medoc colere poing = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_03-Colere.png", "True", "Medoc_low.png")
 
+
 #image metalice
 
 image metalice coucou fermes = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_08-SourireYeuxFermes.png", "True", "Metalice_low.png")
 image metalice coucou clindoeil = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_01-Cligne.png", "True", "Metalice_low.png")
+image metalice coucou clindoeil rougit = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_02-CligneRougit.png", "True", "Metalice_low.png")
 image metalice coucou = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_06-Sourire.png", "True", "Metalice_low.png")
 image metalice decue = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_10-Triste.png", "True", "Metalice_low.png")
 image metalice colere rouge = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_04-ColereRougit.png", "True", "Metalice_low.png")
@@ -41,10 +44,17 @@ image mickey deg = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStand
 
 
 #image dieuvomi
-
 image dieuv deg = "Dieuvomi_BrasCroises_05-Degoute.png"
 image dieuv col = "Dieuvomi_BrasCroises_03-Colere.png"
 image dieuv smug = "Dieuvomi_BrasCroises_08-SourireYeuxFermes.png"
+image dieuv badBoy = "Dieuviomi_BrasCroises_01-BadBoy.png"
+
+#esprism
+image esprism = "Esprism_Naked.png"
+
+
+#fonds
+image classePhysique = "classePhysique.jpg"
 
 # Déclarez les personnages utilisés dans le jeu.
 
@@ -55,6 +65,7 @@ define mog = Character('Moguri', color="#fff")
 define met = Character('Metalice', color="#fff")
 define mic = Character('Mickey', color="#fff")
 define dieuv = Character('Dieuvomi', color="#fff")
+define esprism = Character('Esprism', color="#fff")
 
 define inc = Character('???', color="#fff")
 define tlm = Character('Tout le monde', color="#fff")
@@ -67,11 +78,18 @@ define animintro = Fade(0.8, 0.2, 0.8, color="#fff")
 
 #Musique
 define audio.memento = "music/Memento.mp3"
+define audio.haunted = "music/Haunted House.mp3"
+define audio.journeys = "music/sb_journeys.mp3"
+define audio.tomorrow = "music/sb_tomorrow.mp3"
+define audio.wonderful = "music/sb_wonderful.mp3"
+
+#FX
+define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
 
 # Le jeu commence ici
 label start:
 
-
+    
 
     python:
         #Points routes
@@ -101,7 +119,7 @@ label start:
             python:
                 sex = "f"
 
-    play music memento
+    play music journeys
     scene school entrance
 
     with fade
