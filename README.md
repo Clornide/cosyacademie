@@ -13,3 +13,11 @@
 
 ### Musique
 Memento (Visual Novel Music) by Myuu is licensed under a  Creative Commons License.
+Haunted House by Myuu is licensed under a  Creative Commons License.
+Journeys by Scott Buckley under Creative Commons Attribution 4.0
+Tomorrow by Scott Buckley under Creative Commons Attribution 4.0
+Wonderful by Scott Buckley under Creative Commons Attribution 4.0
+http://www.scottbuckley.com.au/library/mood/happy/
+
+### Sounds
+hi frequency metallic woosh \ swish by gerainsan (Creative Commons License)
