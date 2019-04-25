@@ -112,15 +112,16 @@ def process_din_art(imgs):
 
 		#write image definition line
 		img_def = "image %s %s %s = ConditionSwitch(\"persistent.ultra_quality\", \"%s\", \"True\", \"%s_low.png\")\n" % (perso, mainPose, " ".join(poses_keys), out_file_def, perso)
-		img_side_def = "image side %s %s %s = \"%s\"\n" % (perso, mainPose, " ".join(poses_keys), out_file_side_def)
+		
+		props = ""
+		if perso == "Von":
+			props = "xoffset = 1700"
+
+		img_side_def = "image side %s %s %s =Image(\"%s\", %s)\n" % (perso, mainPose, " ".join(poses_keys), out_file_side_def, props)
 		
 		cmd = "show %s %s %s\n" % (perso, mainPose, " ".join(poses_keys))
 
 		out_def_file = os.path.join(OUT_FOLDER_GAME, "images_%s_generated.rpy" % perso)
-
-		with open(out_def_file, 'a') as def_file:
-			def_file.write(img_def)
-			def_file.write(img_side_def)
 
 		with open(out_def_file, 'a') as def_file:
 			def_file.write(img_def)
