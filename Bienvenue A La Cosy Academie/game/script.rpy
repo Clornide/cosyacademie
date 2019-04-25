@@ -309,7 +309,7 @@ label start:
 
     pause 3
 
-    jump HardNight
+    jump Meeting_Metalice
 
     return
 
