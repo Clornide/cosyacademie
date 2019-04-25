@@ -2,59 +2,132 @@
 
 # Déclarez sous cette ligne les images, avec l'instruction 'image'
 # ex: image eileen heureuse = "eileen_heureuse.png"
+
 image intro = "BienvenueAlaCosyAcademie_intro.png"
-
-
 
 #image moguri
 
-image moguri standard = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_01-BadBoy.png", "True", "Moguri_low.png")
-image moguri croise rigole = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_08-SourireYeuxFermes.png", "True", "Moguri_low.png")
-image moguri rigole ouvert = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_06-Sourire.png", "True", "Moguri_low.png")
-image moguri rigole ferme = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_08-SourireYeuxFermes.png", "True", "Moguri_low.png")
-image moguri deg croise = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_05-Degoute.png", "True", "Moguri_low.png")
+image moguriBrasCroisesBadBoy = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_01-BadBoy.png", "True", "Moguri_low.png")
+image moguriBrasCroisesBadBoyRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_02-BadBoyRougit.png", "True", "Moguri_low.png")
+image moguriBrasCroisesColere = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_03-Colere.png", "True", "Moguri_low.png")
+image moguriBrasCroisesColereRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_04-ColereRougit.png", "True", "Moguri_low.png")
+image moguriBrasCroisesDegoute = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_05-Degoute.png", "True", "Moguri_low.png")
+image moguriBrasCroisesSourire = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_06-Sourire.png", "True", "Moguri_low.png")
+image moguriBrasCroisesSourireRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_07-SourireRougit.png", "True", "Moguri_low.png")
+image moguriBrasCroisesSourireYeuxFermes = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_08-SourireYeuxFermes.png", "True", "Moguri_low.png")
+image moguriBrasCroisesSourireYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_09-SourireYeuxFermesRougit.png", "True", "Moguri_low.png")
+image moguriBrasCroisesTriste = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_10-Triste.png", "True", "Moguri_low.png")
+image moguriBrasCroisesYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_BrasCroises_11-YeuxFermesRougit.png", "True", "Moguri_low.png")
 
+image moguriPoseStandardBadBoy = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_01-BadBoy.png", "True", "Moguri_low.png")
+image moguriPoseStandardBadBoyRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_02-BadBoyRougit.png", "True", "Moguri_low.png")
+image moguriPoseStandardColere = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_03-Colere.png", "True", "Moguri_low.png")
+image moguriPoseStandardColereRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_04-ColereRougit.png", "True", "Moguri_low.png")
+image moguriPoseStandardDegoute = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_05-Degoute.png", "True", "Moguri_low.png")
+image moguriPoseStandardSourire = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_06-Sourire.png", "True", "Moguri_low.png")
+image moguriPoseStandardSourireRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_07-SourireRougit.png", "True", "Moguri_low.png")
+image moguriPoseStandardSourireYeuxFermes = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_08-SourireYeuxFermes.png", "True", "Moguri_low.png")
+image moguriPoseStandardSourireYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_09-SourireYeuxFermesRougit.png", "True", "Moguri_low.png")
+image moguriPoseStandardTriste = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_10-Triste.png", "True", "Moguri_low.png")
+image moguriPoseStandardYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_PoseStandard_11-YeuxFermesRougit.png", "True", "Moguri_low.png")
+
+image moguriToplessBadBoy = ConditionSwitch("persistent.ultra_quality", "Moguri_Topless_01-BadBoy.png", "True", "Moguri_low.png")
+image moguriToplessBadBoyRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_Topless_02-BadBoyRougit.png", "True", "Moguri_low.png")
+image moguriToplessColere = ConditionSwitch("persistent.ultra_quality", "Moguri_Topless_03-Colere.png", "True", "Moguri_low.png")
+image moguriToplessColereRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_Topless_04-ColereRougit.png", "True", "Moguri_low.png")
+image moguriToplessDegoute = ConditionSwitch("persistent.ultra_quality", "Moguri_Topless_05-Degoute.png", "True", "Moguri_low.png")
+image moguriToplessSourire = ConditionSwitch("persistent.ultra_quality", "Moguri_Topless_06-Sourire.png", "True", "Moguri_low.png")
+image moguriToplessSourireRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_Topless_07-SourireRougit.png", "True", "Moguri_low.png")
+image moguriToplessSourireYeuxFermes = ConditionSwitch("persistent.ultra_quality", "Moguri_Topless_08-SourireYeuxFermes.png", "True", "Moguri_low.png")
+image moguriToplessSourireYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_Topless_09-SourireYeuxFermesRougit.png", "True", "Moguri_low.png")
+image moguriToplessTriste = ConditionSwitch("persistent.ultra_quality", "Moguri_Topless_10-Triste.png", "True", "Moguri_low.png")
+image moguriToplessYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Moguri_Topless_11-YeuxFermesRougit.png", "True", "Moguri_low.png")
 
 #image medoc
-image medoc standard = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_01-BadBoy.png", "True", "Medoc_low.png")
-image medoc sourire = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_06-Sourire.png", "True", "Medoc_low.png")
-image medoc deg =  ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_05-Degoute.png", "True", "Medoc_low.png")
-image medoc deg zoom = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_05.1-Degoute-Zoom.png", "True", "Medoc_low.png")
-image medoc happy = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_08-SourireYeuxFermes.png", "True", "Medoc_low.png")
-image medoc colere poing = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_03-Colere.png", "True", "Medoc_low.png")
 
+image medocPoseStandardDegouteZoom = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_05.1-Degoute-Zoom.png", "True", "Medoc_low.png")
+
+image medocPosePoingsBadBoy = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_01-BadBoy.png", "True", "Medoc_low.png")
+image medocPosePoingsBadBoyRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_02-BadBoyRougit.png", "True", "Medoc_low.png")
+image medocPosePoingsColere = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_03-Colere.png", "True", "Medoc_low.png")
+image medocPosePoingsColereRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_04-ColereRougit.png", "True", "Medoc_low.png")
+image medocPosePoingsDegoute = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_05-Degoute.png", "True", "Medoc_low.png")
+image medocPosePoingsSourire = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_06-Sourire.png", "True", "Medoc_low.png")
+image medocPosePoingsSourireRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_07-SourireRougit.png", "True", "Medoc_low.png")
+image medocPosePoingsSourireYeuxFermes = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_08-SourireYeuxFermes.png", "True", "Medoc_low.png")
+image medocPosePoingsSourireYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_09-SourireYeuxFermesRougit.png", "True", "Medoc_low.png")
+image medocPosePoingsTriste = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_10-Triste.png", "True", "Medoc_low.png")
+image medocPosePoingsYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_PosePoings_11-YeuxFermesRougit.png", "True", "Medoc_low.png")
+
+image medocPoseStandardBadBoy = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_01-BadBoy.png", "True", "Medoc_low.png")
+image medocPoseStandardBadBoyRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_02-BadBoyRougit.png", "True", "Medoc_low.png")
+image medocPoseStandardColere = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_03-Colere.png", "True", "Medoc_low.png")
+image medocPoseStandardColereRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_04-ColereRougit.png", "True", "Medoc_low.png")
+image medocPoseStandardDegoute = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_05-Degoute.png", "True", "Medoc_low.png")
+image medocPoseStandardSourire = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_06-Sourire.png", "True", "Medoc_low.png")
+image medocPoseStandardSourireRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_07-SourireRougit.png", "True", "Medoc_low.png")
+image medocPoseStandardSourireYeuxFermes = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_08-SourireYeuxFermes.png", "True", "Medoc_low.png")
+image medocPoseStandardSourireYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_09-SourireYeuxFermesRougit.png", "True", "Medoc_low.png")
+image medocPoseStandardTriste = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_10-Triste.png", "True", "Medoc_low.png")
+image medocPoseStandardYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_PoseStandard_11-YeuxFermesRougit.png", "True", "Medoc_low.png")
+
+image medocToplessBadBoy = ConditionSwitch("persistent.ultra_quality", "Medoc_Topless_01-BadBoy.png", "True", "Medoc_low.png")
+image medocToplessBadBoyRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_Topless_02-BadBoyRougit.png", "True", "Medoc_low.png")
+image medocToplessColere = ConditionSwitch("persistent.ultra_quality", "Medoc_Topless_03-Colere.png", "True", "Medoc_low.png")
+image medocToplessColereRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_Topless_04-ColereRougit.png", "True", "Medoc_low.png")
+image medocToplessDegoute = ConditionSwitch("persistent.ultra_quality", "Medoc_Topless_05-Degoute.png", "True", "Medoc_low.png")
+image medocToplessSourire = ConditionSwitch("persistent.ultra_quality", "Medoc_Topless_06-Sourire.png", "True", "Medoc_low.png")
+image medocToplessSourireRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_Topless_07-SourireRougit.png", "True", "Medoc_low.png")
+image medocToplessSourireYeuxFermes = ConditionSwitch("persistent.ultra_quality", "Medoc_Topless_08-SourireYeuxFermes.png", "True", "Medoc_low.png")
+image medocToplessSourireYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_Topless_09-SourireYeuxFermesRougit.png", "True", "Medoc_low.png")
+image medocToplessTriste = ConditionSwitch("persistent.ultra_quality", "Medoc_Topless_10-Triste.png", "True", "Medoc_low.png")
+image medocToplessYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Medoc_Topless_11-YeuxFermesRougit.png", "True", "Medoc_low.png")
 
 #image metalice
-
-image metalice coucou fermes = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_08-SourireYeuxFermes.png", "True", "Metalice_low.png")
-image metalice coucou clindoeil = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_01-Cligne.png", "True", "Metalice_low.png")
-image metalice coucou clindoeil rougit = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_02-CligneRougit.png", "True", "Metalice_low.png")
-image metalice coucou = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_06-Sourire.png", "True", "Metalice_low.png")
-image metalice decue = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_10-Triste.png", "True", "Metalice_low.png")
-image metalice colere rouge = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_04-ColereRougit.png", "True", "Metalice_low.png")
-image metalice deg = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_05-Degoute.png", "True", "Metalice_low.png")
+image metalicePoseCoucouCligne = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_01-Cligne.png", "True", "Metalice_low.png")
+image metalicePoseCoucouCligneRougit = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_02-CligneRougit.png", "True", "Metalice_low.png")
+image metalicePoseCoucouColere = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_03-Colere.png", "True", "Metalice_low.png")
+image metalicePoseCoucouColereRougit = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_04-ColereRougit.png", "True", "Metalice_low.png")
+image metalicePoseCoucouDegoute = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_05-Degoute.png", "True", "Metalice_low.png")
+image metalicePoseCoucouSourire = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_06-Sourire.png", "True", "Metalice_low.png")
+image metalicePoseCoucouSourireRougit = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_07-SourireRougit.png", "True", "Metalice_low.png")
+image metalicePoseCoucouSourireYeuxFermes = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_08-SourireYeuxFermes.png", "True", "Metalice_low.png")
+image metalicePoseCoucouSourireYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_09-SourireYeuxFermesRougit.png", "True", "Metalice_low.png")
+image metalicePoseCoucouTriste = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_10-Triste.png", "True", "Metalice_low.png")
+image metalicePoseCoucouYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Metalice_PoseCoucou_11-YeuxFermesRougit.png", "True", "Metalice_low.png")
 
 #image mickey
-
-image mickey normal= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_01-BadBoy.png", "True", "Mickey_low.png")
-image mickey chonti= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_06-Sourire.png", "True", "Mickey_low.png")
-image mickey colere= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_03-Colere.png", "True", "Mickey_low.png")
-image mickey happy= ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_08-SourireYeuxFermes.png", "True", "Mickey_low.png")
-image mickey deg = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_05-Degoute.png", "True", "Mickey_low.png")
-
+image mickeyPoseStandardBadBoy = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_01-BadBoy.png", "True", "Mickey_low.png")
+image mickeyPoseStandardBadBoyRougit = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_02-BadBoyRougit.png", "True", "Mickey_low.png")
+image mickeyPoseStandardColere = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_03-Colere.png", "True", "Mickey_low.png")
+image mickeyPoseStandardColereRougit = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_04-ColereRougit.png", "True", "Mickey_low.png")
+image mickeyPoseStandardDegoute = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_05-Degoute.png", "True", "Mickey_low.png")
+image mickeyPoseStandardSourire = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_06-Sourire.png", "True", "Mickey_low.png")
+image mickeyPoseStandardSourireRougit = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_07-SourireRougit.png", "True", "Mickey_low.png")
+image mickeyPoseStandardSourireYeuxFermes = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_08-SourireYeuxFermes.png", "True", "Mickey_low.png")
+image mickeyPoseStandardSourireYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_09-SourireYeuxFermesRougit.png", "True", "Mickey_low.png")
+image mickeyPoseStandardTriste = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_10-Triste.png", "True", "Mickey_low.png")
+image mickeyPoseStandardYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Mickey_PoseStandard_11-YeuxFermesRougit.png", "True", "Mickey_low.png")
 
 #image dieuvomi
-image dieuv deg = "Dieuvomi_BrasCroises_05-Degoute.png"
-image dieuv col = "Dieuvomi_BrasCroises_03-Colere.png"
-image dieuv smug = "Dieuvomi_BrasCroises_08-SourireYeuxFermes.png"
-image dieuv badBoy = "Dieuviomi_BrasCroises_01-BadBoy.png"
+image dieuvBrasCroisesBadBoy = ConditionSwitch("persistent.ultra_quality", "Dieuvomi_BrasCroises_01-BadBoy.png", "True", "Dieuvomi_low.png")
+image dieuvBrasCroisesBadBoyRougit = ConditionSwitch("persistent.ultra_quality", "Dieuvomi_BrasCroises_02-BadBoyRougit.png", "True", "Dieuvomi_low.png")
+image dieuvBrasCroisesColere = ConditionSwitch("persistent.ultra_quality", "Dieuvomi_BrasCroises_03-Colere.png", "True", "Dieuvomi_low.png")
+image dieuvBrasCroisesColereRougit = ConditionSwitch("persistent.ultra_quality", "Dieuvomi_BrasCroises_04-ColereRougit.png", "True", "Dieuvomi_low.png")
+image dieuvBrasCroisesDegoute = ConditionSwitch("persistent.ultra_quality", "Dieuvomi_BrasCroises_05-Degoute.png", "True", "Dieuvomi_low.png")
+image dieuvBrasCroisesSourire = ConditionSwitch("persistent.ultra_quality", "Dieuvomi_BrasCroises_06-Sourire.png", "True", "Dieuvomi_low.png")
+image dieuvBrasCroisesSourireRougit = ConditionSwitch("persistent.ultra_quality", "Dieuvomi_BrasCroises_07-SourireRougit.png", "True", "Dieuvomi_low.png")
+image dieuvBrasCroisesSourireYeuxFermes = ConditionSwitch("persistent.ultra_quality", "Dieuvomi_BrasCroises_08-SourireYeuxFermes.png", "True", "Dieuvomi_low.png")
+image dieuvBrasCroisesSourireYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Dieuvomi_BrasCroises_09-SourireYeuxFermesRougit.png", "True", "Dieuvomi_low.png")
+image dieuvBrasCroisesTriste = ConditionSwitch("persistent.ultra_quality", "Dieuvomi_BrasCroises_10-Triste.png", "True", "Dieuvomi_low.png")
+image dieuvBrasCroisesYeuxFermesRougit = ConditionSwitch("persistent.ultra_quality", "Dieuvomi_BrasCroises_11-YeuxFermesRougit.png", "True", "Dieuvomi_low.png")
 
 #esprism
 image esprism = "Esprism_Naked.png"
 
-
 #fonds
 image classePhysique = "classePhysique.jpg"
+image reverie = "reverie.jpg"
 
 # Déclarez les personnages utilisés dans le jeu.
 
@@ -88,8 +161,6 @@ define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
 
 # Le jeu commence ici
 label start:
-
-    
 
     python:
         #Points routes
@@ -139,7 +210,7 @@ label start:
     pov "Aaaaargh mais qu'est ce que je fais ic- !!"
 
 
-    show moguri standard
+    show moguriPoseStandardBadBoy
     with flash
 
     "BOOONG!!!!!"
@@ -150,36 +221,37 @@ label start:
     pov "C'est Moguri..."
     pov "Mais s'il est ici, ça veut dire que..."
 
-    hide moguri standard
-    show medoc standard
+    hide moguriPoseStandardBadBoy
+    show medocPoseStandardBadBoy
     with flash
 
     "BOOONG!!!!!"
 
 
-    show moguri standard at right
-    show medoc standard at left
+    show moguriPoseStandardBadBoy at right
+    show medocPoseStandardBadBoy at left
 
     pov "C'est pas vrai..."
     pov "Medoc et Moguri. Dès mon premier jour, je tombe sur eux."
     pov "Littéralement en plus."
     pov "Moi qui voulais faire une rentrée à peu près discrète, c'est rapé."
 
-    show medoc deg at left
+    hide medocPoseStandardBadBoy at left
+    show medocPoseStandardDegoute at left
 
     med "Dis donc, tu comptes nous fixer longtemps, comme ça ?"
     pov "Je... Non, bien sûr, excusez-moi, c'est juste que..."
 
-    show moguri croise rigole at right
+    hide moguriPoseStandardBadBoy at right
+    show moguriBrasCroisesSourireYeuxFermes at right
 
     if sex=="m":
         mog "Ahahah mais enfin Medoc, laisse-le ! Regarde comme il a l'air stressé !"
     else:
         mog "Ahahah mais enfin Medoc, laisse-la ! Regarde comme elle a l'air stressée !"
 
-    show moguri rigole ouvert at right
-
-
+    hide moguriBrasCroisesSourireYeuxFermes at right
+    show moguriPoseStandardSourire at right
 
     if sex=="f":
         mog "Bienvenue à la Cosy Académie, gamine. Ne t'inquiète pas, on n'est pas tous aussi bourru que lui !"
@@ -193,20 +265,23 @@ label start:
         mog "Mais non enfin ! Si tu es ici, c'est que tu as ta place. Aucune raison de se faire discret !"
 
 
-
-    show moguri rigole ferme at right
+    hide moguriPoseStandardSourire at right
+    show moguriPoseStandardSourireYeuxFermes at right
 
     mog "Sur ce... On va y aller, il s'agirait pas d'arriver en retard ! A plus tard p'tite tête !"
 
-    hide moguri rigole ferme
+    hide moguriPoseStandardSourireYeuxFermes
+
     pause 0.5
-    hide medoc deg
-    show medoc deg with fade
+
+    hide medocPoseStandardDegoute at left
+    show medocPoseStandardDegoute with fade
 
     med "Tch."
     med "Moguri a raison. Tout le monde n'est pas aussi bourru que moi..."
     med "Mais attention."
-    show medoc deg zoom
+    hide medocPoseStandardDegoute
+    show medocPoseStandardDegouteZoom
 
     med "Tout le monde n'est pas aussi indulgent que lui..."
 
@@ -215,11 +290,12 @@ label start:
     pov "Ouch... Près... Très près. Trop près ?"
     pov "Pas vraiment."
 
-    show medoc deg
+    hide medocPoseStandardDegouteZoom
+    show medocPoseStandardDegoute
 
     med "Allez. Fais attention à toi."
 
-    hide medoc deg with fade
+    hide medocPoseStandardDegoute with fade
 
     pov "Ouf."
     pov "Ca commence fort."
@@ -233,7 +309,7 @@ label start:
 
     pause 3
 
-    jump Meeting_Metalice
+    jump HardNight
 
     return
 
