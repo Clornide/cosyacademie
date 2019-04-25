@@ -16,14 +16,15 @@ image classePhysique = "classePhysique.jpg"
 # Déclarez les personnages utilisés dans le jeu.
 
 define pov = Character("[povname]", color="#fff", image="player")
-define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player")
+define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}à lui même{/i}", what_prefix="{i}", what_suffix="{/i}", window_background="dialoguebox_thoughts.png")
 define med = Character('Medoc', color="#fff", image="Medoc")
 define mog = Character('Moguri', color="#fff", image="Moguri")
 define met = Character('Metalice', color="#fff", image="Metalice")
 define mic = Character('Mickey', color="#fff" , image="Mickey")
 define dieuv = Character('Dieuvomi', color="#fff", image="Dieuvomi")
 define esprism = Character('Esprism', color="#fff", image="Esprism")
-define von = Character('Von', color="#fff", image="Von")
+
+define von = Character('Von Yaourt', color="#fff", who_prefix="{font=Deutsch-webfont.ttf}{size=+8}", who_suffix="{/size}{/font}",what_prefix="{font=Squealer.ttf}{size=+10}", what_suffix = "{/size}{/font}", image="Von", window_left_padding=1000, what_xalign=0.5) 
 define mat = Character('Mathilde', color="#fff", image="Mathilde")
 define chuen = Character('Chuenpodo', color="#fff", image="Chuenpodo")
 define caro = Character('Caro', color="#fff", image="Caro")
@@ -86,19 +87,19 @@ label start:
     scene school entrance
 
     with fade
-    pov "OK."
-    pov "C'est une journée comme les autres."
-    pov "Aucun enjeu particulier."
+    innerpov "OK."
+    innerpov "C'est une journée comme les autres."
+    innerpov "Aucun enjeu particulier."
     pov "Souffle."
-    pov "Certes, c'est une académie d'élite, et je ne croiserai que les plus grands de ce pays."
-    pov "Mais si je suis là, c'est que je l'ai mérité, non ?"
-    pov "Personne ne me jugera, ils sont tous passés par là."
-    pov "C'est une journée comme les autres."
-    pov "..."
-    pov "Je sais que c'est un mensonge."
-    pov "C'est ma première journée à la Cosy Académie, un tournant dans ma vie."
-    pov "Si je me plante je peux tout foutre en l'air..."
-    pov "..."
+    innerpov "Certes, c'est une académie d'élite, et je ne croiserai que les plus grands de ce pays."
+    innerpov "Mais si je suis là, c'est que je l'ai mérité, non ?"
+    innerpov "Personne ne me jugera, ils sont tous passés par là."
+    innerpov "C'est une journée comme les autres."
+    innerpov "..."
+    innerpov "Je sais que c'est un mensonge."
+    innerpov "C'est ma première journée à la Cosy Académie, un tournant dans ma vie."
+    innerpov "Si je me plante je peux tout foutre en l'air..."
+    innerpov "..."
     pov "Aaaaargh mais qu'est ce que je fais ic- !!"
 
 
@@ -113,7 +114,7 @@ label start:
     pov "C'est Moguri..."
     pov "Mais s'il est ici, ça veut dire que..."
 
-    hide moguri
+    hide Moguri
     show Medoc Standard Badboy
     with flash
 
@@ -163,7 +164,7 @@ label start:
 
     hide Moguri
     pause 0.5
-    hide medoc 
+    hide Medoc 
     show Medoc Standard Degoute with fade
 
     med "Tch."
