@@ -23,7 +23,7 @@ label coursPhysique:
     foulk "Normallement il faut attendre 15 min !"
     foulk "Et de toutes façons, c'est le prof qui a les clés, on est coincés ici..."    
     
-    hide foulk
+    hide Foulk
     show Dieuvomi BrasCroises Badboy
     
     dieuv "Pfft ..."

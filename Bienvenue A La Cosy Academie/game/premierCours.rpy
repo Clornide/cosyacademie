@@ -81,7 +81,7 @@ label Premiercours:
 
     "Ce type a vraiment un drôle d'accent..."
 
-    show dieuv smug
+    show Dieuvomi BrasCroises Sourire
 
     inc "Même si on sait que t'es un pro pour t'approprier des trucs qui ne t'appartiennent pas..."
 

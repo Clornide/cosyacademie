@@ -63,7 +63,7 @@ define gui.interface_text_color = '#ffffff'
 define gui.text_font = "DejaVuSans.ttf"
 
 ## Les polices utilisées pour le nom des personnages.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "DejaVuSans-Bold.ttf"
 
 ## Les polices utilisées pour les textes « hors du jeu ».
 define gui.interface_text_font = "DejaVuSans.ttf"
@@ -110,8 +110,8 @@ define gui.textbox_yalign = 1.0
 ## L’emplacement relatif à la zone de texte du nom du personnage en train de
 ## parler. La valeur peut être un nombre entier de pixels depuis la gauche ou le
 ## haut ou 0.5 pour le centre.
-define gui.name_xpos = 360
-define gui.name_ypos = 0
+define gui.name_xpos = 480
+define gui.name_ypos = -20
 
 ## L’alignement horizontal du nom du personnage. La valeur peut être 0.0 pour un
 ## alignement à gauche, 0.5 pour le centrer et 1.0 pour un alignement à droite.
@@ -124,7 +124,8 @@ define gui.namebox_height = None
 
 ## Les bordures de la zone contenant le nom du personnage dans l’ordre suivant
 ## gauche, haut, droite, bas.
-define gui.namebox_borders = Borders(5, 5, 5, 5)
+define gui.namebox_borders = Borders(30, 15, 30, 30)
+define gui.namebox_thoughts_borders = Borders(0, 0, 0, 0)
 
 ## Si « True » (vrai), l’arrière plan de zone du nom sera en mosaïque, si
 ## « False »(faux), l’arrière plan de la zone du nom sera mis à l’échelle.
@@ -133,11 +134,11 @@ define gui.namebox_tile = False
 
 ## L’emplacement du dialogue relatif à la zone de texte. La valeur peut être un
 ## nombre entier de pixels depuis la gauche ou le haut ou 0.5 pour le centre.
-define gui.dialogue_xpos = 402
+define gui.dialogue_xpos = 480
 define gui.dialogue_ypos = 75
 
 ## La largeur maximale en pixels de la zone de dialogue.
-define gui.dialogue_width = 1116
+define gui.dialogue_width = 1300
 
 ## L’alignement horizontal de la zone de dialogue. La valeur peut être 0.0 pour
 ## un alignement à gauche, 0.5 pour le centrer et 1.0 pour un alignement à

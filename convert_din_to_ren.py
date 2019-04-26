@@ -27,6 +27,39 @@ DIN_FOLDER_USUAL = os.path.join(dir_path, "Arts")
 OUT_FOLDER_GAME = os.path.join(dir_path, "Bienvenue A La Cosy Academie", "game")
 OUT_FOLDER_IMG = os.path.join(OUT_FOLDER_GAME, "images")
 
+def drop_shadow(imSrc, horizontal_offset=5, vertical_offset=5, border=8,
+                shadow_blur=3, shadow_color=0x444444):
+    size = imSrc.size
+    back_size = (size[0] + abs(horizontal_offset) + 2 * border,
+                 size[1] + abs(vertical_offset) + 2 * border)
+
+    image_mask = imSrc.split()[-1]
+    shadow = Image.new('L', back_size, 0)
+
+    shadow_left = border + max(horizontal_offset, 0)
+    shadow_top = border + max(vertical_offset, 0)
+
+    shadow.paste(image_mask, (shadow_left, shadow_top,
+                              shadow_left + size[0], shadow_top + size[1]))
+    del image_mask
+
+    for n in range(shadow_blur):
+        shadow = shadow.filter(ImageFilter.BLUR)
+
+    back = Image.new('RGBA', back_size, shadow_color)
+    back.putalpha(shadow)
+    del shadow
+
+    image_left = border - min(horizontal_offset, 0)
+    image_top = border - min(vertical_offset, 0)
+
+    back.paste(imSrc, (image_left, image_top), imSrc.convert('RGBA'))
+    back = back.crop((image_left, image_top, image_left+size[0], image_top+size[1]))
+
+    return back
+
+
+
 
 def build_montages(image_list, montage_shape):
 
@@ -108,16 +141,19 @@ def process_din_art(imgs):
 
 		cropped_side = cv2.resize(cropped_side, None, fx=0.5, fy=0.5, interpolation = cv2.INTER_CUBIC)	
 
+		cv2_im_rgb = cv2.cvtColor(cropped_side, cv2.COLOR_BGRA2RGBA)
+		pil_im = Image.fromarray(cv2_im_rgb)
+		pil_im = drop_shadow(pil_im, 10, 10, 15, shadow_blur=50, shadow_color = 0)
+
+		cropped_side = cv2.cvtColor(np.array(pil_im), cv2.COLOR_RGBA2BGRA)
+
 		cv2.imwrite(out_file_side , cropped_side)
 
 		#write image definition line
 		img_def = "image %s %s %s = ConditionSwitch(\"persistent.ultra_quality\", \"%s\", \"True\", \"%s_low.png\")\n" % (perso, mainPose, " ".join(poses_keys), out_file_def, perso)
 		
-		props = ""
-		if perso == "Von":
-			props = "xoffset = 1700"
 
-		img_side_def = "image side %s %s %s =Image(\"%s\", %s)\n" % (perso, mainPose, " ".join(poses_keys), out_file_side_def, props)
+		img_side_def = "image side %s %s %s =Image(\"%s\")\n" % (perso, mainPose, " ".join(poses_keys), out_file_side_def)
 		
 		cmd = "show %s %s %s\n" % (perso, mainPose, " ".join(poses_keys))
 
