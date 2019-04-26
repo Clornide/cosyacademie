@@ -16,7 +16,7 @@ image classePhysique = "classePhysique.jpg"
 # Déclarez les personnages utilisés dans le jeu.
 
 define pov = Character("[povname]", color="#fff", image="player")
-define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}à lui même{/i}", what_prefix="{i}", what_suffix="{/i}", window_background="dialoguebox_thoughts.png")
+define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-20}à lui même{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", window_background="dialoguebox_thoughts.png")
 define med = Character('Medoc', color="#fff", image="Medoc")
 define mog = Character('Moguri', color="#fff", image="Moguri")
 define met = Character('Metalice', color="#fff", image="Metalice")
@@ -103,7 +103,7 @@ label start:
     pov "Aaaaargh mais qu'est ce que je fais ic- !!"
 
 
-    show Moguri Standard Badboy Badboy
+    show Moguri Standard Badboy
     with flash
 
     "BOOONG!!!!!"
@@ -170,8 +170,7 @@ label start:
     med "Tch."
     med "Moguri a raison. Tout le monde n'est pas aussi bourru que moi..."
     med "Mais attention."
-    show Medoc Standard Degoute: 
-        zoom 1.5 yoffset 500
+    show Medoc Standard Degoute at centerzoomed
 
     med "Tout le monde n'est pas aussi indulgent que lui..."
 
