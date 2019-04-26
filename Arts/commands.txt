@@ -196,3 +196,14 @@ show Von BrasCroises Sourire Yeuxfermes
 show Von BrasCroises Sourire Yeuxfermes Rougit
 show Von BrasCroises Triste
 show Von BrasCroises Yeuxfermes Rougit
+show Von Standard Badboy
+show Von Standard Badboy Rougit
+show Von Standard Colere
+show Von Standard Colere Rougit
+show Von Standard Degoute
+show Von Standard Sourire
+show Von Standard Sourire Rougit
+show Von Standard Sourire Yeuxfermes
+show Von Standard Sourire Yeuxfermes Rougit
+show Von Standard Triste
+show Von Standard Yeuxfermes Rougit

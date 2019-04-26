@@ -1,44 +1,44 @@
 image Von BrasCroises Badboy = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_01_Badboy.png", "True", "Von_low.png")
-image side Von BrasCroises Badboy = "Von/side_BrasCroises_01_Badboy.png"
-image Von BrasCroises Badboy = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_01_Badboy.png", "True", "Von_low.png")
-image side Von BrasCroises Badboy = "Von/side_BrasCroises_01_Badboy.png"
+image side Von BrasCroises Badboy =Image("Von/side_BrasCroises_01_Badboy.png", xoffset = 1700)
 image Von BrasCroises Badboy Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_02_Badboy_Rougit.png", "True", "Von_low.png")
-image side Von BrasCroises Badboy Rougit = "Von/side_BrasCroises_02_Badboy_Rougit.png"
-image Von BrasCroises Badboy Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_02_Badboy_Rougit.png", "True", "Von_low.png")
-image side Von BrasCroises Badboy Rougit = "Von/side_BrasCroises_02_Badboy_Rougit.png"
+image side Von BrasCroises Badboy Rougit =Image("Von/side_BrasCroises_02_Badboy_Rougit.png", xoffset = 1700)
 image Von BrasCroises Colere = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_03_Colere.png", "True", "Von_low.png")
-image side Von BrasCroises Colere = "Von/side_BrasCroises_03_Colere.png"
-image Von BrasCroises Colere = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_03_Colere.png", "True", "Von_low.png")
-image side Von BrasCroises Colere = "Von/side_BrasCroises_03_Colere.png"
+image side Von BrasCroises Colere =Image("Von/side_BrasCroises_03_Colere.png", xoffset = 1700)
 image Von BrasCroises Colere Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_04_Colere_Rougit.png", "True", "Von_low.png")
-image side Von BrasCroises Colere Rougit = "Von/side_BrasCroises_04_Colere_Rougit.png"
-image Von BrasCroises Colere Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_04_Colere_Rougit.png", "True", "Von_low.png")
-image side Von BrasCroises Colere Rougit = "Von/side_BrasCroises_04_Colere_Rougit.png"
+image side Von BrasCroises Colere Rougit =Image("Von/side_BrasCroises_04_Colere_Rougit.png", xoffset = 1700)
 image Von BrasCroises Degoute = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_05_Degoute.png", "True", "Von_low.png")
-image side Von BrasCroises Degoute = "Von/side_BrasCroises_05_Degoute.png"
-image Von BrasCroises Degoute = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_05_Degoute.png", "True", "Von_low.png")
-image side Von BrasCroises Degoute = "Von/side_BrasCroises_05_Degoute.png"
+image side Von BrasCroises Degoute =Image("Von/side_BrasCroises_05_Degoute.png", xoffset = 1700)
 image Von BrasCroises Sourire = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_06_Sourire.png", "True", "Von_low.png")
-image side Von BrasCroises Sourire = "Von/side_BrasCroises_06_Sourire.png"
-image Von BrasCroises Sourire = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_06_Sourire.png", "True", "Von_low.png")
-image side Von BrasCroises Sourire = "Von/side_BrasCroises_06_Sourire.png"
+image side Von BrasCroises Sourire =Image("Von/side_BrasCroises_06_Sourire.png", xoffset = 1700)
 image Von BrasCroises Sourire Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_07_Sourire_Rougit.png", "True", "Von_low.png")
-image side Von BrasCroises Sourire Rougit = "Von/side_BrasCroises_07_Sourire_Rougit.png"
-image Von BrasCroises Sourire Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_07_Sourire_Rougit.png", "True", "Von_low.png")
-image side Von BrasCroises Sourire Rougit = "Von/side_BrasCroises_07_Sourire_Rougit.png"
+image side Von BrasCroises Sourire Rougit =Image("Von/side_BrasCroises_07_Sourire_Rougit.png", xoffset = 1700)
 image Von BrasCroises Sourire Yeuxfermes = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_08_Sourire_Yeuxfermes.png", "True", "Von_low.png")
-image side Von BrasCroises Sourire Yeuxfermes = "Von/side_BrasCroises_08_Sourire_Yeuxfermes.png"
-image Von BrasCroises Sourire Yeuxfermes = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_08_Sourire_Yeuxfermes.png", "True", "Von_low.png")
-image side Von BrasCroises Sourire Yeuxfermes = "Von/side_BrasCroises_08_Sourire_Yeuxfermes.png"
+image side Von BrasCroises Sourire Yeuxfermes =Image("Von/side_BrasCroises_08_Sourire_Yeuxfermes.png", xoffset = 1700)
 image Von BrasCroises Sourire Yeuxfermes Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_09_Sourire_Yeuxfermes_Rougit.png", "True", "Von_low.png")
-image side Von BrasCroises Sourire Yeuxfermes Rougit = "Von/side_BrasCroises_09_Sourire_Yeuxfermes_Rougit.png"
-image Von BrasCroises Sourire Yeuxfermes Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_09_Sourire_Yeuxfermes_Rougit.png", "True", "Von_low.png")
-image side Von BrasCroises Sourire Yeuxfermes Rougit = "Von/side_BrasCroises_09_Sourire_Yeuxfermes_Rougit.png"
+image side Von BrasCroises Sourire Yeuxfermes Rougit =Image("Von/side_BrasCroises_09_Sourire_Yeuxfermes_Rougit.png", xoffset = 1700)
 image Von BrasCroises Triste = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_10_Triste.png", "True", "Von_low.png")
-image side Von BrasCroises Triste = "Von/side_BrasCroises_10_Triste.png"
-image Von BrasCroises Triste = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_10_Triste.png", "True", "Von_low.png")
-image side Von BrasCroises Triste = "Von/side_BrasCroises_10_Triste.png"
+image side Von BrasCroises Triste =Image("Von/side_BrasCroises_10_Triste.png", xoffset = 1700)
 image Von BrasCroises Yeuxfermes Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_11_Yeuxfermes_Rougit.png", "True", "Von_low.png")
-image side Von BrasCroises Yeuxfermes Rougit = "Von/side_BrasCroises_11_Yeuxfermes_Rougit.png"
-image Von BrasCroises Yeuxfermes Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_11_Yeuxfermes_Rougit.png", "True", "Von_low.png")
-image side Von BrasCroises Yeuxfermes Rougit = "Von/side_BrasCroises_11_Yeuxfermes_Rougit.png"
+image side Von BrasCroises Yeuxfermes Rougit =Image("Von/side_BrasCroises_11_Yeuxfermes_Rougit.png", xoffset = 1700)
+image Von Standard Badboy = ConditionSwitch("persistent.ultra_quality", "Von/main_Standard_01_Badboy.png", "True", "Von_low.png")
+image side Von Standard Badboy =Image("Von/side_Standard_01_Badboy.png", xoffset = 1700)
+image Von Standard Badboy Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_Standard_02_Badboy_Rougit.png", "True", "Von_low.png")
+image side Von Standard Badboy Rougit =Image("Von/side_Standard_02_Badboy_Rougit.png", xoffset = 1700)
+image Von Standard Colere = ConditionSwitch("persistent.ultra_quality", "Von/main_Standard_03_Colere.png", "True", "Von_low.png")
+image side Von Standard Colere =Image("Von/side_Standard_03_Colere.png", xoffset = 1700)
+image Von Standard Colere Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_Standard_04_Colere_Rougit.png", "True", "Von_low.png")
+image side Von Standard Colere Rougit =Image("Von/side_Standard_04_Colere_Rougit.png", xoffset = 1700)
+image Von Standard Degoute = ConditionSwitch("persistent.ultra_quality", "Von/main_Standard_05_Degoute.png", "True", "Von_low.png")
+image side Von Standard Degoute =Image("Von/side_Standard_05_Degoute.png", xoffset = 1700)
+image Von Standard Sourire = ConditionSwitch("persistent.ultra_quality", "Von/main_Standard_06_Sourire.png", "True", "Von_low.png")
+image side Von Standard Sourire =Image("Von/side_Standard_06_Sourire.png", xoffset = 1700)
+image Von Standard Sourire Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_Standard_07_Sourire_Rougit.png", "True", "Von_low.png")
+image side Von Standard Sourire Rougit =Image("Von/side_Standard_07_Sourire_Rougit.png", xoffset = 1700)
+image Von Standard Sourire Yeuxfermes = ConditionSwitch("persistent.ultra_quality", "Von/main_Standard_08_Sourire_Yeuxfermes.png", "True", "Von_low.png")
+image side Von Standard Sourire Yeuxfermes =Image("Von/side_Standard_08_Sourire_Yeuxfermes.png", xoffset = 1700)
+image Von Standard Sourire Yeuxfermes Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_Standard_09_Sourire_Yeuxfermes_Rougit.png", "True", "Von_low.png")
+image side Von Standard Sourire Yeuxfermes Rougit =Image("Von/side_Standard_09_Sourire_Yeuxfermes_Rougit.png", xoffset = 1700)
+image Von Standard Triste = ConditionSwitch("persistent.ultra_quality", "Von/main_Standard_10_Triste.png", "True", "Von_low.png")
+image side Von Standard Triste =Image("Von/side_Standard_10_Triste.png", xoffset = 1700)
+image Von Standard Yeuxfermes Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_Standard_11_Yeuxfermes_Rougit.png", "True", "Von_low.png")
+image side Von Standard Yeuxfermes Rougit =Image("Von/side_Standard_11_Yeuxfermes_Rougit.png", xoffset = 1700)
