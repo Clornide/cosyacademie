@@ -86,6 +86,9 @@ label Premiercours:
     inc "Même si on sait que t'es un pro pour t'approprier des trucs qui ne t'appartiennent pas..."
 
     show Dieuvomi BrasCroises Triste
+
+    hide Dieuvomi
+
     show Medoc PosePoings Colere
 
     med "Ah ouais ?! Répète ça pour voir ?"

@@ -3,9 +3,9 @@
 
     window show
 
-    "Bon. Classe 103, classe 103..."
-    "Ah voilà !"
-    "Bon ben on y va alors !"
+    innerpov "Bon. Classe 103, classe 103..."
+    innerpov "Ah voilà !"
+    innerpov "Bon ben on y va alors !"
 
     if sex=="m":
         inc "Hep toi, le nouveau là-bas !"
@@ -142,4 +142,3 @@
     jump Premiercours
 
     return
-
