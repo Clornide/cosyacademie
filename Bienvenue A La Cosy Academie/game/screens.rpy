@@ -616,7 +616,7 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Conçu avec {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nCe Visual Novel a été créé sur le temps libre de p'tits Cosys. \n\nArts: Din. \n\nScript: Din, Samael, Dieuvomi, Kupowy, Clornide. \n\nRelecture: Din, Dieuvomi. \n\nProgrammation: Clornide.")
+            text _("Conçu avec {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nCe Visual Novel a été créé sur le temps libre de p'tits Cosys. \n\Création des personnages: din. \n\nScript: Samael, Dieuvomi, Kupowy, Clornide. \n\nRelecture: Din, Dieuvomi. \n\nConception: Ze_Pilot, Kupowy.")
 
 
 ## Ceci est généralement redéfini dans le fichier options.rpy  pour ajouter le

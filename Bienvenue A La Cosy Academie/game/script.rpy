@@ -24,7 +24,7 @@ define mic = Character('Mickey', color="#fff" , image="Mickey")
 define dieuv = Character('Dieuvomi', color="#fff", image="Dieuvomi")
 define esprism = Character('Esprism', color="#fff", image="Esprism")
 
-define von = Character('Von Yaourt', color="#fff", who_prefix="{font=Deutsch-webfont.ttf}{size=+8}", who_suffix="{/size}{/font}",what_prefix="{font=Squealer.ttf}{size=+10}", what_suffix = "{/size}{/font}", image="Von", screen="say_von") 
+define von = Character('Von Yaourt', color="#fff", who_prefix="{font=Deutsch-webfont.ttf}{size=+8}", who_suffix="{/size}{/font}",what_prefix="{font=Squealer.ttf}{size=+10}", what_suffix = "{/size}{/font}", image="Von", screen="say_von")
 define mat = Character('Mathilde', color="#fff", image="Mathilde")
 define chuen = Character('Chuenpodo', color="#fff", image="Chuenpodo")
 define caro = Character('Caro', color="#fff", image="Caro")
@@ -53,7 +53,7 @@ define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
 # Le jeu commence ici
 label start:
 
-    
+
 
     python:
         #Points routes
@@ -164,7 +164,7 @@ label start:
 
     hide Moguri
     pause 0.5
-    hide Medoc 
+    hide Medoc
     show Medoc Standard Degoute with fade
 
     med "Tch."
@@ -179,8 +179,8 @@ label start:
     pov "Ouch... Près... Très près. Trop près ?"
     pov "Pas vraiment."
 
-    show Medoc Standard Degoute: 
-        zoom 1.0 yoffset 0
+    show Medoc Standard Degoute at center:
+        zoom 1.0
 
     med "Allez. Fais attention à toi."
 
@@ -201,4 +201,3 @@ label start:
     jump Meeting_Metalice
 
     return
-
