@@ -12,7 +12,7 @@
     else:
         inc "Hep toi, la nouvelle là-bas !"
 
-    show Metalice PoseCoucou Sourire Yeuxfermes with fade
+    show Metalice PoseCoucou Sourire Yeuxfermes with dissolve
 
     met "Ah, salut ! C'est bien [povname] c'est ça ? Moi c'est Metalice !"
 

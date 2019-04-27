@@ -3,7 +3,7 @@ label Premiercours:
 
     inc "Aller aller, un peu de silence !"
 
-    show Mickey Standard Sourire Yeuxfermes with fade
+    show Mickey Standard Sourire Yeuxfermes with dissolve
 
     mic "Bonjour à tous !"
     tlm "Bonjour monsieur Max !"

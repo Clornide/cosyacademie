@@ -31,7 +31,7 @@ define caro = Character('name_caro', color="#fff", image="Caro", dynamic = True)
 define din = Character('name_din', color="#fff", image="din", dynamic = True)
 define foulk = Character('name_foulk', color="#fff", image="Foulk", dynamic = True)
 
-    define inc = Character('???', color="#fff")
+define inc = Character('???', color="#fff")
 define tlm = Character('Tout le monde', color="#fff")
 
 #Effets nouveaux
@@ -76,7 +76,7 @@ label start:
         name_mickey = "Mickey"
         name_esprism = "Esprism"
         name_von = "Von Yaourt"
-        name_chuen = "Chuenpodo"
+        name_chuen = "???"
         name_mathilde = "Mathilde"
         name_caro = "Caro"
         name_din = "din"
@@ -186,10 +186,10 @@ label start:
 
     mog "Sur ce... On va y aller, il s'agirait pas d'arriver en retard ! A plus tard p'tite tête !"
 
-    hide Moguri
+    hide Moguri with dissolve
     pause 0.5
     hide Medoc
-    show Medoc Standard Degoute with fade
+    show Medoc Standard Degoute with dissolve
 
     med "Tch."
     med "Moguri a raison. Tout le monde n'est pas aussi bourru que moi..."
@@ -208,7 +208,7 @@ label start:
 
     med "Allez. Fais attention à toi."
 
-    hide Medoc with fade
+    hide Medoc with dissolve
 
     pov "Ouf."
     pov "Ca commence fort."
