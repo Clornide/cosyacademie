@@ -16,22 +16,22 @@ image classePhysique = "classePhysique.jpg"
 # Déclarez les personnages utilisés dans le jeu.
 
 define pov = Character("[povname]", color="#fff", image="player")
-define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-20}à lui même{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
-define med = Character('Medoc', color="#fff", image="Medoc")
-define mog = Character('Moguri', color="#fff", image="Moguri")
-define met = Character('Metalice', color="#fff", image="Metalice")
-define mic = Character('Mickey', color="#fff" , image="Mickey")
-define dieuv = Character('Dieuvomi', color="#fff", image="Dieuvomi")
-define esprism = Character('Esprism', color="#fff", image="Esprism")
+define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-20}[toSelf]{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
+define med = Character('name_medoc', color="#fff", image="Medoc", dynamic = True)
+define mog = Character('name_moguri', color="#fff", image="Moguri", dynamic = True)
+define met = Character('name_metalice', color="#fff", image="Metalice", dynamic = True)
+define mic = Character('name_mickey', color="#fff" , image="Mickey", dynamic = True)
+define dieuv = Character('name_dieuvomi', color="#fff", image="Dieuvomi", dynamic = True)
+define esprism = Character('name_esprism', color="#fff", image="Esprism", dynamic = True)
 
-define von = Character('Von Yaourt', color="#fff", image="Von", screen="say_von")
-define mat = Character('Mathilde', color="#fff", image="Mathilde")
-define chuen = Character('Chuenpodo', color="#fff", image="Chuenpodo", screen="say_chuen")
-define caro = Character('Caro', color="#fff", image="Caro")
-define din = Character('din', color="#fff", image="din")
-define foulk = Character('Foulk', color="#fff", image="Foulk")
+define von = Character('name_von', color="#fff", image="Von", screen="say_von", dynamic = True)
+define mat = Character('name_mathilde', color="#fff", image="Mathilde", dynamic = True)
+define chuen = Character('name_chuen', color="#fff", image="Chuenpodo", screen="say_chuen", dynamic = True)
+define caro = Character('name_caro', color="#fff", image="Caro", dynamic = True)
+define din = Character('name_din', color="#fff", image="din", dynamic = True)
+define foulk = Character('name_foulk', color="#fff", image="Foulk", dynamic = True)
 
-define inc = Character('???', color="#fff")
+    define inc = Character('???', color="#fff")
 define tlm = Character('Tout le monde', color="#fff")
 
 #Effets nouveaux
@@ -53,35 +53,59 @@ define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
 # Le jeu commence ici
 label start:
 
+    menu:
+
+        "Avant de commencer, voulez-vous incarner un personnage féminin ou masculin ?"
+
+        "Féminin.":
+            python:
+                sex = "f"
+                toSelf= "à elle-même"
+        "Masculin.":
+            python:
+                sex = "m"
+                toSelf= "à lui-même"
 
 
     python:
+
+        name_dieuvomi = "???"
+        name_medoc = "Medoc"
+        name_moguri = "Moguri"
+        name_metalice = "Metalice"
+        name_mickey = "Mickey"
+        name_esprism = "Esprism"
+        name_von = "Von Yaourt"
+        name_chuen = "Chuenpodo"
+        name_mathilde = "Mathilde"
+        name_caro = "Caro"
+        name_din = "din"
+        name_foulk = "Foulk"
         #Points routes
         pointsmedoc=0
         pointsmoguri=0
         pointsincel=0
 
-        povname = renpy.input("Avant de commencer, veuillez renseigner votre prénom ? Par défaut vous serez appelé Hector")
-        povname = povname.strip()
-
-        while povname=="moguri" or povname=="Moguri" or povname=="medoc" or povname=="Medoc" :
-            povname = renpy.input("Pas Medoc ou Moguri svp")
+        if sex=="m":
+            povname = renpy.input("Veuillez renseigner votre prénom ? Par défaut vous serez appelé Hector.")
             povname = povname.strip()
-        if not povname:
-            povname="Hector"
 
+            while povname=="moguri" or povname=="Moguri" or povname=="medoc" or povname=="Medoc" :
+                povname = renpy.input("Pas Medoc ou Moguri svp")
+                povname = povname.strip()
+            if not povname:
+                povname="Hector"
 
-    menu:
+        else:
+            povname = renpy.input("Veuillez renseigner votre prénom ? Par défaut vous serez appelé Cassandre.")
+            povname = povname.strip()
 
-        "Et du coup, masculin ou féminin ?"
+            while povname=="moguri" or povname=="Moguri" or povname=="medoc" or povname=="Medoc" :
+                povname = renpy.input("Pas Medoc ou Moguri svp")
+                povname = povname.strip()
+            if not povname:
+                povname="Cassandre"
 
-        "Homme.":
-            python:
-                sex = "m"
-
-        "Femme.":
-            python:
-                sex = "f"
 
     play music journeys
     scene school entrance
@@ -147,12 +171,12 @@ label start:
 
     if sex=="f":
         mog "Bienvenue à la Cosy Académie, gamine. Ne t'inquiète pas, on n'est pas tous aussi bourru que lui !"
-        "Je suis presque sûre qu'on a le même âge, mais le fait qu'il m'appelle gamine ne me déplait pas particulièrement."
+        innerpov "Je suis presque sûre qu'on a le même âge, mais le fait qu'il m'appelle gamine ne me déplait pas particulièrement."
         pov "Aaaah, merci... Je tâcherai de me faire plus discrete, désolée !"
         mog "Mais non enfin ! Si tu es ici, c'est que tu as ta place. Aucune raison de se faire discrète !"
     else:
         mog "Bienvenue à la Cosy Académie, gamin. Ne t'inquiète pas, on n'est pas tous aussi bourru que lui !"
-        "Je suis presque sûr qu'on a le même âge, mais le fait qu'il m'appelle gamin ne me déplait pas particulièrement."
+        innerpov "Je suis presque sûr qu'on a le même âge, mais le fait qu'il m'appelle gamin ne me déplait pas particulièrement."
         pov "Aaaah, merci... Je tâcherai de me faire plus discret, désolé !"
         mog "Mais non enfin ! Si tu es ici, c'est que tu as ta place. Aucune raison de se faire discret !"
 

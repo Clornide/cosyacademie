@@ -75,15 +75,15 @@ label Premiercours:
     show Dieuvomi BrasCroises Colere
 
     if sex=="m":
-        inc "Ouais Medoc, c'est son problème de confiance en lui, pas le tieng !"
+        dieuv "Ouais Medoc, c'est son problème de confiance en lui, pas le tieng !"
     else:
-        inc "Ouais Medoc, c'est son problème de confiance en elle, pas le tieng !"
+        dieuv "Ouais Medoc, c'est son problème de confiance en elle, pas le tieng !"
 
     "Ce type a vraiment un drôle d'accent..."
 
     show Dieuvomi BrasCroises Sourire
 
-    inc "Même si on sait que t'es un pro pour t'approprier des trucs qui ne t'appartiennent pas..."
+    dieuv "Même si on sait que t'es un pro pour t'approprier des trucs qui ne t'appartiennent pas..."
 
     show Dieuvomi BrasCroises Triste
 
@@ -96,7 +96,7 @@ label Premiercours:
     hide Medoc
     show Dieuvomi BrasCroises Colere
 
-    inc "Un peu que je vais répéter peuchèreuh ! Tu crois que j'ai oublié pour Jeud-"
+    dieuv "Un peu que je vais répéter peuchèreuh ! Tu crois que j'ai oublié pour Jeud-"
 
     hide Dieuvomi
     with shortflash
@@ -127,7 +127,9 @@ label Premiercours:
     mic "Je suis désolé que tu aies eu à être témoin de cette altercation."
     show Mickey Standard Triste
     mic "Medoc, Dieuvomi, vous viendrez me voir à la fin du cours..."
+    python:
 
+        name_dieuvomi = "Dieuvomi"
     hide Mickey
     show Medoc Standard Badboy
 
@@ -151,20 +153,20 @@ label Premiercours:
     mic "Sauf vous, Medoc et Dieuvomi, évidemment..."
 
     scene couloir with fade
-    show Metalice PoseCoucou Sourire Yeuxfermes
+    show Metalice Standard Sourire Yeuxfermes
 
     met "Bon. Et bien c'était une grosse première journée pour toi n'est-ce pas ?"
     pov "Oui on peut dire ça..."
-    show Metalice PoseCoucou Sourire
+    show Metalice Standard Sourire
     pov "Dis, c'était qui ce type au style de voyou, avec l'accent exotique ?"
     show Metalice PoseCoucou Cligne
     met "Dieuvomi ? C'est pas VRAIMENT un voyou, c'est juste un style qu'il se donne."
-    show Metalice PoseCoucou Sourire
+    show Metalice Standard Sourire
     met "Il ne te fera jamais de mal, à moins que tu sois un apocope de bandage pneumatique"
     pov "Un quoi ?"
-    show Metalice PoseCoucou Degoute
+    show Metalice Standard Degoute
     met "Un pneu. Il a un souci avec ça je crois, il aime beaucoup les crever."
-    show Metalice PoseCoucou Sourire
+    show Metalice Standard Sourire
     met "Il s'est débarassé d'un gang qui gangrenait la ville à lui tout seul d'ailleurs !"
     pov "Je t'avoue que je ne vois pas particulièrement le rapport..."
     show Metalice PoseCoucou Cligne
@@ -174,18 +176,72 @@ label Premiercours:
     met "Peut être, mais ça fait mal !"
     met "Dieuvomi a crevé tous les pneus de tous les BMX du gang en l'espace d'une heure, en pleine nuit..."
     pov "Ouaaaaah..."
-    show Metalice PoseCoucou Sourire
+    show Metalice Standard Sourire
     met "N'est-ce pas ? Du coup, sans pneus, le gang s'est dissout de lui même. C'est aussi pour ça qu'il est aussi respecté !"
     met "Et autre point de détail de cette anecdote, le leader de ce gang était un cousin de Medoc..."
     pov "Aaaaaah ! C'est donc de là que vient cette animosité entre eux ?"
     show Metalice PoseCoucou Sourire Yeuxfermes
     met "Pas du tout ! Medoc ne tolérait absolument pas les agissements de son cousin."
     pov "D'où est-ce que ça vient alors ?"
-    show Metalice PoseCoucou Triste
+    show Metalice Standard Triste
     met "On n'aime pas trop en parler ici... Ca nous rappelle des événements un peu sombre. Tu l'apprendras bien assez tôt je pense."
     pov "..."
     show Metalice PoseCoucou Sourire Yeuxfermes
     met "Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?"
 
-    pause 3
-    jump coursPhysique
+    menu:
+
+        met "Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?"
+
+        "Allez ! Je te suis !":
+            python:
+                acomp="Met"
+            met "On y va alors !"
+            jump Rentreavecmetalice
+
+        "J'aurais voulu remercier Moguri pour s'être interposer tout à l'heure...":
+            python:
+                acomp="Mog"
+                pointsmoguri+=1
+            show Metalice PoseCoucou Sourire Yeuxfermes
+            if sex=="m":
+                met "Ahaha ! L'intervention de ton preux chevalier ne t'a pas laissé indifférent à ce que je vois."
+            else:
+                met "Ahaha ! L'intervention de ton preux chevalier ne t'a pas laissée indifférente à ce que je vois."
+
+            pov "Ce n'est pas mon preux chevalier... Je voulais juste le remercier, c'est tout. C'était très sympathique ce qu'il a fait..."
+            show Metalice Standard Cligne
+            met "Heroïque presque ?"
+
+            pov "Oh, ça suffit hein !!"
+            show Metalice Standard Sourire
+
+            met "Allez, je te laisse aller lui parler alors. On se revoit demain ?"
+            pov "Bien sûr ! A demain Metalice !"
+
+            jump Ichoosemoguri
+
+        "Si ça ne te dérange pas, j'aimerai bien attendre un peu Medoc...":
+            python:
+                acomp="Med"
+                pointsmedoc+=1
+
+            if sex=="m":
+                show Metalice PoseCoucou Sourire Yeuxfermes
+                met "Ahaha ! Son petit discours sur la confiance en soi t'as à ce point atteint ?"
+
+                pov "Il ne m'a pas atteint ! Je veux juste m'expliquer un peu avec lui..."
+            else:
+                show Metalice PoseCoucou Sourire Yeuxfermes
+                met "Ahaha ! Son petit discours sur la confiance en soi t'as à ce point atteinte ?"
+
+                pov "Il ne m'a pas atteinte ! Je veux juste m'expliquer un peu avec lui..."
+            show Metalice Standard Cligne
+            met "Très bien, alors je te laisse ''t'expliquer''."
+
+            pov "Oh, ça suffit hein !!"
+            show Metalice Standard Sourire
+            met "Allez, j'arrête de t'embêter ! On se revoit demain ?"
+            pov "Bien sûr ! A demain Metalice !"
+            jump Ichoosemedoc
+    return
