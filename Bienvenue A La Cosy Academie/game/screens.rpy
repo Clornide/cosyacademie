@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialisation
 ################################################################################
 
@@ -117,6 +117,35 @@ screen say(who, what):
         add SideImage() xalign 0.0 yalign 0.0 xoffset 155 yoffset 687
 
 
+screen say_chuen(who, what):
+    style_prefix "say"
+
+    window:
+        id "window"
+        background "gui/textbox_chuen.png"
+        if who is not None:
+
+            window:
+                id "namebox"
+                style "chuen_namebox"
+                background Frame("gui/namebox_chuen.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
+                text who:
+                  outlines [ (3, "#eee2", 0, 0), (2, "#eee4", 0, 0),  (1, "#eee8", 0, 0) ]
+                  drop_shadow [(3, 3)]
+                  id "who"
+
+        text what:
+          outlines [ (3, "#eee2", 0, 0), (2, "#eee4", 0, 0),  (1, "#eee8", 0, 0) ]
+          drop_shadow [(3, 3)]
+          id "what"
+
+
+    ## If there's a side image, display it above the text. Do not display on the
+    ## phone variant - there's no room.
+    if not renpy.variant("small"):
+        add SideImage() xalign 0.0 yalign 0.0 xoffset 155 yoffset 687
+
+
 screen say_von(who, what):
     style_prefix "say"
 
@@ -125,16 +154,20 @@ screen say_von(who, what):
 
 
         if who is not None:
-
-
             window:
                 xalign 1.0 xoffset -400
                 id "namebox"
                 style "namebox"
-                text who id "who"
+                text who:
+                  font "Deutsch-webfont.ttf"
+                  size 37
+                  id "who"
 
 
-        text what id "what" xanchor 1.0 xalign 0.8
+        text what:
+          id "what" xanchor 1.0 xalign 0.8
+          font "Squealer.ttf"
+          size 42
 
 
 
