@@ -31,6 +31,17 @@ show Chuenpodo Standard Sourire Yeuxfermes
 show Chuenpodo Standard Sourire Yeuxfermes Rougit
 show Chuenpodo Standard Triste
 show Chuenpodo Standard Yeuxfermes Rougit
+show Dieuvomi DeDos Badboy
+show Dieuvomi DeDos Badboy Rougit
+show Dieuvomi DeDos Colere
+show Dieuvomi DeDos Colere Rougit
+show Dieuvomi DeDos Degoute
+show Dieuvomi DeDos Sourire
+show Dieuvomi DeDos Sourire Rougit
+show Dieuvomi DeDos Sourire Yeuxfermes
+show Dieuvomi DeDos Sourire Yeuxfermes Rougit
+show Dieuvomi DeDos Triste
+show Dieuvomi DeDos Yeuxfermes Rougit
 show Dieuvomi BrasCroises Badboy
 show Dieuvomi BrasCroises Badboy Rougit
 show Dieuvomi BrasCroises Colere
@@ -53,6 +64,17 @@ show din Standard Sourire Yeuxfermes
 show din Standard Sourire Yeuxfermes Rougit
 show din Standard Triste
 show din Standard Yeuxfermes Rougit
+show Foulk MainVisage Badboy
+show Foulk MainVisage Badboy Rougit
+show Foulk MainVisage Colere
+show Foulk MainVisage Colere Rougit
+show Foulk MainVisage Degoute
+show Foulk MainVisage Sourire
+show Foulk MainVisage Sourire Rougit
+show Foulk MainVisage Sourire Yeuxfermes
+show Foulk MainVisage Sourire Yeuxfermes Rougit
+show Foulk MainVisage Triste
+show Foulk MainVisage Yeuxfermes Rougit
 show Foulk Standard Badboy
 show Foulk Standard Badboy Rougit
 show Foulk Standard Colere
