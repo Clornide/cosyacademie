@@ -53,6 +53,17 @@ show din Standard Sourire Yeuxfermes
 show din Standard Sourire Yeuxfermes Rougit
 show din Standard Triste
 show din Standard Yeuxfermes Rougit
+show Foulk MainVisage Badboy
+show Foulk MainVisage Badboy Rougit
+show Foulk MainVisage Colere
+show Foulk MainVisage Colere Rougit
+show Foulk MainVisage Degoute
+show Foulk MainVisage Sourire
+show Foulk MainVisage Sourire Rougit
+show Foulk MainVisage Sourire Yeuxfermes
+show Foulk MainVisage Sourire Yeuxfermes Rougit
+show Foulk MainVisage Triste
+show Foulk MainVisage Yeuxfermes Rougit
 show Foulk Standard Badboy
 show Foulk Standard Badboy Rougit
 show Foulk Standard Colere
