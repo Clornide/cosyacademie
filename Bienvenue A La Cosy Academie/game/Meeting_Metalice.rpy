@@ -12,7 +12,7 @@
     else:
         inc "Hep toi, la nouvelle là-bas !"
 
-    show Metalice PoseCoucou Sourire Yeuxfermes with fade
+    show Metalice PoseCoucou Sourire Yeuxfermes with dissolve
 
     met "Ah, salut ! C'est bien [povname] c'est ça ? Moi c'est Metalice !"
 
@@ -28,11 +28,11 @@
     met "Alors, tu as pu faire connaissance avec quelques personnes ? J'ai vu que tu discutais avec Medoc et Moguri à l'entrée."
     met "Tu ferais bien de te méfier de ces deux gaillards. Ils pensent que rien ni personne ne leur résiste."
 
-    show Metalice PoseCoucou Sourire Yeuxfermes
+    show Metalice Standard Yeuxfermes
 
     met "Et au vu de ta réaction, ils ont déjà fait forte impression sur toi apparemment, ahaha !"
 
-    show Metalice PoseCoucou Sourire
+    show Metalice Standard Sourire
 
     if sex=="m":
         pov "Q-quoi ? Non pas du tout, ils m'ont juste surpris tout à l'heure, rien de plus !"
@@ -44,7 +44,7 @@
     met "Oh arrête, pas à moi hein ! Je suis là pour te donner TOUTES sortes de conseils."
     innerpov "Très subtil ce clin d'oeil..."
 
-    show Metalice PoseCoucou Sourire
+    show Metalice Standard Sourire
 
     met "Alors, t'as flashé sur lequel ?"
 
@@ -65,17 +65,17 @@
                 pointsincel+=1
 
     if pointsmedoc!=0:
-        show Metalice PoseCoucou Sourire Yeuxfermes
+        show Metalice Standard Sourire Yeuxfermes
 
         met "Ah ! C'est vrai qu'il impressionne beaucoup de gens, mais il ne faut pas se laisser avoir, il se fait plus dur qu'il ne l'est vraiment !"
         pov "Ah bon ?"
 
-        show Metalice PoseCoucou Sourire
+        show Metalice Standard Sourire
 
         met "Il réagit surtout comme ça avec les gens qu'il apprécie. Il est plus protecteur qu'autre chose finalement !"
         show Metalice PoseCoucou Cligne
         met "Tu ne l'as pas entendu de moi, hein !"
-        show Metalice PoseCoucou Sourire
+        show Metalice Standard Sourire
         pov "Et... Tu penses qu'il y aura moyen ?"
         if sex=="m":
             met "Et bien ! Je te trouve bien ambitieux pour tes premières heures à la Cosy Académie."
@@ -88,7 +88,7 @@
         met "Ne t'en fais pas, je vois très bien ce que tu veux dire !"
         innerpov "Encore ce clin d'oeil..."
 
-        show Metalice PoseCoucou Sourire
+        show Metalice Standard Sourire
 
         if sex=="m":
             met "Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloqué sur ces deux là !"
@@ -99,21 +99,21 @@
         show Metalice PoseCoucou Sourire Yeuxfermes
 
         met "Moguri ? Doux et gentil ? Il est plus du genre à juger les gens d'habitude. Tu as du lui taper dans l'oeil !"
-        show Metalice PoseCoucou Sourire
+        show Metalice Standard Sourire
         pov "Quoi ? V-vraiment ?"
         show Metalice PoseCoucou Cligne
         met "Ahaha, oui vraiment ! Tu apprendras que je suis l'une des sources d'informations les plus fiables de l'école, tu peux me faire confiance !"
-        show Metalice PoseCoucou Sourire
+        show Metalice Standard Sourire
         pov "D'accord, merci ! Du coup, tu penses que... Enfin qu'il y a moyen quoi ?"
         if sex=="m":
             met "Et bien ! Je te trouve bien ambitieux pour tes premières heures à la Cosy Académie."
         else:
             met "Et bien ! Je te trouve bien ambitieuse pour tes premières heures à la Cosy Académie."
         pov "Non ! Ce n'est pas ce que je voulais dire. Enfin..."
-        show Metalice PoseCoucou Cligne
+        show Metalice Standard Cligne
         met "Ne t'en fais pas, je vois très bien ce que tu veux dire !"
         innerpov "Encore ce clin d'oeil..."
-        show Metalice PoseCoucou Cligne
+        show Metalice Standard Sourire
         if sex=="m":
             met "Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloqué sur ces deux là !"
         else:
@@ -121,11 +121,11 @@
 
     elif pointsincel!=0:
 
-        show Metalice PoseCoucou Triste
+        show Metalice Standard Triste
 
         met "Mouais ! Si tu le dis..."
 
-        show Metalice PoseCoucou Sourire
+        show Metalice Standard Sourire
 
         if sex=="m":
             met "Enfin bon tu as raison, ce ne sont pas les seuls étudiants de ce lycée. Aucune raison de rester bloqué sur ces deux là !"
