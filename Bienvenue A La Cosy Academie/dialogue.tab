@@ -1,0 +1,260 @@
+Identifier	Character	Dialogue	Filename	Line Number
+coursPhysique_1456dcc3	dieuv	Ouah le prof est pas là !	game/coursPhysique.rpy	6
+coursPhysique_4d93995c	met	Quoi ??	game/coursPhysique.rpy	11
+coursPhysique_1afe7f49	met	J'aime tellement la physique...	game/coursPhysique.rpy	14
+coursPhysique_0d1ab575	dieuv	Ben s'il est pas là, je m'en vais !	game/coursPhysique.rpy	19
+coursPhysique_50a14f8c	foulk	Normallement il faut attendre 15 min !	game/coursPhysique.rpy	23
+coursPhysique_4a2b2629	foulk	Et de toutes façons, c'est le prof qui a les clés, on est coincés ici...	game/coursPhysique.rpy	24
+coursPhysique_b300eaf4	dieuv	Pfft ...	game/coursPhysique.rpy	29
+coursPhysique_0fdc58e6	dieuv	Ben moi, je veux me tirer d'ici !	game/coursPhysique.rpy	30
+coursPhysique_cbbdadee	innerpov	Quel rebelle ce Dieuvomi !	game/coursPhysique.rpy	32
+coursPhysique_ed0c1273	dieuv	Allez medoc, va demander si le prof est là !	game/coursPhysique.rpy	34
+coursPhysique_87939e42	med	Bon ok....	game/coursPhysique.rpy	40
+coursPhysique_94be126b	med	Alors...	game/coursPhysique.rpy	41
+coursPhysique_2713faaa	med	Esprism... Es-tu là ?	game/coursPhysique.rpy	43
+coursPhysique_f5482a4f	inc	kr kr krr	game/coursPhysique.rpy	44
+coursPhysique_ddb03860	esprism	Mais oui Je suis là !	game/coursPhysique.rpy	49
+coursPhysique_f5e55378	esprism	Asseyez-vous !	game/coursPhysique.rpy	50
+HardNight_8dffdd57	mog	Hey Medoc! Ça va?	game/HardNight.rpy	6
+HardNight_2ba9f9a3	med	Oui ça va...	game/HardNight.rpy	10
+HardNight_77610ce8	mog	T'es sûr?	game/HardNight.rpy	11
+HardNight_38f84fb1	med	Oui je suis sûr. Pourquoi?	game/HardNight.rpy	12
+HardNight_796203e0	mog	Bah je sais pas... T'as l'air fatigué.	game/HardNight.rpy	13
+HardNight_6bba3e01	med	Ah oui? Non, mais ça va!	game/HardNight.rpy	14
+HardNight_d153e734	mog	Tu peux me dire si t'as un problème... Vraiment t'as pas l'air bien!	game/HardNight.rpy	15
+HardNight_09f051c8	med	Rhaaa mais non ! Ça va ! C'est juste que cette nuit c'était chaud...	game/HardNight.rpy	16
+HardNight_5debfa1f	mog	Ah d'accord!	game/HardNight.rpy	17
+HardNight_d6c48db3	med	Oui!	game/HardNight.rpy	18
+HardNight_2dab8e22	mog	Et...	game/HardNight.rpy	19
+HardNight_255f59bc	med	Eh bah c'était TRÈS TRÈS chaud!	game/HardNight.rpy	20
+HardNight_648486dc	med	Oui... Voilà... Comme ça...	game/HardNight.rpy	29
+HardNight_af0407af	med	Un coup à gauche. Un coup à droite.	game/HardNight.rpy	30
+HardNight_09fdffa7	med	Hop la! C'est qui le boss ?	game/HardNight.rpy	31
+HardNight_3a915332	med	[povname]? Oh! [povname]!	game/HardNight.rpy	32
+HardNight_3e7d541c	med	[povname]???!!!	game/HardNight.rpy	40
+HardNight_27ba72f9	mog	On dirait que t'es pas le seul qui n'a pas dormi cette nuit Medoc...	game/HardNight.rpy	44
+HardNight_5d94915c	med	Ouais... En attendant, tu pourrais te pousser s'il te plaît? J'aimerais autant ne pas avoir à passer sous cette échelle pour aller en cours.	game/HardNight.rpy	61
+HardNight_58e6b216	mog	Sinon Medoc, la prochaine fois, tu m'appelles?	game/HardNight.rpy	65
+HardNight_69ece1c4	mog	Tu sais, sans vouloir te vexer, je peux te donner deux ou trois conseils...	game/HardNight.rpy	66
+HardNight_8691de33	med	T'es sérieux là?	game/HardNight.rpy	67
+HardNight_1c16a381	mog	Bah ouais!	game/HardNight.rpy	68
+HardNight_49969232	mog	Allez vas-y! Plus vite! Là!	game/HardNight.rpy	77
+HardNight_7a75207e	med	Mais enfin Moguri! Non, je peux pas...	game/HardNight.rpy	81
+HardNight_601f9be5	mog	Mais si fais moi confiance! Ça passe !	game/HardNight.rpy	82
+HardNight_aaf476f5	med	Mais non!	game/HardNight.rpy	83
+HardNight_8fe48de2	mog	Mais si!	game/HardNight.rpy	84
+HardNight_8627801d	mog	[povname] ça va?	game/HardNight.rpy	85
+HardNight_f1a99bd8	med	[povname]?	game/HardNight.rpy	94
+HardNight_852b191d	pov	Heu... oui?	game/HardNight.rpy	95
+HardNight_f32da0e1	mog	T'as trouvé ça chaud ?	game/HardNight.rpy	99
+HardNight_49b8a014	pov	Hin? Quoi????	game/HardNight.rpy	100
+HardNight_81519ad8	med	Bah Sekiro!	game/HardNight.rpy	101
+Ichoosemedoc_8bf9f1b9	innerpov	J'ai pas fini d'écrire, déso, clornide	game/ichoosemedoc.rpy	6
+Ichoosemoguri_4daa155a	innerpov	Ca commence à faire un petit bout de temps que je l'attends, il ne devrait plus tarder...	game/ichoosemoguri.rpy	4
+Ichoosemoguri_5064e3b7	innerpov	Je crois que je l'entends d'ailleurs, mais il a l'air de discuté avec quelqu'un.	game/ichoosemoguri.rpy	5
+Ichoosemoguri_0264542f	mog	Et donc ?	game/ichoosemoguri.rpy	7
+Ichoosemoguri_d79bcc91	inc	Et bien là je lui ai dit, 'QUOI !? JEUDICOUVERTE !?'. C'était hilarant !	game/ichoosemoguri.rpy	8
+Ichoosemoguri_91e1eb4f	mog	Oui enfin, comme à ton habitude quoi... Tu devrais peut être arrêter de le taquiner avec ça, un jour il pourrait mal le prendre.	game/ichoosemoguri.rpy	9
+Ichoosemoguri_461ee554	inc	Ahahah mais non, tout le monde sait que Dieuvomi et moi, c'est pour la vie !	game/ichoosemoguri.rpy	10
+Ichoosemoguri_b7a0073c	innerpov	Ah, je les vois !	game/ichoosemoguri.rpy	12
+Ichoosemoguri_f28072d0	chuen	Tiens, [povname] c'est bien ça ? Que fais-tu encore ici ?	game/ichoosemoguri.rpy	20
+Ichoosemoguri_492df1bd	pov	Et bien je... Enfin j'aurais voulu discuter avec Moguri !	game/ichoosemoguri.rpy	21
+Ichoosemoguri_cf6f0ff6	chuen	Ohoh ! Pas mal de succès Moguri à ce que je vois...	game/ichoosemoguri.rpy	23
+Ichoosemoguri_307d1d4f	mog	Ahahah arrête de le taquiner, regarde comme il rougit !	game/ichoosemoguri.rpy	26
+Ichoosemoguri_22872c84	mog	Ahahah arrête de la taquiner, regarde comme elle rougit !	game/ichoosemoguri.rpy	28
+Ichoosemoguri_0d26bcd1	mog	D'ailleurs je crois que tu ne connais pas Chuen ?	game/ichoosemoguri.rpy	30
+Ichoosemoguri_49529fa7	pov	Euh non, effectivement...	game/ichoosemoguri.rpy	31
+Ichoosemoguri_552496b0	mog	Et bien je te présente Chuenpodo, l'élève le plus brillant de notre Académie !	game/ichoosemoguri.rpy	32
+Ichoosemoguri_c0a4a172	chuen	Ahahah mais arrête enfin Moguri...	game/ichoosemoguri.rpy	34
+Ichoosemoguri_e6f2c245	mog	Il est aussi manager de l'équipe de cheerleaders de l'école, donc si tu veux l'intégrer, il faudra te présenter à lui.	game/ichoosemoguri.rpy	36
+Ichoosemoguri_6d6d5795	chuen	Effectivement, je te les présenterai demain après les cours si ça t'intéresse.	game/ichoosemoguri.rpy	38
+Ichoosemoguri_9738bfde	pov	Avec plaisir !	game/ichoosemoguri.rpy	39
+Ichoosemoguri_8a3599dd	mog	Parfait ! Donc tu voulais me parler de quelque chose ?	game/ichoosemoguri.rpy	41
+Ichoosemoguri_19e3b68b	pov	Oui... Enfin si ça ne te dérange pas.	game/ichoosemoguri.rpy	42
+Ichoosemoguri_1efd0479	mog	Bien sûr que non !	game/ichoosemoguri.rpy	44
+Ichoosemoguri_e9e9b562	chuen	Bon, et bien je vais y aller alors ! Bon courage [povname].	game/ichoosemoguri.rpy	46
+Ichoosemoguri_98cc9669	pov	Bon courage ?	game/ichoosemoguri.rpy	47
+Ichoosemoguri_7799f9ed	chuen	Et à demain !	game/ichoosemoguri.rpy	48
+Ichoosemoguri_cfcc82b4	mog	Je peux te raccompagner chez toi si tu veux, on discutera sur le chemin ?	game/ichoosemoguri.rpy	52
+Ichoosemoguri_8b695e26	pov	Allons-y !	game/ichoosemoguri.rpy	53
+Ichoosemoguri_3279f0e8		J'ai pas fini d'écrire, déso, clornide	game/ichoosemoguri.rpy	59
+Meeting_Metalice_f4d96e27	innerpov	Bon. Classe 103, classe 103...	game/Meeting_Metalice.rpy	6
+Meeting_Metalice_a1e2391d	innerpov	Ah voilà !	game/Meeting_Metalice.rpy	7
+Meeting_Metalice_8a87a35b	innerpov	Bon ben on y va alors !	game/Meeting_Metalice.rpy	8
+Meeting_Metalice_2e3f99ab	inc	Hep toi, le nouveau là-bas !	game/Meeting_Metalice.rpy	11
+Meeting_Metalice_4759306a	inc	Hep toi, la nouvelle là-bas !	game/Meeting_Metalice.rpy	13
+Meeting_Metalice_4283e7c3	met	Ah, salut ! C'est bien [povname] c'est ça ? Moi c'est Metalice !	game/Meeting_Metalice.rpy	17
+Meeting_Metalice_ce90dc41	met	J'ai été désignée pour être ta marraine à ton arrivée, donc si tu as la moindre question, n'hésite pas !	game/Meeting_Metalice.rpy	21
+Meeting_Metalice_5368dd3f	pov	Enchanté Metalice ! Je m'en remets à toi alors. 	game/Meeting_Metalice.rpy	24
+Meeting_Metalice_35855e0b	pov	Enchantée Metalice ! Je m'en remets à toi alors.	game/Meeting_Metalice.rpy	26
+Meeting_Metalice_27a351db	met	Alors, tu as pu faire connaissance avec quelques personnes ? J'ai vu que tu discutais avec Medoc et Moguri à l'entrée.	game/Meeting_Metalice.rpy	28
+Meeting_Metalice_6cbb9b9a	met	Tu ferais bien de te méfier de ces deux gaillards. Ils pensent que rien ni personne ne leur résiste.	game/Meeting_Metalice.rpy	29
+Meeting_Metalice_4de80d15	met	Et au vu de ta réaction, ils ont déjà fait forte impression sur toi apparemment, ahaha !	game/Meeting_Metalice.rpy	33
+Meeting_Metalice_5553f2ec	pov	Q-quoi ? Non pas du tout, ils m'ont juste surpris tout à l'heure, rien de plus !	game/Meeting_Metalice.rpy	38
+Meeting_Metalice_b7682026	pov	Q-quoi ? Non pas du tout, ils m'ont juste surprise tout à l'heure, rien de plus !	game/Meeting_Metalice.rpy	40
+Meeting_Metalice_748035e0	met	Oh arrête, pas à moi hein ! Je suis là pour te donner TOUTES sortes de conseils.	game/Meeting_Metalice.rpy	44
+Meeting_Metalice_b77d79fe	innerpov	Très subtil ce clin d'oeil...	game/Meeting_Metalice.rpy	45
+Meeting_Metalice_e75a021b	met	Alors, t'as flashé sur lequel ?	game/Meeting_Metalice.rpy	49
+Meeting_Metalice_676e5f07	met	Alors, t'as flashé sur lequel ?	game/Meeting_Metalice.rpy	51
+Meeting_Metalice_3f93aeac	met	Ah ! C'est vrai qu'il impressionne beaucoup de gens, mais il ne faut pas se laisser avoir, il se fait plus dur qu'il ne l'est vraiment !	game/Meeting_Metalice.rpy	70
+Meeting_Metalice_2500128a	pov	Ah bon ?	game/Meeting_Metalice.rpy	71
+Meeting_Metalice_047ce380	met	Il réagit surtout comme ça avec les gens qu'il apprécie. Il est plus protecteur qu'autre chose finalement !	game/Meeting_Metalice.rpy	75
+Meeting_Metalice_111de5f3	met	Tu ne l'as pas entendu de moi, hein !	game/Meeting_Metalice.rpy	77
+Meeting_Metalice_c69d0f89	pov	Et... Tu penses qu'il y aura moyen ?	game/Meeting_Metalice.rpy	79
+Meeting_Metalice_d1ad62e9	met	Et bien ! Je te trouve bien ambitieux pour tes premières heures à la Cosy Académie.	game/Meeting_Metalice.rpy	81
+Meeting_Metalice_dc168aa1	met	Et bien ! Je te trouve bien ambitieuse pour tes premières heures à la Cosy Académie.	game/Meeting_Metalice.rpy	83
+Meeting_Metalice_eae35a6d	pov	Non ! Ce n'est pas ce que je voulais dire. Enfin...	game/Meeting_Metalice.rpy	84
+Meeting_Metalice_e48dde0d	met	Ne t'en fais pas, je vois très bien ce que tu veux dire !	game/Meeting_Metalice.rpy	88
+Meeting_Metalice_187586a7	innerpov	Encore ce clin d'oeil...	game/Meeting_Metalice.rpy	89
+Meeting_Metalice_09081ccd	met	Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloqué sur ces deux là !	game/Meeting_Metalice.rpy	94
+Meeting_Metalice_5c857533	met	Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloquée sur ces deux là !	game/Meeting_Metalice.rpy	96
+Meeting_Metalice_e512190f	met	Moguri ? Doux et gentil ? Il est plus du genre à juger les gens d'habitude. Tu as du lui taper dans l'oeil !	game/Meeting_Metalice.rpy	101
+Meeting_Metalice_1564a9df	pov	Quoi ? V-vraiment ?	game/Meeting_Metalice.rpy	103
+Meeting_Metalice_5a98d121	met	Ahaha, oui vraiment ! Tu apprendras que je suis l'une des sources d'informations les plus fiables de l'école, tu peux me faire confiance !	game/Meeting_Metalice.rpy	105
+Meeting_Metalice_df419e91	pov	D'accord, merci ! Du coup, tu penses que... Enfin qu'il y a moyen quoi ?	game/Meeting_Metalice.rpy	107
+Meeting_Metalice_d1ad62e9_1	met	Et bien ! Je te trouve bien ambitieux pour tes premières heures à la Cosy Académie.	game/Meeting_Metalice.rpy	109
+Meeting_Metalice_dc168aa1_1	met	Et bien ! Je te trouve bien ambitieuse pour tes premières heures à la Cosy Académie.	game/Meeting_Metalice.rpy	111
+Meeting_Metalice_eae35a6d_1	pov	Non ! Ce n'est pas ce que je voulais dire. Enfin...	game/Meeting_Metalice.rpy	112
+Meeting_Metalice_e48dde0d_1	met	Ne t'en fais pas, je vois très bien ce que tu veux dire !	game/Meeting_Metalice.rpy	114
+Meeting_Metalice_187586a7_1	innerpov	Encore ce clin d'oeil...	game/Meeting_Metalice.rpy	115
+Meeting_Metalice_09081ccd_1	met	Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloqué sur ces deux là !	game/Meeting_Metalice.rpy	118
+Meeting_Metalice_5c857533_1	met	Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloquée sur ces deux là !	game/Meeting_Metalice.rpy	120
+Meeting_Metalice_27d30170	met	Mouais ! Si tu le dis...	game/Meeting_Metalice.rpy	126
+Meeting_Metalice_3b389e8d	met	Enfin bon tu as raison, ce ne sont pas les seuls étudiants de ce lycée. Aucune raison de rester bloqué sur ces deux là !	game/Meeting_Metalice.rpy	131
+Meeting_Metalice_f9275eb3	met	Enfin bon tu as raison, ce ne sont pas les seuls étudiants de ce lycée. Aucune raison de rester bloquée sur ces deux là !	game/Meeting_Metalice.rpy	133
+Meeting_Metalice_00a036ef	pov	D'ailleurs, ce serait possible de me présenter rapidement à d'autres élèves ?	game/Meeting_Metalice.rpy	136
+Meeting_Metalice_f17ac496	met	Bien sûr ! Mais pas là, on va arriver en retard, allons-y !	game/Meeting_Metalice.rpy	140
+Premiercours_2461d78b	inc	Aller aller, un peu de silence !	game/premierCours.rpy	4
+Premiercours_cd9f9708	mic	Bonjour à tous !	game/premierCours.rpy	8
+Premiercours_317175bf	tlm	Bonjour monsieur Max !	game/premierCours.rpy	9
+Premiercours_690370ae	mic	Asseyez-vous.	game/premierCours.rpy	10
+Premiercours_8ed00257	mic	Aujourd'hui, nous avons l'honneur d'accueillir un nouvel étudiant parmi nous.	game/premierCours.rpy	13
+Premiercours_1ac9c1eb	mic	Aujourd'hui, nous avons l'honneur d'accueillir une nouvelle étudiante parmi nous.	game/premierCours.rpy	15
+Premiercours_f68fcc0e	mic	[povname], tu veux bien venir au tableau te présenter quelques secondes ?	game/premierCours.rpy	16
+Premiercours_c3ca3180	pov	...	game/premierCours.rpy	17
+Premiercours_146bf60e	pov	Bien sûr monsieur Max...	game/premierCours.rpy	18
+Premiercours_2ffc6161		En parcourant brièvement la classe des yeux, j'essaie de graver toutes ces nouvelles têtes dans ma mémoire.	game/premierCours.rpy	19
+Premiercours_c618d2f9		Medoc et Moguri, évidemment...	game/premierCours.rpy	25
+Premiercours_64d93846		Metalice ! Ses renseignements de tout à l'heure vont m'être très utiles... Je pense m'être fait ma première amie !	game/premierCours.rpy	33
+Premiercours_d013fa68		Mais aussi d'autres personnes...	game/premierCours.rpy	37
+Premiercours_301a2d60		Celui là par exemple, dégage une aura de malfrat.	game/premierCours.rpy	41
+Premiercours_b8fa8c5c		Mais il étudie ici... Je ne pense pas qu'il soit si méchant que ça !	game/premierCours.rpy	42
+Premiercours_ee168d87		Ca ne me ressemble pas de juger sur les apparences pourtant...	game/premierCours.rpy	43
+Premiercours_25e3ae46		Bref.	game/premierCours.rpy	44
+Premiercours_47383db1	pov	Bonjour tout le monde. Mon nom est [povname] et c'est mon premier jour à l'Académie.	game/premierCours.rpy	48
+Premiercours_b1b897d8	pov	Mes passions sont la littérature, le cinéma et les jeux-vidéo...	game/premierCours.rpy	49
+Premiercours_36eca843	pov	Je suis ravi d'avoir été accepté dans cette classe, même si je ne suis pas aussi exceptionnel que v-	game/premierCours.rpy	51
+Premiercours_0aa78465	pov	Je suis ravie d'avoir été acceptée dans cette classe, même si je ne suis pas aussi exceptionnelle que v-	game/premierCours.rpy	53
+Premiercours_29a0a9bf		BLAM!!	game/premierCours.rpy	58
+Premiercours_4a20ede5	med	Bon t'as pas bientôt fini avec ses histoires de 'Je n'ai pas ma place ici, vous valez mieux que moi' ou je sais pas quoi !?	game/premierCours.rpy	59
+Premiercours_0b60e5f5	med	T'as pas écouté ce que t'a dit Moguri ou quoi ?!	game/premierCours.rpy	60
+Premiercours_cfb0bcf5	mog	C'est bon Medoc, lâche l'affaire.	game/premierCours.rpy	65
+Premiercours_af3a8f60	mog	Il ne pense clairement pas à mal, n'est-ce pas ?	game/premierCours.rpy	70
+Premiercours_ce8132fa	mog	Elle ne pense clairement pas à mal, n'est-ce pas ?	game/premierCours.rpy	72
+Premiercours_21fc055c	dieuv	Ouais Medoc, c'est son problème de confiance en lui, pas le tieng !	game/premierCours.rpy	78
+Premiercours_03c22e3a	dieuv	Ouais Medoc, c'est son problème de confiance en elle, pas le tieng !	game/premierCours.rpy	80
+Premiercours_28c5eaeb		Ce type a vraiment un drôle d'accent...	game/premierCours.rpy	82
+Premiercours_f6c3050e	dieuv	Même si on sait que t'es un pro pour t'approprier des trucs qui ne t'appartiennent pas...	game/premierCours.rpy	86
+Premiercours_536c7db4	med	Ah ouais ?! Répète ça pour voir ?	game/premierCours.rpy	94
+Premiercours_b0b94c54	dieuv	Un peu que je vais répéter peuchèreuh ! Tu crois que j'ai oublié pour Jeud-	game/premierCours.rpy	99
+Premiercours_2cef9bcb	met	Aller c'est bon ! Laissez tomber les gars ! Vous vous donnez en spectacle	game/premierCours.rpy	106
+Premiercours_d584273f	mic	Elle a raison... Rasseyez-vous les garçons, je croyais que c'était derrière vous tout ça...	game/premierCours.rpy	111
+Premiercours_585f24a9	mic	Quant à toi Metalice, tu as accompli ton rôle de déléguée à la perfection.	game/premierCours.rpy	115
+Premiercours_cb0b4045	met	Merci monsieur Max !	game/premierCours.rpy	120
+Premiercours_7787728b	mic	Tu peux retourner à ta place [povname], merci pour ta présentation.	game/premierCours.rpy	125
+Premiercours_3b1ab059	mic	Je suis désolé que tu aies eu à être témoin de cette altercation.	game/premierCours.rpy	127
+Premiercours_1502c69d	mic	Medoc, Dieuvomi, vous viendrez me voir à la fin du cours...	game/premierCours.rpy	129
+Premiercours_9e51ae6c	med	Tch.	game/premierCours.rpy	136
+Premiercours_1ed112f4	dieuv	Mmmm.	game/premierCours.rpy	141
+Premiercours_4e872dca	mic	Bien ! Ouvrez vos livres page 77, on va commencer la trigonométrie...	game/premierCours.rpy	146
+Premiercours_66c93fe1	mic	Aller, ce sera tout pour aujourd'hui, vous pouvez y aller !	game/premierCours.rpy	151
+Premiercours_e570f279	mic	Sauf vous, Medoc et Dieuvomi, évidemment...	game/premierCours.rpy	153
+Premiercours_7e810a09	met	Bon. Et bien c'était une grosse première journée pour toi n'est-ce pas ?	game/premierCours.rpy	158
+Premiercours_0130c554	pov	Oui on peut dire ça...	game/premierCours.rpy	159
+Premiercours_c3d528b6	pov	Dis, c'était qui ce type au style de voyou, avec l'accent exotique ?	game/premierCours.rpy	161
+Premiercours_8b327013	met	Dieuvomi ? C'est pas VRAIMENT un voyou, c'est juste un style qu'il se donne.	game/premierCours.rpy	163
+Premiercours_676a3279	met	Il ne te fera jamais de mal, à moins que tu sois un apocope de bandage pneumatique	game/premierCours.rpy	165
+Premiercours_2c287f00	pov	Un quoi ?	game/premierCours.rpy	166
+Premiercours_fb29d662	met	Un pneu. Il a un souci avec ça je crois, il aime beaucoup les crever.	game/premierCours.rpy	168
+Premiercours_fb9d9f5c	met	Il s'est débarassé d'un gang qui gangrenait la ville à lui tout seul d'ailleurs !	game/premierCours.rpy	170
+Premiercours_3e33be26	pov	Je t'avoue que je ne vois pas particulièrement le rapport...	game/premierCours.rpy	171
+Premiercours_7233327d	met	La spécificité de ce gang était que ses membres ne se déplaçaient qu'en BMX. Leur principale méthode d'agression était de rouler sur leurs victimes...	game/premierCours.rpy	173
+Premiercours_e6020194	pov	Mais... C'est stupide ?	game/premierCours.rpy	174
+Premiercours_8a5a9e6f	met	Peut être, mais ça fait mal !	game/premierCours.rpy	176
+Premiercours_c77a659f	met	Dieuvomi a crevé tous les pneus de tous les BMX du gang en l'espace d'une heure, en pleine nuit...	game/premierCours.rpy	177
+Premiercours_d49d1c8e	pov	Ouaaaaah...	game/premierCours.rpy	178
+Premiercours_67d7b925	met	N'est-ce pas ? Du coup, sans pneus, le gang s'est dissout de lui même. C'est aussi pour ça qu'il est aussi respecté !	game/premierCours.rpy	180
+Premiercours_7550fdfe	met	Et autre point de détail de cette anecdote, le leader de ce gang était un cousin de Medoc...	game/premierCours.rpy	181
+Premiercours_74a4d3f2	pov	Aaaaaah ! C'est donc de là que vient cette animosité entre eux ?	game/premierCours.rpy	182
+Premiercours_1d30f218	met	Pas du tout ! Medoc ne tolérait absolument pas les agissements de son cousin.	game/premierCours.rpy	184
+Premiercours_00b7abe9	pov	D'où est-ce que ça vient alors ?	game/premierCours.rpy	185
+Premiercours_6ee3f07c	met	On n'aime pas trop en parler ici... Ca nous rappelle des événements un peu sombre. Tu l'apprendras bien assez tôt je pense.	game/premierCours.rpy	187
+Premiercours_c3ca3180_1	pov	...	game/premierCours.rpy	188
+Premiercours_3ac30cf7	met	Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?	game/premierCours.rpy	190
+Premiercours_9d2f04fb	met	Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?	game/premierCours.rpy	192
+Premiercours_3eefa7ff	met	On y va alors !	game/premierCours.rpy	199
+Premiercours_5cd529df	met	Ahaha ! L'intervention de ton preux chevalier ne t'a pas laissé indifférent à ce que je vois.	game/premierCours.rpy	208
+Premiercours_5ad9655c	met	Ahaha ! L'intervention de ton preux chevalier ne t'a pas laissée indifférente à ce que je vois.	game/premierCours.rpy	210
+Premiercours_cdc5532b	pov	Ce n'est pas mon preux chevalier... Je voulais juste le remercier, c'est tout. C'était très sympathique ce qu'il a fait...	game/premierCours.rpy	212
+Premiercours_ce028390	met	Heroïque presque ?	game/premierCours.rpy	214
+Premiercours_d8824415	pov	Oh, ça suffit hein !!	game/premierCours.rpy	216
+Premiercours_33120ab6	met	Allez, je te laisse aller lui parler alors. On se revoit demain ?	game/premierCours.rpy	219
+Premiercours_61cbb027	pov	Bien sûr ! A demain Metalice !	game/premierCours.rpy	220
+Premiercours_732b3fa3	met	Ahaha ! Son petit discours sur la confiance en soi t'as à ce point atteint ?	game/premierCours.rpy	231
+Premiercours_6dc5e4d1	pov	Il ne m'a pas atteint ! Je veux juste m'expliquer un peu avec lui...	game/premierCours.rpy	233
+Premiercours_a2f62025	met	Ahaha ! Son petit discours sur la confiance en soi t'as à ce point atteinte ?	game/premierCours.rpy	236
+Premiercours_2bf71456	pov	Il ne m'a pas atteinte ! Je veux juste m'expliquer un peu avec lui...	game/premierCours.rpy	238
+Premiercours_343e9df0	met	Très bien, alors je te laisse ''t'expliquer''.	game/premierCours.rpy	240
+Premiercours_d8824415_1	pov	Oh, ça suffit hein !!	game/premierCours.rpy	242
+Premiercours_9127f857	met	Allez, j'arrête de t'embêter ! On se revoit demain ?	game/premierCours.rpy	244
+Premiercours_61cbb027_1	pov	Bien sûr ! A demain Metalice !	game/premierCours.rpy	245
+Rentreavecmetalice_8bf9f1b9	innerpov	J'ai pas fini d'écrire, déso, clornide	game/rentreavecmetalice.rpy	6
+start_09f6a851	innerpov	OK.	game/script.rpy	114
+start_d0609860	innerpov	C'est une journée comme les autres.	game/script.rpy	115
+start_70fab553	innerpov	Aucun enjeu particulier.	game/script.rpy	116
+start_fd38ddaf	pov	Souffle.	game/script.rpy	117
+start_a10507cb	innerpov	Certes, c'est une académie d'élite, et je ne croiserai que les plus grands de ce pays.	game/script.rpy	118
+start_5be30cdb	innerpov	Mais si je suis là, c'est que je l'ai mérité, non ?	game/script.rpy	119
+start_0babc605	innerpov	Personne ne me jugera, ils sont tous passés par là.	game/script.rpy	120
+start_d0609860_1	innerpov	C'est une journée comme les autres.	game/script.rpy	121
+start_02627609	innerpov	...	game/script.rpy	122
+start_cb3b4963	innerpov	Je sais que c'est un mensonge.	game/script.rpy	123
+start_c7b8c200	innerpov	C'est ma première journée à la Cosy Académie, un tournant dans ma vie.	game/script.rpy	124
+start_63a174ba	innerpov	Si je me plante je peux tout foutre en l'air...	game/script.rpy	125
+start_02627609_1	innerpov	...	game/script.rpy	126
+start_15c5fe3d	pov	Aaaaargh mais qu'est ce que je fais ic- !!	game/script.rpy	127
+start_f80eedd6		BOOONG!!!!!	game/script.rpy	133
+start_7913e60e	pov	Hey !! Mais ça va pas de foncer dans les gens comme ç- !?	game/script.rpy	135
+start_e74aba4f	pov	Oh non....	game/script.rpy	137
+start_7769b2d7	pov	C'est Moguri...	game/script.rpy	138
+start_55ee2c69	pov	Mais s'il est ici, ça veut dire que...	game/script.rpy	139
+start_f80eedd6_1		BOOONG!!!!!	game/script.rpy	145
+start_9c7c6e4b	pov	C'est pas vrai...	game/script.rpy	151
+start_e8f4646d	pov	Medoc et Moguri. Dès mon premier jour, je tombe sur eux.	game/script.rpy	152
+start_02413ff7	pov	Littéralement en plus.	game/script.rpy	153
+start_bb9c87b6	pov	Moi qui voulais faire une rentrée à peu près discrète, c'est rapé.	game/script.rpy	154
+start_9460f216	med	Dis donc, tu comptes nous fixer longtemps, comme ça ?	game/script.rpy	158
+start_de420711	pov	Je... Non, bien sûr, excusez-moi, c'est juste que...	game/script.rpy	159
+start_3101df86	mog	Ahahah mais enfin Medoc, laisse-le ! Regarde comme il a l'air stressé !	game/script.rpy	164
+start_5810d303	mog	Ahahah mais enfin Medoc, laisse-la ! Regarde comme elle a l'air stressée !	game/script.rpy	166
+start_315bbba4	mog	Bienvenue à la Cosy Académie, gamine. Ne t'inquiète pas, on n'est pas tous aussi bourru que lui !	game/script.rpy	173
+start_b436510a	innerpov	Je suis presque sûre qu'on a le même âge, mais le fait qu'il m'appelle gamine ne me déplait pas particulièrement.	game/script.rpy	174
+start_1d5a65a9	pov	Aaaah, merci... Je tâcherai de me faire plus discrete, désolée !	game/script.rpy	175
+start_08d1ec7e	mog	Mais non enfin ! Si tu es ici, c'est que tu as ta place. Aucune raison de se faire discrète !	game/script.rpy	176
+start_f89e2c56	mog	Bienvenue à la Cosy Académie, gamin. Ne t'inquiète pas, on n'est pas tous aussi bourru que lui !	game/script.rpy	178
+start_8a9a3981	innerpov	Je suis presque sûr qu'on a le même âge, mais le fait qu'il m'appelle gamin ne me déplait pas particulièrement.	game/script.rpy	179
+start_76e0b52c	pov	Aaaah, merci... Je tâcherai de me faire plus discret, désolé !	game/script.rpy	180
+start_d3c6da97	mog	Mais non enfin ! Si tu es ici, c'est que tu as ta place. Aucune raison de se faire discret !	game/script.rpy	181
+start_ebd77b02	mog	Sur ce... On va y aller, il s'agirait pas d'arriver en retard ! A plus tard p'tite tête !	game/script.rpy	187
+start_9e51ae6c	med	Tch.	game/script.rpy	194
+start_1b4caecf	med	Moguri a raison. Tout le monde n'est pas aussi bourru que moi...	game/script.rpy	195
+start_a43f165f	med	Mais attention.	game/script.rpy	196
+start_61b38d8c	med	Tout le monde n'est pas aussi indulgent que lui...	game/script.rpy	199
+start_65d9ea28	pov	Gloups.	game/script.rpy	201
+start_b60195a7	pov	Ouch... Près... Très près. Trop près ?	game/script.rpy	203
+start_90ee3530	pov	Pas vraiment.	game/script.rpy	204
+start_2b9f4701	med	Allez. Fais attention à toi.	game/script.rpy	209
+start_070c2156	pov	Ouf.	game/script.rpy	213
+start_692315ab	pov	Ca commence fort.	game/script.rpy	214
+start_07b4a888	pov	Même de dos ils sont impressionants...	game/script.rpy	215
+start_524b94b5	pov	Aller, ça va le faire ! On y va !	game/script.rpy	216

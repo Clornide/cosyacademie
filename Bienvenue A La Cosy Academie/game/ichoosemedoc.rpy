@@ -1,8 +1,8 @@
 label Ichoosemedoc:
     scene couloir with fade
-    show Medoc Standard Triste with fade
+    show Medoc Standard Triste with dissolve
 
 
-    innerpov "test mon gars"
+    innerpov "J'ai pas fini d'écrire, déso, clornide"
 
     return

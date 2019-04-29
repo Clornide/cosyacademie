@@ -54,8 +54,57 @@ label Ichoosemoguri:
 
     scene ruesoleilnormal with longfade
 
-    show Moguri Standard Sourire
+    show Moguri Standard Sourire with dissolve
 
-    "J'ai pas fini d'écrire, déso, clornide"
+    mog "Tu voulais me parler de quelque chose donc ?"
+    pov "Je voulais juste te remercier de m'avoir défendu tout à l'heure."
+
+    show Moguri BrasCroises Badboy
+
+    mog "Sans vouloir paraître désagréable, je ne suis pas vraiment intervenu pour toi..."
+    mog "Je sais très bien que ce genre de comportements agace Medoc, j'ai voulu désamorcer la situation avant que ça ne dégénère."
+
+    show Moguri BrasCroises Degoute
+
+    mog "A vrai dire ton comportement m'énerve un peu aussi, mais je ne peux pas y faire grand chose, le changement doit venir de toi, pas des autres."
+
+    if sex=="m":
+        pov "D-désolé..."
+    else:
+        pov "D-désolée..."
+
+    show Moguri BrasCroises Colere
+
+    mog "Tu vois, tu recommences !"
+    show Moguri BrasCroises Triste
+
+    mog "Tu fais partie de la Cosy Académie maintenant, il faut arrêter de s'écraser comme ça..."
+    mog "Il va falloir changer. Je comprends que le début soit compliqué pour toi, mais sache que ton comportements affecte d'autres personnes."
+
+    show Moguri Standard Badboy
+    mog "Et ça, je ne peux pas l'accepter."
+    mog "Je te laisse."
+
+    hide Moguri with dissolve
+
+    innerpov "Je ne peux pas le laisser partir... Pas maintenant."
+
+    pov "MOGURI ! ATTENDS !!"
+
+    show Moguri Standard Badboy with dissolve
+
+    pov "Je veux changer... Vraiment ! Mais je pense qu'il va me faloir de l'aide..."
+    pov "Et si possible, j'aimerai que la personne qui m'aide... Ce soit toi."
+
+    show Moguri BrasCroises Yeuxfermes Rougit
+
+    mog "M-moi ?"
+
+    innerpov "Tiens, je ne m'attendais pas à cette réaction..."
+
+    show Moguri BrasCroises Badboy Rougit
+
+    mog "Je ne suis peut être pas la personne la mieux placé pour t'aider sur ce point..."
+
 
     return

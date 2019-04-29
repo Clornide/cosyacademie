@@ -3,6 +3,6 @@ label Rentreavecmetalice:
     show Metalice Standard Sourire Yeuxfermes
 
 
-    innerpov "test mon gars"
+    innerpov "J'ai pas fini d'écrire, déso, clornide"
 
     return
