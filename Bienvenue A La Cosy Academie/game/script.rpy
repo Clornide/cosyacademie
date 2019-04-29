@@ -12,6 +12,7 @@ image side player = ConditionSwitch("sex==\"m\"", "boy.png", "True", "girl.png")
 
 #fonds
 image classePhysique = "classePhysique.jpg"
+image reverie = "reverie.jpg"
 
 # Déclarez les personnages utilisés dans le jeu.
 
