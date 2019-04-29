@@ -3,15 +3,12 @@ label Premiercours:
 
     inc "Aller aller, un peu de silence !"
 
-    show mickeyPoseStandardSourire with fade
+    show Mickey Standard Sourire Yeuxfermes with dissolve
 
     mic "Bonjour à tous !"
     tlm "Bonjour monsieur Max !"
     mic "Asseyez-vous."
-
-    hide mickeyPoseStandardSourire
-    show mickeyPoseStandardBadBoy
-
+    show Mickey Standard Badboy
     if sex=="m":
         mic "Aujourd'hui, nous avons l'honneur d'accueillir un nouvel étudiant parmi nous."
     else:
@@ -20,33 +17,33 @@ label Premiercours:
     pov "..."
     pov "Bien sûr monsieur Max..."
     "En parcourant brièvement la classe des yeux, j'essaie de graver toutes ces nouvelles têtes dans ma mémoire."
+    hide Mickey
 
-    hide mickeyPoseStandardBadBoy
-
-    show moguriBrasCroisesSourireYeuxFermes at right
-    show medocPoseStandardSourireYeuxFermes at left
+    show Moguri BrasCroises Sourire at right
+    show Medoc Standard Sourire at left
 
     "Medoc et Moguri, évidemment..."
 
-    hide medocPoseStandardSourireYeuxFermes at left
-    hide moguriBrasCroisesSourireYeuxFermes at right
+    hide Medoc
 
-    show metalicePoseCoucouSourireYeuxFermes
+    hide Moguri
+
+    show Metalice PoseCoucou Sourire Yeuxfermes
 
     "Metalice ! Ses renseignements de tout à l'heure vont m'être très utiles... Je pense m'être fait ma première amie !"
 
-    hide metalicePoseCoucouSourireYeuxFermes
+    hide Metalice
 
     "Mais aussi d'autres personnes..."
 
-    show dieuvBrasCroisesDegoute
+    show Dieuvomi BrasCroises Triste
 
     "Celui là par exemple, dégage une aura de malfrat."
     "Mais il étudie ici... Je ne pense pas qu'il soit si méchant que ça !"
     "Ca ne me ressemble pas de juger sur les apparences pourtant..."
     "Bref."
 
-    hide dieuvBrasCroisesDegoute
+    hide Dieuvomi
 
     pov "Bonjour tout le monde. Mon nom est [povname] et c'est mon premier jour à l'Académie."
     pov "Mes passions sont la littérature, le cinéma et les jeux-vidéo..."
@@ -56,190 +53,195 @@ label Premiercours:
         pov "Je suis ravie d'avoir été acceptée dans cette classe, même si je ne suis pas aussi exceptionnelle que v-"
 
     with shortflash
-    show medocPosePoingsColere with shortflash
+    show Medoc PosePoings Degoute with shortflash
 
     "BLAM!!"
     med "Bon t'as pas bientôt fini avec ses histoires de 'Je n'ai pas ma place ici, vous valez mieux que moi' ou je sais pas quoi !?"
     med "T'as pas écouté ce que t'a dit Moguri ou quoi ?!"
 
-    hide medocPosePoingsColere
-    show moguriBrasCroisesDegoute
+    hide Medoc
+    show Moguri BrasCroises Triste
 
     mog "C'est bon Medoc, lâche l'affaire."
 
-    hide moguriBrasCroisesDegoute
-    show moguriBrasCroisesSourireYeuxFermes
+    show Moguri BrasCroises Sourire
 
     if sex=="m":
         mog "Il ne pense clairement pas à mal, n'est-ce pas ?"
     else:
         mog "Elle ne pense clairement pas à mal, n'est-ce pas ?"
 
-    hide moguriBrasCroisesSourireYeuxFermes
-    show dieuvBrasCroisesColere
+    hide Moguri
+    show Dieuvomi BrasCroises Colere
 
     if sex=="m":
-        inc "Ouais Medoc, c'est son problème de confiance en lui, pas le tieng !"
+        dieuv "Ouais Medoc, c'est son problème de confiance en lui, pas le tieng !"
     else:
-        inc "Ouais Medoc, c'est son problème de confiance en elle, pas le tieng !"
+        dieuv "Ouais Medoc, c'est son problème de confiance en elle, pas le tieng !"
 
     "Ce type a vraiment un drôle d'accent..."
 
-    hide dieuvBrasCroisesColere
-    show dieuvBrasCroisesSourireYeuxFermes
+    show Dieuvomi BrasCroises Sourire
 
-    inc "Même si on sait que t'es un pro pour t'approprier des trucs qui ne t'appartiennent pas..."
+    dieuv "Même si on sait que t'es un pro pour t'approprier des trucs qui ne t'appartiennent pas..."
 
-    hide dieuvBrasCroisesSourireYeuxFermes
-    show medocPosePoingsColere
+    show Dieuvomi BrasCroises Triste
+
+    hide Dieuvomi
+
+    show Medoc PosePoings Colere
 
     med "Ah ouais ?! Répète ça pour voir ?"
 
-    hide medocPosePoingsColere
-    show dieuvBrasCroisesColere
+    hide Medoc
+    show Dieuvomi BrasCroises Colere
 
-    inc "Un peu que je vais répéter peuchèreuh ! Tu crois que j'ai oublié pour Jeud-"
+    dieuv "Un peu que je vais répéter peuchèreuh ! Tu crois que j'ai oublié pour Jeud-"
 
-    hide dieuvBrasCroisesColere
-
+    hide Dieuvomi
     with shortflash
     with shortflash
-
-    show metalicePoseCoucouColereRougit
+    show Metalice Standard Colere Rougit
 
     met "Aller c'est bon ! Laissez tomber les gars ! Vous vous donnez en spectacle"
 
-    hide metalicePoseCoucouColereRougit
-    show mickeyPoseStandardColere
+    hide Metalice
+    show Mickey Standard Colere
 
     mic "Elle a raison... Rasseyez-vous les garçons, je croyais que c'était derrière vous tout ça..."
 
-    hide mickeyPoseStandardColere
-    show mickeyPoseStandardSourireYeuxFermes
+    show Mickey Standard Sourire
 
     mic "Quant à toi Metalice, tu as accompli ton rôle de déléguée à la perfection."
 
-    hide mickeyPoseStandardSourireYeuxFermes
-    show metalicePoseCoucouSourireYeuxFermes
+    hide Mickey
+    show Metalice Standard Sourire Yeuxfermes
 
     met "Merci monsieur Max !"
 
-    hide metalicePoseCoucouSourireYeuxFermes
-    show mickeyPoseStandardSourire
+    hide Metalice
+    show Mickey Standard Sourire Yeuxfermes
 
     mic "Tu peux retourner à ta place [povname], merci pour ta présentation."
-
-    hide mickeyPoseStandardSourire
-    show mickeyPoseStandardBadBoy
-
+    show Mickey Standard Badboy
     mic "Je suis désolé que tu aies eu à être témoin de cette altercation."
-
-    hide mickeyPoseStandardBadBoy
-    show mickeyPoseStandardDegoute
-
+    show Mickey Standard Triste
     mic "Medoc, Dieuvomi, vous viendrez me voir à la fin du cours..."
+    python:
 
-    hide mickeyPoseStandardDegoute
-    show medocPoseStandardDegoute
+        name_dieuvomi = "Dieuvomi"
+    hide Mickey
+    show Medoc Standard Badboy
 
     med "Tch."
 
-    hide medocPoseStandardDegoute
-    show dieuvBrasCroisesDegoute
+    hide Medoc
+    show Dieuvomi BrasCroises Badboy
 
     dieuv "Mmmm."
 
-    hide dieuvBrasCroisesDegoute
-    show mickeyPoseStandardSourire
+    hide Dieuvomi deg
+    show Mickey Standard Sourire Yeuxfermes
 
     mic "Bien ! Ouvrez vos livres page 77, on va commencer la trigonométrie..."
 
-    hide mickeyPoseStandardSourire
-    show mickeyPoseStandardSourireYeuxFermes
-
+    show Mickey Standard Sourire
     with longfade
 
     mic "Aller, ce sera tout pour aujourd'hui, vous pouvez y aller !"
-
-    hide mickeyPoseStandardSourireYeuxFermes
-    show mickeyPoseStandardDegoute
-
+    show Mickey Standard Degoute
     mic "Sauf vous, Medoc et Dieuvomi, évidemment..."
 
-    hide mickeyPoseStandardDegoute
-
     scene couloir with fade
-    show metalicePoseCoucouSourireYeuxFermes
+    show Metalice Standard Sourire Yeuxfermes
 
     met "Bon. Et bien c'était une grosse première journée pour toi n'est-ce pas ?"
     pov "Oui on peut dire ça..."
-
-    hide metalicePoseCoucouSourireYeuxFermes
-    show metalicePoseCoucouSourire
-
+    show Metalice Standard Sourire
     pov "Dis, c'était qui ce type au style de voyou, avec l'accent exotique ?"
-
-    hide metalicePoseCoucouSourire
-    show metalicePoseCoucouCligne
-
+    show Metalice PoseCoucou Cligne
     met "Dieuvomi ? C'est pas VRAIMENT un voyou, c'est juste un style qu'il se donne."
-
-    hide metalicePoseCoucouCligne
-    show metalicePoseCoucouSourire
-
+    show Metalice Standard Sourire
     met "Il ne te fera jamais de mal, à moins que tu sois un apocope de bandage pneumatique"
     pov "Un quoi ?"
-
-    hide metalicePoseCoucouSourire
-    show metalicePoseCoucouDegoute
-
+    show Metalice Standard Degoute
     met "Un pneu. Il a un souci avec ça je crois, il aime beaucoup les crever."
-
-    hide metalicePoseCoucouDegoute
-    show metalicePoseCoucouSourire
-
+    show Metalice Standard Sourire
     met "Il s'est débarassé d'un gang qui gangrenait la ville à lui tout seul d'ailleurs !"
     pov "Je t'avoue que je ne vois pas particulièrement le rapport..."
-
-    hide metalicePoseCoucouSourire
-    show metalicePoseCoucouCligne
-
+    show Metalice PoseCoucou Cligne
     met "La spécificité de ce gang était que ses membres ne se déplaçaient qu'en BMX. Leur principale méthode d'agression était de rouler sur leurs victimes..."
     pov "Mais... C'est stupide ?"
-
-    hide metalicePoseCoucouCligne
-    show metalicePoseCoucouSourireYeuxFermes
-
+    show Metalice PoseCoucou Sourire Yeuxfermes
     met "Peut être, mais ça fait mal !"
     met "Dieuvomi a crevé tous les pneus de tous les BMX du gang en l'espace d'une heure, en pleine nuit..."
     pov "Ouaaaaah..."
-
-    hide metalicePoseCoucouSourireYeuxFermes
-    show metalicePoseCoucouSourire
-
+    show Metalice Standard Sourire
     met "N'est-ce pas ? Du coup, sans pneus, le gang s'est dissout de lui même. C'est aussi pour ça qu'il est aussi respecté !"
     met "Et autre point de détail de cette anecdote, le leader de ce gang était un cousin de Medoc..."
     pov "Aaaaaah ! C'est donc de là que vient cette animosité entre eux ?"
-
-    hide metalicePoseCoucouSourire
-    show metalicePoseCoucouSourireYeuxFermes
-
+    show Metalice PoseCoucou Sourire Yeuxfermes
     met "Pas du tout ! Medoc ne tolérait absolument pas les agissements de son cousin."
     pov "D'où est-ce que ça vient alors ?"
-
-    hide metalicePoseCoucouSourireYeuxFermes
-    show metalicePoseCoucouTriste
-
+    show Metalice Standard Triste
     met "On n'aime pas trop en parler ici... Ca nous rappelle des événements un peu sombre. Tu l'apprendras bien assez tôt je pense."
     pov "..."
-
-    hide metalicePoseCoucouTriste
-    show metalicePoseCoucouSourireYeuxFermes
-
+    show Metalice PoseCoucou Sourire Yeuxfermes
     met "Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?"
 
-    pause 3
+    menu:
 
-    hide metalicePoseCoucouSourireYeuxFermes
+        met "Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?"
 
-    jump coursPhysique
+        "Allez ! Je te suis !":
+            python:
+                acomp="Met"
+            met "On y va alors !"
+            jump Rentreavecmetalice
+
+        "J'aurais voulu remercier Moguri pour s'être interposer tout à l'heure...":
+            python:
+                acomp="Mog"
+                pointsmoguri+=1
+            show Metalice PoseCoucou Sourire Yeuxfermes
+            if sex=="m":
+                met "Ahaha ! L'intervention de ton preux chevalier ne t'a pas laissé indifférent à ce que je vois."
+            else:
+                met "Ahaha ! L'intervention de ton preux chevalier ne t'a pas laissée indifférente à ce que je vois."
+
+            pov "Ce n'est pas mon preux chevalier... Je voulais juste le remercier, c'est tout. C'était très sympathique ce qu'il a fait..."
+            show Metalice Standard Cligne
+            met "Heroïque presque ?"
+
+            pov "Oh, ça suffit hein !!"
+            show Metalice Standard Sourire
+
+            met "Allez, je te laisse aller lui parler alors. On se revoit demain ?"
+            pov "Bien sûr ! A demain Metalice !"
+
+            jump Ichoosemoguri
+
+        "Si ça ne te dérange pas, j'aimerai bien attendre un peu Medoc...":
+            python:
+                acomp="Med"
+                pointsmedoc+=1
+
+            if sex=="m":
+                show Metalice PoseCoucou Sourire Yeuxfermes
+                met "Ahaha ! Son petit discours sur la confiance en soi t'as à ce point atteint ?"
+
+                pov "Il ne m'a pas atteint ! Je veux juste m'expliquer un peu avec lui..."
+            else:
+                show Metalice PoseCoucou Sourire Yeuxfermes
+                met "Ahaha ! Son petit discours sur la confiance en soi t'as à ce point atteinte ?"
+
+                pov "Il ne m'a pas atteinte ! Je veux juste m'expliquer un peu avec lui..."
+            show Metalice Standard Cligne
+            met "Très bien, alors je te laisse ''t'expliquer''."
+
+            pov "Oh, ça suffit hein !!"
+            show Metalice Standard Sourire
+            met "Allez, j'arrête de t'embêter ! On se revoit demain ?"
+            pov "Bien sûr ! A demain Metalice !"
+            jump Ichoosemedoc
+    return

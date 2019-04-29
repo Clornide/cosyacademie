@@ -2,72 +2,55 @@ label coursPhysique:
     play music wonderful
     scene classePhysique with fade
    
-    show dieuvBrasCroisesBadBoy
+    show Dieuvomi BrasCroises Badboy
     dieuv "Ouah le prof est pas là !"
     
-    hide dieuvBrasCroisesBadBoy
-    show metalicePoseCoucouTriste
+    hide Dieuvomi
+    show Metalice PoseCoucou Degoute
     
     met "Quoi ??"
-
-    hide metalicePoseCoucouTriste
-    show metalicePoseCoucouCligneRougit
-
+    
+    show Metalice PoseCoucou Cligne Rougit
     met "J'aime tellement la physique..."
 
-    hide metalicePoseCoucouCligneRougit
-    show dieuvBrasCroisesBadBoy
+    hide Metalice
+    show Dieuvomi BrasCroises Badboy
 
     dieuv "Ben s'il est pas là, je m'en vais !"
+    hide Dieuvomi
+    show Foulk Standard Colere
 
-    hide dieuvBrasCroisesBadBoy
-    show medocPoseStandardBadBoy
-
-    med "Normallement il faut attendre 15 min !"
-    med "Et de toutes façons, c'est le prof qui a les clés, on est coincés ici..."    
+    foulk "Normallement il faut attendre 15 min !"
+    foulk "Et de toutes façons, c'est le prof qui a les clés, on est coincés ici..."    
     
-    hide medocPoseStandardBadBoy
-    show dieuvBrasCroisesBadBoy
+    hide Foulk
+    show Dieuvomi BrasCroises Badboy
     
     dieuv "Pfft ..."
     dieuv "Ben moi, je veux me tirer d'ici !"
-
-    hide dieuvBrasCroisesBadBoy
-
+    hide Dieuvomi
     innerpov "Quel rebelle ce Dieuvomi !"
-
-    show dieuvBrasCroisesBadBoy
-
-    dieuv "Allez medoc, va demander si le prof est là !"
-
-    hide dieuvBrasCroisesBadBoy
-
+    show Dieuvomi BrasCroises Badboy
+    dieuv "Allez medoc, va demander si le prof est là !"    
+    hide Dieuvomi
     stop music 
     play music haunted fadein 1.0
 
-    show medocPoseStandardSourire
+    show Medoc Standard Sourire
     med "Bon ok...."
     med "Alors..."
-
-    hide medocPoseStandardSourire
-    show medocPoseStandardSourireYeuxFermes
-
+    show Medoc Standard Sourire Yeuxfermes
     med "Esprism... Es-tu là ?"
     inc "kr kr krr"
     play sound woosh
-
-    hide medocPoseStandardSourireYeuxFermes
-    show esprism at left
-
+    hide Medoc
+    show Esprism at left
     with flash   
     esprism "Mais oui Je suis là !"
     esprism "Asseyez-vous !"
 
     stop music fadeout 1.0
 
+
     pause 3
-
-    hide esprism at left
-
-    jump coursPhysique
     return

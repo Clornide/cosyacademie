@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialisation
 ################################################################################
 
@@ -114,7 +114,91 @@ screen say(who, what):
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
     if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+        add SideImage() xalign 0.0 yalign 0.0 xoffset 155 yoffset 687
+
+
+screen say_chuen(who, what):
+    style_prefix "say"
+
+    window:
+        id "window"
+        background "gui/textbox_chuen.png"
+        if who is not None:
+
+            window:
+                id "namebox"
+                style "chuen_namebox"
+                background Frame("gui/namebox_chuen.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
+                text who:
+                  outlines [ (3, "#eee2", 0, 0), (2, "#eee4", 0, 0),  (1, "#eee8", 0, 0) ]
+                  drop_shadow [(3, 3)]
+                  id "who"
+
+        text what:
+          outlines [ (3, "#eee2", 0, 0), (2, "#eee4", 0, 0),  (1, "#eee8", 0, 0) ]
+          drop_shadow [(3, 3)]
+          id "what"
+
+
+    ## If there's a side image, display it above the text. Do not display on the
+    ## phone variant - there's no room.
+    if not renpy.variant("small"):
+        add SideImage() xalign 0.0 yalign 0.0 xoffset 155 yoffset 687
+
+
+screen say_von(who, what):
+    style_prefix "say"
+
+    window:
+        id "window"
+
+
+        if who is not None:
+            window:
+                xalign 1.0 xoffset -400
+                id "namebox"
+                style "namebox"
+                text who:
+                  font "Deutsch-webfont.ttf"
+                  size 37
+                  id "who"
+
+
+        text what:
+          id "what" xanchor 1.0 xalign 0.8
+          font "Squealer.ttf"
+          size 42
+
+
+
+    ## If there's a side image, display it above the text. Do not display on the
+    ## phone variant - there's no room.
+    if not renpy.variant("small"):
+        add SideImage() xalign 1.0 yalign 0.0 xoffset -106 yoffset 687
+
+screen say_innerpov(who, what):
+    style_prefix "say"
+
+    window:
+        id "window"
+        background "gui/textbox_thoughts.png"
+
+        if who is not None:
+
+            window:
+                id "namebox"
+                style "namebox"
+                background Frame("gui/namebox_thoughts.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
+                text who id "who"
+
+        text what id "what"
+
+
+    ## If there's a side image, display it above the text. Do not display on the
+    ## phone variant - there's no room.
+    if not renpy.variant("small"):
+        add SideImage() xalign 0.0 yalign 0.0 xoffset 155 yoffset 687
+
 
 
 ## Make the namebox available for styling through the Character object.
@@ -154,6 +238,7 @@ style say_label:
     properties gui.text_properties("name", accent=True)
     xalign gui.name_xalign
     yalign 0.5
+    size 30
 
 style say_dialogue:
     properties gui.text_properties("dialogue")
@@ -564,7 +649,7 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Conçu avec {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nCe Visual Novel a été créé sur le temps libre de p'tits Cosys. \n\nArts: Din. \n\nScript: Din, Samael, Dieuvomi, Kupowy, Clornide. \n\nRelecture: Din, Dieuvomi. \n\nProgrammation: Clornide.")
+            text _("Conçu avec {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nCe Visual Novel a été créé sur le temps libre de p'tits Cosys. \n\Création des personnages: din. \n\nScript: Samael, Dieuvomi, Kupowy, Clornide. \n\nRelecture: Din, Dieuvomi. \n\nConception: Ze_Pilot, Kupowy.")
 
 
 ## Ceci est généralement redéfini dans le fichier options.rpy  pour ajouter le

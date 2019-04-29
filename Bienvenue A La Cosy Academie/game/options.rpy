@@ -15,18 +15,18 @@
 ##
 ## La chaîne de caractère contenu dans _() est éligible à la traduction.
 
-define config.name = _("")
+define config.name = _("Bienvenue A La Cosy Academie")
 
 
 ## Détermine si le titre renseigné plus haut est affiché sur l'écran du menu
 ## principal Configurez-le à False (Faux) pour cacher le titre.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## La version du jeu.
 
-define config.version = ""
+define config.version = "1.0"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
