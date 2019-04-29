@@ -37,8 +37,8 @@ label HardNight:
 
     med "Eh bah c'était TRÈS TRÈS chaud!"
 
-    hide moguri
-    hide medoc
+    hide Moguri
+    hide Medoc
 
     scene reverie with fade
 
@@ -52,7 +52,7 @@ label HardNight:
     med "Hop la! C'est qui le boss ?"
     med "[povname]? Oh! [povname]!"
 
-    hide medoc
+    hide Medoc
 
     scene school entrance with flash
 
@@ -93,8 +93,8 @@ label HardNight:
 
     mog "Bah ouais!"
 
-    hide moguri
-    hide medoc
+    hide Moguri
+    hide Medoc
 
     scene reverie with fade
 
@@ -119,8 +119,8 @@ label HardNight:
 
     mog "[povname] ça va?"
 
-    hide moguri
-    hide medoc
+    hide Moguri
+    hide Medoc
 
     scene school entrance with flash
 
@@ -140,7 +140,7 @@ label HardNight:
 
     pause 3
 
-    hide medoc
-    hide moguri
+    hide Medoc
+    hide Moguri
 
     return
