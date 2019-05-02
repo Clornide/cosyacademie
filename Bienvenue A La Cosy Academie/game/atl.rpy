@@ -13,6 +13,24 @@ transform leftspeak:
 transform rightspeak:
   xpos 0.8 xanchor 1.0 ypos 1.0 yanchor 1.0 zoom 1.0
 
+transform normalalpha:
+  alpha 1.0
+
+transform zoom:
+  yanchor .75 zoom 1.3
+  alpha 1.0
+
+transform normalzoom:
+  yanchor 1.0 zoom 1.0  
+  alpha 1.0
+  
+
+transform alphatransform:
+    alpha 0.8
+
+init python:
+    def shade_transform(d):
+        return AlphaBlend(alphatransform(d), d, Solid("#000", xysize=(1920, 1080)), True)
 
 transform panse_pignoles_anim:
     zoom 0.5

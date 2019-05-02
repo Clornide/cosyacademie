@@ -17,6 +17,48 @@ image school entrance = "background/schoolEntrance.png"
 
 # Déclarez les personnages utilisés dans le jeu.
 
+init python:
+    def char_callback(event, interact=True, **kwargs):
+        
+        showing_tags = renpy.get_showing_tags(layer='master')
+
+        current_tag = renpy.get_say_image_tag()
+
+        png = ["Medoc", "Moguri", "Metalice", "Mickey", "Dieuvomi", "Esprism", "Von", "Mathilde", "Chuenpodo", "Caro", "din", "Foulk"]
+        character_displayed_tags = [
+            t for t in png
+            if t in showing_tags
+        ]
+
+        character_tags = [
+            t for t in
+            character_displayed_tags
+            if  t != current_tag
+        ]
+
+        
+        if current_tag == "player":
+            for tag in character_tags:
+                renpy.show(tag, at_list = [normalalpha, normalzoom], zorder = 0)            
+            return
+
+        if current_tag and event == "begin":
+            tr = [shade_transform, normalzoom]
+            for tag in character_tags:
+                renpy.show(tag, at_list = tr, zorder = 0)
+
+        if current_tag in showing_tags:
+            if len(character_displayed_tags) > 1:
+                renpy.show( current_tag, at_list = [zoom], zorder = 100 )
+            else:
+                renpy.show( current_tag, at_list = [normalalpha], zorder = 100 )
+
+
+
+
+    config.all_character_callbacks.append( char_callback )
+
+
 define pov = Character("[povname]", color="#fff", image="player")
 define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-20}[toSelf]{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
 define med = Character('name_medoc', color="#fff", image="Medoc", dynamic = True)
