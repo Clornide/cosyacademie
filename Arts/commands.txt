@@ -152,6 +152,50 @@ show Foulk Standard Sourire Yeuxfermes
 show Foulk Standard Sourire Yeuxfermes Rougit
 show Foulk Standard Triste
 show Foulk Standard Gene
+show Lock BrasCroises Badboy
+show Lock BrasCroises Badboy Rougit
+show Lock BrasCroises Colere
+show Lock BrasCroises Colere Rougit
+show Lock BrasCroises Degoute
+show Lock BrasCroises Sourire
+show Lock BrasCroises Sourire Rougit
+show Lock BrasCroises Sourire Yeuxfermes
+show Lock BrasCroises Sourire Yeuxfermes Rougit
+show Lock BrasCroises Triste
+show Lock BrasCroises Gene
+show Lock PoseDroite Badboy
+show Lock PoseDroite Badboy Rougit
+show Lock PoseDroite Colere
+show Lock PoseDroite Colere Rougit
+show Lock PoseDroite Degoute
+show Lock PoseDroite Sourire
+show Lock PoseDroite Sourire Rougit
+show Lock PoseDroite Sourire Yeuxfermes
+show Lock PoseDroite Sourire Yeuxfermes Rougit
+show Lock PoseDroite Triste
+show Lock PoseDroite Gene
+show Lock PoseGauche Badboy
+show Lock PoseGauche Badboy Rougit
+show Lock PoseGauche Colere
+show Lock PoseGauche Colere Rougit
+show Lock PoseGauche Degoute
+show Lock PoseGauche Sourire
+show Lock PoseGauche Sourire Rougit
+show Lock PoseGauche Sourire Yeuxfermes
+show Lock PoseGauche Sourire Yeuxfermes Rougit
+show Lock PoseGauche Triste
+show Lock PoseGauche Gene
+show Lock Standard Badboy
+show Lock Standard Badboy Rougit
+show Lock Standard Colere
+show Lock Standard Colere Rougit
+show Lock Standard Degoute
+show Lock Standard Sourire
+show Lock Standard Sourire Rougit
+show Lock Standard Sourire Yeuxfermes
+show Lock Standard Sourire Yeuxfermes Rougit
+show Lock Standard Triste
+show Lock Standard Gene
 show Mathilde BrasCroises Bad Girl
 show Mathilde BrasCroises Bad Girl Rougit
 show Mathilde BrasCroises Colere

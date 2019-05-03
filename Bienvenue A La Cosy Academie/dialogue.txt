@@ -47,7 +47,7 @@ Mais si!
 Heu... oui?
 T'as trouvé ça chaud ?
 Hin? Quoi????
-Bah Sekiro!
+BAH SEKIRO!
 Mais pas du tout enfin !! Moi je dors la nuit!
 J'avoue, je découvre Borges et j'ai du mal à quitter ses livres...
 Oui, j'ai expérimenté différents types d'épices sur des brochettes... Je ne vois pas le temps passer quand je cuisine!
@@ -79,7 +79,32 @@ Bon courage ?
 Et à demain !
 Je peux te raccompagner chez toi si tu veux, on discutera sur le chemin ?
 Allons-y !
-J'ai pas fini d'écrire, déso, clornide
+Tu voulais me parler de quelque chose donc ?
+Je voulais juste te remercier de m'avoir défendu tout à l'heure.
+Sans vouloir paraître désagréable, je ne suis pas vraiment intervenu pour toi...
+Je sais très bien que ce genre de comportements agace Medoc, j'ai voulu désamorcer la situation avant que ça ne dégénère.
+A vrai dire ton comportement m'énerve un peu aussi, mais je ne peux pas y faire grand chose, le changement doit venir de toi, pas des autres.
+D-désolé...
+D-désolée...
+Tu vois, tu recommences !
+Tu fais partie de la Cosy Académie maintenant, il faut arrêter de s'écraser comme ça...
+Il va falloir changer. Je comprends que le début soit compliqué pour toi, mais sache que ton comportements affecte d'autres personnes.
+Et ça, je ne peux pas l'accepter.
+Je te laisse.
+Je ne peux pas le laisser partir... Pas maintenant.
+MOGURI ! ATTENDS !!
+Je veux changer... Vraiment ! Mais je pense qu'il va me falloir de l'aide...
+Et si possible, j'aimerai que la personne qui m'aide... Ce soit toi.
+M-moi ?
+Tiens, je ne m'attendais pas à cette réaction...
+Je ne suis peut être pas la personne la mieux placée pour t'aider sur ce point...
+Comment ça ?
+J'ai... Pas vraiment envie d'en parler...
+Sois tu acceptes, sois tu m'en parles !
+Ahaha ! Alors disons que j'accepte.
+Mais j'aurais ma réponse, un jour !
+Si tu le dis... Bon, je te raccompagne ?
+Allons-y.
 Bon. Classe 103, classe 103...
 Ah voilà !
 Bon ben on y va alors !
@@ -129,6 +154,7 @@ Bien sûr ! Mais pas là, on va arriver en retard, allons-y !
 Medoc et son air bre-som...
 Moguri, il a l'air si doux et gentil...
 Mais personne je te dis !!
+salut les loulous
 Bienvenue A La Cosy Academie
 Aller aller, un peu de silence !
 Bonjour à tous !
@@ -217,7 +243,16 @@ Bien sûr ! A demain Metalice !
 Allez ! Je te suis !
 J'aurais voulu remercier Moguri pour s'être interposer tout à l'heure...
 Si ça ne te dérange pas, j'aimerai bien attendre un peu Medoc...
-J'ai pas fini d'écrire, déso, clornide
+Tu sais, je suis quand même surprise que tu ne sois pas rentré avec un de tes prétendants...
+Tu sais, je suis quand même surprise que tu ne sois pas rentrée avec un de tes prétendants...
+Comment ça ?
+Medoc ou Moguri enfin !
+Raaah mais laisse moi avec eux enfin !
+Tu dis ça mais je te vois très bien rougir hein !
+Tu parles quand même d'eux beaucoup plus que moi, c'est peut être toi qui est intéressée finalement !
+Moi ? Mais je suis déjà prise enfin !
+Ah bon ? Tu sors avec quelqu'un qu'on a croisé ?
+Eh bien non. Il étudie à l'Académie cependant ! C'est juste qu'il ne passe qu'en coup de vent. C'est quelqu'un de très occupé...
 Retour
 Historique
 Avance rapide
@@ -234,7 +269,7 @@ Menu principal
 À propos
 Aide
 Quitter
-Conçu avec {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].
+Conçu avec Ren'Py [renpy.version_only].
 
 Ce Visual Novel a été créé sur le temps libre de p'tits Cosys. 
 \Création des personnages: din. 
@@ -246,11 +281,11 @@ Relecture: Din, Dieuvomi.
 Conception: Ze_Pilot, Kupowy.
 Sauvegardes automatiques
 Sauvegardes rapides
-{#file_time}%A %d %B %Y, %H:%M
+%A %d %B %Y, %H:%M
 emplacement vide
 <
-{#auto_page}A
-{#quick_page}Q
+A
+Q
 >
 Affichage
 Fenêtre
@@ -294,7 +329,7 @@ Page Bas
 Avance jusqu'au prochain dialogue.
 Cache l’interface utilisateur.
 Prend une capture d’écran.
-Active la {a=https://www.renpy.org/l/voicing}{size=24}vocalisation automatique{/size}{/a}.
+Active la vocalisation automatique.
 Bouton gauche
 Bouton central
 Bouton droit

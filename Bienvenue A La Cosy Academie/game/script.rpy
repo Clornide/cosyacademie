@@ -9,6 +9,7 @@ image Esprism = "Esprism_Naked.png"
 
 #joueur
 image side player = ConditionSwitch("sex==\"m\"", "boy.png", "True", "girl.png")
+image brise = "vent.png"
 
 #fonds
 image classePhysique = "classePhysique.jpg"
@@ -19,7 +20,7 @@ image school entrance = "background/schoolEntrance.png"
 
 init python:
     def char_callback(event, interact=True, **kwargs):
-        
+
         showing_tags = renpy.get_showing_tags(layer='master')
 
         current_tag = renpy.get_say_image_tag()
@@ -36,10 +37,10 @@ init python:
             if  t != current_tag
         ]
 
-        
+
         if current_tag == "player":
             for tag in character_tags:
-                renpy.show(tag, at_list = [normalalpha, normalzoom], zorder = 0)            
+                renpy.show(tag, at_list = [normalalpha, normalzoom], zorder = 0)
             return
 
         if current_tag and event == "begin":
