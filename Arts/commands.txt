@@ -64,17 +64,50 @@ show din Standard Sourire Yeuxfermes
 show din Standard Sourire Yeuxfermes Rougit
 show din Standard Triste
 show din Standard Yeuxfermes Rougit
-show Foulk MainVisage Badboy
-show Foulk MainVisage Badboy Rougit
-show Foulk MainVisage Colere
-show Foulk MainVisage Colere Rougit
-show Foulk MainVisage Degoute
-show Foulk MainVisage Sourire
-show Foulk MainVisage Sourire Rougit
-show Foulk MainVisage Sourire Yeuxfermes
-show Foulk MainVisage Sourire Yeuxfermes Rougit
-show Foulk MainVisage Triste
-show Foulk MainVisage Yeuxfermes Rougit
+show Foulk BrasCroises Badboy
+show Foulk BrasCroises Badboy Rougit
+show Foulk BrasCroises Colere
+show Foulk BrasCroises Colere Rougit
+show Foulk BrasCroises Degoute
+show Foulk BrasCroises Sourire
+show Foulk BrasCroises Sourire Rougit
+show Foulk BrasCroises Sourire Yeuxfermes
+show Foulk BrasCroises Sourire Yeuxfermes Rougit
+show Foulk BrasCroises Triste
+show Foulk BrasCroises Gene
+show Foulk PoseDroite Badboy
+show Foulk PoseDroite Badboy Rougit
+show Foulk PoseDroite Colere
+show Foulk PoseDroite Colere Rougit
+show Foulk PoseDroite Degoute
+show Foulk PoseDroite Sourire
+show Foulk PoseDroite Sourire Rougit
+show Foulk PoseDroite Sourire Yeuxfermes
+show Foulk PoseDroite Sourire Yeuxfermes Rougit
+show Foulk PoseDroite Triste
+show Foulk PoseDroite Gene
+show Foulk PoseGauche Badboy
+show Foulk PoseGauche Badboy Rougit
+show Foulk PoseGauche Colere
+show Foulk PoseGauche Colere Rougit
+show Foulk PoseGauche Degoute
+show Foulk PoseGauche Sourire
+show Foulk PoseGauche Sourire Rougit
+show Foulk PoseGauche Sourire Yeuxfermes
+show Foulk PoseGauche Sourire Yeuxfermes Rougit
+show Foulk PoseGauche Triste
+show Foulk PoseGauche Gene
+show Foulk PoseSpeciale Badboy
+show Foulk PoseSpeciale Badboy Rougit
+show Foulk PoseSpeciale Colere
+show Foulk PoseSpeciale Colere Rougit
+show Foulk PoseSpeciale Degoute
+show Foulk PoseSpeciale Sourire
+show Foulk PoseSpeciale Sourire Rougit
+show Foulk PoseSpeciale Sourire Yeuxfermes
+show Foulk PoseSpeciale Sourire Yeuxfermes Rougit
+show Foulk PoseSpeciale Triste
+show Foulk PoseSpeciale Gene
 show Foulk Standard Badboy
 show Foulk Standard Badboy Rougit
 show Foulk Standard Colere
@@ -85,7 +118,7 @@ show Foulk Standard Sourire Rougit
 show Foulk Standard Sourire Yeuxfermes
 show Foulk Standard Sourire Yeuxfermes Rougit
 show Foulk Standard Triste
-show Foulk Standard Yeuxfermes Rougit
+show Foulk Standard Gene
 show Mathilde BrasCroises Bad Girl
 show Mathilde BrasCroises Bad Girl Rougit
 show Mathilde BrasCroises Colere
@@ -217,7 +250,40 @@ show Von BrasCroises Sourire Rougit
 show Von BrasCroises Sourire Yeuxfermes
 show Von BrasCroises Sourire Yeuxfermes Rougit
 show Von BrasCroises Triste
-show Von BrasCroises Yeuxfermes Rougit
+show Von BrasCroises Gene
+show Von PoseDroite Badboy (1)
+show Von PoseDroite Badboy Rougit (1)
+show Von PoseDroite Colere (1)
+show Von PoseDroite Colere Rougit (1)
+show Von PoseDroite Degoute (1)
+show Von PoseDroite Sourire (1)
+show Von PoseDroite Sourire Rougit (1)
+show Von PoseDroite Sourire Yeuxfermes (1)
+show Von PoseDroite Sourire Yeuxfermes Rougit (1)
+show Von PoseDroite Triste (1)
+show Von PoseDroite Gene (1)
+show Von PoseGauche Badboy (1)
+show Von PoseGauche Badboy Rougit
+show Von PoseGauche Colere (1)
+show Von PoseGauche Colere Rougit (1)
+show Von PoseGauche Degoute (1)
+show Von PoseGauche Sourire (1)
+show Von PoseGauche Sourire Rougit (1)
+show Von PoseGauche Sourire Yeuxfermes (1)
+show Von PoseGauche Sourire Yeuxfermes Rougit (1)
+show Von PoseGauche Triste (1)
+show Von PoseGauche Gene (1)
+show Von PoseSpeciale Badboy
+show Von PoseSpeciale Badboy Rougit
+show Von PoseSpeciale Colere
+show Von PoseSpeciale Colere Rougit
+show Von PoseSpeciale Degoute
+show Von PoseSpeciale Sourire
+show Von PoseSpeciale Sourire Rougit
+show Von PoseSpeciale Sourire Yeuxfermes
+show Von PoseSpeciale Sourire Yeuxfermes Rougit
+show Von PoseSpeciale Triste
+show Von PoseSpeciale Gene
 show Von Standard Badboy
 show Von Standard Badboy Rougit
 show Von Standard Colere
@@ -228,4 +294,4 @@ show Von Standard Sourire Rougit
 show Von Standard Sourire Yeuxfermes
 show Von Standard Sourire Yeuxfermes Rougit
 show Von Standard Triste
-show Von Standard Yeuxfermes Rougit
+show Von Standard Gene
