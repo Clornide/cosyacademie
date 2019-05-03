@@ -1,4 +1,3 @@
-
 image Von BrasCroises Badboy = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_01_Badboy.png", "True", "Von_low.png")
 image side Von BrasCroises Badboy =Image("Von/side_BrasCroises_01_Badboy.png")
 image Von BrasCroises Badboy Rougit = ConditionSwitch("persistent.ultra_quality", "Von/main_BrasCroises_02_Badboy_Rougit.png", "True", "Von_low.png")

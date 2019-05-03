@@ -1,4 +1,3 @@
-
 image Foulk BrasCroises Badboy = ConditionSwitch("persistent.ultra_quality", "Foulk/main_BrasCroises_01_Badboy.png", "True", "Foulk_low.png")
 image side Foulk BrasCroises Badboy =Image("Foulk/side_BrasCroises_01_Badboy.png")
 image Foulk BrasCroises Badboy Rougit = ConditionSwitch("persistent.ultra_quality", "Foulk/main_BrasCroises_02_Badboy_Rougit.png", "True", "Foulk_low.png")
@@ -109,4 +108,3 @@ image Foulk Standard Triste = ConditionSwitch("persistent.ultra_quality", "Foulk
 image side Foulk Standard Triste =Image("Foulk/side_Standard_10_Triste.png")
 image Foulk Standard Gene = ConditionSwitch("persistent.ultra_quality", "Foulk/main_Standard_11_Gene.png", "True", "Foulk_low.png")
 image side Foulk Standard Gene =Image("Foulk/side_Standard_11_Gene.png")
-

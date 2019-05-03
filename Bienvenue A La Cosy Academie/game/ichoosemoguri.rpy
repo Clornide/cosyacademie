@@ -96,7 +96,7 @@ label Ichoosemoguri:
     pov "Je veux changer... Vraiment ! Mais je pense qu'il va me falloir de l'aide..."
     pov "Et si possible, j'aimerai que la personne qui m'aide... Ce soit toi."
 
-    show Moguri BrasCroises Yeuxfermes Rougit
+    show Moguri Gene
 
     mog "M-moi ?"
     innerpov "Tiens, je ne m'attendais pas à cette réaction..."
