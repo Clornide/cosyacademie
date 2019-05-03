@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.sap
 *.orig
 *.bak
@@ -18,3 +19,27 @@ BienvenueALaCosyAcademie-dists/
 *.rpymc
 
 *.psd
+=======
+*.sap
+*.orig
+*.bak
+*.rpyc
+
+Bienvenue A La Cosy Academie/game/cache/
+
+Bienvenue A La Cosy Academie/log\.txt
+
+Bienvenue A La Cosy Academie/game/saves/
+
+Bienvenue A La Cosy Academie/errors\.txt
+
+Bienvenue A La Cosy Academie/traceback\.txt
+
+BienvenueALaCosyAcademie-dists/
+
+*.rpymc
+
+*.psd
+
+Arts/DIEUVOMI  - etudiant/BRAS CROISES/desktop\.ini
+>>>>>>> master
