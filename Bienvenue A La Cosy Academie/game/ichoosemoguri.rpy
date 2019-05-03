@@ -93,18 +93,29 @@ label Ichoosemoguri:
 
     show Moguri Standard Badboy with dissolve
 
-    pov "Je veux changer... Vraiment ! Mais je pense qu'il va me faloir de l'aide..."
+    pov "Je veux changer... Vraiment ! Mais je pense qu'il va me falloir de l'aide..."
     pov "Et si possible, j'aimerai que la personne qui m'aide... Ce soit toi."
 
     show Moguri BrasCroises Yeuxfermes Rougit
 
     mog "M-moi ?"
-
     innerpov "Tiens, je ne m'attendais pas à cette réaction..."
 
     show Moguri BrasCroises Badboy Rougit
 
-    mog "Je ne suis peut être pas la personne la mieux placé pour t'aider sur ce point..."
+    mog "Je ne suis peut être pas la personne la mieux placée pour t'aider sur ce point..."
+    pov "Comment ça ?"
+    mog "J'ai... Pas vraiment envie d'en parler..."
+    pov "Sois tu acceptes, sois tu m'en parles !"
+
+    show Moguri BrasCroises Sourire Yeuxfermes
+
+    mog "Ahaha ! Alors disons que j'accepte."
+    pov "Mais j'aurais ma réponse, un jour !"
+    mog "Si tu le dis... Bon, je te raccompagne ?"
+    pov "Allons-y."
+
+
 
 
     return
