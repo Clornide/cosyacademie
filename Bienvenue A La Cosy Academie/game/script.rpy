@@ -94,6 +94,7 @@ define audio.wonderful = "music/sb_wonderful.mp3"
 
 #FX
 define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
+define audio.wind = "sounds/Wind-Mark_DiAngelo-1940285615.wav"
 
 # Le jeu commence ici
 label start:

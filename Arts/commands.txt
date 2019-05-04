@@ -396,3 +396,25 @@ show Von Standard Sourire Yeuxfermes
 show Von Standard Sourire Yeuxfermes Rougit
 show Von Standard Triste
 show Von Standard Gene
+show ZePilot BrasCroises Badboy
+show ZePilot BrasCroises Badboy Rougit
+show ZePilot BrasCroises Colere
+show ZePilot BrasCroises Colere Rougit
+show ZePilot BrasCroises Degoute
+show ZePilot BrasCroises Sourire
+show ZePilot BrasCroises Sourire Rougit
+show ZePilot BrasCroises Sourire Yeuxfermes
+show ZePilot BrasCroises Sourire Yeuxfermes Rougit
+show ZePilot BrasCroises Triste
+show ZePilot BrasCroises Gene
+show ZePilot Standard Badboy
+show ZePilot Standard Badboy Rougit
+show ZePilot Standard Colere
+show ZePilot Standard Colere Rougit
+show ZePilot Standard Degoute
+show ZePilot Standard Sourire
+show ZePilot Standard Sourire Rougit
+show ZePilot Standard Sourire Yeuxfermes
+show ZePilot Standard Sourire Yeuxfermes Rougit
+show ZePilot Standard Triste
+show ZePilot Standard Gene

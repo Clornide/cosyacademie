@@ -19,14 +19,14 @@ label Rentreavecmetalice:
     met "Tu dis ça mais je te vois très bien rougir hein !"
     pov "Tu parles quand même d'eux beaucoup plus que moi, c'est peut être toi qui est intéressée finalement !"
 
-    show Metalice Standard Sourire
+    show Metalice PoseCoucou Sourire Yeuxfermes
 
     met "Moi ? Mais je suis déjà prise enfin !"
     pov "Ah bon ? Tu sors avec quelqu'un qu'on a croisé ?"
 
     show Metalice PoseCoucou Sourire
 
-    met "Eh bien non. Il étudie à l'Académie cependant ! C'est juste qu'il ne passe qu'en coup de vent. C'est quelqu'un de très occupé..."
+    met "Eh bien non. Il étudie à l'Académie cependant ! C'est juste qu'il ne passe qu'en ''coup de vent''. C'est quelqu'un de très occupé..."
     pov "Et on peut avoir le nom de cet heureux élu ?"
 
     show Metalice Standard Sourire
@@ -51,20 +51,54 @@ label Rentreavecmetalice:
 
     met "Adresse-toi à Chuenpodo, c'est leur manager."
     pov "Il ressemble à quoi ?"
-    met "Un grand blond, lunettes, resplendissant, éblouissant même !"
+    met "Un grand blond à lunettes. Tu verras, il resplendissant. Eblouissant même !"
     pov "Dis donc, je croyais que tu étais déjà prise !"
-    met "Non mais... Littéralement, il a une espèce d'aura lumineuse qui... Enfin tu verras je suppose !"
+    met "Non mais... Littéralement !  Il a une espèce d'aura lumineuse qui... Enfin, tu comprendras quand tu le rencontreras je suppose !"
+    pov "Je verrai, merci du conseil !"
+
+    show Metalice Standard Sourire Yeuxfermes
+
+    met "Il commence à faire froid tu ne trouves pas ? On devrait peut être se dépécher de rentrer..."
+    pov "Effectivement, alons-y !"
+
+    show Metalice Standard Sourire with longfade
+
+    met "Me voilà arrivée, tu n'habites pas très loin n'est-ce pas ?"
+    pov "Au bout de la rue, là-bas."
+
+    show Metalice PoseCoucou Sourire
+
+    met "Bien, tu trouveras ton chemin alors !"
+
+    show Metalice PoseCoucou Sourire Yeuxfermes
+
+    met "Je te dis à demain alors ! Et pense bien à aller voir les cheerleaders !"
+    pov "Bien sûr ! A demain Metalice !"
+
+    show Metalice PoseCoucou Cligne
+
+    met "Et fais de beaux rêves !"
+
+    hide Metalice with dissolve
+
+    pov "Comment ça de beaux rêves ?"
+    pov "Elle a vraiment un don pour l'espièglerie celle là..."
 
 
-    hide Metalice
 
-    show brise at truecenter
+    pov "EchoBrain, alors..."
+    pov "Il a bien de la chance..."
 
-    pov "EchoBrain..."
+    show brise at truecenter with dissolve
+#avec un bruit de vent, je sais pas trop encore comment faire, je verrai après
 
+    inc "Oui... Il en a beaucoup..."
+    pov "?"
+    pov "Quelqu'un a parlé ?"
+    inc "..."
 
+    pov "Brrr... Il fait froid d'un coup, je ferai mieux d'y aller !"
 
-
-
+    jump lendemainMatin
 
     return

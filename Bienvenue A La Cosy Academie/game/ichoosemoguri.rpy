@@ -115,7 +115,7 @@ label Ichoosemoguri:
     mog "Si tu le dis... Bon, je te raccompagne ?"
     pov "Allons-y."
 
-
+    jump lendemainMatin
 
 
     return

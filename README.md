@@ -1,4 +1,4 @@
-# cosyacademie
+﻿# cosyacademie
 
 ## Comment ça marche ?
 
@@ -21,3 +21,4 @@
 
 ### Sounds
 * hi frequency metallic woosh \ swish by gerainsan (Creative Commons License)
+* wind effect by Mark DiAngelo (Attribution 3.0 License)
