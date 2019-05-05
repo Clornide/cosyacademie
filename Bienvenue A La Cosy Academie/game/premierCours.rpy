@@ -20,7 +20,7 @@ label Premiercours:
     hide Mickey
 
     show Moguri BrasCroises Sourire at right
-    show Medoc Standard Sourire at left
+    show Medoc Standard Badboy at left
 
     innerpov "Medoc et Moguri, évidemment..."
 
@@ -228,12 +228,12 @@ label Premiercours:
 
             if sex=="m":
                 show Metalice PoseCoucou Sourire Yeuxfermes
-                met "Ahaha ! Son petit discours sur la confiance en soi t'as à ce point atteint ?"
+                met "Ahaha ! Son petit discours sur la confiance en soi t'a à ce point atteint ?"
 
                 pov "Il ne m'a pas atteint ! Je veux juste m'expliquer un peu avec lui..."
             else:
                 show Metalice PoseCoucou Sourire Yeuxfermes
-                met "Ahaha ! Son petit discours sur la confiance en soi t'as à ce point atteinte ?"
+                met "Ahaha ! Son petit discours sur la confiance en soi t'a à ce point atteinte ?"
 
                 pov "Il ne m'a pas atteinte ! Je veux juste m'expliquer un peu avec lui..."
             show Metalice Standard Cligne

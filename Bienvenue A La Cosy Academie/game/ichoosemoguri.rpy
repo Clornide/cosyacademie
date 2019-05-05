@@ -2,7 +2,7 @@ label Ichoosemoguri:
     scene couloir with longfade
 
     innerpov "Ca commence à faire un petit bout de temps que je l'attends, il ne devrait plus tarder..."
-    innerpov "Je crois que je l'entends d'ailleurs, mais il a l'air de discuté avec quelqu'un."
+    innerpov "Je crois que je l'entends d'ailleurs, mais il a l'air de discuter avec quelqu'un."
 
     mog "Et donc ?"
     inc "Et bien là je lui ai dit, 'QUOI !? JEUDICOUVERTE !?'. C'était hilarant !"
