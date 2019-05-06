@@ -1,7 +1,7 @@
 label Premiercours:
     scene classe with fade
 
-    inc "Aller aller, un peu de silence !"
+    inc "Allez allez, un peu de silence !"
 
     show Mickey Standard Sourire Yeuxfermes with dissolve
 
@@ -16,13 +16,13 @@ label Premiercours:
     mic "[povname], tu veux bien venir au tableau te présenter quelques secondes ?"
     pov "..."
     pov "Bien sûr monsieur Max..."
-    "En parcourant brièvement la classe des yeux, j'essaie de graver toutes ces nouvelles têtes dans ma mémoire."
+    innerpov "En parcourant brièvement la classe des yeux, j'essaie de graver toutes ces nouvelles têtes dans ma mémoire."
     hide Mickey
 
     show Moguri BrasCroises Sourire at right
-    show Medoc Standard Sourire at left
+    show Medoc Standard Badboy at left
 
-    "Medoc et Moguri, évidemment..."
+    innerpov "Medoc et Moguri, évidemment..."
 
     hide Medoc
 
@@ -30,18 +30,18 @@ label Premiercours:
 
     show Metalice PoseCoucou Sourire Yeuxfermes
 
-    "Metalice ! Ses renseignements de tout à l'heure vont m'être très utiles... Je pense m'être fait ma première amie !"
+    innerpov "Metalice ! Ses renseignements de tout à l'heure vont m'être très utiles... Je pense m'être fait ma première amie !"
 
     hide Metalice
 
-    "Mais aussi d'autres personnes..."
+    innerpov "Mais aussi d'autres personnes..."
 
     show Dieuvomi BrasCroises Triste
 
-    "Celui là par exemple, dégage une aura de malfrat."
-    "Mais il étudie ici... Je ne pense pas qu'il soit si méchant que ça !"
-    "Ca ne me ressemble pas de juger sur les apparences pourtant..."
-    "Bref."
+    innerpov "Celui là par exemple, dégage une aura de malfrat."
+    innerpov "Mais il étudie ici... Je ne pense pas qu'il soit si méchant que ça !"
+    innerpov "Ca ne me ressemble pas de juger sur les apparences pourtant..."
+    innerpov "Bref."
 
     hide Dieuvomi
 
@@ -103,7 +103,7 @@ label Premiercours:
     with shortflash
     show Metalice Standard Colere Rougit
 
-    met "Aller c'est bon ! Laissez tomber les gars ! Vous vous donnez en spectacle"
+    met "Allez c'est bon ! Laissez tomber les gars ! Vous vous donnez en spectacle"
 
     hide Metalice
     show Mickey Standard Colere
@@ -148,7 +148,7 @@ label Premiercours:
     show Mickey Standard Sourire
     with longfade
 
-    mic "Aller, ce sera tout pour aujourd'hui, vous pouvez y aller !"
+    mic "Allez, ce sera tout pour aujourd'hui, vous pouvez y aller !"
     show Mickey Standard Degoute
     mic "Sauf vous, Medoc et Dieuvomi, évidemment..."
 
@@ -228,12 +228,12 @@ label Premiercours:
 
             if sex=="m":
                 show Metalice PoseCoucou Sourire Yeuxfermes
-                met "Ahaha ! Son petit discours sur la confiance en soi t'as à ce point atteint ?"
+                met "Ahaha ! Son petit discours sur la confiance en soi t'a à ce point atteint ?"
 
                 pov "Il ne m'a pas atteint ! Je veux juste m'expliquer un peu avec lui..."
             else:
                 show Metalice PoseCoucou Sourire Yeuxfermes
-                met "Ahaha ! Son petit discours sur la confiance en soi t'as à ce point atteinte ?"
+                met "Ahaha ! Son petit discours sur la confiance en soi t'a à ce point atteinte ?"
 
                 pov "Il ne m'a pas atteinte ! Je veux juste m'expliquer un peu avec lui..."
             show Metalice Standard Cligne
