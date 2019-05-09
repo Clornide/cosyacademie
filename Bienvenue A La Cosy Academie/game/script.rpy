@@ -19,6 +19,29 @@ image school entrance = "background/schoolEntrance.png"
 # Déclarez les personnages utilisés dans le jeu.
 
 init python:
+
+    txt1 = ""
+    txt2 = ""
+    txt3 = ""
+    
+    def word_effect(txt):
+        global txt1, txt2, txt3
+        txt1 = txt
+        txt2 = ""
+        txt3 = ""
+        i = 2
+        for letter in txt:
+            i += 1
+            if i % 2 == 0:
+                txt2 += letter
+                # Instead of "size" any text tag can be applied here,
+                # see: http://www.renpy.org/doc/html/text.html#styling-and-text-tags
+                txt3 += "{size=-2}" + letter + "{/size}"
+            else:
+                txt2 += "{size=-2}" + letter + "{/size}"
+                txt3 += letter
+
+
     def char_callback(event, interact=True, **kwargs):
 
         showing_tags = renpy.get_showing_tags(layer='master')
@@ -60,6 +83,13 @@ init python:
     config.all_character_callbacks.append( char_callback )
 
 
+image we1:
+    Text("[txt2]")
+    pause .2
+    Text("[txt3]")
+    pause .2
+    repeat
+
 define pov = Character("[povname]", color="#fff", image="player")
 define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-20}[toSelf]{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
 define med = Character('name_medoc', color="#fff", image="Medoc", dynamic = True)
@@ -84,6 +114,9 @@ define longfade = Fade(0.8, 0.2, 0.8, color="#000")
 define shortflash = Fade(.1, 0, .1, color="#fff")
 define flash = Fade(.25, 0, .75, color="#fff")
 define animintro = Fade(0.8, 0.2, 0.8, color="#fff")
+
+
+image petit couteau movie = Movie(play="movies/le_petit_couteau.mp4")
 
 #Musique
 define audio.memento = "music/Memento.mp3"

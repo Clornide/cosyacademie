@@ -95,6 +95,7 @@ define config.after_load_transition = None
 define config.end_game_transition = None
 
 
+
 ## Il n’y a pas de variable pour configurer la transition en début de partie. À
 ## la place, utilisez un état de transition juste après l’affichage de la toute
 ## première scène.
@@ -124,7 +125,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Contrôle la vitesse du texte. La valeur par défaut, 0, est infinie. Toute
 ## autre valeur est le nombre de caractères tapés par seconde.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 50
 
 
 ## Le délai d’avancée automatique. Des nombres importants entraînent une longue
