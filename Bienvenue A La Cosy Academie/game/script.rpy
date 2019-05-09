@@ -15,6 +15,8 @@ image brise = "vent.png"
 image classePhysique = "classePhysique.jpg"
 image reverie = "reverie.jpg"
 image school entrance = "background/schoolEntrance.png"
+image school hallway = "background/hallway.png"
+image theater = "background/theater.png"
 
 # Déclarez les personnages utilisés dans le jeu.
 
