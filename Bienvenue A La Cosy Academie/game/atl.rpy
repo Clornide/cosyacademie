@@ -8,21 +8,51 @@ transform leftzoomed:
 transform rightzoomed:
   xpos 1.0 xanchor 1.0 ypos 1.0 yanchor 0.65 zoom 1.5
 
-transform leftspeak:
-  xpos 0.2 xanchor 0.0 ypos 1.0 yanchor 1.0 zoom 1.0
+transform left:
+    xpos 0.1 xanchor 0.0 ypos 1.0 yanchor 1.0
 
-transform rightspeak:
-  xpos 0.8 xanchor 1.0 ypos 1.0 yanchor 1.0 zoom 1.0
+transform right:
+    xpos 0.9 xanchor 1.0 ypos 1.0 yanchor 1.0
+
+transform center:
+    xpos 0.5 xanchor 0.5 ypos 1.0 yanchor 1.0
+
+transform truecenter:
+    xpos 0.5 xanchor 0.5 ypos 0.5 yanchor 0.5
+
+transform topleft:
+    xpos 0.0 xanchor 0.0 ypos 0.0 yanchor 0.0
+
+transform topright:
+    xpos 1.0 xanchor 1.0 ypos 0.0 yanchor 0.0
+
+transform top:
+    xpos 0.5 xanchor 0.5 ypos 0.0 yanchor 0.0
+
+transform snl_pos:
+  xpos 1.0 xanchor 1.0 ypos 0.5 yanchor 0.5 zoom 1.0 rotate -5.0
 
 transform normalalpha:
   alpha 1.0
 
 transform zoom:
-  yanchor .75 zoom 1.3
+  ypos 1.3 zoom 1.3
   alpha 1.0
 
+transform lightzoom:
+  ypos 1.4 zoom 1.4
+
+transform mediumzoom:
+  ypos 1.5 zoom 1.5
+
+transform bigzoom:
+  ypos 1.7 zoom 1.7
+
+transform hugezoom:
+  ypos 2.0 zoom 2.0
+
 transform normalzoom:
-  yanchor 1.0 zoom 1.0  
+  ypos 1.0 zoom 1.0  
   alpha 1.0
   
 

@@ -50,6 +50,8 @@ init python:
 
         current_tag = renpy.get_say_image_tag()
 
+        zoomATL = [lightzoom, mediumzoom, bigzoom, hugezoom]
+
         png = ["Medoc", "Moguri", "Metalice", "Mickey", "Dieuvomi", "Esprism", "Von", "Mathilde", "Chuenpodo", "Caro", "din", "Foulk"]
         character_displayed_tags = [
             t for t in png
@@ -73,11 +75,22 @@ init python:
             for tag in character_tags:
                 renpy.show(tag, at_list = tr, zorder = 0)
 
-        if current_tag in showing_tags:
-            if len(character_displayed_tags) > 1:
-                renpy.show( current_tag, at_list = [zoom], zorder = 100 )
+            if current_tag in showing_tags:
+                if len(character_displayed_tags) > 1:
+                    attributes = renpy.get_at_list(current_tag)
+                    okZoom = True
+                    for attribute in attributes:
+                        if attribute in zoomATL:
+                            okZoom = False
+                            break
+                    if okZoom:
+                        renpy.show( current_tag, at_list = [zoom], zorder = 100 )
+                    else:
+                        renpy.show( current_tag )
+
             else:
                 renpy.show( current_tag, at_list = [normalalpha], zorder = 100 )
+
 
 
 
@@ -126,6 +139,7 @@ define audio.haunted = "music/Haunted House.mp3"
 define audio.journeys = "music/sb_journeys.mp3"
 define audio.tomorrow = "music/sb_tomorrow.mp3"
 define audio.wonderful = "music/sb_wonderful.mp3"
+define audio.comedy = "music/sb_skyscrapersamba_eq_lessdrums.mp3"
 
 #FX
 define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
@@ -187,9 +201,9 @@ label start:
             if not povname:
                 povname="Cassandre"
 
-
     play music journeys
-    scene school entrance
+
+    jump club_comedie
 
     with fade
     innerpov "OK."
