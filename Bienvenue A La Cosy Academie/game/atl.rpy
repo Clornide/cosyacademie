@@ -59,6 +59,118 @@ transform normalzoom:
 transform alphatransform:
     alpha 0.8
 
+image gym_shonen:
+    
+    ypos 1.0 zoom 1.01
+    "background/gym.png"
+    pause 0.01
+    ypos 1.01 zoom 1.01
+    pause 0.01
+
+    repeat
+
+image auraDBZ:
+    zoom 2.0 ypos -0.6 alpha 0.5 yanchor 0.0 
+    "Assets/aura/Aura.1.png"  
+    pause 0.03
+    "Assets/aura/Aura.2.png"
+    pause 0.03
+    "Assets/aura/Aura.3.png"
+    pause 0.03
+    "Assets/aura/Aura.4.png"
+    pause 0.03
+    "Assets/aura/Aura.5.png"
+    pause 0.03
+    "Assets/aura/Aura.6.png"
+    pause 0.03
+    "Assets/aura/Aura.7.png"
+    pause 0.03    
+    "Assets/aura/Aura.8.png"
+    pause 0.03        
+    repeat
+
+image aura3:
+    zoom 1.2 ypos -0.1 alpha 1.0 yanchor 0.0
+    "Assets/aura/aura3.0.png"  
+    pause 0.03
+    "Assets/aura/aura3.1.png"  
+    pause 0.03
+    "Assets/aura/aura3.2.png"  
+    pause 0.03
+    "Assets/aura/aura3.3.png"  
+    pause 0.03
+    "Assets/aura/aura3.4.png"  
+    pause 0.03
+    "Assets/aura/aura3.5.png"  
+    pause 0.03
+    "Assets/aura/aura3.6.png"  
+    pause 0.03
+    "Assets/aura/aura3.7.png"  
+    pause 0.03
+    "Assets/aura/aura3.8.png"  
+    pause 0.03
+    "Assets/aura/aura3.9.png"  
+    pause 0.03
+    "Assets/aura/aura3.10.png"  
+    pause 0.03
+    "Assets/aura/aura3.11.png"  
+    pause 0.03
+    "Assets/aura/aura3.12.png"  
+    pause 0.03
+    "Assets/aura/aura3.13.png"  
+    pause 0.03
+    "Assets/aura/aura3.14.png"  
+    pause 0.03
+    "Assets/aura/aura3.15.png"  
+    pause 0.03
+    "Assets/aura/aura3.16.png"  
+    pause 0.03
+    "Assets/aura/aura3.17.png"  
+    pause 0.03
+    "Assets/aura/aura3.18.png"  
+    pause 0.03
+    "Assets/aura/aura3.19.png"  
+    pause 0.03
+    "Assets/aura/aura3.20.png"  
+    pause 0.03
+    "Assets/aura/aura3.21.png"  
+    pause 0.03
+    "Assets/aura/aura3.22.png"  
+    pause 0.03
+    "Assets/aura/aura3.23.png"  
+    pause 0.03
+    "Assets/aura/aura3.24.png"  
+    pause 0.03
+    "Assets/aura/aura3.25.png"  
+    pause 0.03
+    "Assets/aura/aura3.26.png"  
+    pause 0.03
+    "Assets/aura/aura3.27.png"  
+    pause 0.03
+    "Assets/aura/aura3.28.png"  
+    pause 0.03
+    repeat
+
+image auraSaintSeya:
+    zoom 1.4 ypos -0.4 alpha 1.0 yanchor 0.0
+    "Assets/aura/aura_SS.1.png"  
+    pause 0.04
+    "Assets/aura/aura_SS.2.png"
+    pause 0.04
+    "Assets/aura/aura_SS.3.png"
+    pause 0.04
+    "Assets/aura/aura_SS.4.png"
+    pause 0.04
+    "Assets/aura/aura_SS.5.png"
+    pause 0.04
+    "Assets/aura/aura_SS.6.png"
+    pause 0.04
+    "Assets/aura/aura_SS.7.png"
+    pause 0.04    
+    "Assets/aura/aura_SS.0.png"
+    pause 0.04        
+    repeat
+
 init python:
     def shade_transform(d):
         return AlphaBlend(alphatransform(d), d, Solid("#000", xysize=(1920, 1080)), True)

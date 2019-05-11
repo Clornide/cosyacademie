@@ -17,6 +17,7 @@ image reverie = "reverie.jpg"
 image school entrance = "background/schoolEntrance.png"
 image school hallway = "background/hallway.png"
 image theater = "background/theater.png"
+image gym = "background/gym.png"
 
 # Déclarez les personnages utilisés dans le jeu.
 
@@ -52,7 +53,7 @@ init python:
 
         zoomATL = [lightzoom, mediumzoom, bigzoom, hugezoom]
 
-        png = ["Medoc", "Moguri", "Metalice", "Mickey", "Dieuvomi", "Esprism", "Von", "Mathilde", "Chuenpodo", "Caro", "din", "Foulk"]
+        png = ["Medoc", "Moguri", "Metalice", "Mickey", "Dieuvomi", "Esprism", "Von", "Mathilde", "Chuenpodo", "Caro", "din", "Foulk", "Lock"]
         character_displayed_tags = [
             t for t in png
             if t in showing_tags
@@ -88,8 +89,8 @@ init python:
                     else:
                         renpy.show( current_tag )
 
-            else:
-                renpy.show( current_tag, at_list = [normalalpha], zorder = 100 )
+                else:
+                    renpy.show( current_tag, at_list = [normalalpha], zorder = 100 )
 
 
 
@@ -106,13 +107,14 @@ image we1:
     repeat
 
 define pov = Character("[povname]", color="#fff", image="player")
-define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-20}[toSelf]{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
+define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-15}[toSelf]{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
 define med = Character('name_medoc', color="#fff", image="Medoc", dynamic = True)
 define mog = Character('name_moguri', color="#fff", image="Moguri", dynamic = True)
 define met = Character('name_metalice', color="#fff", image="Metalice", dynamic = True)
 define mic = Character('name_mickey', color="#fff" , image="Mickey", dynamic = True)
 define dieuv = Character('name_dieuvomi', color="#fff", image="Dieuvomi", dynamic = True)
 define esprism = Character('name_esprism', color="#fff", image="Esprism", dynamic = True)
+define lock = Character('name_lock', color="#fff", image="Lock", dynamic = True)
 
 define von = Character('name_von', color="#fff", image="Von", screen="say_von", dynamic = True)
 define mat = Character('name_mathilde', color="#fff", image="Mathilde", dynamic = True)
@@ -140,6 +142,8 @@ define audio.journeys = "music/sb_journeys.mp3"
 define audio.tomorrow = "music/sb_tomorrow.mp3"
 define audio.wonderful = "music/sb_wonderful.mp3"
 define audio.comedy = "music/sb_skyscrapersamba_eq_lessdrums.mp3"
+define audio.gym = "music/sb_red_altmix.mp3"
+define audio.epic = "music/sb_pursuit.mp3"
 
 #FX
 define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
