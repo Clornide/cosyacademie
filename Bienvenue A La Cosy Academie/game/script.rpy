@@ -15,15 +15,42 @@ image brise = "vent.png"
 image classePhysique = "classePhysique.jpg"
 image reverie = "reverie.jpg"
 image school entrance = "background/schoolEntrance.png"
+image school hallway = "background/hallway.png"
+image theater = "background/theater.png"
 
 # Déclarez les personnages utilisés dans le jeu.
 
 init python:
+
+    txt1 = ""
+    txt2 = ""
+    txt3 = ""
+    
+    def word_effect(txt):
+        global txt1, txt2, txt3
+        txt1 = txt
+        txt2 = ""
+        txt3 = ""
+        i = 2
+        for letter in txt:
+            i += 1
+            if i % 2 == 0:
+                txt2 += letter
+                # Instead of "size" any text tag can be applied here,
+                # see: http://www.renpy.org/doc/html/text.html#styling-and-text-tags
+                txt3 += "{size=-2}" + letter + "{/size}"
+            else:
+                txt2 += "{size=-2}" + letter + "{/size}"
+                txt3 += letter
+
+
     def char_callback(event, interact=True, **kwargs):
 
         showing_tags = renpy.get_showing_tags(layer='master')
 
         current_tag = renpy.get_say_image_tag()
+
+        zoomATL = [lightzoom, mediumzoom, bigzoom, hugezoom]
 
         png = ["Medoc", "Moguri", "Metalice", "Mickey", "Dieuvomi", "Esprism", "Von", "Mathilde", "Chuenpodo", "Caro", "din", "Foulk"]
         character_displayed_tags = [
@@ -48,17 +75,35 @@ init python:
             for tag in character_tags:
                 renpy.show(tag, at_list = tr, zorder = 0)
 
-        if current_tag in showing_tags:
-            if len(character_displayed_tags) > 1:
-                renpy.show( current_tag, at_list = [zoom], zorder = 100 )
+            if current_tag in showing_tags:
+                if len(character_displayed_tags) > 1:
+                    attributes = renpy.get_at_list(current_tag)
+                    okZoom = True
+                    for attribute in attributes:
+                        if attribute in zoomATL:
+                            okZoom = False
+                            break
+                    if okZoom:
+                        renpy.show( current_tag, at_list = [zoom], zorder = 100 )
+                    else:
+                        renpy.show( current_tag )
+
             else:
                 renpy.show( current_tag, at_list = [normalalpha], zorder = 100 )
 
 
 
 
+
     config.all_character_callbacks.append( char_callback )
 
+
+image we1:
+    Text("[txt2]")
+    pause .2
+    Text("[txt3]")
+    pause .2
+    repeat
 
 define pov = Character("[povname]", color="#fff", image="player")
 define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-20}[toSelf]{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
@@ -85,12 +130,16 @@ define shortflash = Fade(.1, 0, .1, color="#fff")
 define flash = Fade(.25, 0, .75, color="#fff")
 define animintro = Fade(0.8, 0.2, 0.8, color="#fff")
 
+
+image petit couteau movie = Movie(play="movies/le_petit_couteau.mp4")
+
 #Musique
 define audio.memento = "music/Memento.mp3"
 define audio.haunted = "music/Haunted House.mp3"
 define audio.journeys = "music/sb_journeys.mp3"
 define audio.tomorrow = "music/sb_tomorrow.mp3"
 define audio.wonderful = "music/sb_wonderful.mp3"
+define audio.comedy = "music/sb_skyscrapersamba_eq_lessdrums.mp3"
 
 #FX
 define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
@@ -152,9 +201,9 @@ label start:
             if not povname:
                 povname="Cassandre"
 
-
     play music journeys
-    scene school entrance
+
+    jump club_comedie
 
     with fade
     innerpov "OK."
