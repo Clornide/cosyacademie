@@ -9,7 +9,7 @@ label club_lock:
     met "Voilà, on y est..."
     pov "Mais, c'est une salle d'entrainement aux sports de combat ?"
     show Metalice Standard Cligne
-    met "Non! C'est une salle de bagarre!"
+    met "Non! C'est une salle de bagarre !"
     show Metalice Standard Sourire
     met "En tant que responsable autoproclamé de la sécurité de l'établissement Lock y a ses habitudes..."
     pov "Ah ? Mais il n'y a personne."
@@ -23,7 +23,7 @@ label club_lock:
     show Metalice Standard Colere Rougit at left
     show Lock PoseDroite Degoute at right with hpunch
     lock "Je t'ai déjà demandé de ne pas m'appeler comme ça!"
-    lock "Pour vous je suis Patrick DeltaForce... Grand maître justicier de la bagarre !"
+    lock "Pour vous je suis Patrick DELTAFORCE... Grand maître justicier de la bagarre !"
     show Metalice Standard Degoute
     met "Moui..."
     show Lock PoseDroite Badboy
@@ -35,8 +35,9 @@ label club_lock:
     pov "L'épreuve ? Je pensais qu'un classique formulaire d'inscription suffirait..."
     show Metalice PoseSpeciale Cligne Rougit 
     met "Heu... Bon je vous laisse! Bonne chance [povname] !"
-    pov "..."
     hide Metalice
+    pov "..."
+    
     hide Lock
     show Lock Standard Degoute at center with fade
     lock "Avance d'un pas prétendant !"
@@ -168,6 +169,8 @@ label club_lock:
     show din Standard Colere Rougit at center
     din "Ouais bah en attendant je dessine, et je décide qu'on est pas dans un shônen !"
     hide din
+    show ZePilot BrasCroises Colere
+    zep "Ouais puis tous ces effets, vous croyez que ça ce fait comme ça tout seul !? J'envoie la facture à qui ??"   
 
     scene gym_shonen
     
@@ -220,7 +223,7 @@ label club_lock:
     scene gym
     python:
         pointsmoguri-=1
-        renpy.movie_cutscene("movies/le_petit_couteau.webm")
+        renpy.movie_cutscene("movies/le_petit_couteau.webm", stop_music=False)
     hide Lock
 
     
@@ -233,6 +236,10 @@ label club_lock:
     show Moguri Standard Colere at right with hpunch
     mog "Waaaaa !"
     hide Moguri
+    show ZePilot BrasCroises Colere with hpunch
+    zep "On dépasse clairement le budget là !"
+    hide ZePilot  
+    
     show Lock Standard Colere at center
     lock "Allez ! Cassez-vous avant que je ne m'énerve vraiment !"
     lock "C'est pas un club de bébé Cadum ici!"

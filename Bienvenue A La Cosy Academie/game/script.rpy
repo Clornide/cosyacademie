@@ -53,7 +53,7 @@ init python:
 
         zoomATL = [lightzoom, mediumzoom, bigzoom, hugezoom]
 
-        png = ["Medoc", "Moguri", "Metalice", "Mickey", "Dieuvomi", "Esprism", "Von", "Mathilde", "Chuenpodo", "Caro", "din", "Foulk", "Lock"]
+        png = ["Medoc", "Moguri", "Metalice", "Mickey", "Dieuvomi", "Esprism", "Von", "Mathilde", "Chuenpodo", "Caro", "din", "Foulk", "Lock", "ZePilot"]
         character_displayed_tags = [
             t for t in png
             if t in showing_tags
@@ -115,7 +115,7 @@ define mic = Character('name_mickey', color="#fff" , image="Mickey", dynamic = T
 define dieuv = Character('name_dieuvomi', color="#fff", image="Dieuvomi", dynamic = True)
 define esprism = Character('name_esprism', color="#fff", image="Esprism", dynamic = True)
 define lock = Character('name_lock', color="#fff", image="Lock", dynamic = True)
-
+define zep = Character('name_zep', color="#fff", image="ZePilot", dynamic = True)
 define von = Character('name_von', color="#fff", image="Von", screen="say_von", dynamic = True)
 define mat = Character('name_mathilde', color="#fff", image="Mathilde", dynamic = True)
 define chuen = Character('name_chuen', color="#fff", image="Chuenpodo", screen="say_chuen", dynamic = True)
@@ -180,6 +180,9 @@ label start:
         name_caro = "Caro"
         name_din = "din"
         name_foulk = "Foulk"
+        name_lock = "Lock"
+        name_zep = "Ze PilOt"
+
         #Points routes
         pointsmedoc=0
         pointsmoguri=0
@@ -207,7 +210,7 @@ label start:
 
     play music journeys
 
-    jump club_comedie
+    jump club_lock
 
     with fade
     innerpov "OK."

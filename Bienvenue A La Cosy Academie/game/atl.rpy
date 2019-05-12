@@ -70,7 +70,7 @@ image gym_shonen:
     repeat
 
 image auraDBZ:
-    zoom 2.0 ypos -0.6 alpha 0.5 yanchor 0.0 
+    zoom 2.0 ypos -0.6 alpha 0.5 yanchor 0.0 xpos 0.48
     "Assets/aura/Aura.1.png"  
     pause 0.03
     "Assets/aura/Aura.2.png"
