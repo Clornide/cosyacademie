@@ -11,8 +11,14 @@ transform rightzoomed:
 transform left:
     xpos 0.1 xanchor 0.0 ypos 1.0 yanchor 1.0
 
+transform full_left:
+    xpos 0.0 xanchor 0.0 ypos 1.0 yanchor 1.0    
+
 transform right:
     xpos 0.9 xanchor 1.0 ypos 1.0 yanchor 1.0
+
+transform full_right:
+    xpos 1.0 xanchor 1.0 ypos 1.0 yanchor 1.0    
 
 transform center:
     xpos 0.5 xanchor 0.5 ypos 1.0 yanchor 1.0
@@ -54,7 +60,129 @@ transform hugezoom:
 transform normalzoom:
   ypos 1.0 zoom 1.0  
   alpha 1.0
-  
+
+#transform interruption:
+
+
+transform jumping:
+    linear 0.1 ypos 1.2 
+    linear 0.1 ypos .9
+    linear 0.1 ypos 1.0
+    
+transform go_away_interrupt:
+    #xpos 0.9 xanchor 1.0 ypos 2.0 yanchor 1.0 zoom 1.3
+    linear 0.1 xpos 0.9 ypos 1.2
+    linear 0.1 xpos 0.95 ypos 1.35
+    linear 0.1 xpos 1.0 ypos 1.2
+    linear 0.1 xpos 1.05 ypos 1.35
+    linear 0.1 xpos 1.1 ypos 1.2
+    linear 0.1 xpos 1.15 ypos 1.35
+    linear 0.1 xpos 1.20 ypos 1.2
+    linear 0.1 xpos 1.25 ypos 1.35
+    linear 0.1 xpos 1.30 ypos 1.2
+    linear 0.1 xpos 1.35 ypos 1.35
+    linear 0.1 xpos 1.4 ypos 1.2
+    linear 0.1 xpos 1.45 ypos 1.35
+    linear 0.1 xpos 1.5 ypos 1.2
+    linear 0.1 xpos 1.55 ypos 1.35
+
+transform go_away_chuen:
+
+    linear 0.1 xpos 0.1 ypos 1.4
+    linear 0.1 xpos .2 ypos 1.55
+    linear 0.1 xpos 0.3 ypos 1.4
+    linear 0.1 xpos 0.4 ypos 1.55
+    linear 0.1 xpos 0.5 ypos 1.4
+    linear 0.1 xpos 0.6 ypos 1.55
+    linear 0.1 xpos 0.7 ypos 1.4
+    linear 0.1 xpos 0.8 ypos 1.55
+    linear 0.1 xpos 0.9 ypos 1.4
+    linear 0.1 xpos 1.0 ypos 1.55
+    linear 0.1 xpos 1.1 ypos 1.4
+    linear 0.1 xpos 1.2 ypos 1.55
+    linear 0.1 xpos 1.3 ypos 1.4
+    linear 0.1 xpos 1.4 ypos 1.55
+    linear 0.1 xpos 1.5 ypos 1.4
+
+transform go_away:
+    linear 0.1 xpos 1.1 ypos 1.1
+    linear 0.1 xpos 1.2 ypos .9
+    linear 0.1 xpos 1.3 ypos 1.1
+    linear 0.1 xpos 1.4 ypos .9
+    linear 0.1 xpos 1.5 ypos 1.1
+    linear 0.1 xpos 1.6 ypos .9
+    linear 0.1 xpos 1.7 ypos 1.1
+    linear 0.1 xpos 1.8 ypos .9
+    linear 0.1 xpos 1.9 ypos 1.1
+
+transform go_back_in_place:
+    xpos 2.0 ypos 1.1 zoom 1.0
+    linear 0.1 xpos 1.9 ypos 1.1 
+    linear 0.1 xpos 1.8 ypos .9
+    linear 0.1 xpos 1.7 ypos 1.1
+    linear 0.1 xpos 1.6 ypos .9
+    linear 0.1 xpos 1.5 ypos 1.1
+    linear 0.1 xpos 1.4 ypos .9
+    linear 0.1 xpos 1.3 ypos 1.1
+    linear 0.1 xpos 1.2 ypos .9
+    linear 0.1 xpos 1.1 ypos 1.1
+    linear 0.1 xpos 1.0 ypos 1.0
+
+
+transform dezoom:
+    zoom 0.5
+
+transform go_left_to_right:
+    xpos 1.5
+    linear 0.1 xpos 1.5 ypos 1.1
+    linear 0.1 xpos 1.4 ypos .9
+    linear 0.1 xpos 1.3 ypos 1.1
+    linear 0.1 xpos 1.2 ypos .9
+    linear 0.1 xpos 1.1 ypos 1.1
+    linear 0.1 xpos 1.0 ypos .9
+    linear 0.1 xpos 0.9 ypos 1.1
+    linear 0.1 xpos 0.8 ypos .9
+    linear 0.1 xpos 0.7 ypos 1.1
+    linear 0.1 xpos 0.6 ypos .9
+    linear 0.1 xpos 0.5 ypos 1.1
+    linear 0.1 xpos 0.4 ypos .9
+    linear 0.1 xpos 0.3 ypos 1.1
+    linear 0.1 xpos 0.2 ypos .9
+    linear 0.1 xpos 0.1 ypos 1.1
+    linear 0.1 xpos 0.0 ypos .9
+    linear 0.1 xpos -0.1 ypos 1.1
+    linear 0.1 xpos -0.2 ypos .9
+    linear 0.1 xpos -0.3 ypos 1.1
+    linear 0.1 xpos -0.4 ypos .9
+    linear 0.1 xpos -0.5 ypos 1.1
+    
+transform go_right_to_left:
+    xpos -0.5
+    linear 0.1 xpos -0.5 ypos 1.1
+    linear 0.1 xpos -0.4 ypos .9
+    linear 0.1 xpos -0.3 ypos 1.1
+    linear 0.1 xpos -0.2 ypos .9
+    linear 0.1 xpos -0.1 ypos 1.1
+    linear 0.1 xpos 0.0 ypos .9
+    linear 0.1 xpos 0.1 ypos 1.1
+    linear 0.1 xpos 0.2 ypos .9
+    linear 0.1 xpos 0.3 ypos 1.1
+    linear 0.1 xpos 0.4 ypos .9
+    linear 0.1 xpos 0.5 ypos 1.1
+    linear 0.1 xpos 0.6 ypos .9
+    linear 0.1 xpos 0.7 ypos 1.1
+    linear 0.1 xpos 0.8 ypos .9
+    linear 0.1 xpos 0.9 ypos 1.1
+    linear 0.1 xpos 1.0 ypos .9
+    linear 0.1 xpos 1.1 ypos 1.1
+    linear 0.1 xpos 1.2 ypos .9
+    linear 0.1 xpos 1.3 ypos 1.1
+    linear 0.1 xpos 1.4 ypos .9
+    linear 0.1 xpos 1.5 ypos 1.1
+
+transform go_to_center:
+    linear 1.0 xpos 2.0
+    
 
 transform alphatransform:
     alpha 0.8

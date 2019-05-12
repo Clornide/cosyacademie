@@ -1,0 +1,271 @@
+label club_pansepignoles:
+    python:
+        name_chuen = "Chuenpodo"
+
+    play music journeys
+    scene school entrance with fade
+
+    innerpov "Alors... Il faut que j'aille voir les cheerleaders cet après-midi. Mieux vaut attendre Chuenpodo, je ne suis pas encore très familier avec les locaux de l'école, j'ai pas envie de me perdre..."
+    innerpov "Ah le voilà !"
+
+    show Chuenpodo Standard Sourire
+    chuen "Ah [povname], c'est pour l'inscription chez les cheerleaders c'est ça ?"
+
+    pov "Oui enfin inscription…. Je suis là pour venir voir déjà, on verra ensuite"
+
+    show Chuenpodo BrasCroises Sourire Rougit
+    chuen "Ah ! Mais c'est tout vu ! Une fois que tu auras posé les yeux sur eux tu seras comme… hypnotisé…."
+
+    pov "Moui admettons. Je te suis alors !"
+
+    play music wonderful
+    scene tracks with fade
+    show Cheerleaders Groupe Cheer at full_right
+    show Chuenpodo Standard Sourire zorder 101 at full_left, mediumzoom 
+    
+    chuen  "Et les voilà ! Nos stars du campus ! Est-ce qu'ils sont pas merveilleux ?"
+    pov "Quoi mais ? Nan mais attends ils sont que trois ?"   
+    chuen "Oui enfin… Momentanément quoi…."
+    pov "Momentanément en attendant quoi ?"
+    show Chuenpodo Standard Triste
+    chuen "Que… tu les rejoignes ?"
+    innerpov "Ok. Je sens le traquenard a plein nez."
+    show Chuenpodo BrasCroises Sourire Yeuxfermes
+    chuen "Ok, faut l'impressionner les gars ! Alors je te présente Clornide, Samael et décade, et ce sont…  Les Panthusiasts !"
+    python:
+        name_cheers = "Les Panthusiasts"
+    cheers "Yeeeah !"
+    show Chuenpodo BrasCroises Triste
+    clornide Cheer "Sachant que moi a la toute base j'étais plus Pansepeople.."
+    show Chuenpodo BrasCroises Colere
+    samael Cheer "Ah ouais nan mais moi aussi..."
+    show Chuenpodo BrasCroises Degoute
+    decade Cheer "Ah moi je trouvais que Pansepignole c'était marrant..."
+    clornide  "Un poil vulgaire quand même non ?"
+    samael "Tu trouves ?"
+
+    show Chuenpodo BrasCroises Colere zorder 101 at full_left, mediumzoom 
+    chuen "HEY ! CA SUFFIT OUI ? l'Académie a voté, et c'est Panthusiasts qui a gagné, c'est comme ça..."
+    innerpov "Il est bien moins commode qu'il n'en a l'air..."
+
+    clornide "Tsk… de toute façon je suis convaincu que c'est dieuvomi qui a truqué les votes..."
+
+    chuen "NE PARLEZ PAS COMME CA DE DIEUVOMI, VOUS NE CONNAISSEZ PAS SON HISTOIRE !"
+
+    innerpov "Tiens ? Je ne les aurais pas pensé si proche…"
+
+    chuen "ALLEZ VOUS ME FAITES TROIS TOURS DE TERRAIN ET PLUS VITE QUE ÇA !"
+    show Cheerleaders at go_away
+    show Chuenpodo Standard Sourire
+    chuen  "Tu vois, ici, en plus de beaucoup s'amuser, on met aussi beaucoup en avant la forme physique."
+    show Cheerleaders Fail at dezoom, go_left_to_right
+    pov  "Je vois ça... Enfin, ils ont quand même l'air très en souffrance là !"
+    show Cheerleaders Fail at dezoom, go_right_to_left
+    show Chuenpodo BrasCroises Badboy
+    chuen "Meuh non ! Regarde, ils en pleurent de joie !"
+
+    pov "Si tu le dis... Dis moi, ça vient d'où ce nom du coup ?"
+    show Chuenpodo Standard Sourire 
+    chuen "Et bien en voilà une bonne question ! C'est en hommage à notre ancien manager Pansepignon… A l'époque j'étais moi même cheerleaders !"
+    show Chuenpodo Standard Sourire Yeuxfermes
+    chuen "C'était un étudiant a la Cosy Académie comme nous, mais il était genial." 
+    show Chuenpodo Standard Sourire Yeuxfermes Rougit
+    chuen "C'était le meilleur. Et il n'arrêtait pas de dire que c'était moi le meilleur."
+    show Cheerleaders at dezoom, go_left_to_right
+    pov "Une admiration réciproque on va dire..."
+    show Chuenpodo Standard Colere Rougit
+    chuen "MAIS C'ETAIT LUI LE MEILLEUR !"
+
+    pov "Oui oui bon d'accord… et ensuite ?"
+    show Chuenpodo BrasCroises Colere Rougit
+    chuen "Non mais il faut le garder en tête. C'est lui. Bref, il était tout aussi fascinant qu'il était bavard."
+    show Chuenpodo Standard Sourire
+    show Cheerleaders at dezoom, go_right_to_left
+    chuen "Insupportable selon certain. Des mauvaises langues lui demandait souvent d'arrêter de \"spammer\". Jusqu'au jour où..."
+    show Chuenpodo Standard Triste
+    chuen "Notre Pansepignon a disparu…"
+    
+    pov "Quoi ? Comme ça ? Pouf ?"
+    show Chuenpodo BrasCroises Degoute
+    chuen "POUF ! Après il y a des rumeurs..."
+    show Cheerleaders at dezoom, go_left_to_right
+    chuen "Tout le monde a entendu dire qu'un élève du nom de Von_Yaourt s'était servi de son influence pour le faire bannir."
+    chuen "Mais on ne l'a plus jamais revu. Mais on essaie de le faire revenir !"
+
+    pov "Et comment vous faites ça ?"
+    
+    chuen "Et bien on scande son nom bien sûr ! Du moins on essaie, je pense qu'on est maudit, ou que toute l'école est liguee contre nous..."
+    show Cheerleaders Cheer at dezoom, go_right_to_left
+
+    chuen "Tiens ! Les revoilà, attends, on va te montrer !"
+    innerpov "Mais de quoi il parle..."
+    pov "Oui oui allez y montrez moi !"
+    chuen "Allez les gars ! En place !"
+    show Cheerleaders at go_back_in_place
+    pause 1.0
+    clornide "Attends… moi j'en peux plus… j'ai pas l'habitude.... on fait une pause...."
+    decade "Pareil… j'suis trop vieux pour ces bêtises..."
+    show Chuenpodo Standard Colere
+    chuen "Bah quoi, vous voulez pas votre DROP ?"
+    decade "SI ! SI C'EST BON, ALLEZ GO LES MECS !"
+    show Chuenpodo Standard Sourire
+    chuen "Trois, quatre et…"
+    show Cheerleaders at jumping
+    cheers "P{p=1.0}{nw}" 
+    
+    show Cheerleaders at jumping
+    cheers "A{p=1.0}{nw}"
+    
+    show Cheerleaders at jumping
+    cheers "N{p=1.0}{nw}"
+    
+
+    show Medoc Standard Sourire zorder 105:
+        xpos 0.9 xanchor 1.0 ypos 2.0 yanchor 1.0 zoom 1.3
+        linear .5 ypos 1.3
+    pause .2
+
+    show Cheerleaders Fail  with hpunch 
+    show Chuenpodo BrasCroises Colere
+    pause .3
+    show Cheerleaders Fail at shade_transform
+    med "Hey salut [povname], tiens chuenpodo, qu'est-ce que tu fais là ?"
+
+
+    cheers "NOOOOOOON !!!!"
+    show Chuenpodo Standard Triste
+    chuen "MAIS C'EST PAS POSSIBLE !!!!"
+    show Medoc PoseGauche Gene
+    med "Oula, ils ont l'air tendu… et bah je l'éclipse hein, a plus tard !"
+    show Medoc at go_away_interrupt
+    pause 1.5
+    show Chuenpodo BrasCroises Colere
+    show Cheerleaders Fail at normalalpha
+    hide Medoc
+
+    chuen "C'EST TOUJOURS COMME CA ! TOUJOURS !"
+    decade Decade Fail "Ouais, on en a marre... On en a besoin de ce DROP..."
+    show Chuenpodo BrasCroises Colere Rougit
+    chuen "SI VOUS Y ARRIVEZ UN JOUR ! ALLEZ ON REPREND !!"
+    show Chuenpodo Standard Sourire
+    show Cheerleaders Cheer at jumping
+    cheers "P{p=1.0}{nw}"
+    
+
+    show Chuenpodo Standard Sourire Rougit
+
+
+
+    show Cheerleaders at jumping
+    cheers "A{p=1.0}{nw}"
+    
+    show Chuenpodo Standard Sourire Yeuxfermes
+
+    show Cheerleaders at jumping
+    cheers "N{p=1.0}{nw}"
+
+    show Chuenpodo Standard Sourire Yeuxfermes Rougit
+    show Cheerleaders at jumping
+    cheers "S{p=1.0}{nw}"
+
+    show Chuenpodo Standard Yeuxfermes Rougit
+    show Cheerleaders at jumping
+    cheers "E{p=1.0}{nw}"
+
+    show Chuenpodo BrasCroises Sourire Rougit
+    show Cheerleaders at jumping
+    cheers "P{p=1.0}{nw}"
+
+
+    show Metalice Standard Cligne zorder 120:
+        xpos 0.9 xanchor 1.0 ypos 2.0 yanchor 1.0 zoom 1.3
+        linear .5 ypos 1.3
+
+    pause .2
+    show Cheerleaders Fail with hpunch
+    show Chuenpodo BrasCroises Colere
+    pause .3
+    show Cheerleaders Fail at shade_transform
+    met "Coucou ! Ça va les Pansepignoles, ça avance votre invocation ?"
+
+    python:
+        name_cheers = "Les Pansepignoles"
+
+    innerpov "Hein ?"
+
+    cheers "NOOOOOOOOOOOON !!!!!"
+
+    show Chuenpodo Standard Triste
+    chuen "J'EN PEUX PLUS ! REVIENS PANSE !!!!"
+
+    show Chuenpodo BrasCroises Colere
+    chuen "ALLEZ LES GARS 5 TOURS DE TERRAIN, ET JE VOUS SUIS CETTE FOIS !"
+
+    samael Samael Fail "Pitié..."
+    clornide Clornide Fail "Pas encore..."
+    decade Decade Fail "Mes vieux os…"
+    show Chuenpodo Standard Badboy
+    chuen "ALLEZ ON Y VA !"
+    show Cheerleaders Fail at normalalpha
+    show Metalice at shade_transform
+    show Cheerleaders at go_away
+    show Chuenpodo at go_away_chuen
+    pause 2.0
+    hide Cheerleaders
+    hide Chuenpodo
+    show Metalice at normalalpha
+
+    pov "Tiens salut Metalice, tu veux pas venir me secourir ?"
+
+    show Metalice Standard Sourire
+    met "Ahahah, et bien quoi il te plaît pas ce club ?"
+
+    pov "Non, ils sont carrément bizarres… dis, c'est quoi cette histoire d'invocation ?"
+    show Metalice Standard Cligne
+    met "t'as bien vu qu'ils n'arrivent jamais a épeler Pansepignon correctement sans être interrompu ?"
+
+    pov "Oui chuenpodo m'a même dit qu'ils devaient être maudits !"
+    show Metalice Standard Sourire
+    met "Exactement ! Et ce n'était pas une façon de parler... Ces types pensent vraiment qu'ils sont maudits !"
+
+    pov "Sans rire ?"
+    show Metalice PoseSpeciale Cligne
+    met "Je te jure ! Leur local est flippant !"
+    met "Du coup ils sont convaincus que s'ils arrivent a scander Pansepignon jusqu'au bout, ils pourront l'invoquer."
+    show Metalice PoseSpeciale Gene
+    met "Chuen a vraiment mal vécu sa disparition…"
+
+    pov "Mais, ce Pansepignon, il n'est pas mort ?"
+    show Metalice Standard Sourire
+    met "Pas aux dernières nouvelles…"
+
+    pov "Bah ils veulent l'invoquer d'où alors ?"
+
+    show Metalice Standard Cligne
+    met "Qui sait ?"
+
+    pov "Bah EUX ! Enfin j'espère !"
+
+    show Metalice PoseGauche Sourire Yeuxfermes
+    met "Ahah, je pense que tu vas aller de surprise en surprise ici..."
+
+    pov "Bon je raye les cheerleaders alors, une autre proposition ?"
+
+    
+    show Metalice Standard Sourire
+    met "Hmmmm je ne sais pas… Tu aimes l'humour ?"
+
+    pov "Oui, comme tout le monde je suppose."
+    show Metalice PoseSpeciale Cligne
+    met "Bon... Laissons le club de comédie de côté alors…"
+
+    pov "Quoi ! mais si ! J'ai bien envie d'aller y faire un tour moi !"
+    show Metalice Standard Sourire
+    met "Très bien, alors suis moi, mais je te préviens, je ne mettrai pas les pieds dans cet endroit !"
+
+    pov "Je te suis !"
+
+
+    jump club_comedie
+    return
+
