@@ -54,7 +54,7 @@ label Ichoosemoguri:
     mog "Je peux te raccompagner chez toi si tu veux, on discutera sur le chemin ?"
     pov "Allons-y !"
 
-    scene ruesoleilnormal with longfade
+    scene street day with longfade
 
     show Moguri Standard Sourire with dissolve
 

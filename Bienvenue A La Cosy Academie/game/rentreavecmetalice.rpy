@@ -1,5 +1,5 @@
 label Rentreavecmetalice:
-    scene ruesoleilcouchant with longfade
+    scene street day with longfade
     show Metalice Standard Sourire Yeuxfermes
     if sex=="m":
         met "Tu sais, je suis quand même surprise que tu ne sois pas rentré avec un de tes prétendants..."

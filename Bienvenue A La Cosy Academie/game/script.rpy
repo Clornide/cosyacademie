@@ -19,6 +19,7 @@ image school hallway = "background/hallway.png"
 image theater = "background/theater.png"
 image gym = "background/gym.png"
 image tracks = "background/tracks.png"
+image street day = "background/street dayDay.png"
 
 # Déclarez les personnages utilisés dans le jeu.
 
