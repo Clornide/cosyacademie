@@ -17,6 +17,8 @@ image reverie = "reverie.jpg"
 image school entrance = "background/schoolEntrance.png"
 image school hallway = "background/hallway.png"
 image theater = "background/theater.png"
+image gym = "background/gym.png"
+image tracks = "background/tracks.png"
 
 # Déclarez les personnages utilisés dans le jeu.
 
@@ -44,15 +46,24 @@ init python:
                 txt3 += letter
 
 
+    def has_zoom_tag(tag):
+        zoomATL = [lightzoom, mediumzoom, bigzoom, hugezoom]
+        attributes = renpy.get_at_list(tag)
+        for attribute in attributes:
+            if attribute in zoomATL:
+                return False
+        return True
+
+
     def char_callback(event, interact=True, **kwargs):
 
         showing_tags = renpy.get_showing_tags(layer='master')
 
         current_tag = renpy.get_say_image_tag()
 
-        zoomATL = [lightzoom, mediumzoom, bigzoom, hugezoom]
+        
 
-        png = ["Medoc", "Moguri", "Metalice", "Mickey", "Dieuvomi", "Esprism", "Von", "Mathilde", "Chuenpodo", "Caro", "din", "Foulk"]
+        png = ["Medoc", "Moguri", "Metalice", "Mickey", "Dieuvomi", "Esprism", "Von", "Mathilde", "Chuenpodo", "Caro", "din", "Foulk", "Lock", "ZePilot"]
         character_displayed_tags = [
             t for t in png
             if t in showing_tags
@@ -66,30 +77,35 @@ init python:
 
 
         if current_tag == "player":
+
             for tag in character_tags:
-                renpy.show(tag, at_list = [normalalpha, normalzoom], zorder = 0)
+                if len(character_displayed_tags) > 1:
+                    if has_zoom_tag(tag) == False:
+                        renpy.show(tag, at_list = [normalalpha, normalzoom], zorder = 0)
+                    else:
+                        renpy.show(tag, at_list = [normalalpha], zorder = 0)
+                else:
+                    renpy.show(tag, at_list = [normalalpha], zorder = 100)
             return
 
         if current_tag and event == "begin":
             tr = [shade_transform, normalzoom]
+            
             for tag in character_tags:
-                renpy.show(tag, at_list = tr, zorder = 0)
+                if has_zoom_tag(tag):
+                    renpy.show(tag, at_list = [shade_transform], zorder = 0)
+                else:
+                    renpy.show(tag, at_list = tr, zorder = 0)
 
             if current_tag in showing_tags:
                 if len(character_displayed_tags) > 1:
-                    attributes = renpy.get_at_list(current_tag)
-                    okZoom = True
-                    for attribute in attributes:
-                        if attribute in zoomATL:
-                            okZoom = False
-                            break
-                    if okZoom:
+                    if has_zoom_tag(current_tag):
                         renpy.show( current_tag, at_list = [zoom], zorder = 100 )
                     else:
-                        renpy.show( current_tag )
+                        renpy.show( current_tag, zorder = 100 )
 
-            else:
-                renpy.show( current_tag, at_list = [normalalpha], zorder = 100 )
+                else:
+                    renpy.show( current_tag, at_list = [normalalpha], zorder = 100 )
 
 
 
@@ -106,21 +122,25 @@ image we1:
     repeat
 
 define pov = Character("[povname]", color="#fff", image="player")
-define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-20}[toSelf]{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
+define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-15}[toSelf]{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
 define med = Character('name_medoc', color="#fff", image="Medoc", dynamic = True)
 define mog = Character('name_moguri', color="#fff", image="Moguri", dynamic = True)
 define met = Character('name_metalice', color="#fff", image="Metalice", dynamic = True)
 define mic = Character('name_mickey', color="#fff" , image="Mickey", dynamic = True)
 define dieuv = Character('name_dieuvomi', color="#fff", image="Dieuvomi", dynamic = True)
 define esprism = Character('name_esprism', color="#fff", image="Esprism", dynamic = True)
-
+define lock = Character('name_lock', color="#fff", image="Lock", dynamic = True)
+define zep = Character('name_zep', color="#fff", image="ZePilot", dynamic = True)
 define von = Character('name_von', color="#fff", image="Von", screen="say_von", dynamic = True)
 define mat = Character('name_mathilde', color="#fff", image="Mathilde", dynamic = True)
 define chuen = Character('name_chuen', color="#fff", image="Chuenpodo", screen="say_chuen", dynamic = True)
 define caro = Character('name_caro', color="#fff", image="Caro", dynamic = True)
 define din = Character('name_din', color="#fff", image="din", dynamic = True)
 define foulk = Character('name_foulk', color="#fff", image="Foulk", dynamic = True)
-
+define clornide = Character('Clornide', color="#fff", image="Clornide")
+define samael = Character('Samael', color="#fff", image="Samael")
+define decade = Character('Decade', color="#fff", image="Decade")
+define cheers = Character('name_cheers', color="#fff", dynamic = True)
 define inc = Character('???', color="#fff")
 define tlm = Character('Tout le monde', color="#fff")
 
@@ -140,6 +160,8 @@ define audio.journeys = "music/sb_journeys.mp3"
 define audio.tomorrow = "music/sb_tomorrow.mp3"
 define audio.wonderful = "music/sb_wonderful.mp3"
 define audio.comedy = "music/sb_skyscrapersamba_eq_lessdrums.mp3"
+define audio.gym = "music/sb_red_altmix.mp3"
+define audio.epic = "music/sb_pursuit.mp3"
 
 #FX
 define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
@@ -176,6 +198,11 @@ label start:
         name_caro = "Caro"
         name_din = "din"
         name_foulk = "Foulk"
+        name_lock = "Lock"
+        name_zep = "Ze PilOt"
+        name_clornide = "Clornide"
+        name_cheers = "Panthusiasts"
+
         #Points routes
         pointsmedoc=0
         pointsmoguri=0
@@ -203,7 +230,7 @@ label start:
 
     play music journeys
 
-    jump club_comedie
+    jump club_pansepignoles
 
     with fade
     innerpov "OK."
