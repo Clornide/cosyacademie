@@ -8,12 +8,12 @@ label club_pansepignoles:
     innerpov "Alors... Il faut que j'aille voir les cheerleaders cet après-midi. Mieux vaut attendre Chuenpodo, je ne suis pas encore très familier avec les locaux de l'école, j'ai pas envie de me perdre..."
     innerpov "Ah le voilà !"
 
-    show Chuenpodo Standard Sourire
+    show Chuenpodo PoseSpeciale Sourire
     chuen "Ah [povname], c'est pour l'inscription chez les cheerleaders c'est ça ?"
 
     pov "Oui enfin inscription…. Je suis là pour venir voir déjà, on verra ensuite"
 
-    show Chuenpodo BrasCroises Sourire Rougit
+    show Chuenpodo PoseSpeciale Sourire Rougit
     chuen "Ah ! Mais c'est tout vu ! Une fois que tu auras posé les yeux sur eux tu seras comme… hypnotisé…."
 
     pov "Moui admettons. Je te suis alors !"
@@ -21,30 +21,30 @@ label club_pansepignoles:
     play music wonderful
     scene tracks with fade
     show Cheerleaders Groupe Cheer at full_right
-    show Chuenpodo Standard Sourire zorder 101 at full_left, mediumzoom
+    show Chuenpodo PoseSpeciale Sourire zorder 101 at full_left, mediumzoom
     
     chuen  "Et les voilà ! Nos stars du campus ! Est-ce qu'ils sont pas merveilleux ?"
     pov "Quoi mais ? Nan mais attends ils sont que trois ?"   
     chuen "Oui enfin… Momentanément quoi…."
     pov "Momentanément en attendant quoi ?"
-    show Chuenpodo Standard Triste at full_left, mediumzoom
+    show Chuenpodo PoseSpeciale Triste at full_left, mediumzoom
     chuen "Que… tu les rejoignes ?"
     innerpov "Ok. Je sens le traquenard a plein nez."
-    show Chuenpodo BrasCroises Sourire Yeuxfermes  at full_left, mediumzoom
+    show Chuenpodo PoseSpeciale Sourire Yeuxfermes  at full_left, mediumzoom
     chuen "Ok, faut l'impressionner les gars ! Alors je te présente Clornide, Samael et décade, et ce sont…  Les Panthusiasts !"
     python:
         name_cheers = "Les Panthusiasts"
     cheers "Yeeeah !"
-    show Chuenpodo BrasCroises Triste at full_left, mediumzoom
+    show Chuenpodo PoseSpeciale Triste at full_left, mediumzoom
     clornide Cheer "Sachant que moi a la toute base j'étais plus Pansepeople.."
-    show Chuenpodo BrasCroises Colere at full_left, mediumzoom
+    show Chuenpodo PoseSpeciale Colere at full_left, mediumzoom
     samael Cheer "Ah ouais nan mais moi aussi..."
-    show Chuenpodo BrasCroises Degoute at full_left, mediumzoom
+    show Chuenpodo PoseSpeciale Degoute at full_left, mediumzoom
     decade Cheer "Ah moi je trouvais que Pansepignole c'était marrant..."
     clornide  "Un poil vulgaire quand même non ?"
     samael "Tu trouves ?"
 
-    show Chuenpodo BrasCroises Colere zorder 101 at full_left, mediumzoom 
+    show Chuenpodo PoseSpeciale Colere zorder 101 at full_left, mediumzoom 
     chuen "HEY ! CA SUFFIT OUI ? l'Académie a voté, et c'est Panthusiasts qui a gagné, c'est comme ça..."
     innerpov "Il est bien moins commode qu'il n'en a l'air..."
 
@@ -56,37 +56,37 @@ label club_pansepignoles:
 
     chuen "ALLEZ VOUS ME FAITES TROIS TOURS DE TERRAIN ET PLUS VITE QUE ÇA !"
     show Cheerleaders at go_away
-    show Chuenpodo Standard Sourire at full_left, mediumzoom
+    show Chuenpodo PoseSpeciale Sourire at full_left, mediumzoom
     chuen  "Tu vois, ici, en plus de beaucoup s'amuser, on met aussi beaucoup en avant la forme physique."
     show Cheerleaders Fail at dezoom, go_left_to_right
     pov  "Je vois ça... Enfin, ils ont quand même l'air très en souffrance là !"
     show Cheerleaders Fail at dezoom, go_right_to_left
-    show Chuenpodo BrasCroises Badboy at full_left, mediumzoom
+    show Chuenpodo PoseSpeciale Badboy at full_left, mediumzoom
     chuen "Meuh non ! Regarde, ils en pleurent de joie !"
 
     pov "Si tu le dis... Dis moi, ça vient d'où ce nom du coup ?"
-    show Chuenpodo Standard Sourire 
+    show Chuenpodo PoseSpeciale Sourire 
     chuen "Et bien en voilà une bonne question ! C'est en hommage à notre ancien manager Pansepignon… A l'époque j'étais moi même cheerleaders !"
-    show Chuenpodo Standard Sourire Yeuxfermes
+    show Chuenpodo PoseSpeciale Sourire Yeuxfermes
     chuen "C'était un étudiant a la Cosy Académie comme nous, mais il était genial." 
-    show Chuenpodo Standard Sourire Yeuxfermes Rougit
+    show Chuenpodo PoseSpeciale Sourire Yeuxfermes Rougit
     chuen "C'était le meilleur. Et il n'arrêtait pas de dire que c'était moi le meilleur."
     show Cheerleaders at dezoom, go_left_to_right
     pov "Une admiration réciproque on va dire..."
-    show Chuenpodo Standard Colere Rougit
+    show Chuenpodo PoseSpeciale Colere Rougit
     chuen "MAIS C'ETAIT LUI LE MEILLEUR !"
 
     pov "Oui oui bon d'accord… et ensuite ?"
-    show Chuenpodo BrasCroises Colere Rougit
+    show Chuenpodo PoseSpeciale Colere Rougit
     chuen "Non mais il faut le garder en tête. C'est lui. Bref, il était tout aussi fascinant qu'il était bavard."
-    show Chuenpodo Standard Sourire
+    show Chuenpodo PoseSpeciale Sourire
     show Cheerleaders at dezoom, go_right_to_left
     chuen "Insupportable selon certain. Des mauvaises langues lui demandait souvent d'arrêter de \"spammer\". Jusqu'au jour où..."
-    show Chuenpodo Standard Triste
+    show Chuenpodo PoseSpeciale Triste
     chuen "Notre Pansepignon a disparu…"
     
     pov "Quoi ? Comme ça ? Pouf ?"
-    show Chuenpodo BrasCroises Degoute
+    show Chuenpodo PoseSpeciale Degoute
     chuen "POUF ! Après il y a des rumeurs..."
     show Cheerleaders at dezoom, go_left_to_right
     chuen "Tout le monde a entendu dire qu'un élève du nom de Von_Yaourt s'était servi de son influence pour le faire bannir."
@@ -105,10 +105,10 @@ label club_pansepignoles:
     pause 1.0
     clornide "Attends… moi j'en peux plus… j'ai pas l'habitude.... on fait une pause...."
     decade "Pareil… j'suis trop vieux pour ces bêtises..."
-    show Chuenpodo Standard Colere
+    show Chuenpodo PoseSpeciale Colere
     chuen "Bah quoi, vous voulez pas votre DROP ?"
     decade "SI ! SI C'EST BON, ALLEZ GO LES MECS !"
-    show Chuenpodo Standard Sourire
+    show Chuenpodo PoseSpeciale Sourire
     chuen "Trois, quatre et…"
     show Cheerleaders at jumping
     cheers "P{p=1.0}{nw}" 
@@ -126,53 +126,53 @@ label club_pansepignoles:
     pause .2
 
     show Cheerleaders Fail  with hpunch 
-    show Chuenpodo BrasCroises Colere
+    show Chuenpodo PoseSpeciale Colere
     pause .3
     show Cheerleaders Fail at shade_transform
     med "Hey salut [povname], tiens chuenpodo, qu'est-ce que tu fais là ?"
 
 
     cheers "NOOOOOOON !!!!"
-    show Chuenpodo Standard Triste
+    show Chuenpodo PoseSpeciale Triste
     chuen "MAIS C'EST PAS POSSIBLE !!!!"
     show Medoc PoseGauche Gene
     med "Oula, ils ont l'air tendu… et bah je l'éclipse hein, a plus tard !"
     show Medoc at go_away_interrupt
     pause 1.5
-    show Chuenpodo BrasCroises Colere
+    show Chuenpodo PoseSpeciale Colere
     show Cheerleaders Fail at normalalpha
     hide Medoc
 
     chuen "C'EST TOUJOURS COMME CA ! TOUJOURS !"
     decade Decade Fail "Ouais, on en a marre... On en a besoin de ce DROP..."
-    show Chuenpodo BrasCroises Colere Rougit
+    show Chuenpodo PoseSpeciale Colere Rougit
     chuen "SI VOUS Y ARRIVEZ UN JOUR ! ALLEZ ON REPREND !!"
-    show Chuenpodo Standard Sourire
+    show Chuenpodo PoseSpeciale Sourire
     show Cheerleaders Cheer at jumping
     cheers "P{p=1.0}{nw}"
     
 
-    show Chuenpodo Standard Sourire Rougit
+    show Chuenpodo PoseSpeciale Sourire Rougit
 
 
 
     show Cheerleaders at jumping
     cheers "A{p=1.0}{nw}"
     
-    show Chuenpodo Standard Sourire Yeuxfermes
+    show Chuenpodo PoseSpeciale Sourire Yeuxfermes
 
     show Cheerleaders at jumping
     cheers "N{p=1.0}{nw}"
 
-    show Chuenpodo Standard Sourire Yeuxfermes Rougit
+    show Chuenpodo PoseSpeciale Sourire Yeuxfermes Rougit
     show Cheerleaders at jumping
     cheers "S{p=1.0}{nw}"
 
-    show Chuenpodo Standard Yeuxfermes Rougit
+    show Chuenpodo PoseSpeciale Yeuxfermes Rougit
     show Cheerleaders at jumping
     cheers "E{p=1.0}{nw}"
 
-    show Chuenpodo BrasCroises Sourire Rougit
+    show Chuenpodo PoseSpeciale Sourire Rougit
     show Cheerleaders at jumping
     cheers "P{p=1.0}{nw}"
 
@@ -183,7 +183,7 @@ label club_pansepignoles:
 
     pause .2
     show Cheerleaders Fail with hpunch
-    show Chuenpodo BrasCroises Colere
+    show Chuenpodo PoseSpeciale Colere
     pause .3
     show Cheerleaders Fail at shade_transform
     met "Coucou ! Ça va les Pansepignoles, ça avance votre invocation ?"
@@ -195,16 +195,16 @@ label club_pansepignoles:
 
     cheers "NOOOOOOOOOOOON !!!!!"
 
-    show Chuenpodo Standard Triste
+    show Chuenpodo PoseSpeciale Triste
     chuen "J'EN PEUX PLUS ! REVIENS PANSE !!!!"
 
-    show Chuenpodo BrasCroises Colere
+    show Chuenpodo PoseSpeciale Colere
     chuen "ALLEZ LES GARS 5 TOURS DE TERRAIN, ET JE VOUS SUIS CETTE FOIS !"
 
     samael Samael Fail "Pitié..."
     clornide Clornide Fail "Pas encore..."
     decade Decade Fail "Mes vieux os…"
-    show Chuenpodo Standard Badboy
+    show Chuenpodo PoseSpeciale Badboy
     chuen "ALLEZ ON Y VA !"
     show Cheerleaders Fail at normalalpha
     show Metalice at shade_transform
