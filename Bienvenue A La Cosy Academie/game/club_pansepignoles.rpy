@@ -21,25 +21,25 @@ label club_pansepignoles:
     play music wonderful
     scene tracks with fade
     show Cheerleaders Groupe Cheer at full_right
-    show Chuenpodo Standard Sourire zorder 101 at full_left, mediumzoom 
+    show Chuenpodo Standard Sourire zorder 101 at full_left, mediumzoom
     
     chuen  "Et les voilà ! Nos stars du campus ! Est-ce qu'ils sont pas merveilleux ?"
     pov "Quoi mais ? Nan mais attends ils sont que trois ?"   
     chuen "Oui enfin… Momentanément quoi…."
     pov "Momentanément en attendant quoi ?"
-    show Chuenpodo Standard Triste
+    show Chuenpodo Standard Triste at full_left, mediumzoom
     chuen "Que… tu les rejoignes ?"
     innerpov "Ok. Je sens le traquenard a plein nez."
-    show Chuenpodo BrasCroises Sourire Yeuxfermes
+    show Chuenpodo BrasCroises Sourire Yeuxfermes  at full_left, mediumzoom
     chuen "Ok, faut l'impressionner les gars ! Alors je te présente Clornide, Samael et décade, et ce sont…  Les Panthusiasts !"
     python:
         name_cheers = "Les Panthusiasts"
     cheers "Yeeeah !"
-    show Chuenpodo BrasCroises Triste
+    show Chuenpodo BrasCroises Triste at full_left, mediumzoom
     clornide Cheer "Sachant que moi a la toute base j'étais plus Pansepeople.."
-    show Chuenpodo BrasCroises Colere
+    show Chuenpodo BrasCroises Colere at full_left, mediumzoom
     samael Cheer "Ah ouais nan mais moi aussi..."
-    show Chuenpodo BrasCroises Degoute
+    show Chuenpodo BrasCroises Degoute at full_left, mediumzoom
     decade Cheer "Ah moi je trouvais que Pansepignole c'était marrant..."
     clornide  "Un poil vulgaire quand même non ?"
     samael "Tu trouves ?"
@@ -56,12 +56,12 @@ label club_pansepignoles:
 
     chuen "ALLEZ VOUS ME FAITES TROIS TOURS DE TERRAIN ET PLUS VITE QUE ÇA !"
     show Cheerleaders at go_away
-    show Chuenpodo Standard Sourire
+    show Chuenpodo Standard Sourire at full_left, mediumzoom
     chuen  "Tu vois, ici, en plus de beaucoup s'amuser, on met aussi beaucoup en avant la forme physique."
     show Cheerleaders Fail at dezoom, go_left_to_right
     pov  "Je vois ça... Enfin, ils ont quand même l'air très en souffrance là !"
     show Cheerleaders Fail at dezoom, go_right_to_left
-    show Chuenpodo BrasCroises Badboy
+    show Chuenpodo BrasCroises Badboy at full_left, mediumzoom
     chuen "Meuh non ! Regarde, ils en pleurent de joie !"
 
     pov "Si tu le dis... Dis moi, ça vient d'où ce nom du coup ?"

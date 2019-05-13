@@ -42,26 +42,25 @@ transform normalalpha:
   alpha 1.0
 
 transform zoom:
-  ypos 1.3 zoom 1.3
-  alpha 1.0
+  ypos 1.3 zoom 1.3 yanchor 1.0
 
 transform lightzoom:
-  ypos 1.4 zoom 1.4
+  ypos 1.4 zoom 1.4 yanchor 1.0
 
 transform mediumzoom:
-  ypos 1.5 zoom 1.5
+  ypos 1.5 zoom 1.5 yanchor 1.0
 
 transform bigzoom:
-  ypos 1.7 zoom 1.7
+  ypos 1.7 zoom 1.7 yanchor 1.0
 
 transform hugezoom:
-  ypos 2.0 zoom 2.0
+  ypos 2.0 zoom 2.0 yanchor 1.0
 
 transform normalzoom:
-  ypos 1.0 zoom 1.0  
-  alpha 1.0
+  ypos 1.0 zoom 1.0 yanchor 1.0
 
-#transform interruption:
+transform yanchorreset:
+  yanchor 1.0
 
 
 transform jumping:

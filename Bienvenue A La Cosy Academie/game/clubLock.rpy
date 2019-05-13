@@ -35,7 +35,7 @@ label club_lock:
     pov "L'épreuve ? Je pensais qu'un classique formulaire d'inscription suffirait..."
     show Metalice PoseSpeciale Cligne Rougit 
     met "Heu... Bon je vous laisse! Bonne chance [povname] !"
-    hide Metalice
+    hide Metalice with dissolve
     pov "..."
     
     hide Lock
@@ -88,7 +88,7 @@ label club_lock:
     lock "Deuxième épreuve : la bagarre !"
     pov "???"
     show Moguri PoseGauche Colere at left with flash
-    show Lock Standard Colere at right with hpunch
+    show Lock Standard Colere at right, normalzoom with hpunch
     mog "Lock ! Non ! Je ne te laisserai pas assouvir tes pulsions destructrices sur [povname] !"
     show Lock PoseDroite Colere at right
     lock "??!!"
