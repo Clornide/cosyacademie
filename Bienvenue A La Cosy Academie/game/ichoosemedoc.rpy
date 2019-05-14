@@ -46,7 +46,7 @@ label Ichoosemedoc:
     pov "J'en sais pas plus, je le jure !"
 
 
-
+    jump lendemainMatin
 
 
 

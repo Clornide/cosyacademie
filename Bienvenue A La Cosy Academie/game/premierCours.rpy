@@ -28,7 +28,7 @@ label Premiercours:
 
     hide Moguri
 
-    show Metalice PoseCoucou Sourire Yeuxfermes
+    show Metalice PoseSpeciale Sourire Yeuxfermes
 
     innerpov "Metalice ! Ses renseignements de tout à l'heure vont m'être très utiles... Je pense m'être fait ma première amie !"
 
@@ -53,7 +53,7 @@ label Premiercours:
         pov "Je suis ravie d'avoir été acceptée dans cette classe, même si je ne suis pas aussi exceptionnelle que v-"
 
     with shortflash
-    show Medoc PosePoings Degoute with shortflash
+    show Medoc PoseGauche Degoute with shortflash
 
     "BLAM!!"
     med "Bon t'as pas bientôt fini avec ses histoires de 'Je n'ai pas ma place ici, vous valez mieux que moi' ou je sais pas quoi !?"
@@ -89,7 +89,7 @@ label Premiercours:
 
     hide Dieuvomi
 
-    show Medoc PosePoings Colere
+    show Medoc PoseGauche Colere
 
     med "Ah ouais ?! Répète ça pour voir ?"
 
@@ -103,7 +103,7 @@ label Premiercours:
     with shortflash
     show Metalice Standard Colere Rougit
 
-    met "Allez c'est bon ! Laissez tomber les gars ! Vous vous donnez en spectacle"
+    met "Allez c'est bon ! Laissez tomber les gars ! Vous vous donnez en spectacle !" with vpunch
 
     hide Metalice
     show Mickey Standard Colere
@@ -159,7 +159,7 @@ label Premiercours:
     pov "Oui on peut dire ça..."
     show Metalice Standard Sourire
     pov "Dis, c'était qui ce type au style de voyou, avec l'accent exotique ?"
-    show Metalice PoseCoucou Cligne
+    show Metalice PoseSpeciale Cligne
     met "Dieuvomi ? C'est pas VRAIMENT un voyou, c'est juste un style qu'il se donne."
     show Metalice Standard Sourire
     met "Il ne te fera jamais de mal, à moins que tu sois un apocope de bandage pneumatique"
@@ -169,10 +169,10 @@ label Premiercours:
     show Metalice Standard Sourire
     met "Il s'est débarassé d'un gang qui gangrenait la ville à lui tout seul d'ailleurs !"
     pov "Je t'avoue que je ne vois pas particulièrement le rapport..."
-    show Metalice PoseCoucou Cligne
+    show Metalice PoseSpeciale Cligne
     met "La spécificité de ce gang était que ses membres ne se déplaçaient qu'en BMX. Leur principale méthode d'agression était de rouler sur leurs victimes..."
     pov "Mais... C'est stupide ?"
-    show Metalice PoseCoucou Sourire Yeuxfermes
+    show Metalice PoseSpeciale Sourire Yeuxfermes
     met "Peut être, mais ça fait mal !"
     met "Dieuvomi a crevé tous les pneus de tous les BMX du gang en l'espace d'une heure, en pleine nuit..."
     pov "Ouaaaaah..."
@@ -180,13 +180,13 @@ label Premiercours:
     met "N'est-ce pas ? Du coup, sans pneus, le gang s'est dissout de lui même. C'est aussi pour ça qu'il est aussi respecté !"
     met "Et autre point de détail de cette anecdote, le leader de ce gang était un cousin de Medoc..."
     pov "Aaaaaah ! C'est donc de là que vient cette animosité entre eux ?"
-    show Metalice PoseCoucou Sourire Yeuxfermes
+    show Metalice PoseSpeciale Sourire Yeuxfermes
     met "Pas du tout ! Medoc ne tolérait absolument pas les agissements de son cousin."
     pov "D'où est-ce que ça vient alors ?"
     show Metalice Standard Triste
     met "On n'aime pas trop en parler ici... Ca nous rappelle des événements un peu sombre. Tu l'apprendras bien assez tôt je pense."
     pov "..."
-    show Metalice PoseCoucou Sourire Yeuxfermes
+    show Metalice PoseSpeciale Sourire Yeuxfermes
     met "Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?"
 
     menu:
@@ -203,7 +203,7 @@ label Premiercours:
             python:
                 acomp="Mog"
                 pointsmoguri+=1
-            show Metalice PoseCoucou Sourire Yeuxfermes
+            show Metalice PoseSpeciale Sourire Yeuxfermes
             if sex=="m":
                 met "Ahaha ! L'intervention de ton preux chevalier ne t'a pas laissé indifférent à ce que je vois."
             else:
@@ -227,12 +227,12 @@ label Premiercours:
                 pointsmedoc+=1
 
             if sex=="m":
-                show Metalice PoseCoucou Sourire Yeuxfermes
+                show Metalice PoseSpeciale Sourire Yeuxfermes
                 met "Ahaha ! Son petit discours sur la confiance en soi t'a à ce point atteint ?"
 
                 pov "Il ne m'a pas atteint ! Je veux juste m'expliquer un peu avec lui..."
             else:
-                show Metalice PoseCoucou Sourire Yeuxfermes
+                show Metalice PoseSpeciale Sourire Yeuxfermes
                 met "Ahaha ! Son petit discours sur la confiance en soi t'a à ce point atteinte ?"
 
                 pov "Il ne m'a pas atteinte ! Je veux juste m'expliquer un peu avec lui..."
@@ -244,4 +244,6 @@ label Premiercours:
             met "Allez, j'arrête de t'embêter ! On se revoit demain ?"
             pov "Bien sûr ! A demain Metalice !"
             jump Ichoosemedoc
+
+    jump lendemainMatin
     return

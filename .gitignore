@@ -3,7 +3,7 @@
 *.orig
 *.bak
 *.rpyc
-
+desktop.ini
 Bienvenue A La Cosy Academie/game/cache/
 
 Bienvenue A La Cosy Academie/log\.txt
@@ -43,3 +43,5 @@ BienvenueALaCosyAcademie-dists/
 
 Arts/DIEUVOMI  - etudiant/BRAS CROISES/desktop\.ini
 >>>>>>> master
+
+BienvenueALaCosyAcademie-1\.0-dists/

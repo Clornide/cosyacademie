@@ -21,7 +21,41 @@ show Chuenpodo BrasCroises Sourire Rougit
 show Chuenpodo BrasCroises Sourire Yeuxfermes
 show Chuenpodo BrasCroises Sourire Yeuxfermes Rougit
 show Chuenpodo BrasCroises Triste
+show Chuenpodo BrasCroises Gene
 show Chuenpodo BrasCroises Yeuxfermes Rougit
+show Chuenpodo PoseDroite Badboy
+show Chuenpodo PoseDroite Badboy Rougit
+show Chuenpodo PoseDroite Colere
+show Chuenpodo PoseDroite Colere Rougit
+show Chuenpodo PoseDroite Degoute
+show Chuenpodo PoseDroite Sourire
+show Chuenpodo PoseDroite Sourire Rougit
+show Chuenpodo PoseDroite Sourire Yeuxfermes
+show Chuenpodo PoseDroite Sourire Yeuxfermes Rougit
+show Chuenpodo PoseDroite Triste
+show Chuenpodo PoseDroite Gene
+show Chuenpodo PoseGauche Badboy
+show Chuenpodo PoseGauche Badboy Rougit
+show Chuenpodo PoseGauche Colere
+show Chuenpodo PoseGauche Colere Rougit
+show Chuenpodo PoseGauche Degoute
+show Chuenpodo PoseGauche Sourire
+show Chuenpodo PoseGauche Sourire Rougit
+show Chuenpodo PoseGauche Sourire Yeuxfermes
+show Chuenpodo PoseGauche Sourire Yeuxfermes Rougit
+show Chuenpodo PoseGauche Triste
+show Chuenpodo PoseGauche Gene
+show Chuenpodo PoseSpeciale Badboy
+show Chuenpodo PoseSpeciale Badboy Rougit
+show Chuenpodo PoseSpeciale Colere
+show Chuenpodo PoseSpeciale Colere Rougit
+show Chuenpodo PoseSpeciale Degoute
+show Chuenpodo PoseSpeciale Sourire
+show Chuenpodo PoseSpeciale Sourire Rougit
+show Chuenpodo PoseSpeciale Sourire Yeuxfermes
+show Chuenpodo PoseSpeciale Sourire Yeuxfermes Rougit
+show Chuenpodo PoseSpeciale Triste
+show Chuenpodo PoseSpeciale Gene
 show Chuenpodo Standard Badboy
 show Chuenpodo Standard Badboy Rougit
 show Chuenpodo Standard Colere
@@ -32,6 +66,7 @@ show Chuenpodo Standard Sourire Rougit
 show Chuenpodo Standard Sourire Yeuxfermes
 show Chuenpodo Standard Sourire Yeuxfermes Rougit
 show Chuenpodo Standard Triste
+show Chuenpodo Standard Gene
 show Chuenpodo Standard Yeuxfermes Rougit
 show Dieuvomi BrasCroises Badboy
 show Dieuvomi BrasCroises Badboy Rougit
@@ -375,6 +410,50 @@ show Metalice Standard Sourire Yeuxfermes
 show Metalice Standard Sourire Yeuxfermes Rougit
 show Metalice Standard Triste
 show Metalice Standard Gene
+show Mickey BrasCroises Badboy
+show Mickey BrasCroises Badboy Rougit
+show Mickey BrasCroises Colere
+show Mickey BrasCroises Colere Rougit
+show Mickey BrasCroises Degoute
+show Mickey BrasCroises Sourire
+show Mickey BrasCroises Sourire Rougit
+show Mickey BrasCroises Sourire Yeuxfermes
+show Mickey BrasCroises Sourire Yeuxfermes Rougit
+show Mickey BrasCroises Triste
+show Mickey BrasCroises Gene
+show Mickey PoseDroite Badboy
+show Mickey PoseDroite Badboy Rougit
+show Mickey PoseDroite Colere
+show Mickey PoseDroite Colere Rougit
+show Mickey PoseDroite Degoute
+show Mickey PoseDroite Sourire
+show Mickey PoseDroite Sourire Rougit
+show Mickey PoseDroite Sourire Yeuxfermes
+show Mickey PoseDroite Sourire Yeuxfermes Rougit
+show Mickey PoseDroite Triste
+show Mickey PoseDroite Gene
+show Mickey PoseGauche Badboy
+show Mickey PoseGauche Badboy Rougit
+show Mickey PoseGauche Colere
+show Mickey PoseGauche Colere Rougit
+show Mickey PoseGauche Degoute
+show Mickey PoseGauche Sourire
+show Mickey PoseGauche Sourire Rougit
+show Mickey PoseGauche Sourire Yeuxfermes
+show Mickey PoseGauche Sourire Yeuxfermes Rougit
+show Mickey PoseGauche Triste
+show Mickey PoseGauche Gene
+show Mickey PoseSpeciale Badboy
+show Mickey PoseSpeciale Badboy Rougit
+show Mickey PoseSpeciale Colere
+show Mickey PoseSpeciale Colere Rougit
+show Mickey PoseSpeciale Degoute
+show Mickey PoseSpeciale Sourire
+show Mickey PoseSpeciale Sourire Rougit
+show Mickey PoseSpeciale Sourire Yeuxfermes
+show Mickey PoseSpeciale Sourire Yeuxfermes Rougit
+show Mickey PoseSpeciale Triste
+show Mickey PoseSpeciale Gene
 show Mickey Standard Badboy
 show Mickey Standard Badboy Rougit
 show Mickey Standard Colere
@@ -385,6 +464,7 @@ show Mickey Standard Sourire Rougit
 show Mickey Standard Sourire Yeuxfermes
 show Mickey Standard Sourire Yeuxfermes Rougit
 show Mickey Standard Triste
+show Mickey Standard Gene
 show Mickey Standard Yeuxfermes Rougit
 show Moguri BrasCroises Badboy
 show Moguri BrasCroises Badboy Rougit
@@ -415,15 +495,6 @@ show Moguri PoseGauche Colere Rougit
 show Moguri PoseGauche Degoute
 show Moguri PoseGauche Sourire
 show Moguri PoseGauche Sourire Rougit
-show Moguri PoseGauche Sourire Yeuxfermes
-show Moguri PoseGauche Sourire Yeuxfermes Rougit
-show Moguri PoseGauche Triste
-show Moguri PoseGauche Gene
-show Moguri PoseGauche Badboy
-show Moguri PoseGauche Colere
-show Moguri PoseGauche Colere Rougit
-show Moguri PoseGauche Degoute
-show Moguri PoseGauche Sourire
 show Moguri PoseGauche Sourire Yeuxfermes
 show Moguri PoseGauche Sourire Yeuxfermes Rougit
 show Moguri PoseGauche Triste

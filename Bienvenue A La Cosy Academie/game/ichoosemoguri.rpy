@@ -30,6 +30,8 @@ label Ichoosemoguri:
     mog "D'ailleurs je crois que tu ne connais pas Chuen ?"
     pov "Euh non, effectivement..."
     mog "Et bien je te présente Chuenpodo, l'élève le plus brillant de notre Académie !"
+    python:
+        name_chuen="Chuenpodo"    
     show Chuenpodo Standard Sourire Rougit
     chuen "Ahahah mais arrête enfin Moguri..."
     show Moguri BrasCroises Sourire
@@ -52,7 +54,7 @@ label Ichoosemoguri:
     mog "Je peux te raccompagner chez toi si tu veux, on discutera sur le chemin ?"
     pov "Allons-y !"
 
-    scene ruesoleilnormal with longfade
+    scene street day with longfade
 
     show Moguri Standard Sourire with dissolve
 

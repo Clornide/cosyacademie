@@ -236,7 +236,7 @@ label club_comedie:
     pov "Je vais pour l'instant garder ma place dans le public et je vous rejoindrai quand j'aurais saisi toutes les subtilités, d'accord ?"
     show Dieuvomi PoseDroite Triste
     dieuv "C'est le mieux pour l'instant."
-    show Dieuvomi BrasCroises Colere
+    show Dieuvomi BrasCroises Colere at normalzoom
     dieuv "Mais RAPPELLE TOI -"
     show Dieuvomi BrasCroises Colere with vpunch
     dieuv "PERSONNE -"
@@ -250,9 +250,16 @@ label club_comedie:
     dieuv "SAVOIR."
     show Dieuvomi PoseDroite Colere
     dieuv "Il vaut mieux pour toi. Et pour Médoc... bonne chance."
+    hide Dieuvomi with dissolve
     show Foulk PoseSpeciale Sourire Yeuxfermes Rougit
-    show SNL zorder 1000 at snl_pos
+
+        
+    
     foulk "Foulk-ATTENDS T'AS PAS VU LE SKETCHE DU SNL !!"
+    pause 0.5
+    show SNL zorder 1000 at snl_pos
     pause 5
+
+    jump club_lock
 
     return

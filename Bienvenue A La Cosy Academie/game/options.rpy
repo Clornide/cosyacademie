@@ -94,7 +94,7 @@ define config.after_load_transition = None
 
 define config.end_game_transition = None
 
-
+define config.log = "logCosy.log"
 
 ## Il n’y a pas de variable pour configurer la transition en début de partie. À
 ## la place, utilisez un état de transition juste après l’affichage de la toute
