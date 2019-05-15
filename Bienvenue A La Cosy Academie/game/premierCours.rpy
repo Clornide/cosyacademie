@@ -1,5 +1,5 @@
 label Premiercours:
-    scene classe with fade
+    scene classroom with fade
 
     inc "Allez allez, un peu de silence !"
 

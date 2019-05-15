@@ -7,8 +7,7 @@ screen skip_von_very_small:
         imagebutton:
             idle "skip_very_smallI" 
             hover "skip_very_smallH"
-            action [SetVariable("von_monologue_tags", "{fast}{nw}"), Skip()]
-
+            action [Skip()]
 
 image skip_smallI = im.FactorScale("Assets/skip_btn_idle.png", .25)
 image skip_smallH = im.FactorScale("Assets/skip_btn_hover.png", .25)
@@ -18,7 +17,7 @@ screen skip_von_small:
         imagebutton:
             idle "skip_smallI" 
             hover "skip_smallH"
-            action [SetVariable("von_monologue_tags", "{fast}{nw}"), Skip()]
+            action [Skip()]
 
 image skip_mediumI = im.FactorScale("Assets/skip_btn_idle.png", 0.5)
 image skip_mediumH = im.FactorScale("Assets/skip_btn_hover.png", 0.5)
@@ -29,7 +28,7 @@ screen skip_von_medium:
         imagebutton:
             idle "skip_mediumI" 
             hover "skip_mediumH"
-            action [SetVariable("von_monologue_tags", "{fast}{nw}"), Skip()]
+            action [Skip()]
 
 
 image skip_bigI = im.FactorScale("Assets/skip_btn_idle.png", 0.75)
@@ -40,21 +39,19 @@ screen skip_von_big:
         imagebutton:
             idle "skip_bigI" 
             hover "skip_bigH"
-            action [SetVariable("von_monologue_tags", "{fast}{nw}"), Skip()]
+            action [Skip()]
 
 screen skip_von_huge:
     vbox :
         imagebutton:
             idle "Assets/skip_btn_idle.png"
             hover "Assets/skip_btn_hover.png"
-            action [SetVariable("von_monologue_tags", "{fast}{nw}"), Skip()]
+            action [Skip()]
 
 label club_rando:
 
     play music wonderful    
     scene rando with fade
-    python:
-        von_monologue_tags = ""
 
     show Von PoseSpeciale Sourire Yeuxfermes
     von "C’est bon, tout le monde est là ? Alors bienvenue au club de randonnée !"
@@ -120,7 +117,10 @@ label club_rando:
     hide Foulk with dissolve
     show Von BrasCroises Badboy at center
     von "Allez, passons aux choses sérieuses. C’est l’heure du… questionnaire d’histoire ! Vous ne croyiez tout de même pas que vous alliez vous en tirer sans vous cultiver !"
-    
+
+
+    python:
+        von_monologue_tags = "{fast}"
     
     menu:
         von "Première question : où est né Jean II le Bon, roi de France de 1350 à 1364 ?"
@@ -135,9 +135,6 @@ label club_rando:
     
     show Von BrasCroises Triste
 
-    python:
-        von_monologue_tags = ""
-    
     show screen skip_von_very_small
 
     von "Jean II Le Bon n’était malheureusement pas digne d’être né à Blois.[von_monologue_tags]"
@@ -176,6 +173,9 @@ label club_rando:
     hide screen skip_von_huge
     menu:
         von "Quarante-sept, tu te rends compte ? C’est fou ! Mais d’ailleurs, en parlant d’horlogerie, quelle heure est-il ?"
+
+        "...":
+         jump after_skip
         
         "Voilà, je crois qu’on est enfin arrivés au sommet ! Qu’est-ce qu’on fait désormais, on redescend ?":
          jump after_skip

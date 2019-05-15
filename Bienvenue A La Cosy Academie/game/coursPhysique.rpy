@@ -1,6 +1,6 @@
 label coursPhysique:
     play music wonderful
-    scene classePhysique with fade
+    scene classroom with fade
    
     show Dieuvomi BrasCroises Badboy
     dieuv "Ouah le prof est pas là !"

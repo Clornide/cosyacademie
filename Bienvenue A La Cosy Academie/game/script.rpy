@@ -21,6 +21,7 @@ image gym = "background/gym.png"
 image tracks = "background/tracks.png"
 image street day = "background/street dayDay.png"
 image rando = "background/rando.png"
+image classroom = "background/classroom.png"
 
 # Déclarez les personnages utilisés dans le jeu.
 
@@ -31,6 +32,7 @@ init python:
     txt3 = ""
     
     def word_effect(txt):
+
         global txt1, txt2, txt3
         txt1 = txt
         txt2 = ""
@@ -65,6 +67,13 @@ init python:
 
     def char_callback(event, interact=True, **kwargs):
 
+        if event == "show" or event == "begin":
+            renpy.sound.play("sounds/text-sound.mp3")
+
+        if event == "slow_done" or event == "end":
+            renpy.sound.stop()
+
+
         showing_tags = renpy.get_showing_tags(layer='master')
 
         current_tag = renpy.get_say_image_tag()
@@ -95,6 +104,7 @@ init python:
 
         if current_tag and event == "begin":
             
+            char_speaking = True
             for tag in character_tags:
                 renpy.show(tag, at_list = [shade_transform])
 
@@ -225,7 +235,7 @@ label start:
             if not povname:
                 povname="Cassandre"
 
-    jump intro
+    jump club_rando
 
 
     
