@@ -64,7 +64,7 @@ label Ichoosemoguri:
     show Moguri BrasCroises Badboy
 
     mog "Sans vouloir paraître désagréable, je ne suis pas vraiment intervenu pour toi..."
-    mog "Je sais très bien que ce genre de comportements agace Medoc, j'ai voulu désamorcer la situation avant que ça ne dégénère."
+    mog "Je sais très bien que ce genre de comportement agace Medoc, j'ai voulu désamorcer la situation avant que ça ne dégénère."
 
     show Moguri BrasCroises Degoute
 
@@ -96,7 +96,7 @@ label Ichoosemoguri:
     show Moguri Standard Badboy with dissolve
 
     pov "Je veux changer... Vraiment ! Mais je pense qu'il va me falloir de l'aide..."
-    pov "Et si possible, j'aimerai que la personne qui m'aide... Ce soit toi."
+    pov "Et si possible, j'aimerais que la personne qui m'aide... Ce soit toi."
 
     show Moguri Gene
 

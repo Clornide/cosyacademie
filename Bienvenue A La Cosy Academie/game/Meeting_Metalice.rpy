@@ -1,4 +1,4 @@
-﻿label Meeting_Metalice:
+label Meeting_Metalice:
     scene couloir with fade
 
     window show
@@ -52,7 +52,7 @@
 
         met "Alors, t'as flashé sur lequel ?"
 
-        "Medoc et son air bre-som...":
+        "Medoc et son air breu-som...":
             python:
                 pointsmedoc+=1
 

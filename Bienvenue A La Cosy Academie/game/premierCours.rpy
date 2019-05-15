@@ -199,7 +199,7 @@ label Premiercours:
             met "On y va alors !"
             jump Rentreavecmetalice
 
-        "J'aurais voulu remercier Moguri pour s'être interposer tout à l'heure...":
+        "J'aurais voulu remercier Moguri pour s'être interposé tout à l'heure...":
             python:
                 acomp="Mog"
                 pointsmoguri+=1
