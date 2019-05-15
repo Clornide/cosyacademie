@@ -165,9 +165,10 @@ screen say_von(who, what):
 
 
         text what:
-          id "what" xanchor 1.0 xalign 0.8
+          id "what" xanchor 1.0 xalign 0.78
           font "Squealer.ttf"
-          size 42
+          text_align 1.0
+          size 32
 
 
 

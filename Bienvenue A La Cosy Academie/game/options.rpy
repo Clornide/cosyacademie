@@ -50,8 +50,11 @@ define build.name = "BienvenueALaCosyAcademie"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
+define config.default_music_volume = 0.5
+define config.default_sfx_volume  = 0.5
+define config.default_voice_volume  = 0.5
 
 ## Pour autoriser le joueur à réaliser un test de volume, décommenter la ligne
 ## ci-dessous et utilisez-la pour configurer un son d’exemple.
@@ -94,7 +97,7 @@ define config.after_load_transition = None
 
 define config.end_game_transition = None
 
-define config.log = "logCosy.log"
+#define config.log = "logCosy.log"
 
 ## Il n’y a pas de variable pour configurer la transition en début de partie. À
 ## la place, utilisez un état de transition juste après l’affichage de la toute
