@@ -1,3 +1,36 @@
+show Caro BrasCroises Cligne
+show Caro BrasCroises Cligne Rougit
+show Caro BrasCroises Colere
+show Caro BrasCroises Colere Rougit
+show Caro BrasCroises Degoute
+show Caro BrasCroises Sourire
+show Caro BrasCroises Sourire Rougit
+show Caro BrasCroises Sourire Yeuxfermes
+show Caro BrasCroises Sourire Yeuxfermes Rougit
+show Caro BrasCroises Triste
+show Caro BrasCroises Gene
+show Caro PoseDroite Cligne
+show Caro PoseDroite Cligne Rougit
+show Caro PoseDroite Colere
+show Caro PoseDroite Colere Rougit
+show Caro PoseDroite Degoute
+show Caro PoseDroite Sourire
+show Caro PoseDroite Sourire Rougit
+show Caro PoseDroite Sourire Yeuxfermes
+show Caro PoseDroite Sourire Yeuxfermes Rougit
+show Caro PoseDroite Triste
+show Caro PoseDroite Gene
+show Caro PoseGauche Cligne
+show Caro PoseGauche Cligne Rougit
+show Caro PoseGauche Colere
+show Caro PoseGauche Colere Rougit
+show Caro PoseGauche Degoute
+show Caro PoseGauche Sourire
+show Caro PoseGauche Sourire Rougit
+show Caro PoseGauche Sourire Yeuxfermes
+show Caro PoseGauche Sourire Yeuxfermes Rougit
+show Caro PoseGauche Triste
+show Caro PoseGauche Gene
 show Caro PoseMainVisage Cligne
 show Caro PoseMainVisage Cligne Rougit
 show Caro PoseMainVisage Colere
@@ -9,6 +42,29 @@ show Caro PoseMainVisage Sourire Yeuxfermes
 show Caro PoseMainVisage Sourire Yeuxfermes Rougit
 show Caro PoseMainVisage Triste
 show Caro PoseMainVisage Yeuxfermes Rougit
+show Caro PoseSpeciale Cligne
+show Caro PoseSpeciale Cligne Rougit
+show Caro PoseSpeciale Colere
+show Caro PoseSpeciale Colere Rougit
+show Caro PoseSpeciale Degoute
+show Caro PoseSpeciale Sourire
+show Caro PoseSpeciale Sourire Rougit
+show Caro PoseSpeciale Sourire Yeuxfermes
+show Caro PoseSpeciale Sourire Yeuxfermes Rougit
+show Caro PoseSpeciale Triste
+show Caro PoseSpeciale Gene
+show Caro PoseSpeciale Perv
+show Caro Standard Cligne
+show Caro Standard Cligne Rougit
+show Caro Standard Colere
+show Caro Standard Colere Rougit
+show Caro Standard Degoute
+show Caro Standard Sourire
+show Caro Standard Sourire Rougit
+show Caro Standard Sourire Yeuxfermes
+show Caro Standard Sourire Yeuxfermes Rougit
+show Caro Standard Triste
+show Caro Standard Gene
 show Cheerleaders Groupe Cheer
 show Cheerleaders Groupe Fail
 show Chuenpodo BrasCroises Badboy
