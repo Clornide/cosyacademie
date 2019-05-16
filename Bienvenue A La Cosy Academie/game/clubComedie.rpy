@@ -92,7 +92,72 @@ label club_comedie:
     hide Foulk
     show Foulk BrasCroises Badboy at center with fade
 
-    foulk "- INSERER BLAGUES NULLES"
+    
+    foulk "Tout le monde : *se drague sur Tinder et en soirée, créée un jeu de séduction sensuel et mystérieux ou se mêle le non-dit et une promesse de luxure*"
+    foulk "Moi : des fois je prends des douches tout nu !"
+    show Foulk PoseDroite Sourire Yeuxfermes
+    pause 1.0
+    show Foulk PoseGauche Sourire Yeuxfermes
+    pause 1.0
+    show Foulk PoseDroite Sourire Yeuxfermes
+    play sound badamtsss
+    pause 1.0
+    
+
+    show Foulk PoseSpeciale Badboy
+    foulk "Hé t'aimes jouer ? Putin mais les g@m3rs vous êtes vraiment les Jacky Tuning du 21è siècle !"
+    play sound badamtsss
+    pause 1.0
+    
+    show Foulk PoseSpeciale Sourire
+    foulk "Hé, je vous ai pas dis ? J'ai ajouté fafiot à mon vocabulaire comme tu ajoutes un poulet rôti à ta panse !"
+    play sound badamtsss
+    pause 1.0
+    
+    show Foulk Standard Sourire
+    foulk "Au boulot, je crois que mon collègue pense regarder Game Of Thrones mais qu'il télécharge les feux de l'amour à la place !"
+    foulk "Il a RIEN compris à l'épisode, c'est assez hallucinant."
+    play sound badamtsss
+    pause 1.0
+    show Foulk PoseSpeciale Badboy
+    
+    foulk "D'ailleurs, j'ai une question qui me turlupine : pourquoi Jon Snow s'appelle Jon Snow, alors qu'il n'est pas né dans le Nord genre, du tout ?"
+    play sound badamtsss
+    pause 1.0
+    show Foulk PoseSpeciale Sourire Rougit
+    foulk "Hé, Mélissandre, call me, tu peux mettre des sangsues sur mon zgigou si tu veux."
+    show Foulk PoseSpeciale Sourire Yeuxfermes Rougit
+    foulk "Gendry, tu peux venir aussi, y a pas de soucis."
+    play sound badamtsss
+    pause 1.0
+
+    
+    show Foulk BrasCroises Triste
+    foulk "Et c'est quoi cette haine autour de Pete Davidson d'un coup ?"
+    show Foulk BrasCroises Badboy
+    foulk "Y a des vrais bails qui traînent ou c'est les fans d'Ariana Grande qui s'excitent ? Les heu...Grandos ? Les Arianistes ?"
+    play sound badamtsss
+    pause 1.0
+    
+    show Foulk PoseDroite Sourire
+    foulk "Ah, très très content que Joe Biden soit candidat parce que là, d'un coup, du Jason Sudeikis dans mon SNL."
+    play sound badamtsss
+    pause 1.0
+    
+    show Foulk PoseDroite Triste
+    foulk "Mangez pas de la colle les enfants, c'est pas délicieux c'est pas vrai."
+    play sound badamtsss
+    pause 1.0
+    
+    show Foulk PoseSpeciale Sourire
+    foulk "T'as vu avengers Endgame ?"
+    show Foulk PoseSpeciale Sourire Rougit
+    foulk "À 15 minutes du début, je suis excité comme une pute."
+    play sound badamtsss
+    show Foulk PoseSpeciale Degoute
+    foulk "Attention spoiler : Le vrai grand méchant dans ce film, c'est ta propre vessie. La menace vient de l'intérieur."
+    play sound badamtsss
+    pause 1.0
 
     show Foulk Standard Sourire Rougit at left with fade
     foulk "Alors cong ? T'as bieng aimé ? Je sais je suis le poil à gratter dans la chaussure au vitriol."

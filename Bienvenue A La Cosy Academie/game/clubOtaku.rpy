@@ -1,5 +1,5 @@
 label club_otaku:
-    scene school hallway with longfade
+    scene classroom with longfade
 
     innerpov "Tiens ? Ça sent le matcha."
 
@@ -17,15 +17,20 @@ label club_otaku:
     show din BrasCroises Sourire Yeuxfermes
     din "Tu viens de louper rockmanshii qui est rentré chez lui !"
     show Caro PoseDroite Triste
-    caro "Quand je pense qu'avant on était une quinzaine, il ne reste plus que nous trois maintenant... Tu es donc sacrément le•a bienvenu•e [povname] !"
+    
+    if sex=="m":
+        caro "Quand je pense qu'avant on était une quinzaine, il ne reste plus que nous trois maintenant... Tu es donc sacrément le bienvenu [povname] !"
+    else:
+        caro "Quand je pense qu'avant on était une quinzaine, il ne reste plus que nous trois maintenant... Tu es donc sacrément la bienvenue [povname] !"
+
     pov "Ça alors, comment ça se fait ?"
-    show din PoseStandard Cligne Rougit
+    show din Standard Cligne Rougit
     din "Franchement, on est un club sympa et convivial, c'est juste comme ça, les gens sont partis réaliser leurs rêves chacun leur tour..."
     innerpov "C'est louche..."
     pov "Et en quoi consistent vos activités ?"
     show Caro BrasCroises Cligne
     caro "Eh bien par exemple on discute de nos derniers coups de cœur, on se prête nos manga."
-    show din PoseStandard Sourire
+    show din Standard Sourire
     din "C'est carrément le club du partage, on se refile même nos identifiants de sites de VOD pour regarder des anime."
     show Caro BrasCroises Sourire Yeuxfermes Rougit
     caro "Et des dramas bien sûr."
@@ -93,11 +98,11 @@ label club_otaku:
     caro "Est-ce que c'est celle avec Pansepignon ET Chuen aussi ?"
     show din PoseSpeciale Gene
     din "Ces trois-là il faut toujours qu'ils se congratulent avec beaucoup d'ardeur, j'y peux rien, ça m'inspire..."
-    show Caro PoseStandard Cligne Rougit
+    show Caro Standard Cligne Rougit
     caro "Alors [povname] ? On t'a pas carrément donné envie de rejoindre notre club ?"
     show din PoseSpeciale Sourire Yeuxfermes Rougit
     din "Comme tu peux le voir c'est beaucoup d'ondes positives et d'amour de l'art ! D'ailleurs t'es plutôt pas mal toi aussi..."
     pov "Je... vais prendre le temps de réfléchir..."
     innerpov "AU. SECOURS. CASSOS."
-
+    jump club_rando
     return

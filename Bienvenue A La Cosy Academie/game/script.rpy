@@ -31,6 +31,8 @@ init python:
     txt2 = ""
     txt3 = ""
     
+    renpy.music.register_channel("talking", mixer="sfx", loop=True)
+
     def word_effect(txt):
 
         global txt1, txt2, txt3
@@ -68,10 +70,10 @@ init python:
     def char_callback(event, interact=True, **kwargs):
 
         if event == "show" or event == "begin":
-            renpy.sound.play("sounds/text-sound.mp3")
+            renpy.sound.play("sounds/text-sound.mp3", channel="talking")
 
         if event == "slow_done" or event == "end":
-            renpy.sound.stop()
+            renpy.sound.stop(channel="talking")
 
 
         showing_tags = renpy.get_showing_tags(layer='master')
@@ -173,6 +175,7 @@ define audio.epic = "music/sb_pursuit.mp3"
 #FX
 define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
 define audio.wind = "sounds/Wind-Mark_DiAngelo-1940285615.wav"
+define audio.badamtsss = "sounds/badamtsss.mp3"
 
 # Le jeu commence ici
 label start:
@@ -235,7 +238,7 @@ label start:
             if not povname:
                 povname="Cassandre"
 
-    jump club_rando
+    jump club_comedie
 
 
     
