@@ -22,6 +22,13 @@ image school hallway choice alt1 = "background/hallway_choice_alt_1.png"
 image school hallway choice alt2 = "background/hallway_choice_alt_2.png"
 image school hallway choice alt3 = "background/hallway_choice_alt_3.png"
 image school hallway choice alt4 = "background/hallway_choice_alt_4.png"
+image school hallway choice alt5 = im.Flip("background/hallway_choice.png", horizontal=True)
+image school hallway choice alt6 = im.Flip("background/hallway_choice_alt_1.png", horizontal=True)
+image school hallway choice alt7 = im.Flip("background/hallway_choice_alt_2.png", horizontal=True)
+image school hallway choice alt8 = im.Flip("background/hallway_choice_alt_3.png", horizontal=True)
+image school hallway choice alt9 = im.Flip("background/hallway_choice_alt_4.png", horizontal=True)
+
+
 image theater = "background/theater.png"
 image bar = "background/cosyBar.png"
 image gym = "background/gym.png"
@@ -264,7 +271,7 @@ label start:
 
         
 
-    jump club_tech
+    jump conseil_eleves
 
 
     

@@ -208,7 +208,7 @@ label ChooseCouloir:
     # loader une scene en fonction de count_couloir ?
         scene school hallway choice
     else:
-        $ randomnum = renpy.random.randint(1,5)
+        $ randomnum = renpy.random.randint(1,10)
         if randomnum == 1:
             scene school hallway choice
         elif randomnum == 2:
@@ -218,7 +218,17 @@ label ChooseCouloir:
         elif randomnum == 4:
             scene school hallway choice alt3
         elif randomnum == 5:
-            scene school hallway choice alt4    
+            scene school hallway choice alt4
+        elif randomnum == 6:
+            scene school hallway choice alt5
+        elif randomnum == 7:
+            scene school hallway choice alt6
+        elif randomnum == 8:
+            scene school hallway choice alt7
+        elif randomnum == 9:
+            scene school hallway choice alt8
+        elif randomnum == 10:
+            scene school hallway choice alt9
 
     $ line_choice = "ERROR !!!"
     if count_couloir == 5:
@@ -226,7 +236,7 @@ label ChooseCouloir:
     elif count_couloir == 2:
         $ line_choice = "J'espère que ce n'est pas réellement un labyrinthe !"
     elif count_couloir == 7:
-        $ line_choice = "Avec l'âge, la droite me tente de plus en plus..."
+        $ line_choice = "Plus le temps passe, et plus la droite me tente..."
 
     else:
         $ randomnum = renpy.random.randint(1,5)
