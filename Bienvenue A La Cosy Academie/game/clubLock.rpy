@@ -104,26 +104,35 @@ label club_lock:
     mog "Lock ! J'vais t'mettre une poussette ! Grrrrr..."
     show Moguri Standard Triste at left
 
-    mog "Rhaaaaaaaaaaaaaaaaa !"
+    
     scene gym_shonen
-       
+    
     play music "<from 10.0>music/sb_pursuit.mp3"
     show Moguri Standard Colere with hpunch
+    mog "Rhaaaaaaaaaaaaaaaaa !"
     show auraDBZ zorder 1000  with flash
+    play sound [ auraDBZStart, auraDBZ, auraDBZ, auraDBZ ]
     mog "KHAAA !"
     hide Moguri
     hide auraDBZ
+    stop sound
     show Medoc Standard Badboy
+
     med "Ahummmmm ! Ahummmmmm !"
-    show auraSaintSeya zorder 1000  with flash
-    show Medoc Standard Colere
+    
+    show Medoc Standard Colere  
+    show auraSaintSeya behind Medoc with flash 
+    play sound auraSeiya
     med "Que brûle ma cosmo-énergie !" with hpunch
+    stop sound
     hide auraSaintSeya
     hide Medoc
     show Lock Standard Colere
     lock "Yaaaaaaa !"
     show aura3 zorder 1000  with flash
+    play sound ATATATATA
     lock "ATATATATATATA !" with hpunch
+    stop sound
     scene gym
     show din Standard Colere at center with flash
     play music "<from 1.0>music/sb_tomorrow.mp3"
@@ -136,8 +145,10 @@ label club_lock:
     scene gym_shonen
     show Medoc Standard Sourire at center
     play music "<from 31.0>music/sb_pursuit.mp3"
-    show auraSaintSeya zorder 1000
+    show auraSaintSeya behind Medoc with flash 
+    play sound auraSeiya
     med "Brûle ! Brûle ! Ma cosmo-énergie !" with hpunch
+    stop sound
     hide Medoc
 
     scene gym with fade
@@ -149,21 +160,24 @@ label club_lock:
     scene gym_shonen
     show Medoc Standard Sourire at center
     play music "<from 31.0>music/sb_pursuit.mp3"
-    show auraSaintSeya zorder 1000
-    show Medoc BrasCroises Degoute at center
     
-
+    show Medoc BrasCroises Degoute at center
+    show auraSaintSeya behind Medoc with flash 
+    play sound auraSeiya
     med "Mais non..."
     hide auraSaintSeya
     hide Medoc
+    stop sound
 
     show auraDBZ zorder 1000
+    play sound auraDBZ loop
     show Moguri PoseDroite Degoute at center
     mog "Ok, police des auras je l'ai, mais désolé ça marche pas..."
     
 
 
     scene gym 
+    stop sound
     play music "<from 31.0>music/sb_tomorrow.mp3"
 
     show din Standard Colere Rougit at center
@@ -185,6 +199,7 @@ label club_lock:
 
     hide aura3
     show auraDBZ zorder 1000
+    play sound auraDBZ loop
     show Moguri Standard Degoute
     mog "Mais qui a écrit ça ?"
     mog "Les personnages arrivent comme ça sans prévenir et ils modifient l'histoire ?"
@@ -196,6 +211,7 @@ label club_lock:
     show Moguri Standard Badboy
     mog "Ah bah d'ailleurs, moi aussi je parle la langue des serpents ! Allez hop !"
     hide Moguri
+
     menu:
 
         "{cps=0}Moguri décide que c'est la fin du jeu. Avec quel personnage souhaites-tu vivre longtemps et avoir beaucoup d'enfants ? Ou juste passer la nuit, c'est comme tu veux...{/cps}"
@@ -216,7 +232,7 @@ label club_lock:
     mog "Meilleur choix!"
     hide Moguri
     hide auraDBZ
-
+    stop sound
     show aura3 zorder 1000
     show Lock Standard Colere  with flash
     lock "Ici c'est l'école du petit couteau ! Pas le club tech ! Alors CALMEZ-VOUS ! "

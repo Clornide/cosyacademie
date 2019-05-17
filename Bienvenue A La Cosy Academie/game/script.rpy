@@ -201,6 +201,10 @@ define audio.kawaii = "music/Cute_Upbeat_Kawaii.mp3"
 define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
 define audio.wind = "sounds/Wind-Mark_DiAngelo-1940285615.wav"
 define audio.badamtsss = "sounds/badamtsss.mp3"
+define audio.auraDBZStart = "sounds/aura_dbz_start.mp3"
+define audio.auraDBZ = "sounds/aura_dbz.mp3"
+define audio.auraSeiya = "sounds/aura_seiya.mp3"
+define audio.ATATATATA = "sounds/ATATATATA.mp3"
 
 # Le jeu commence ici
 label start:
@@ -273,7 +277,7 @@ label start:
 
         
 
-    jump conseil_eleves
+    jump club_lock
 
 
     

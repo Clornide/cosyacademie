@@ -279,7 +279,9 @@ image aura3:
     repeat
 
 image auraSaintSeya:
-    zoom 1.4 ypos -0.4 alpha 1.0 yanchor 0.0
+    zoom 1.0 ypos 1.0 alpha 2.0 yanchor 1.0
+    "Assets/aura/aura_SS.0.png"
+    pause 0.04        
     "Assets/aura/aura_SS.1.png"  
     pause 0.04
     "Assets/aura/aura_SS.2.png"
@@ -294,8 +296,32 @@ image auraSaintSeya:
     pause 0.04
     "Assets/aura/aura_SS.7.png"
     pause 0.04    
-    "Assets/aura/aura_SS.0.png"
-    pause 0.04        
+    "Assets/aura/aura_SS.8.png"
+    pause 0.04
+    "Assets/aura/aura_SS.9.png"
+    pause 0.04
+    "Assets/aura/aura_SS.10.png"
+    pause 0.04
+    "Assets/aura/aura_SS.11.png"
+    pause 0.04
+    "Assets/aura/aura_SS.12.png"
+    pause 0.04
+    "Assets/aura/aura_SS.13.png"
+    pause 0.04
+    "Assets/aura/aura_SS.14.png"
+    pause 0.04
+    "Assets/aura/aura_SS.15.png"
+    pause 0.04
+    "Assets/aura/aura_SS.16.png"
+    pause 0.04
+    "Assets/aura/aura_SS.17.png"
+    pause 0.04
+    "Assets/aura/aura_SS.18.png"
+    pause 0.04
+    "Assets/aura/aura_SS.19.png"
+    pause 0.04
+    
+
     repeat
 
 init python:
