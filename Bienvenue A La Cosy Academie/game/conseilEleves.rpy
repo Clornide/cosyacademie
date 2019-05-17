@@ -6,7 +6,7 @@ label conseil_eleves:
     show Metalice BrasCroises Sourire
     met "Bon, je t'emmène à la salle du conseil des élèves."
     show Metalice BrasCroises Cligne
-    met "Par contre je te demanderais de tenir tranquille certains membres sont... un peu à cheval sur le protocole."
+    met "Par contre je te demanderais de te tenir tranquille certains membres sont... un peu à cheval sur le protocole."
     innerpov "Houlà, ça a l'air hyper sérieux !"
     if sex == "m":
         pov "Ok pas de soucis, je me ferait tout petit."
@@ -43,23 +43,23 @@ label conseil_eleves:
         
         "Les règles c'est important !":
             show Metalice PoseDroite Colere Rougit
-            met "Ça suffit Lock![povname] est pas là pour ça."
+            met "Ça suffit Lock![povname] n'est pas là pour ça."
         "Le fun avant tout !":
             show Metalice PoseDroite Colere Rougit
-            met "Ça suffit Lock![povname] est pas là pour ça."
+            met "Ça suffit Lock![povname] n'est pas là pour ça."
         "Elle est pas un peu orientée ta question ?":
             show Metalice PoseDroite Colere Rougit
-            met "Ça suffit Lock![povname] est pas là pour ça."
+            met "Ça suffit Lock![povname] n'est pas là pour ça."
 
     show Mickey Standard Badboy
     mic "Alors comme ça tu veux rejoindre le conseil des élèves ?"
-    pov "Je sais pas encore. C'est quoi le travail concrètent du conseil ?"
+    pov "Je ne sais pas encore. Quel est, concrètement, le travail du conseil ?"
 
     show Lock PoseDroite Sourire
     lock "On est là pour protéger les élèves, rendre la justice et défendre l'honneur et le prestige de l'école contre tous ses détracteurs !"
     
     show Mickey Standard Sourire
-    mic "Alors dans les fait vous servez surtout de lien privilégié entre les professeurs et les élèves et surveillez que personne ne fasse de grosses bêtises."
+    mic "Alors dans les faits, vous servez surtout de lien privilégié entre les professeurs et les élèves et surveillez que personne ne fasse de grosses bêtises."
     show Metalice PoseDroite Sourire
     met "On est là pour désamorcer les problèmes avant qu'ils arrivent, sous la tutelle de M. Max."
     show Mickey Standard Sourire Yeuxfermes Rougit
@@ -67,35 +67,36 @@ label conseil_eleves:
     show Lock PoseGauche Sourire
     show Mickey Standard Sourire Yeuxfermes
     show Metalice PoseDroite Badboy
-    met "C'est pas rien de le dire!"
+    met "C'est rien de le dire!"
     show Metalice PoseDroite Gene
     show Mickey Standard Sourire 
     met"Avec toutes les fortes tête de la Cosy Académie et les différentes tensions internes, on est tout le temps sur la brèche."
-    pov "Ça c'est sûr. Mais vous avez déjà réglé des problèmes graves ou due prendre des décisions difficiles ?"
+    pov "Ça c'est sûr. Mais vous avez déjà réglé des problèmes graves ou dû prendre des décisions difficiles ?"
     show Metalice PoseDroite Sourire
     met "Bien sûr, c'est notre pain quotidien même."
     show Metalice PoseDroite Sourire
-    met "La fermeture du club d'archerie suite au contact tête/flèche, la mise en place de vidéo surveillance autour du parc à vélo pour éviter le creuvage industriel de pneus..."
+    met "La fermeture du club d'archerie suite à un contact tête/flèche, la mise en place de vidéo surveillance autour du parc à vélo pour éviter le creuvage industriel de pneus..."
     show Lock PoseGauche Badboy
-    lock "On a fait retirer toutes les échelles suite à l'incident de la chute aussi."
+    lock "On a fait retirer toutes les échelles suite à l'incident de La Chute aussi."
     pov "« L'incident de la chute ? »"
     show Metalice PoseDroite Gene
     met "Un accident bête et regrettable."
     show Metalice PoseDroite Badboy
     show Mickey Standard Triste
-    mic "Oui, pendant un cours de sport, les élèves devaient effectué un parcours d'obstacle avec un moment donné un mur avec une échelle à monter et une à descendre."
+    mic "Oui, pendant un cours de sport, les élèves devaient effectuer un parcours d'obstacles avec un moment donné un mur avec une échelle à monter et une à descendre."
+    mic "La plupart des élèves s'en sont sortis haut la main... A part..."
     show Mickey Standard Gene
-    mic "Mais Médoc, par fierté sans doute, n'a jamais voulue avouer qu'il ne savait pas descendre les échelles. Donc une fois arriver en haut, il a sauté."
+    mic "A part Médoc... C'est sans doute par fierté, mais il n'a jamais voulu avouer qu'il ne savait pas descendre les échelles. Un traumatisme de l'enfance, surement... Donc une fois arriver en haut, il a sauté."
     pov "NON ?!"
     show Mickey Standard Badboy Rougit
     show Lock PoseGauche Degoute
-    lock "Si. Résultats : 2 chevilles brisées nets, 6 fractures en tout et interdiction de mettre des échelles dans l'académie."
+    lock "Si. Résultats : 2 chevilles brisées nets, pour un total de 6 fractures ouvertes dont a résulté une interdiction de mettre des échelles dans l'Académie."
     show Mickey Standard Badboy
     show Metalice PoseDroite Degoute
-    met "Ça a fait des milliers d'euros pour changer toutes les échelles de secours en escalier."
+    met "Des milliers d'euros pour changer toutes les échelles de secours en escalier. Mais qu'est-ce que l'argent quand il s'agit de la vie d'un élève aussi turbulent soit-il ?"
     show Metalice PoseDroite Sourire
     show Mickey Standard Sourire
-    pov "Vous rigolez pas avec la sécurité !"
+    pov "Vous ne rigolez pas avec la sécurité !"
     show Lock PoseGauche Sourire
     lock "HAHAHA! Mais c'est pas la sécurité ça !"
     pov "Ah bon ?"
@@ -105,14 +106,62 @@ label conseil_eleves:
     pov "Le quoi ?"
     show Metalice PoseDroite Badboy
     met "Oh non, pas encore..."
+    show Mickey PoseGauche Gene
+    mic "Et il remet ca..."
     show Lock PoseGauche Sourire
     lock "Le DELTA FORCE, le membre le plus actif en terme de sécurité de la Cosy Académie!"
     show Lock PoseGauche Badboy
-    lock "Le fleuron de la justice, le défenseur de la veuve et de l'orphelin !"
+    lock "Le fleuron de la justice nationnale de la région, le défenseur de la veuve, de l'orphelin et du mignon !"
     show Metalice PoseDroite Degoute
-    met "Alors, déjà on a pas de veuve et les orphelins se débrouillent très biens tous seuls à nos âge."
+    met "Alors, déjà on a pas de veuves et les orphelins se débrouillent très biens tous seuls à nos âge."
     show Metalice PoseDroite Badboy
-    met "Pour le nom à rallonge, c'est comme ça que Lock veut qu'on l'appelle quand il est en patrouille."
-    innerpov "Il a l'air un peu trop dans son délire sécurité, il me fait limite penser à Von Yaort quand il est comme ça."
+    met "Pour le nom à rallonge, c'est le nom de code que Lock s'attribue quand il est en patrouille."
+    show Metalice PoseDroite Gene
+    met "Enfin, il est un peu tout seul dans son truc..."
+    innerpov "Il a l'air un peu trop dans son délire sécurité, il me fait limite penser à Von Yaourt quand il est comme ça."
+
+    lock "Je crois que vous ne vous rendez pas compte des enjeux qui se jouent sous nos yeux."
+    lock "Pas plus tard qu'hier, j'ai croisé un type bizarre au regard louche qui trainait autour des labos de chimie."
+    met "Moguri ?"
+    lock "Non ! Je l'ai intimé de décliner son identité, mais il a disparu dans un nuage de fumée."
+    met "Ah ! Un petit ? avec une oeil tourné vers le passé, et l'autre vers l'avenir ?"
+    lock "Oui ! c'est le bon signalement !"
+    met "Plutot caucasien, la chevelure bouclée ? Portant une tunique ?"
+    lock "Tout à fait !"
+    met "Ah non, ca ne me dit rien du tout..."
+    lock "MAIS...?"
+    mic "Alors, il me semble qu'il s'agit du Sire Flamel... C'est un intervenant extérieur ! Il est la pour dispenser des cours de chimie autour du thème ''le THC Philosophal'', un type brillant."
+
+    lock "Pourquoi personne ne m'a prévenu ? Où se trouve son formulaire d'inscription ? Comment je peux préserver le calme si on me met des bâtons dans les roues ?"
+    met "Au moins tes roues ont toujours leur peuneus..."
+    innerpov "Oh Dieuvomi, mais qu'est tu devenu ?"
+    lock "Tu vois [povname], on a clairement besoin de quelqu'un qui sait remplir les formulaires."
+    lock "D'ailleurs, remplis-moi ce petit questionnaire à destination des nouveaux élèves s'il te plait ? Il en va de la sécurité de tout un chacun."
+    innerpov "wow, mais ya au moins 100 pages ! Ce type est fou !"
+    met "Mais Lock ? On avait dit non au questionnaire à la dernière réunion !"
+    lock "Non, vous m'avez demander de condenser. J'ai condensé divisé par 4 le nombre de questions."
+    met "..."
+    mic "..."
+    lock "Faites bien attention."
+    met "A quoi ?"
+    lock "Réflechissez-y, vous le saurez. Moi. Je. Sais."
+
     show Mickey PoseSpeciale Sourire
-    mic "Faudrait que tu penses à mieux suivre mes cours sur les terrasses Lock, ça te calmerait je pense."
+    mic "Faudrait vraiment que tu penses à mieux suivre mes cours sur les terrasses Lock, ça te calmerait je pense."
+    innerpov "Lock est vraiment mignon et chaotique à la fois, c'est... troublant."
+        
+    met "Tu as vu [povname], le conseil des élèves nécessite une main d'enfer, dans un gant dévolu."
+    met "En plus de la rédaction des formulaires, leur diffusion, leur réception, ainsi que le maintien de l'odre, ou la délation, nous aurions besoin de tes compétences."
+
+    lock "Concernant les délations, l'élève Von Yaourt a encore rempli la banette. Principalement pour des délis mineurs commis par, je cite : ''des personnes aux accents étrange(r)s''. Je donne suite ?"
+    met "Comme tu veux Lock, mais fais le loin."
+
+    menu:
+        met "Alors [povname], je t'inscris au conseil ?"
+        
+        "Ah, j'aurai adoré, mais je crois que vous avez la maitrise de la situation.":
+            show Metalice PoseDroite Colere Rougit
+            met "Je comprends, j'ai l'habitude de carry tout le monde. Je me rends compte du vertige que donnent les responsabilités du conseil."
+        "Bien entendu. Mais pas de facon officielle, je préfère euh... être un agent de l'ombre ?":
+            show Metalice PoseDroite Colere Rougit
+            met "Quelle bonne idée ! Alors, ne reste pas là, nous devons resters discrets, special agent [povname] !"

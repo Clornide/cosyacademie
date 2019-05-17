@@ -146,6 +146,7 @@ label Clubtechfoulk:
 
 
 label Clubtechcheerleaders:
+
     innerpov "Mais quel est ce bruit ?"
     "..."
     innerpov "On dirait des prières..."
@@ -201,12 +202,11 @@ label Clubtechdin:
 
     jump club_tech
 
-
-
 label ChooseCouloir:
     if count_couloir == 0:
-    # loader une scene en fonction de count_couloir ?
         scene school hallway choice
+    elif count_couloir == 8:
+        scene school hallway choice creepy
     else:
         $ randomnum = renpy.random.randint(1,10)
         if randomnum == 1:
@@ -418,7 +418,6 @@ label ChooseCouloir:
                 jump ChooseCouloir
 
             elif count_couloir==8:
-
                 innerpov "Quelque chose d'inhumain/de diabolique se dégage de ces murs..."
                 jump Clubtechcheerleaders
 

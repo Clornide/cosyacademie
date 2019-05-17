@@ -17,6 +17,8 @@ image reverie = "reverie.jpg"
 image school entrance = "background/schoolEntrance.png"
 image school hallway = "background/hallway.png"
 image school hallway night = "background/hallway_night.png"
+
+
 image school hallway choice = "background/hallway_choice.png"
 image school hallway choice alt1 = "background/hallway_choice_alt_1.png"
 image school hallway choice alt2 = "background/hallway_choice_alt_2.png"
@@ -27,7 +29,7 @@ image school hallway choice alt6 = im.Flip("background/hallway_choice_alt_1.png"
 image school hallway choice alt7 = im.Flip("background/hallway_choice_alt_2.png", horizontal=True)
 image school hallway choice alt8 = im.Flip("background/hallway_choice_alt_3.png", horizontal=True)
 image school hallway choice alt9 = im.Flip("background/hallway_choice_alt_4.png", horizontal=True)
-
+image school hallway choice creepy = "background/couloir_creepy.png"
 
 image theater = "background/theater.png"
 image bar = "background/cosyBar.png"
