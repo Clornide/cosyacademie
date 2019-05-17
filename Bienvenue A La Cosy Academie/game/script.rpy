@@ -277,7 +277,7 @@ label start:
 
         
 
-    jump club_lock
+    jump club_jeux_societe
 
 
     
