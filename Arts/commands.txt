@@ -334,7 +334,9 @@ show Lock Standard Sourire Yeuxfermes
 show Lock Standard Sourire Yeuxfermes Rougit
 show Lock Standard Triste
 show Lock Standard Gene
+show Mathilde BrasCroises Badboy
 show Mathilde BrasCroises Bad Girl
+show Mathilde BrasCroises Badboy Rougit
 show Mathilde BrasCroises Bad Girl Rougit
 show Mathilde BrasCroises Colere
 show Mathilde BrasCroises Colere Rougit
@@ -344,8 +346,33 @@ show Mathilde BrasCroises Sourire Rougit
 show Mathilde BrasCroises Sourire Yeuxfermes
 show Mathilde BrasCroises Sourire Yeuxfermes Rougit
 show Mathilde BrasCroises Triste
+show Mathilde BrasCroises Gene
 show Mathilde BrasCroises Yeuxfermes Rougit
+show Mathilde PoseDroite Badboy
+show Mathilde PoseDroite Badboy Rougit
+show Mathilde PoseDroite Colere
+show Mathilde PoseDroite Colere Rougit
+show Mathilde PoseDroite Degoute
+show Mathilde PoseDroite Sourire
+show Mathilde PoseDroite Sourire Rougit
+show Mathilde PoseDroite Sourire Yeuxfermes
+show Mathilde PoseDroite Sourire Yeuxfermes Rougit
+show Mathilde PoseDroite Triste
+show Mathilde PoseDroite Gene
+show Mathilde PoseGauche Badboy
+show Mathilde PoseGauche Badboy Rougit
+show Mathilde PoseGauche Colere
+show Mathilde PoseGauche Colere Rougit
+show Mathilde PoseGauche Degoute
+show Mathilde PoseGauche Sourire
+show Mathilde PoseGauche Sourire Rougit
+show Mathilde PoseGauche Sourire Yeuxfermes
+show Mathilde PoseGauche Sourire Yeuxfermes Rougit
+show Mathilde PoseGauche Triste
+show Mathilde PoseGauche Gene
+show Mathilde Standard Badboy
 show Mathilde Standard Bad Girl
+show Mathilde Standard Badboy Rougit
 show Mathilde Standard Bad Girl Rougit
 show Mathilde Standard Colere
 show Mathilde Standard Colere Rougit
@@ -355,6 +382,7 @@ show Mathilde Standard Sourire Rougit
 show Mathilde Standard Sourire Yeuxfermes
 show Mathilde Standard Sourire Yeuxfermes Rougit
 show Mathilde Standard Triste
+show Mathilde Standard Gene
 show Mathilde Standard Yeuxfermes Rougit
 show Medoc BrasCroises Badboy
 show Medoc BrasCroises Badboy Rougit
@@ -577,6 +605,61 @@ show Moguri Standard Sourire Yeuxfermes
 show Moguri Standard Sourire Yeuxfermes Rougit
 show Moguri Standard Triste
 show Moguri Standard Gene
+show Pansepignon BrasCroises Cligne
+show Pansepignon BrasCroises Cligne Rougit
+show Pansepignon BrasCroises Colere
+show Pansepignon BrasCroises Colere Rougit
+show Pansepignon BrasCroises Degoute
+show Pansepignon BrasCroises Sourire
+show Pansepignon BrasCroises Sourire Rougit
+show Pansepignon BrasCroises Sourire Yeuxfermes
+show Pansepignon BrasCroises Sourire Yeuxfermes Rougit
+show Pansepignon BrasCroises Triste
+show Pansepignon BrasCroises Gene
+show Pansepignon PoseDroite Cligne
+show Pansepignon PoseDroite Cligne Rougit
+show Pansepignon PoseDroite Colere
+show Pansepignon PoseDroite Colere Rougit
+show Pansepignon PoseDroite Degoute
+show Pansepignon PoseDroite Sourire
+show Pansepignon PoseDroite Sourire Rougit
+show Pansepignon PoseDroite Sourire Yeuxfermes
+show Pansepignon PoseDroite Sourire Yeuxfermes Rougit
+show Pansepignon PoseDroite Triste
+show Pansepignon PoseDroite Gene
+show Pansepignon PoseGauche Cligne
+show Pansepignon PoseGauche Cligne Rougit
+show Pansepignon PoseGauche Colere
+show Pansepignon PoseGauche Colere Rougit
+show Pansepignon PoseGauche Degoute
+show Pansepignon PoseGauche Sourire
+show Pansepignon PoseGauche Sourire Rougit
+show Pansepignon PoseGauche Sourire Yeuxfermes
+show Pansepignon PoseGauche Sourire Yeuxfermes Rougit
+show Pansepignon PoseGauche Triste
+show Pansepignon PoseGauche Gene
+show Pansepignon PoseSpeciale Cligne
+show Pansepignon PoseSpeciale Cligne Rougit
+show Pansepignon PoseSpeciale Colere
+show Pansepignon PoseSpeciale Colere Rougit
+show Pansepignon PoseSpeciale Degoute
+show Pansepignon PoseSpeciale Sourire
+show Pansepignon PoseSpeciale Sourire Rougit
+show Pansepignon PoseSpeciale Sourire Yeuxfermes
+show Pansepignon PoseSpeciale Sourire Yeuxfermes Rougit
+show Pansepignon PoseSpeciale Triste
+show Pansepignon PoseSpeciale Gene
+show Pansepignon Standard Cligne
+show Pansepignon Standard Cligne Rougit
+show Pansepignon Standard Colere
+show Pansepignon Standard Colere Rougit
+show Pansepignon Standard Degoute
+show Pansepignon Standard Sourire
+show Pansepignon Standard Sourire Rougit
+show Pansepignon Standard Sourire Yeuxfermes
+show Pansepignon Standard Sourire Yeuxfermes Rougit
+show Pansepignon Standard Triste
+show Pansepignon Standard Gene
 show Von BrasCroises Badboy
 show Von BrasCroises Badboy Rougit
 show Von BrasCroises Colere
