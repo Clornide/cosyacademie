@@ -1,5 +1,7 @@
 label club_otaku:
-    scene classroom with longfade
+    scene classroom night with longfade
+
+    play music kawaii
 
     innerpov "Tiens ? Ça sent le matcha."
 
@@ -7,13 +9,17 @@ label club_otaku:
     show Caro PoseSpeciale Triste at right
     
     show din PoseGauche Sourire Yeuxfermes Rougit
+
     din "Mais là je lui ai dit \"On peut avoir des tentacules et quand même droit à l'amour\"... et on était d'accord, au final !"
     show Caro PoseDroite Cligne
-    caro "On peut donc se réconcilier sur Twitter ! Sugoi !"
+    $ word_effect("Sugoi !")
+    caro "On peut donc se réconcilier sur Twitter ! {image=we1}"
     show din BrasCroises Sourire
-    din "Ah tiens te voilà [povname] ! Tu t'intéresses au club otaku alors ?"
+    $ word_effect("otaku")
+    din "Ah tiens te voilà [povname] ! Tu t'intéresses au club {image=we1} alors ?"
     show Caro PoseDroite Sourire Yeuxfermes
-    caro "Entre donc, on a des gâteaux et du thé ! Irasshaimaseee"
+    $ word_effect("Irasshaimaseee")
+    caro "Entre donc, on a des gâteaux et du thé ! {image=we1}"
     show din BrasCroises Sourire Yeuxfermes
     din "Tu viens de louper rockmanshii qui est rentré chez lui !"
     show Caro PoseDroite Triste
@@ -42,7 +48,8 @@ label club_otaku:
     innerpov "J'ai dû me faire des idées."
     pov "Formidable !"
     show din PoseGauche Sourire Yeuxfermes
-    din "Donc voilà, en gros on lit aussi beaucoup de fanfics."
+    $ word_effect("fanfics")
+    din "Donc voilà, en gros on lit aussi beaucoup de {image=we1}."
     show Caro PoseDroite Sourire
     caro "Et on achète des fanzines en convention ! Il y en a toute une étagère là-bas si tu veux."
     pov "Vous avez l'air motivées !"
@@ -50,37 +57,47 @@ label club_otaku:
     show din PoseSpeciale Sourire Yeuxfermes Rougit
     din "Et on laisse libre cours à notre passion en en écrivant et dessinant nous-même, aussi."
     show Caro PoseSpeciale Gene
-    caro "Faut dire qu'on aime tellement de séries ! Tellement de personnages !"
+    $ word_effect("personnages")
+    caro "Faut dire qu'on aime tellement de séries ! Tellement de {image=we1} !"
     pov "Sympa !"
     show din PoseSpeciale Cligne
     din "Bon et puis nos camarades bien sûr..."
     pov "Hein ?"
     show Caro PoseDroite Colere Rougit
-    caro "Comme je dis toujours, \"on est dans une Académie remplie de gens canons, ce serait un crime de ne pas en profiter !\""
+    $ word_effect("profiter")
+    caro "Comme je dis toujours, \"on est dans une Académie remplie de gens canons, ce serait un crime de ne pas en {image=we1} !\""
     pov "Mais qu'est-ce que tu veux dire par-là...?"
     show din PoseGauche Sourire Yeuxfermes
-    din "Tu viens de débarquer, tu n'as pas encore eu l'occasion de saisir les dynamiques subtiles de notre vie étudiante..."
+    $ word_effect("dynamiques subtiles")
+    din "Tu viens de débarquer, tu n'as pas encore eu l'occasion de saisir les {image=we1} de notre vie étudiante..."
     show Caro PoseDroite Gene
-    caro "Oh oui ça nous inspire beaucoup."
+    $ word_effect("inspire beaucoup")
+    caro "Oh oui ça nous {image=we1}."
     show din PoseGauche Gene
     din "Vraiment beaucoup..."
     pov "Euh..."
     show Caro PoseSpeciale Perv
-    caro "D'ailleurs din, dis-moi que tu as vu Medoc et Moguri tout à l'heure pendant la pause déjeuner hi hi hi"
+    $ word_effect("Medoc et Moguri")
+    caro "D'ailleurs din, dis-moi que tu as vu {image=we1} tout à l'heure pendant la pause déjeuner hi hi hi"
     show din PoseGauche Cligne Rougit
-    din "Il faut toujours qu'ils soient tactiles entre eux, ces deux-là hu hu hu"
+    $ word_effect("tactiles")
+    din "Il faut toujours qu'ils soient {image=we1} entre eux, ces deux-là hu hu hu"
     innerpov "Mais enfin..."
     show Caro BrasCroises Degoute
-    caro "Je sais que tu shippes Moguri x Chuen..."
+    $ word_effect("Moguri x Chuen")
+    caro "Je sais que tu shippes {image=we1}..."
     show din BrasCroises Colere
     din "Un beau gosse brun + un beau gosse blond c'est la base, Caro ! Tout le monde sait ça !"
     show Caro PoseSpeciale Colere Rougit
-    caro "... mais rien à faire, LE ship c'est Moguri x Medoc !"
+    $ word_effect("Moguri x Medoc")
+    caro "... mais rien à faire, LE ship c'est {image=we1} !"
     innerpov "Fais une poker face et souris [povname], c'est le moment."
     show din BrasCroises Cligne Rougit
-    din "Ou Medoc x Moguri..."
+    $ word_effect("Medoc x Moguri")
+    din "Ou {image=we1}..."
     show Caro PoseSpeciale Perv
-    caro "HI HI HI"
+    $ word_effect("HI HI HI")
+    caro "{image=we1}"
     show din PoseSpeciale Perv
     din "Eh oui, ça varie les fan arts MWEHEHE !"
     innerpov "Mais qu'est-ce que ça peut bien changer ?! Est-ce que je tiens vraiment à le savoir ?!"
@@ -88,21 +105,27 @@ label club_otaku:
     caro "L'important c'est de soutenir la créativité, hi hi pardon [povname] on se répète !"
     pov "Ha ha euh d'accord c'est... cool..."
     show din PoseSpeciale Sourire Yeuxfermes
-    din "De toute façon tu sais bien que mon ship préféré c'est Von x Foulk, la Droite et la Gauche, du vrai bon hate sex frr frr frr"
+    $ word_effect("Von x Foulk")
+    din "De toute façon tu sais bien que mon ship préféré c'est {image=we1}, la Droite et la Gauche, du vrai bon hate sex frr frr frr"
     show Caro PoseDroite Gene
     caro "OH TOI ALORS !"
     innerpov "Il faut que je m'en aille maintenant et que j'oublie tout ça. Très vite."
     show din PoseSpeciale Perv
-    din "Je t'ai pas montré ma dernière œuvre avec Dieuvomi et ses chaînes au fait !"
+    $ word_effect("Dieuvomi")
+    din "Je t'ai pas montré ma dernière œuvre avec {image=we1} et ses chaînes au fait !"
     show Caro PoseSpeciale Perv
-    caro "Est-ce que c'est celle avec Pansepignon ET Chuen aussi ?"
+    $ word_effect("Pansepignon ET Chuen")
+    caro "Est-ce que c'est celle avec {image=we1} aussi ?"
     show din PoseSpeciale Gene
-    din "Ces trois-là il faut toujours qu'ils se congratulent avec beaucoup d'ardeur, j'y peux rien, ça m'inspire..."
+    $ word_effect("beaucoup d'ardeur")
+    din "Ces trois-là il faut toujours qu'ils se congratulent avec {image=we1}, j'y peux rien, ça m'inspire..."
     show Caro Standard Cligne Rougit
-    caro "Alors [povname] ? On t'a pas carrément donné envie de rejoindre notre club ?"
+    $ word_effect(povname)
+    caro "Alors {image=we1} ? On t'a pas carrément donné envie de rejoindre notre club ?"
     show din PoseSpeciale Sourire Yeuxfermes Rougit
-    din "Comme tu peux le voir c'est beaucoup d'ondes positives et d'amour de l'art ! D'ailleurs t'es plutôt pas mal toi aussi..."
+    $ word_effect("plutôt pas mal")
+    din "Comme tu peux le voir c'est beaucoup d'ondes positives et d'amour de l'art ! D'ailleurs t'es {image=we1} toi aussi..."
     pov "Je... vais prendre le temps de réfléchir..."
     innerpov "AU. SECOURS. CASSOS."
-    jump club_rando
+    jump club_tech
     return

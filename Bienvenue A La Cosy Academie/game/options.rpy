@@ -59,8 +59,8 @@ define config.default_voice_volume  = 0.5
 ## Pour autoriser le joueur à réaliser un test de volume, décommenter la ligne
 ## ci-dessous et utilisez-la pour configurer un son d’exemple.
 
-# define config.sample_sound = "sample-sound.ogg"
-# define config.sample_voice = "sample-voice.ogg"
+define config.sample_sound = "sounds/creepy-hifreq-woosh.mp3"
+define config.sample_voice = "sounds/text-sound.mp3"
 
 
 ## Décommentez la ligne suivante pour configurer un fichier audio qui sera

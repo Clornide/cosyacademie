@@ -16,12 +16,21 @@ image classePhysique = "classePhysique.jpg"
 image reverie = "reverie.jpg"
 image school entrance = "background/schoolEntrance.png"
 image school hallway = "background/hallway.png"
+image school hallway night = "background/hallway_night.png"
+image school hallway choice = "background/hallway_choice.png"
+image school hallway choice alt1 = "background/hallway_choice_alt_1.png"
+image school hallway choice alt2 = "background/hallway_choice_alt_2.png"
+image school hallway choice alt3 = "background/hallway_choice_alt_3.png"
+image school hallway choice alt4 = "background/hallway_choice_alt_4.png"
 image theater = "background/theater.png"
+image bar = "background/cosyBar.png"
 image gym = "background/gym.png"
 image tracks = "background/tracks.png"
 image street day = "background/street dayDay.png"
 image rando = "background/rando.png"
 image classroom = "background/classroom.png"
+image classroom night = "background/classroom_night.png"
+
 
 # Déclarez les personnages utilisés dans le jeu.
 
@@ -32,6 +41,7 @@ init python:
     txt3 = ""
     
     renpy.music.register_channel("talking", mixer="sfx", loop=True)
+    
 
     def word_effect(txt):
 
@@ -43,7 +53,7 @@ init python:
         for letter in txt:
             i += 1
             if i % 2 == 0:
-                txt2 += letter
+                txt2 += "{size=+1}" + letter + "{/size}"
                 # Instead of "size" any text tag can be applied here,
                 # see: http://www.renpy.org/doc/html/text.html#styling-and-text-tags
                 txt3 += "{size=-2}" + letter + "{/size}"
@@ -70,10 +80,14 @@ init python:
     def char_callback(event, interact=True, **kwargs):
 
         if event == "show" or event == "begin":
-            renpy.sound.play("sounds/text-sound.mp3", channel="talking")
+            
+            
+            renpy.music.set_pause(False, channel="talking")
+            #renpy.sound.play("sounds/text-sound.mp3", channel="talking")
 
         if event == "slow_done" or event == "end":
-            renpy.sound.stop(channel="talking")
+            renpy.music.set_pause(True, channel="talking")
+            #renpy.sound.stop(channel="talking")
 
 
         showing_tags = renpy.get_showing_tags(layer='master')
@@ -171,6 +185,8 @@ define audio.wonderful = "music/sb_wonderful.mp3"
 define audio.comedy = "music/sb_skyscrapersamba_eq_lessdrums.mp3"
 define audio.gym = "music/sb_red_altmix.mp3"
 define audio.epic = "music/sb_pursuit.mp3"
+define audio.rainbow = "music/sb_rainbows.mp3"
+define audio.kawaii = "music/Cute_Upbeat_Kawaii.mp3"
 
 #FX
 define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
@@ -196,6 +212,11 @@ label start:
 
     python:
 
+
+        renpy.music.queue("sounds/text-sound.mp3", channel = "talking", loop = True)
+        renpy.pause(0.2)
+        renpy.music.set_pause(True, channel="talking")
+
         name_dieuvomi = "???"
         name_medoc = "Medoc"
         name_moguri = "Moguri"
@@ -209,7 +230,7 @@ label start:
         name_din = "din"
         name_foulk = "Foulk"
         name_lock = "Lock"
-        name_zep = "Ze PilOt"
+        name_zep = "???"
         name_clornide = "Clornide"
         name_cheers = "Panthusiasts"
 
@@ -217,6 +238,8 @@ label start:
         pointsmedoc=0
         pointsmoguri=0
         pointsincel=0
+
+        
 
         if sex=="m":
             povname = renpy.input("Veuillez renseigner votre prénom ? Par défaut vous serez appelé Hector.")
@@ -238,7 +261,10 @@ label start:
             if not povname:
                 povname="Cassandre"
 
-    jump club_comedie
+
+        
+
+    jump club_tech
 
 
     

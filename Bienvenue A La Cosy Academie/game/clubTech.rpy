@@ -1,4 +1,8 @@
+
+image panneau = "Assets/PanneauxTech.png"
+
 label club_tech:
+    play music rainbow
     scene school hallway with longfade
 
     python:
@@ -9,12 +13,12 @@ label club_tech:
     innerpov "Tiens, ne serait-ce pas Moguri ? Il a l'air agité... et quel est ce type à qui il parle ?"
     
     show Moguri PoseGauche Colere at right  with dissolve
-    mog "... mais utiliser mon nom, comme ca, tu aurais pu me demander avant quand même !"
+    mog "... Mais utiliser mon nom, comme ça, tu aurais pu me demander avant quand même !"
 
     show ZePilot BrasCroises Sourire at left with dissolve
-    zep "Ne le prend pas mal Mog' c'est juste un hommage... C'est un petit mod de Final Fantasy, personne ne remarquera que ca existe, et ca finira dans l'ombre."
+    zep "Ne le prend pas mal Mog' c'est juste un hommage... C'est un petit mod de Final Fantasy, personne ne remarquera que ça existe, et ca finira dans l'ombre."
     mog "Mais, tu ne te rends pas compte... Ton hommage, aussi génial soit-il, me met une pression de fou. J'ai déjà le Kevins Battle Royal à préparer ! C'est bien plus qu'un tournoi !"
-    mog "Alors oui, c'est gentil, mais la prochaine fois, demande moi avant de diffuser ca sur les interwebs s'il te plait !"
+    mog "Alors oui, c'est gentil, mais la prochaine fois, demande moi avant de diffuser ça sur les interwebs s'il te plait !"
 
     show ZePilot BrasCroises Sourire Yeuxfermes
     zep "Euh... on dit Internet Mog'."
@@ -23,7 +27,7 @@ label club_tech:
 
     show Moguri Standard Sourire 
     mog "Oh [povname] ! Salut !"
-    pov "Kyaa !"
+    pov "Yo !"
     pov "Ah, Moguri, c'est toi ! Je..."
     innerpov "vite, vite [povname] trouve un truc ! Ils te regardent bizarrement."
     pov "Je... cherche... les PHOTOCOPIEUSES !"
@@ -34,16 +38,19 @@ label club_tech:
     mog "ZePilot est notre petit génie de l'informatique à l'Académie ! Il est président du club #tech."
     mog "ZePilot, je te présen..."
 
+    python:
+        name_zep="Ze_PilOt"
+
     show ZePilot Standard Sourire Yeuxfermes    
     zep "Bonjour 192.168.1.77 !"
-    innerpov "oh... ok...mais qu'est ce que raconte ce type ?"
+    innerpov "Oh... ok...mais qu'est ce que raconte ce type ?"
     pov "Bonjour ! je suis [povname] et je viens d'arriver à l'Académie. C'est un honneur de vous rencontrer !"
     zep "C'est chouette que tu utilises le dernier Sansung, ses capacités d'encodages dynamiques sont assez folles ! Tu feras attention, ton firmware a des failles de sécurités bien connues."
-    innerpov "Kyaa ! Mais comment il sait ca ?"
+    innerpov "Mais comment il sait ca ?"
     pov "Euh... oui, merci, je ferai attention..."
     zep "Tu trouveras les photocopieuses des élèves au club ''Technologies et Créations Hétéroclites (T.E.C.H)''. "
     zep "Profite-en pour rencontrer les membres du club, tu verras que l'Académie est à la pointe technologique : nous faisons tout en Ultra."
-    zep "Notre club regroupe toutes sortes de talents : developpeurs, serpentistes, memeurs fascinateurs, et bien plus encore !"
+    zep "Notre club regroupe toutes sortes de talents : développeurs, serpentistes, memeurs fascinateurs, et bien plus encore !"
     zep "Je les préviens de ta visite imminente."
 
     pause 0.2
@@ -52,24 +59,25 @@ label club_tech:
     pov "Non, je suis [povname]."
 
     show Moguri PoseGauche Sourire Rougit
-    mog "Haha, non, Ze_Pilot a developpé un assistant personnel qui s'appelle Jarod... en référence à la Guerre des étoiles, je crois... Ils sont connectés en permanence, mais il y a encore quelques réglages à faire."
+    mog "Haha, non, Ze PilOt a developpé un assistant personnel qui s'appelle Jarod... en référence à la Guerre des étoiles, je crois... Ils sont connectés en permanence, mais il y a encore quelques réglages à faire."
 
     show ZePilot Standard Colere Rougit
     zep "Mais arrête Jarod, puisque je te dis que non, je ne connais pas cette Siri ! Mais... non ! Quoi ? Mon historique ? Mais ca n'a absolument rien à voir, ce n'est pas Siri à la pomme, c'est Siri la généreuse suédoise ! Et comment... Oui bin j'étais intracable en navigation privée !"
 
     mog "ouh, ca devient génant ! File [povname],  tu n'as qu'à suivre les panneaux #tech, c'est relativement indiqué."
-    pov "merci ! Je vous laisse ! Désolé(e) de vous avoir interrompu... Et bon courage avec Jarod..."
+    if sex=="f":
+        pov "merci ! Je vous laisse ! Désolé(e) de vous avoir interrompu... Et bon courage avec Jarod..."
+    else:
+        pov "merci ! Je vous laisse ! Désolé de vous avoir interrompu... Et bon courage avec Jarod..."
 
     jump ChooseCouloir
 
     
 
 label Clubtechmetalice:
-    scene school hallway with longfade
-
     innerpov "Mais où se trouve ce club #tech ? C'est un vrai dédale cette Académie..."
     innerpov "Là ! un panneau !"
-    met "WAAAAAARRRGGGGTCCHHHAAAAAA !"
+    met "WAAAAAARRRGGGGTCCHHHAAAAAA !" with vpunch
     pov "Kya !"
 
     show Metalice PoseSpeciale Sourire
@@ -83,9 +91,12 @@ label Clubtechmetalice:
 
     show Metalice BrasCroises Sourire
     met "D'ailleurs, tu ne l'aurais pas vu par hasard ? Je le cherche... Il doit encore trainer au Respawn Point, le café où se retrouvent les joueurs de sa trempe."
-    pov "Je ne l'ai pas vue, désolé(e)."
+    if sex=="f":
+        pov "Je ne l'ai pas vue, désolé(e)."
+    else:
+        pov "Je ne l'ai pas vue, désolé."
     met "Mais, qu'est ce que tu fais dans ces couloirs au fait ?"
-    pov "Je cherche le club #tech. J'ai croisé Ze_pilOt qui m'a indiqué que des photocopieuses sont là bas."
+    pov "Je cherche le club #tech. J'ai croisé Ze PilOt qui m'a indiqué que des photocopieuses sont là bas."
     met "Oui, tu devrais trouver facilement !"
 
     show Metalice PoseGauche Degoute
@@ -105,12 +116,11 @@ label Clubtechmetalice:
 
 
 label Clubtechfoulk:
-    scene school hallway with longfade
 
     innerpov "Ah quelqu'un, peut-être qu'il pourra me renseigner..."
     pov "Bonjour, est-ce que tu pourrais me dire où se trouve le club #tech ?"
 
-    show Foulk PoseDroite Sourire Yeuxfermes
+    show Foulk PoseDroite Sourire Yeuxfermes with dissolve
     foulk "Ah le film d'Eric et Ramzy ?"
     pov "..."
 
@@ -136,28 +146,30 @@ label Clubtechfoulk:
 
 
 label Clubtechcheerleaders:
-    scene school hallway with longfade
+    innerpov "Mais quel est ce bruit ?"
+    "..."
+    innerpov "On dirait des prières..."
+    innerpov "Ca vient de derrière cette porte."
 
-    innerpov "mais quel est ce bruit ?"
-    unknown "..."
-    innerpov "on dirait des prières..."
-    innerpov "ca vient de derrière cette porte."
-    unknown "ne regarde pas en arrière, nous sommes là pour rester \n la vie que nous avons connu, viendra un jour,"
-    
+    "Ne regarde pas en arrière, nous sommes là pour rester \n la vie que nous avons connu, viendra un jour,"
+    scene classroom night with longfade
     show Cheerleaders Groupe Cheer 
     innerpov "Encore eux ? ces cheerleaders sont vraiment étranges ! Qu'est-ce qu'ils font ? "
-    declo "on y est, à la limite, là où le futur (pas compris) \nle feu brulera, et ne mourra jamais"
-    samael "Ô grand Pansepignon, nous invoquons ton nom !"
-    declo "regarde dans les yeux d'une nouvelle vie\n alors trouve moi, juste, trouve moi"
+    clornide Clornide Cheer "On y est, à la limite, là où le futur (pas compris) \nle feu brulera, et ne mourra jamais..."
+    samael Sameel Cheer "Ô grand Pansepignon, nous invoquons ton nom !"
+    clornide "Regarde dans les yeux d'une nouvelle vie\n alors trouve moi, juste, trouve moi..."
     samael "Ô Grand Pansepignon, Bénis Nous de ta Présence, et Accepte ces Offrandes !"
     innerpov "Ils font flipper ces types !"
-    declo "des etincelles voleront\n si nous crions non"
+    clornide "Des étincelles voleront\n si nous crions non..."
     samael "Ô Grand Pansepignon, nous nous inclinons devant ton Drop !"
-    declo "ce n'est pas comme ca que nous partirons \n nous sommes ceux qui ne lachons jamais"
-    declo "(pas compris)\n Nous ne grandirons jamaiiiis"
-    innerpov "ils se partagent des pillules bizarres... Le Drop ! Metalice m'avait prévenu(e) !"
+    clornide "Ce n'est pas comme ca que nous partirons \n nous sommes ceux qui ne lachons jamais !!"
+    clornide "(pas compris)\n Nous ne grandirons jamaiiiis !!!"
+    innerpov "Ils se partagent des pillules bizarres... Le Drop ! Metalice m'avait prévenu(e) !"
     clornide "Mais qui est là ? KONTAK !"
-    innerpov "Je suis reperé(e) ! Vite le couloir !"
+    if sex=="f":
+        innerpov "Je suis reperée ! Vite le couloir !"
+    else:
+        innerpov "Je suis reperé ! Vite le couloir !"
 
     jump ChooseCouloir
 
@@ -187,18 +199,51 @@ label Clubtechdin:
     din    "Oh, l'important c'est de prendre du plaisir en ce que tu fais ! Et les corps tendus et en sueurs des cheerleaders sont une source d'inspiration sans fin... mais c'est TOI qui es supair !"
     din "Je file, je ne veux pas en râter une miette ! A très vite [povname] !"
 
-    jump Suite
+    jump club_tech
 
 
 
 label ChooseCouloir:
-
+    if count_couloir == 0:
     # loader une scene en fonction de count_couloir ?
-    scene classroom with fade
+        scene school hallway choice
+    else:
+        $ randomnum = renpy.random.randint(1,5)
+        if randomnum == 1:
+            scene school hallway choice
+        elif randomnum == 2:
+            scene school hallway choice alt1
+        elif randomnum == 3:
+            scene school hallway choice alt2
+        elif randomnum == 4:
+            scene school hallway choice alt3
+        elif randomnum == 5:
+            scene school hallway choice alt4    
+
+    $ line_choice = "ERROR !!!"
+    if count_couloir == 5:
+        $ line_choice = "Ils auraient quand même pu faire un peu d'efforts sur ces décors, ça se voit le color swap.."
+    elif count_couloir == 2:
+        $ line_choice = "J'espère que ce n'est pas réellement un labyrinthe !"
+    elif count_couloir == 7:
+        $ line_choice = "Avec l'âge, la droite me tente de plus en plus..."
+
+    else:
+        $ randomnum = renpy.random.randint(1,5)
+        if randomnum == 1:
+            $ line_choice = "Tant de choix..."
+        elif randomnum == 2:
+            $ line_choice = "Autant lancer un dé ..."
+        elif randomnum == 3:
+            $ line_choice = "ARGH !"
+        elif randomnum == 4:
+            $ line_choice = "J'aurais du m'acheter un mac."
+        elif randomnum == 5:
+            $ line_choice = "Gauche droite, c'est pareil au final non ?"
 
     menu:
 
-        innerpov "Je dois avancer, mais où aller ?"
+        innerpov "[line_choice]"
 
         "Prendre le couloir de Gauche":
             python:
@@ -225,7 +270,8 @@ label ChooseCouloir:
             elif count_couloir==5:
 
                 innerpov "Là un panneau ! Enfin !"
-                panneau "<=   Club #tech   =>"
+                show panneau  at truecenter
+                pause 4.0
                 jump ChooseCouloir
 
             elif count_couloir==6:
@@ -235,13 +281,15 @@ label ChooseCouloir:
 
             elif count_couloir==7:
 
-                "Pansepignon is a lie !"
-                innerpov "Pansepignon... encore ce nom qui revient..."
+                show Von PoseSpeciale Colere
+                von "C'EST A DROITE !"
                 jump ChooseCouloir
 
             elif count_couloir==8:
-
-                innerpov "Mais pourquoi il fait si froid d'un coup ici ? Je suis glacé(e)"
+                if sex=="f":
+                    innerpov "Mais pourquoi il fait si froid d'un coup ici ? Je suis glacé(e)"
+                else:
+                    innerpov "Mais pourquoi il fait si froid d'un coup ici ? Je suis glacé"
                 jump Clubtechcheerleaders
 
             elif count_couloir==9:
@@ -273,17 +321,18 @@ label ChooseCouloir:
             
             elif count_couloir==3:
 
-                innerpov "Trouvons ce club #tech ! Ze_Pilot avait l'air tellement talentueux !"
+                innerpov "Trouvons ce club #tech ! Ze PilOt avait l'air tellement talentueux !"
                 jump ChooseCouloir
 
             elif count_couloir==4:
 
                 innerpov "Mais pourquoi ca sent le melon de Lectoure et le fois gras ?"
                 jump Clubtechfoulk
-
+            
             elif count_couloir==5:
-
-                innerpov "hin, hin, le Club PASSE #tech ! j'espère qu'il n'y aura pas de pépins."
+                innerpov "Là un panneau ! Enfin !"
+                show panneau  at truecenter
+                pause 4.0
                 jump ChooseCouloir
 
             elif count_couloir==6:
@@ -293,7 +342,8 @@ label ChooseCouloir:
 
             elif count_couloir==7:
 
-                innerpov "hin, hin, le Club PASSE #tech ! j'espère qu'il n'y aura pas de pépins."
+                show Von Standard Badboy
+                von "Ne va pas à gauche, c'est un mirage. Droit devant, c'est une impasse."
                 jump ChooseCouloir
 
             elif count_couloir==8:
@@ -332,7 +382,8 @@ label ChooseCouloir:
             
             elif count_couloir==3:
 
-                innerpov "Ze_Pilot est impressionant. Le club #tech, il l'a bien en main."
+                show Von Standard Sourire
+                von "A droite, toujours à droite !"
                 jump ChooseCouloir
 
             elif count_couloir==4:
@@ -342,11 +393,13 @@ label ChooseCouloir:
 
             elif count_couloir==5:
 
-                innerpov "hin, hin, le Club PASSE #tech ! j'espère qu'il n'y aura pas de pépins."
+                innerpov "Là un panneau ! Enfin !"
+                show panneau  at truecenter
+                pause 4.0
                 jump ChooseCouloir
 
             elif count_couloir==6:
-                "Dépot sauvage de peuneus interdit./n La direction."
+                "Dépot sauvage de peuneus interdit. Signé La direction."
                 jump ChooseCouloir
 
             elif count_couloir==7:
