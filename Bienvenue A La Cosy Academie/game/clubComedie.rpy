@@ -181,7 +181,7 @@ label club_comedie:
 
     dieuv "Alors ? Je te demande pas ton avis en vrai, je sais que c'est drôle."
     show Foulk Standard Sourire Rougit
-    dieuv "Par contre je suis pas sur que t'aies tout sais, je t'ai pas vu rigoler."
+    dieuv "Par contre je suis pas sur que t'aies tout compris, je t'ai pas vu rigoler."
     pov "Heu ben c'est spécial, c'est beaucoup d'informations...."
     show Dieuvomi PoseDroite Sourire
     dieuv "Je sais, c'est possible que tu mettes plusieurs jours à saisir les subtilités de notre génie comique."
