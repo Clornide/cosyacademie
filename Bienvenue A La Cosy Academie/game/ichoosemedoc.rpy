@@ -1,5 +1,5 @@
 label Ichoosemedoc:
-    scene couloir with longfade
+    scene school hallway with longfade
 
     innerpov "Ca commence à faire un petit bout de temps que je l'attends, il ne devrait plus tarder..."
     innerpov "Je crois que je l'entends d'ailleurs, mais il a l'air de discuter avec quelqu'un."

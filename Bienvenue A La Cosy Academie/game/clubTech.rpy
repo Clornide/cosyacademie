@@ -32,7 +32,7 @@ label club_tech:
     mog "Mais, tu ne te rends pas compte... Ton hommage, aussi génial soit-il, me met une pression de fou. J'ai déjà le Kevins Battle Royal à préparer ! C'est bien plus qu'un tournoi !"
     mog "Alors oui, c'est gentil, mais la prochaine fois, demande moi avant de diffuser ça sur les interwebs s'il te plait !"
 
-    show ZePilot BrasCroises Sourire Yeuxfermes
+    show ZePilot PoseGauche Sourire Yeuxfermes
     zep "Euh... on dit Internet Mog'."
     mog "Et arrête de m'appeler Mog !"
     innerpov "Ouh là. Ca a l'air tendu, je ne devrai peut-être pas les déranger, comme dirais Medoc ''un repli stratégique s'impose''. Demi tour et fuyons !"

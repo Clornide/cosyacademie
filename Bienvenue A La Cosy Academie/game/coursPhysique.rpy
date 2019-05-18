@@ -61,7 +61,7 @@ label cours_physique:
     play music wonderful
 
     esprism "Je fais l'appel..."    
-    esprism "Ha, [povname], je vois que tu n'as pas correctement ta fiche !"
+    esprism "Ha, [povname], je vois que ta fiche n'est pas complète !"
     esprism "Va au secrétariat de suite !"
 
 

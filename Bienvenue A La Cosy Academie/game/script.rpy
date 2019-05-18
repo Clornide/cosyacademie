@@ -208,7 +208,7 @@ define audio.ATATATATA = "sounds/ATATATATA.mp3"
 
 # Le jeu commence ici
 label start:
-    jump credits    
+
     menu:
 
         "Avant de commencer, voulez-vous incarner un personnage féminin ou masculin ?"

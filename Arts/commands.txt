@@ -1,38 +1,75 @@
+show Pansepignon PoseDroite Sourire Yeuxfermes
 show Caro BrasCroises Cligne
+show Pansepignon PoseDroite Sourire Yeuxfermes Rougit
 show Caro BrasCroises Cligne Rougit
+show Pansepignon PoseDroite Triste
 show Caro BrasCroises Colere
+show Pansepignon PoseDroite Gene
 show Caro BrasCroises Colere Rougit
+show Pansepignon PoseGauche Cligne
 show Caro BrasCroises Degoute
 show Caro BrasCroises Sourire
+show Pansepignon PoseGauche Cligne Rougit
 show Caro BrasCroises Sourire Rougit
+show Pansepignon PoseGauche Colere
 show Caro BrasCroises Sourire Yeuxfermes
+show Pansepignon PoseGauche Colere Rougit
 show Caro BrasCroises Sourire Yeuxfermes Rougit
+show Pansepignon PoseGauche Degoute
 show Caro BrasCroises Triste
+show Pansepignon PoseGauche Sourire
 show Caro BrasCroises Gene
+show Pansepignon PoseGauche Sourire Rougit
 show Caro PoseDroite Cligne
+show Pansepignon PoseGauche Sourire Yeuxfermes
 show Caro PoseDroite Cligne Rougit
+show Pansepignon PoseGauche Sourire Yeuxfermes Rougit
+show Pansepignon PoseGauche Triste
 show Caro PoseDroite Colere
+show Pansepignon PoseGauche Gene
 show Caro PoseDroite Colere Rougit
+show Pansepignon PoseSpeciale Cligne
 show Caro PoseDroite Degoute
+show Pansepignon PoseSpeciale Cligne Rougit
 show Caro PoseDroite Sourire
+show Pansepignon PoseSpeciale Colere
+show Pansepignon PoseSpeciale Colere Rougit
 show Caro PoseDroite Sourire Rougit
+show Pansepignon PoseSpeciale Degoute
 show Caro PoseDroite Sourire Yeuxfermes
+show Pansepignon PoseSpeciale Sourire
 show Caro PoseDroite Sourire Yeuxfermes Rougit
+show Pansepignon PoseSpeciale Sourire Rougit
+show Pansepignon PoseSpeciale Sourire Yeuxfermes
 show Caro PoseDroite Triste
+show Pansepignon PoseSpeciale Sourire Yeuxfermes Rougit
 show Caro PoseDroite Gene
+show Pansepignon PoseSpeciale Triste
 show Caro PoseGauche Cligne
+show Pansepignon PoseSpeciale Gene
 show Caro PoseGauche Cligne Rougit
+show Pansepignon Standard Cligne
 show Caro PoseGauche Colere
+show Pansepignon Standard Cligne Rougit
 show Caro PoseGauche Colere Rougit
+show Pansepignon Standard Colere
 show Caro PoseGauche Degoute
+show Pansepignon Standard Colere Rougit
 show Caro PoseGauche Sourire
+show Pansepignon Standard Degoute
 show Caro PoseGauche Sourire Rougit
+show Pansepignon Standard Sourire
 show Caro PoseGauche Sourire Yeuxfermes
+show Pansepignon Standard Sourire Rougit
 show Caro PoseGauche Sourire Yeuxfermes Rougit
+show Pansepignon Standard Sourire Yeuxfermes
 show Caro PoseGauche Triste
+show Pansepignon Standard Sourire Yeuxfermes Rougit
 show Caro PoseGauche Gene
 show Caro PoseMainVisage Cligne
+show Pansepignon Standard Triste
 show Caro PoseMainVisage Cligne Rougit
+show Pansepignon Standard Gene
 show Caro PoseMainVisage Colere
 show Caro PoseMainVisage Colere Rougit
 show Caro PoseMainVisage Degoute
@@ -726,6 +763,40 @@ show ZePilot BrasCroises Sourire Yeuxfermes
 show ZePilot BrasCroises Sourire Yeuxfermes Rougit
 show ZePilot BrasCroises Triste
 show ZePilot BrasCroises Gene
+show ZePilot PoseDroite Badboy
+show ZePilot PoseDroite Badboy Rougit
+show ZePilot PoseDroite Colere
+show ZePilot PoseDroite Colere Rougit
+show ZePilot PoseDroite Degoute
+show ZePilot PoseDroite Sourire
+show ZePilot PoseDroite Sourire Rougit
+show ZePilot PoseDroite Sourire Yeuxfermes
+show ZePilot PoseDroite Sourire Yeuxfermes Rougit
+show ZePilot PoseDroite Triste
+show ZePilot PoseDroite Gene
+show ZePilot PoseGauche Badboy
+show ZePilot PoseGauche Badboy Rougit
+show ZePilot PoseGauche Colere
+show ZePilot PoseGauche Colere Rougit
+show ZePilot PoseGauche Degoute
+show ZePilot PoseGauche Sourire
+show ZePilot PoseGauche Sourire Rougit
+show ZePilot PoseGauche Sourire Yeuxfermes
+show ZePilot PoseGauche Sourire Yeuxfermes Rougit
+show ZePilot PoseGauche Triste
+show ZePilot PoseGauche Gene
+show ZePilot PoseSpeciale Badboy
+show ZePilot PoseSpeciale Badboy Rougit
+show ZePilot PoseSpeciale Colere
+show ZePilot PoseSpeciale Colere Rougit
+show ZePilot PoseSpeciale Degoute
+show ZePilot PoseSpeciale Sourire
+show ZePilot PoseSpeciale Sourire Rougit
+show ZePilot PoseSpeciale Sourire Yeuxfermes
+show ZePilot PoseSpeciale Sourire Yeuxfermes Rougit
+show ZePilot PoseSpeciale Triste
+show ZePilot PoseSpeciale Gene
+show ZePilot PoseSpeciale Furieux
 show ZePilot Standard Badboy
 show ZePilot Standard Badboy Rougit
 show ZePilot Standard Colere

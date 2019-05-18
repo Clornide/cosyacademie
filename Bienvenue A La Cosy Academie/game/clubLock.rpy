@@ -197,7 +197,7 @@ label club_lock:
     show din Standard Colere Rougit at center
     din "Ouais bah en attendant je dessine, et je décide qu'on est pas dans un shônen !"
     hide din
-    show ZePilot BrasCroises Colere
+    show ZePilot PoseSpeciale Colere
     zep "Ouais puis tous ces effets, vous croyez que ça ce fait comme ça tout seul !? J'envoie la facture à qui ??"   
 
     scene gym_shonen
@@ -266,7 +266,7 @@ label club_lock:
     show Moguri Standard Colere at right with hpunch
     mog "Waaaaa !"
     hide Moguri
-    show ZePilot BrasCroises Colere with hpunch
+    show ZePilot PoseSpeciale Colere with hpunch
     zep "On dépasse clairement le budget là !"
     hide ZePilot  
     

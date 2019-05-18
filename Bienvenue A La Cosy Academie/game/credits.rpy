@@ -16,7 +16,7 @@ label credits:
         pause 5.0
         "Pansepignon/main_PoseSpeciale_06_Sourire.png"
         pause 5.0
-        "ZePilot/main_Standard_06_Sourire.png"
+        "ZePilot/main_PoseSpeciale_06_Sourire.png"
         pause 5.0
 
     image perso_droite:
@@ -80,7 +80,7 @@ label credits:
     return
 
 init python:
-    credits = ('Personnages', 'Din'), ('Backgrounds', 'Ze_PilOt'), ('Les Cheerleaders', 'Ecrit par Clornide'),  ('Le club Otaku', 'Ecrit par Din'), ('Le club Rando', 'Ecrit par Von Yaourt'), ('Le club Comédie', 'Ecrit par Dieuvomi'), ('Le club de Bagarre', 'Ecrit par Kipowy'), ('Le club des Jeux', 'Ecrit par Clornide'), ('Le conseil des élèves', 'Ecrit par Decade'), ('Le club Tech', 'Ecrit par Decade'), ('Le Cosy Culture Club', 'Ecrit par Ze_PilOt'), ('Relecture', 'Dieuvomi'), ('Relecture', 'Von Yaourt'), ('Mise en scène', 'Ze_PilOt'), ('Musique (Creative Common)', 'Scott Buckley'), ('Musique (Creative Common)', 'Myuu')
+    credits = ('Personnages', 'din'), ('Backgrounds', 'Ze_PilOt'), ('Les Cheerleaders', 'Ecrit par Clornide'),  ('Le club Otaku', 'Ecrit par din'), ('Le club Rando', 'Ecrit par Von Yaourt'), ('Le club Comédie', 'Ecrit par Dieuvomi'), ('Le club de Bagarre', 'Ecrit par KupowY'), ('Le club des Jeux', 'Ecrit par Clornide'), ('Le conseil des élèves', 'Ecrit par Decade'), ('Le club Tech', 'Ecrit par Decade'), ('Le Cosy Culture Club', 'Ecrit par Ze_PilOt'), ('Relecture', 'Dieuvomi'), ('Relecture', 'Von Yaourt'), ('Mise en scène', 'Ze_PilOt'), ('Musique (Creative Common)', 'Scott Buckley'), ('Musique (Creative Common)', 'Myuu')
     
     credits_s = "{size=80}La Fin\n\n\n\n\n\n{size=80}Bienvenue\n{size=20}à la\n{size=80} Cosy Académie\n\n"
     c1 = ''

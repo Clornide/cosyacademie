@@ -33,6 +33,8 @@ label club_jeux_societe:
     show Mathilde BrasCroises Colere with dissolve
 
     pov "Hum Mathilde, c'est ça ? Celle qui traine avec Médoc ? Je savais pas que tu étais membre de ce club !"
+    python:
+        name_mathilde = "Mathilde"
 
     show Mathilde BrasCroises Sourire
 
