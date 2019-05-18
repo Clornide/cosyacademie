@@ -327,7 +327,6 @@ label club_jeux_societe:
     show Mathilde Standard Sourire
 
     mat "Je suppose que tu as eu le temps de te décider depuis ta rentrée du coup…"
-    mat "Medoc ou Moguri ?"
 
     menu:
             

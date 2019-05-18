@@ -198,11 +198,12 @@ init python:
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
+    build.classify('**/*.psd', None)
 
     ## Pour archiver les fichiers, choisissez la valeur « archive ».
 
-    # build.classify('game/**.png', 'archive')
-    # build.classify('game/**.jpg', 'archive')
+    build.classify('game/**.png', 'archive')
+    build.classify('game/**.jpg', 'archive')
 
     ## Les fichiers correspondant au format de documentation sont dupliqués pour
     ## les compilation sur Mac, c'est pourquoi ils apparaissent deux fois dans
