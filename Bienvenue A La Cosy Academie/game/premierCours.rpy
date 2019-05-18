@@ -148,7 +148,7 @@ label Premiercours:
     show Mickey Standard Sourire
     with longfade
 
-    mic "Allez, ce sera tout pour aujourd'hui, vous pouvez y aller !"
+    mic "Allez, ce sera tout pour aujourd'hui, vous pouvez sortir !"
     show Mickey Standard Degoute
     mic "Sauf vous, Medoc et Dieuvomi, évidemment..."
 
@@ -216,7 +216,7 @@ label Premiercours:
             pov "Oh, ça suffit hein !!"
             show Metalice Standard Sourire
 
-            met "Allez, je te laisse aller lui parler alors. On se revoit demain ?"
+            met "Bien ! Je te laisse aller lui parler alors. On se revoit demain ?"
             pov "Bien sûr ! A demain Metalice !"
 
             jump Ichoosemoguri
