@@ -649,8 +649,19 @@ screen about():
             ## options.rpy.
             if gui.about:
                 text "[gui.about!t]\n"
+            python:
+                credits = ('Personnages', 'din'), ('Backgrounds', 'Ze_PilOt'), ('Les Cheerleaders', 'Ecrit par Clornide'),  ('Le club Otaku', 'Ecrit par din'), ('Le club Rando', 'Ecrit par Von Yaourt'), ('Le club Comédie', 'Ecrit par Dieuvomi'), ('Le club de Bagarre', 'Ecrit par KupowY'), ('Le club des Jeux', 'Ecrit par Clornide'), ('Le conseil des élèves', 'Ecrit par Decade'), ('Le club Tech', 'Ecrit par Decade'), ('Le Cosy Culture Club', 'Ecrit par Ze_PilOt'), ('Relecture', 'Dieuvomi'), ('Relecture', 'Von Yaourt'), ('Mise en scène', 'Ze_PilOt'), ('Musique (Creative Common)', 'Scott Buckley'), ('Musique (Creative Common)', 'Myuu')
+                
+                credits_s = ""
+                c1 = ''
+                for c in credits:
+                    if not c1==c[0]:
+                        credits_s += "\n{size=60}" + c[0] + "\n"
+                    credits_s += "{size=40}" + c[1] + "\n"
+                    c1=c[0]
+                credits_s += "\n{size=60}Engine\n{size=40}" + renpy.version()                
 
-            text _("Conçu avec {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nCe Visual Novel a été créé sur le temps libre de p'tits Cosys. \n\Création des personnages: din. \n\nScript: Samael, Dieuvomi, Kupowy, Clornide. \n\nRelecture: Din, Dieuvomi. \n\nConception: Ze_Pilot, Kupowy.")
+            text _(credits_s)
 
 
 ## Ceci est généralement redéfini dans le fichier options.rpy  pour ajouter le

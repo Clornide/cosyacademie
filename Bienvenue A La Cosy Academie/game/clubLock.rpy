@@ -266,7 +266,7 @@ label club_lock:
     show Moguri Standard Colere at right with hpunch
     mog "Waaaaa !"
     hide Moguri
-    show ZePilot PoseSpeciale Colere with hpunch
+    show ZePilot PoseSpeciale Furieux with hpunch
     zep "On dépasse clairement le budget là !"
     hide ZePilot  
     
