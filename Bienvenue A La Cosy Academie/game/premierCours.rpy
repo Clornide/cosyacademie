@@ -177,7 +177,7 @@ label Premiercours:
     met "Dieuvomi a crevé tous les pneus de tous les BMX du gang en l'espace d'une heure, en pleine nuit..."
     pov "Ouaaaaah..."
     show Metalice Standard Sourire
-    met "N'est-ce pas ? Du coup, sans pneus, le gang s'est dissout de lui même. C'est aussi pour ça qu'il est aussi respecté !"
+    met "N'est-ce pas ? Du coup, sans pneus, le gang s'est dissout de lui même. C'est aussi pour ça qu'il est tant respecté !"
     met "Et autre point de détail de cette anecdote, le leader de ce gang était un cousin de Medoc..."
     pov "Aaaaaah ! C'est donc de là que vient cette animosité entre eux ?"
     show Metalice PoseSpeciale Sourire Yeuxfermes
