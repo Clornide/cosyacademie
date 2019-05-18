@@ -19,12 +19,12 @@ label Rentreavecmetalice:
     met "Tu dis ça mais je te vois très bien rougir hein !"
     pov "Tu parles quand même d'eux beaucoup plus que moi, c'est peut être toi qui est intéressée finalement !"
 
-    show Metalice PoseCoucou Sourire Yeuxfermes
+    show Metalice PoseSpeciale Sourire Yeuxfermes
 
     met "Moi ? Mais je suis déjà prise enfin !"
     pov "Ah bon ? Tu sors avec quelqu'un qu'on a croisé ?"
 
-    show Metalice PoseCoucou Sourire
+    show Metalice PoseSpeciale Sourire
 
     met "Eh bien non. Il étudie à l'Académie cependant ! C'est juste qu'il ne passe qu'en ''coup de vent''. C'est quelqu'un de très occupé..."
     pov "Et on peut avoir le nom de cet heureux élu ?"
@@ -36,7 +36,7 @@ label Rentreavecmetalice:
 
     pov "Oui, c'était écrit dans la brochure de l'académie... Mais je ne sais pas trop quoi intégrer. Un conseil ?"
 
-    show Metalice PoseCoucou Sourire Yeuxfermes
+    show Metalice PoseSpeciale Sourire Yeuxfermes
 
     met "Personnellement je fais partie du conseil des élèves, donc je te dirai bien de me rejoindre..."
     met "Mais je pense que tu irais à merveille dans l'équipe de cheerleaders !"
@@ -66,16 +66,16 @@ label Rentreavecmetalice:
     met "Me voilà arrivée, tu n'habites pas très loin n'est-ce pas ?"
     pov "Au bout de la rue, là-bas."
 
-    show Metalice PoseCoucou Sourire
+    show Metalice PoseSpeciale Sourire
 
     met "Bien, tu trouveras ton chemin alors !"
 
-    show Metalice PoseCoucou Sourire Yeuxfermes
+    show Metalice PoseSpeciale Sourire Yeuxfermes
 
     met "Je te dis à demain alors ! Et pense bien à aller voir les cheerleaders !"
     pov "Bien sûr ! A demain Metalice !"
 
-    show Metalice PoseCoucou Cligne
+    show Metalice PoseSpeciale Cligne
 
     met "Et fais de beaux rêves !"
 

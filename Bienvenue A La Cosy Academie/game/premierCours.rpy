@@ -152,7 +152,7 @@ label Premiercours:
     show Mickey Standard Degoute
     mic "Sauf vous, Medoc et Dieuvomi, évidemment..."
 
-    scene couloir with fade
+    scene school hallway with fade
     show Metalice Standard Sourire Yeuxfermes
 
     met "Bon. Et bien c'était une grosse première journée pour toi n'est-ce pas ?"

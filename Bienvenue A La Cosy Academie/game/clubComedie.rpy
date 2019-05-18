@@ -2,12 +2,25 @@ image SNL = "Assets/SNL.png"
 
 label club_comedie:
 
+    scene black
+    image name_club_comedie = Text("{size=80}Chapitre 2 :\nLe club de comédie", text_align=0.5)
+    window hide
+    show name_club_comedie:
+        yanchor 0.5 ypos 0.5
+        xanchor 0.5 xpos 0.5
+    with dissolve
+    with Pause(2)
+    hide name_club_comedie
+    window auto
 
     play music wonderful
     scene school hallway with fade
    
     show Dieuvomi BrasCroises Badboy
+
     dieuv "Hey, salut ? Bah alors t'as décidé de pas rester avec les gros nazes ? Tu viens avec nous ?"
+    
+
     pov "Ca dépend, heu vous faites quoi concrètement ?"
     
     show Dieuvomi Standard Sourire
@@ -204,7 +217,7 @@ label club_comedie:
     show Dieuvomi BrasCroises Colere at bigzoom with vpunch
     dieuv "Mais... TU DIRAS RIEN HEIN ?"
     pov "Non promis, tu sais j'ai pas envie de me faire des ennemis, ici. Tu peux me dire !"
-    show Dieuvomi BrasCroises Badboy
+    show Dieuvomi BrasCroises Badboy at normalzoom
     dieuv "Hé bien, avé le Médoc un jour, on a trouvé la blague ultime."
     dieuv "Tu vois il avait un sketch où il jouait aux jeux vidéo le jeudi, il découvrait un jeu."
     dieuv "Au début c'était un peu poussif, on savait pas comment l'améliorer."
@@ -321,10 +334,11 @@ label club_comedie:
         
     
     foulk "Foulk-ATTENDS T'AS PAS VU LE SKETCHE DU SNL !!"
+    window hide
     pause 0.5
     show SNL zorder 1000 at snl_pos
     pause 5
 
-    jump club_lock
+    jump cours_physique
 
     return

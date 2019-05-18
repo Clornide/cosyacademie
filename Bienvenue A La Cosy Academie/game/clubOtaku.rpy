@@ -1,7 +1,26 @@
 label club_otaku:
+
+    
+    play music kawaii
+    scene black
+    image name_club_otak = Text("{size=80}Chapitre 3 :\nLe club Otaku", text_align=0.5)
+    window hide
+    show name_club_otak:
+        yanchor 0.5 ypos 0.5
+        xanchor 0.5 xpos 0.5
+    with dissolve
+    with Pause(2)
+    hide name_club_otak
+    window auto
+
+    scene school hallway night with longfade
+    innerpov "Houlàlà, il est tard..."
+    innerpov "Bon, din m'a dit qu'ils avaient une photocopieuse dans ce club..."
+    innerpov "C'est ici !"
+
     scene classroom night with longfade
 
-    play music kawaii
+    
 
     innerpov "Tiens ? Ça sent le matcha."
 
@@ -127,5 +146,6 @@ label club_otaku:
     din "Comme tu peux le voir c'est beaucoup d'ondes positives et d'amour de l'art ! D'ailleurs t'es {image=we1} toi aussi..."
     pov "Je... vais prendre le temps de réfléchir..."
     innerpov "AU. SECOURS. CASSOS."
-    jump club_tech
+    
+    jump fin_journee
     return

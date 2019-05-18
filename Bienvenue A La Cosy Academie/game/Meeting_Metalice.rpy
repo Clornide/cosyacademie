@@ -1,5 +1,5 @@
 label Meeting_Metalice:
-    scene couloir with fade
+    scene school hallway with fade
 
     window show
 

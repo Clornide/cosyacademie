@@ -51,6 +51,18 @@ screen skip_von_huge:
 label club_rando:
 
     play music wonderful    
+
+    scene black
+    image name_club_rando = Text("{size=80}Chapitre 6 :\nLe club de Rando", text_align=0.5)
+    window hide
+    show name_club_rando:
+        yanchor 0.5 ypos 0.5
+        xanchor 0.5 xpos 0.5
+    with dissolve
+    with Pause(2)
+    hide name_club_rando
+    window auto
+
     scene rando with fade
 
     show Von PoseSpeciale Sourire Yeuxfermes
@@ -192,5 +204,11 @@ label club_rando:
         show Dieuvomi PoseSpeciale Colere at right
         dieuv "C’est moyen malin tout ça ! Venez, on se casse !"
 
+    hide Dieuvomi with dissolve
+    hide Foulk with dissolve
+    hide Von with dissolve
 
+    innerpov "J'ai essayé tous les clubs qu'on m'a conseillé... Je vais retourner voir Metalice, elle aura suremment une idée !"
+
+    jump conseil_eleves
     return

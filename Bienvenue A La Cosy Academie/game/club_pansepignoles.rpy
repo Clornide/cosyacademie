@@ -1,11 +1,22 @@
 label club_pansepignoles:
+    
+    scene black
+    image name_club_panse = Text("{size=80}Chapitre 1 :\nLe club des Cheerleaders", text_align=0.5)
+    window hide
+    show name_club_panse:
+        yanchor 0.5 ypos 0.5
+        xanchor 0.5 xpos 0.5
+    with dissolve
+    with Pause(2)
+    hide name_club_panse
+    window auto
     python:
         name_chuen = "Chuenpodo"
 
-    play music journeys
+    #play music journeys
     scene school entrance with fade
 
-    innerpov "Alors... Il faut que j'aille voir les cheerleaders cet après-midi. Mieux vaut attendre Chuenpodo, je ne suis pas encore très familier avec les locaux de l'école, j'ai pas envie de me perdre..."
+    innerpov "Alors... Il faut que j'aille voir les cheerleaders ce matin. Mieux vaut attendre Chuenpodo, je ne suis pas encore très familier avec les locaux de l'école, j'ai pas envie de me perdre..."
     innerpov "Ah le voilà !"
 
     show Chuenpodo PoseSpeciale Sourire

@@ -5,6 +5,4 @@ label lendemainMatin:
     inc "Effectivement, mais c'était un très beau sprint !"
     pov "!?"
 
-    pov "BLABLA CUT CLUB DE PANSEPIGNOLES"
-
     jump club_pansepignoles

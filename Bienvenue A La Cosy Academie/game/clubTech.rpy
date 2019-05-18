@@ -3,6 +3,18 @@ image panneau = "Assets/PanneauxTech.png"
 
 label club_tech:
     play music rainbow
+    scene black
+    image name_club_tech = Text("{size=80}Chapitre 3 :\nLe club #Tech", text_align=0.5)
+    window hide
+    show name_club_tech:
+        yanchor 0.5 ypos 0.5
+        xanchor 0.5 xpos 0.5
+    with dissolve
+    with Pause(2)
+    hide name_club_tech
+    window auto
+
+    
     scene school hallway with longfade
 
     python:
@@ -35,8 +47,8 @@ label club_tech:
 
     show Moguri PoseDroite Sourire Yeuxfermes
     mog "Ok, ok, ça a l'air de te tenir à coeur...Tu as de la chance, je suis justement avec la personne qu'il te faut."
-    mog "ZePilot est notre petit génie de l'informatique à l'Académie ! Il est président du club #tech."
-    mog "ZePilot, je te présen..."
+    mog "Ze PilOt est notre petit génie de l'informatique à l'Académie ! Il est président du club #tech."
+    mog "Ze PilOt, je te présen..."
 
     python:
         name_zep="Ze_PilOt"
@@ -62,7 +74,9 @@ label club_tech:
     mog "Haha, non, Ze PilOt a developpé un assistant personnel qui s'appelle Jarod... en référence à la Guerre des étoiles, je crois... Ils sont connectés en permanence, mais il y a encore quelques réglages à faire."
 
     show ZePilot Standard Colere Rougit
-    zep "Mais arrête Jarod, puisque je te dis que non, je ne connais pas cette Siri ! Mais... non ! Quoi ? Mon historique ? Mais ca n'a absolument rien à voir, ce n'est pas Siri à la pomme, c'est Siri la généreuse suédoise ! Et comment... Oui bin j'étais intracable en navigation privée !"
+    zep "Mais arrête Jarod, puisque je te dis que non, je ne connais pas cette Siri !"
+    zep "Mais... non ! Quoi ? Mon historique ? Mais ca n'a absolument rien à voir, ce n'est pas Siri à la pomme, c'est Siri la généreuse suédoise !"
+    zep "Et comment... Oui bin j'étais intracable en navigation privée !"
 
     mog "ouh, ca devient génant ! File [povname],  tu n'as qu'à suivre les panneaux #tech, c'est relativement indiqué."
     if sex=="f":
@@ -70,6 +84,7 @@ label club_tech:
     else:
         pov "merci ! Je vous laisse ! Désolé de vous avoir interrompu... Et bon courage avec Jarod..."
 
+    scene school hallway choice with longfade
     jump ChooseCouloir
 
     
@@ -133,6 +148,9 @@ label Clubtechfoulk:
 
     show Foulk PoseDroite Sourire Yeuxfermes
     foulk "J'déconne Cong ! Tu trouveras le club tech en prenant à gauche au prochain couloir. Et surtout, passe voir mon spectacle !"
+    hide foulk with dissolve
+    innerpov "Un spectacle !? Mais je l'ai déjà vu ! Soit il y a un problème temporel, soit ils ont un AUTRE spectacle..."
+    innerpov "Ces deux perspectives m'angoissent..."
 
     show Foulk BrasCroises Triste
     foulk "Ah, et si tu croises un type de mauvais gout, à la cravate et aux chaussettes bleues, n'ecoute pas ses indications : à part la droite, il ne connait rien d'autre."
@@ -200,7 +218,7 @@ label Clubtechdin:
     din    "Oh, l'important c'est de prendre du plaisir en ce que tu fais ! Et les corps tendus et en sueurs des cheerleaders sont une source d'inspiration sans fin... mais c'est TOI qui es supair !"
     din "Je file, je ne veux pas en râter une miette ! A très vite [povname] !"
 
-    jump club_tech
+    jump club_otaku
 
 label ChooseCouloir:
     if count_couloir == 0:

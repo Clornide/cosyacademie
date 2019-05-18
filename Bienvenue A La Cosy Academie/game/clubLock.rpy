@@ -2,7 +2,21 @@
 
 label club_lock:
 
+
+
     play music gym    
+
+    scene black
+    image name_club_bagarre = Text("{size=80}Chapitre 4 :\nLe club de Bagarre", text_align=0.5)
+    window hide
+    show name_club_bagarre:
+        yanchor 0.5 ypos 0.5
+        xanchor 0.5 xpos 0.5
+    with dissolve
+    with Pause(2)
+    hide name_club_bagarre
+    window auto
+
     scene gym with fade
 
     show Metalice Standard Sourire
@@ -229,7 +243,7 @@ label club_lock:
                 pointsmoguri+=1
 
     show Moguri Standard Sourire at center
-    mog "Meilleur choix!"
+    mog "Meilleur choix !"
     hide Moguri
     hide auraDBZ
     stop sound
@@ -266,10 +280,11 @@ label club_lock:
     show Lock Standard Sourire at center
     lock "Ah! Mais c'est moi qui lance, toi tu fais la cible !"
     pov "Que... QUOI ???"
-    pov "Mais t'es complètement malade?"
-    pov "En fait, tu sais quoi ? Je vais trouver un autre club..."
+    pov "Mais t'es complètement malade ?"
+    pov "En fait, tu sais quoi ? Je vais trouver un autre club... Plus calme..."
     show Lock Standard Degoute at center
-
-    pause 3
+    pause 3.0
+    jump club_jeux_societe
+    
 
     return

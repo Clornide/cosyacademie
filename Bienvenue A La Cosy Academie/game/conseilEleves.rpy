@@ -5,6 +5,19 @@ label conseil_eleves:
 
     show Metalice BrasCroises Sourire
     met "Bon, je t'emmène à la salle du conseil des élèves."
+
+    scene black
+    image name_club_conseil = Text("{size=80}Chapitre 7 :\nLe conseil des élèves", text_align=0.5)
+    window hide
+    show name_club_conseil:
+        yanchor 0.5 ypos 0.5
+        xanchor 0.5 xpos 0.5
+    with dissolve
+    with Pause(2)
+    hide name_club_conseil
+    window auto
+
+    scene school hallway night
     show Metalice BrasCroises Cligne
     met "Par contre je te demanderais de te tenir tranquille certains membres sont... un peu à cheval sur le protocole."
     innerpov "Houlà, ça a l'air hyper sérieux !"
@@ -66,7 +79,7 @@ label conseil_eleves:
     pov "Vous avez de grosses responsabilités quand même."
     show Lock PoseGauche Sourire
     show Mickey Standard Sourire Yeuxfermes
-    show Metalice PoseDroite Badboy
+    show Metalice PoseDroite Cligne
     met "C'est rien de le dire!"
     show Metalice PoseDroite Gene
     show Mickey Standard Sourire 
@@ -81,7 +94,7 @@ label conseil_eleves:
     pov "« L'incident de la chute ? »"
     show Metalice PoseDroite Gene
     met "Un accident bête et regrettable."
-    show Metalice PoseDroite Badboy
+    show Metalice PoseDroite Cligne
     show Mickey Standard Triste
     mic "Oui, pendant un cours de sport, les élèves devaient effectuer un parcours d'obstacles avec un moment donné un mur avec une échelle à monter et une à descendre."
     mic "La plupart des élèves s'en sont sortis haut la main... A part..."
@@ -104,7 +117,7 @@ label conseil_eleves:
     show Lock BrasCroises Badboy
     lock "La sécurité c'est quand le Défenseur Élémentaire Tactique Avec Force d'Opération de Riposte Circulaire E prend les choses en main."
     pov "Le quoi ?"
-    show Metalice PoseDroite Badboy
+    show Metalice PoseDroite Cligne
     met "Oh non, pas encore..."
     show Mickey PoseGauche Gene
     mic "Et il remet ca..."
@@ -114,7 +127,7 @@ label conseil_eleves:
     lock "Le fleuron de la justice nationnale de la région, le défenseur de la veuve, de l'orphelin et du mignon !"
     show Metalice PoseDroite Degoute
     met "Alors, déjà on a pas de veuves et les orphelins se débrouillent très biens tous seuls à nos âge."
-    show Metalice PoseDroite Badboy
+    show Metalice PoseDroite Cligne
     met "Pour le nom à rallonge, c'est le nom de code que Lock s'attribue quand il est en patrouille."
     show Metalice PoseDroite Gene
     met "Enfin, il est un peu tout seul dans son truc..."
@@ -165,3 +178,6 @@ label conseil_eleves:
         "Bien entendu. Mais pas de facon officielle, je préfère euh... être un agent de l'ombre ?":
             show Metalice PoseDroite Colere Rougit
             met "Quelle bonne idée ! Alors, ne reste pas là, nous devons resters discrets, special agent [povname] !"
+
+    jump sad_no_club
+    return

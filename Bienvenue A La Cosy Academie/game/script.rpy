@@ -35,7 +35,7 @@ image theater = "background/theater.png"
 image bar = "background/cosyBar.png"
 image gym = "background/gym.png"
 image tracks = "background/tracks.png"
-image street day = "background/street dayDay.png"
+image street day = "background/streetDay.png"
 image rando = "background/rando.png"
 image classroom = "background/classroom.png"
 image classroom night = "background/classroom_night.png"
@@ -208,7 +208,7 @@ define audio.ATATATATA = "sounds/ATATATATA.mp3"
 
 # Le jeu commence ici
 label start:
-
+    jump credits    
     menu:
 
         "Avant de commencer, voulez-vous incarner un personnage féminin ou masculin ?"
@@ -274,10 +274,11 @@ label start:
             if not povname:
                 povname="Cassandre"
 
+jump intro
 
         
 
-    jump club_jeux_societe
+    
 
 
     
