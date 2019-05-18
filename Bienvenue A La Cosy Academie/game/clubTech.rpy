@@ -76,11 +76,11 @@ label club_tech:
     show ZePilot Standard Colere Rougit
     zep "Mais arrête Jarod, puisque je te dis que non, je ne connais pas cette Siri !"
     zep "Mais... non ! Quoi ? Mon historique ? Mais ça n'a absolument rien à voir, ce n'est pas Siri à la pomme, c'est Siri la généreuse suédoise !"
-    zep "Et comment... Oui bin j'étais intracable en navigation privée !"
+    zep "Et comment... Oui bin j'étais intraçable en navigation privée !"
 
     mog "Ouh, ça devient génant ! File [povname],  tu n'as qu'à suivre les panneaux #tech, c'est relativement indiqué."
     if sex=="f":
-        pov "Merci ! Je vous laisse ! Désolé(e) de vous avoir interrompu... Et bon courage avec Jarod..."
+        pov "Merci ! Je vous laisse ! Désolée de vous avoir interrompu... Et bon courage avec Jarod..."
     else:
         pov "Merci ! Je vous laisse ! Désolé de vous avoir interrompu... Et bon courage avec Jarod..."
 
