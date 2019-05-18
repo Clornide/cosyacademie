@@ -41,7 +41,7 @@ label club_pansepignoles:
     chuen "Que… tu les rejoignes ?"
     innerpov "Ok. Je sens le traquenard a plein nez."
     show Chuenpodo PoseSpeciale Sourire Yeuxfermes  at full_left, mediumzoom
-    chuen "Ok, faut l'impressionner les gars ! Alors je te présente Clornide, Samael et décade, et ce sont…  Les Panthusiasts !"
+    chuen "Ok, faut l'impressionner les gars ! Alors je te présente Clornide, Samaël et Décade, et ce sont…  Les Panthusiasts !"
     python:
         name_cheers = "Les Panthusiasts"
     cheers "Yeeeah !"
@@ -58,7 +58,7 @@ label club_pansepignoles:
     chuen "HEY ! CA SUFFIT OUI ? l'Académie a voté, et c'est Panthusiasts qui a gagné, c'est comme ça..."
     innerpov "Il est bien moins commode qu'il n'en a l'air..."
 
-    clornide "Tsk… de toute façon je suis convaincu que c'est dieuvomi qui a truqué les votes..."
+    clornide "Tsk… de toute façon je suis convaincu que c'est Dieuvomi qui a truqué les votes..."
 
     chuen "NE PARLEZ PAS COMME CA DE DIEUVOMI, VOUS NE CONNAISSEZ PAS SON HISTOIRE !"
 
@@ -99,7 +99,7 @@ label club_pansepignoles:
     show Chuenpodo PoseSpeciale Degoute
     chuen "POUF ! Après il y a des rumeurs..."
     show Cheerleaders at dezoom, go_left_to_right
-    chuen "Tout le monde a entendu dire qu'un élève du nom de Von_Yaourt s'était servi de son influence pour le faire bannir."
+    chuen "Tout le monde a entendu dire qu'un élève du nom de Von Yaourt s'était servi de son influence pour le faire bannir."
     chuen "Mais on ne l'a plus jamais revu. Mais on essaie de le faire revenir !"
 
     pov "Et comment vous faites ça ?"
@@ -139,7 +139,7 @@ label club_pansepignoles:
     show Chuenpodo PoseSpeciale Colere
     pause .3
     show Cheerleaders Fail at shade_transform
-    med "Hey salut [povname], tiens chuenpodo, qu'est-ce que tu fais là ?"
+    med "Hey salut [povname], tiens Chuenpodo, qu'est-ce que tu fais là ?"
 
 
     cheers "NOOOOOOON !!!!"
@@ -234,7 +234,7 @@ label club_pansepignoles:
     show Metalice Standard Cligne
     met "t'as bien vu qu'ils n'arrivent jamais a épeler Pansepignon correctement sans être interrompu ?"
 
-    pov "Oui chuenpodo m'a même dit qu'ils devaient être maudits !"
+    pov "Oui Chuenpodo m'a même dit qu'ils devaient être maudits !"
     show Metalice Standard Sourire
     met "Exactement ! Et ce n'était pas une façon de parler... Ces types pensent vraiment qu'ils sont maudits !"
 
