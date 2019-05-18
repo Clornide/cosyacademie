@@ -25,12 +25,12 @@ label cours_physique:
 
     show Foulk Standard Colere
 
-    foulk "Normallement il faut attendre 15 min !"
+    foulk "Normalement il faut attendre 15 min !"
     foulk "Et de toutes façons, c'est le prof qui a les clés, on est coincés ici..."    
 
     show Dieuvomi BrasCroises Badboy
     
-    dieuv "Pfft ..."
+    dieuv "Pfft..."
     dieuv "Ben moi, je veux me tirer d'ici !"
 
     innerpov "Quel rebelle ce Dieuvomi !"
@@ -45,11 +45,11 @@ label cours_physique:
     play music haunted fadein 1.0
 
     show Medoc Standard Sourire
-    med "Bon ok...."
+    med "Bon ok..."
     med "Alors..."
     show Medoc Standard Sourire Yeuxfermes
     med "Esprism... Es-tu là ?"
-    med "kr kr krr"
+    med "Kr kr krr"
     play sound woosh
     hide Medoc
     show Esprism at left
