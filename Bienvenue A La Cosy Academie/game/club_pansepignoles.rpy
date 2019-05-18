@@ -100,7 +100,7 @@ label club_pansepignoles:
     chuen "POUF ! Après il y a des rumeurs..."
     show Cheerleaders at dezoom, go_left_to_right
     chuen "Tout le monde a entendu dire qu'un élève du nom de Von Yaourt s'était servi de son influence pour le faire bannir."
-    chuen "Mais on ne l'a plus jamais revu. Mais on essaie de le faire revenir !"
+    chuen "Depuis on ne l'a plus jamais revu. Mais on essaie de le faire revenir !"
 
     pov "Et comment vous faites ça ?"
     
