@@ -221,7 +221,13 @@ label club_comedie:
     dieuv "Hé bien, avé le Médoc un jour, on a trouvé la blague ultime."
     dieuv "Tu vois il avait un sketch où il jouait aux jeux vidéo le jeudi, il découvrait un jeu."
     dieuv "Au début c'était un peu poussif, on savait pas comment l'améliorer."
-    dieuv "Puis j'ai désamorcé tout le truc. J'ai trouvé la mosion ultime. Celle qui pourrait sauver le spectacle."
+    dieuv "Puis j'ai désamorcé tout le truc. J'ai trouvé la molise ultime. Celle qui pourrait sauver le spectacle."
+    pov "La quoi ?"
+    show Dieuvomi BrasCroises Colere at normalzoom
+    dieuv "MOT-VALISE"
+    pov "Oooooh !"
+    show Dieuvomi BrasCroises Badboy at normalzoom
+    dieuv "Je disais donc que j'avais trouvé la molise ultime :"
     show Dieuvomi PoseSpeciale Sourire
     show Foulk PoseGauche Gene
     dieuv "JEUDICOUVERTE."
@@ -236,7 +242,7 @@ label club_comedie:
     dieuv "Génial je sais."
     show Dieuvomi PoseDroite Sourire
     show Foulk PoseGauche Badboy
-    dieuv "Hébien figure toi que c'est ce que tout le monde pensait.On allait percer !"
+    dieuv "Hé bien figure toi que c'est ce que tout le monde pensait. On allait percer !"
     show Dieuvomi PoseDroite Triste
     dieuv "On allait bousculer le monde. Et puis Médoc s'est mis à changer, il était plus solitaire, plus secret. Il s'est attribué Jeudicouverte."
     
@@ -272,7 +278,7 @@ label club_comedie:
     show Dieuvomi Standard Badboy
     dieuv "Jeudicouverte... tu te rends compte ? Une telle puissance comique entre de mauvaises mains ?"
     show Dieuvomi PoseSpeciale Badboy
-    dieuv "Enfin, depuis j'ai sombré dans la délinquence et je crève des peuneus."
+    dieuv "Enfin, depuis j'ai sombré dans la délinquance et je crève des peuneus."
     show Dieuvomi PoseSpeciale Sourire
     dieuv "Comme un acte de désespoir. Pour dire « je t'aime », BONNEUH MEREUH."
     pov "J'espère que ça s'arrangera"  
@@ -285,7 +291,7 @@ label club_comedie:
     show Dieuvomi PoseDroite Badboy
     innerpov "Je n'ai vraiment pas envie de me ridiculiser avec les deux et leurs accents horribles là."
     pov "Tu penses que je pourrais en toucher deux mots à Médoc ?"
-    pov "L'air de rien, il saura pas que je suis au courant et de ce que tu ressens, je te le promets !"
+    pov "L'air de rien, il saura pas que je suis au courant de ce que tu ressens, je te le promets !"
     show Dieuvomi BrasCroises Badboy
     dieuv "QUOI ? Hmmmm... Et pourquoi pas ? Après tout on a jamais essayé le dialogue."
     pov "Tu lui en as jamais parlé ? "
