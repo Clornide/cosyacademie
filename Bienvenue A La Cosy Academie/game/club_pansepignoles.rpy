@@ -46,16 +46,16 @@ label club_pansepignoles:
         name_cheers = "Les Panthusiasts"
     cheers "Yeeeah !"
     show Chuenpodo PoseSpeciale Triste at full_left, mediumzoom
-    clornide Cheer "Sachant que moi a la toute base j'étais plus Pansepeople.."
+    clornide Cheer "Sachant que moi à la toute base j'étais plus Pansepeople ..."
     show Chuenpodo PoseSpeciale Colere at full_left, mediumzoom
-    samael Cheer "Ah ouais nan mais moi aussi..."
+    decade Cheer "Ah ? Moi je trouvais que Pansepignoles c'était plus marrant ..."
+    samael Cheer "Ah ouais nan mais moi aussi !"
     show Chuenpodo PoseSpeciale Degoute at full_left, mediumzoom
-    decade Cheer "Ah moi je trouvais que Pansepignole c'était marrant..."
     clornide  "Un poil vulgaire quand même non ?"
     samael "Tu trouves ?"
 
     show Chuenpodo PoseSpeciale Colere zorder 101 at full_left, mediumzoom 
-    chuen "HEY ! CA SUFFIT OUI ? l'Académie a voté, et c'est Panthusiasts qui a gagné, c'est comme ça..."
+    chuen "HEY ! CA SUFFIT OUI ? L'Académie a voté, et c'est Panthusiasts qui a gagné, c'est comme ça..."
     innerpov "Il est bien moins commode qu'il n'en a l'air..."
 
     clornide "Tsk… de toute façon je suis convaincu que c'est Dieuvomi qui a truqué les votes..."
