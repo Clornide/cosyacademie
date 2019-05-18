@@ -120,7 +120,7 @@ label Clubtechmetalice:
     met "Ecoute, ce n'est surement qu'une rumeur, rien de plus, mais il parait qu'une nouvelle drogue circule à l'Académie. La DELTA FORCE mène l'enquête."
     pov "De la drogue !? Mais c'est affreux ! Compte sur moi pour ne pas y toucher !"
     met "Parfait ! Rappelle toi que ton comportement doit être à la hauteur de l'académie."
-    met "Je file ! A plus tard !"
+    met "Je file ! À plus tard !"
     pov "Metaaahh..."
     innerpov "Elle est partie si vite !"
     innerpov "Cette histoire de drogue m'inquiète..."
@@ -173,9 +173,9 @@ label Clubtechcheerleaders:
     "Ne regarde pas en arrière, nous sommes là pour rester \n la vie que nous avons connu, viendra un jour,"
     scene classroom night with longfade
     show Cheerleaders Groupe Cheer 
-    innerpov "Encore eux ? ces cheerleaders sont vraiment étranges ! Qu'est-ce qu'ils font ? "
+    innerpov "Encore eux ? Ces cheerleaders sont vraiment étranges ! Qu'est-ce qu'ils font ? "
     clornide Clornide Cheer "On y est, à la limite, là où le futur (pas compris) \nle feu brulera, et ne mourra jamais..."
-    samael Sameel Cheer "Ô grand Pansepignon, nous invoquons ton nom !"
+    samael Samael Cheer "Ô grand Pansepignon, nous invoquons ton nom !"
     clornide "Regarde dans les yeux d'une nouvelle vie\n alors trouve moi, juste, trouve moi..."
     samael "Ô Grand Pansepignon, Bénis Nous de ta Présence, et Accepte ces Offrandes !"
     innerpov "Ils font flipper ces types !"
