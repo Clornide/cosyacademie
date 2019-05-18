@@ -195,11 +195,11 @@ label club_comedie:
     show Foulk PoseGauche Sourire Yeuxfermes
     show Dieuvomi PoseDroite Sourire Yeuxfermes
     pov "J'en doute pas une seconde..."
-    innerpov  "mon dieu il sont bien mignons les deux là, mais je vais quand même tenter de me tirer discrètement..."
-    innerpov "je peux pas faire partie de ce club c'est... Nul."
+    innerpov "Mon dieu ils sont bien mignons les deux là, mais je vais quand même tenter de me tirer discrètement..."
+    innerpov "Je peux pas faire partie de ce club c'est... Nul."
     show Foulk PoseGauche Badboy
     show Dieuvomi Standard Sourire
-    dieuv "Eh ouais... En vérité, j'utilise l'humour pour faire tenter de faire comprendre aux gens que sous ces chaines se cache un coeur qui bat."
+    dieuv "Eh ouais... En vérité, j'utilise l'humour pour tenter de faire comprendre aux gens que sous ces chaines se cache un coeur qui bat."
     show Foulk PoseGauche Gene
     foulk "NONG dieuvomi, ne te livre pas comme ça puté !"
     show Foulk PoseGauche Badboy
