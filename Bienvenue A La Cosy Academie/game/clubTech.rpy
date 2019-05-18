@@ -132,7 +132,7 @@ label Clubtechmetalice:
 
 label Clubtechfoulk:
 
-    innerpov "Ah quelqu'un, peut-être qu'il pourra me renseigner..."
+    innerpov "Ah ! Enfin quelqu'un ! Peut-être qu'il pourra me renseigner..."
     pov "Bonjour, est-ce que tu pourrais me dire où se trouve le club #tech ?"
 
     show Foulk PoseDroite Sourire Yeuxfermes with dissolve
