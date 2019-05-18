@@ -21,7 +21,7 @@ label club_tech:
         count_couloir=0
 
     innerpov "La Cosy Académie... Je n'arrive toujours pas à y croire... C'est comme si je rêvais..."
-    innerpov "Le secrétariat m'a indiqué de finaliser mon inscription auprès du club #tech afin d'obtenir ma Cosy carte d'élève... Ca sera la preuve que je ne rêve pas !"
+    innerpov "Le secrétariat m'a indiqué de finaliser mon inscription auprès du club #tech afin d'obtenir ma Cosy carte d'élève... Ça sera la preuve que je ne rêve pas !"
     innerpov "Tiens, ne serait-ce pas Moguri ? Il a l'air agité... et quel est ce type à qui il parle ?"
     
     show Moguri PoseGauche Colere at right  with dissolve
@@ -35,7 +35,7 @@ label club_tech:
     show ZePilot PoseGauche Sourire Yeuxfermes
     zep "Euh... on dit Internet Mog'."
     mog "Et arrête de m'appeler Mog !"
-    innerpov "Ouh là. Ca a l'air tendu, je ne devrai peut-être pas les déranger, comme dirais Medoc ''un repli stratégique s'impose''. Demi tour et fuyons !"
+    innerpov "Ouh là. Ça a l'air tendu, je ne devrai peut-être pas les déranger, comme dirais Medoc ''un repli stratégique s'impose''. Demi tour et fuyons !"
 
     show Moguri Standard Sourire 
     mog "Oh [povname] ! Salut !"
@@ -168,7 +168,7 @@ label Clubtechcheerleaders:
     innerpov "Mais quel est ce bruit ?"
     "..."
     innerpov "On dirait des prières..."
-    innerpov "Ca vient de derrière cette porte."
+    innerpov "Ça vient de derrière cette porte."
 
     "Ne regarde pas en arrière, nous sommes là pour rester \n la vie que nous avons connu, viendra un jour,"
     scene classroom night with longfade
@@ -261,7 +261,7 @@ label ChooseCouloir:
         if randomnum == 1:
             $ line_choice = "Tant de choix..."
         elif randomnum == 2:
-            $ line_choice = "Autant lancer un dé ..."
+            $ line_choice = "Autant lancer un dé..."
         elif randomnum == 3:
             $ line_choice = "ARGH !"
         elif randomnum == 4:
@@ -282,7 +282,7 @@ label ChooseCouloir:
 
             elif count_couloir==2:
             
-                innerpov "Pourquoi il n'y pas de carte de l'Académie... Ca sert de lire une carte !"
+                innerpov "Pourquoi il n'y pas de carte de l'Académie... Ça sert de lire une carte !"
                 jump ChooseCouloir
             
             elif count_couloir==3:
@@ -304,13 +304,13 @@ label ChooseCouloir:
 
             elif count_couloir==6:
 
-                innerpov "Nom de nom ! j'en reviens pas que Metalice éternue de la sorte. C'est vraiment la preuve que c'est une femme de caractère !"
+                innerpov "Nom de nom ! J'en reviens pas que Metalice éternue de la sorte. C'est vraiment la preuve que c'est une femme de caractère !"
                 jump ChooseCouloir
 
             elif count_couloir==7:
 
                 show Von PoseSpeciale Colere
-                von "C'EST A DROITE !"
+                von "C'EST À DROITE !"
                 jump ChooseCouloir
 
             elif count_couloir==8:
@@ -327,7 +327,7 @@ label ChooseCouloir:
 
             elif count_couloir==10:
 
-                innerpov "Ca sent le Matcha et la peinture à l'huile. J'espère que c'est le club #tech !"
+                innerpov "Ça sent le matcha et la peinture à l'huile. J'espère que c'est le club #tech !"
                 jump Clubtechdin
 
             else:
@@ -344,7 +344,7 @@ label ChooseCouloir:
 
             elif count_couloir==2:
             
-                innerpov "Le club #tech ne doit plus être très loin, ca sent les nouilles !"
+                innerpov "Le club #tech ne doit plus être très loin, ça sent les nouilles !"
                 jump ChooseCouloir
             
             elif count_couloir==3:
@@ -354,7 +354,7 @@ label ChooseCouloir:
 
             elif count_couloir==4:
 
-                innerpov "Mais pourquoi ca sent le melon de Lectoure et le fois gras ?"
+                innerpov "Mais pourquoi ça sent le melon de Lectoure et le fois gras ?"
                 jump Clubtechfoulk
             
             elif count_couloir==5:
@@ -386,7 +386,7 @@ label ChooseCouloir:
 
             elif count_couloir==10:
 
-                innerpov "Ca sent me Matcha et les crayons de couleurs. J'espère que c'est le club #tech !"
+                innerpov "Ça sent le matcha et les crayons de couleurs. J'espère que c'est le club #tech !"
                 jump Clubtechdin
 
             else:
@@ -446,7 +446,7 @@ label ChooseCouloir:
 
             elif count_couloir==10:
 
-                innerpov "Ca sent le thé et les petits gateaux... J'espère que c'est le club #tech !"
+                innerpov "Ça sent le thé et les petits gateaux... J'espère que c'est le club #tech !"
                 jump Clubtechdin
 
             else:
