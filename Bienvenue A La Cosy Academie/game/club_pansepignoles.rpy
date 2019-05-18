@@ -76,7 +76,7 @@ label club_pansepignoles:
 
     pov "Si tu le dis... Dis moi, ça vient d'où ce nom du coup ?"
     show Chuenpodo PoseSpeciale Sourire 
-    chuen "Et bien en voilà une bonne question ! C'est en hommage à notre ancien manager Pansepignon... A l'époque j'étais moi même cheerleaders !"
+    chuen "Et bien en voilà une bonne question ! C'est en hommage à notre ancien manager Pansepignon... À l'époque j'étais moi même cheerleaders !"
     show Chuenpodo PoseSpeciale Sourire Yeuxfermes
     chuen "C'était un étudiant a la Cosy Académie comme nous, mais il était genial." 
     show Chuenpodo PoseSpeciale Sourire Yeuxfermes Rougit
