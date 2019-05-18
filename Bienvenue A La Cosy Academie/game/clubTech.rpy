@@ -58,7 +58,7 @@ label club_tech:
     innerpov "Oh... ok...mais qu'est ce que raconte ce type ?"
     pov "Bonjour ! je suis [povname] et je viens d'arriver à l'Académie. C'est un honneur de vous rencontrer !"
     zep "C'est chouette que tu utilises le dernier Sansung, ses capacités d'encodages dynamiques sont assez folles ! Tu feras attention, ton firmware a des failles de sécurités bien connues."
-    innerpov "Mais comment il sait ca ?"
+    innerpov "Mais comment il sait ça ?"
     pov "Euh... oui, merci, je ferai attention..."
     zep "Tu trouveras les photocopieuses des élèves au club ''Technologies et Créations Hétéroclites (T.E.C.H)''. "
     zep "Profite-en pour rencontrer les membres du club, tu verras que l'Académie est à la pointe technologique : nous faisons tout en Ultra."
@@ -75,14 +75,14 @@ label club_tech:
 
     show ZePilot Standard Colere Rougit
     zep "Mais arrête Jarod, puisque je te dis que non, je ne connais pas cette Siri !"
-    zep "Mais... non ! Quoi ? Mon historique ? Mais ca n'a absolument rien à voir, ce n'est pas Siri à la pomme, c'est Siri la généreuse suédoise !"
+    zep "Mais... non ! Quoi ? Mon historique ? Mais ça n'a absolument rien à voir, ce n'est pas Siri à la pomme, c'est Siri la généreuse suédoise !"
     zep "Et comment... Oui bin j'étais intracable en navigation privée !"
 
-    mog "ouh, ca devient génant ! File [povname],  tu n'as qu'à suivre les panneaux #tech, c'est relativement indiqué."
+    mog "Ouh, ça devient génant ! File [povname],  tu n'as qu'à suivre les panneaux #tech, c'est relativement indiqué."
     if sex=="f":
-        pov "merci ! Je vous laisse ! Désolé(e) de vous avoir interrompu... Et bon courage avec Jarod..."
+        pov "Merci ! Je vous laisse ! Désolé(e) de vous avoir interrompu... Et bon courage avec Jarod..."
     else:
-        pov "merci ! Je vous laisse ! Désolé de vous avoir interrompu... Et bon courage avec Jarod..."
+        pov "Merci ! Je vous laisse ! Désolé de vous avoir interrompu... Et bon courage avec Jarod..."
 
     scene school hallway choice with longfade
     jump ChooseCouloir
@@ -102,12 +102,12 @@ label Clubtechmetalice:
     innerpov "De la discré... Oh my... Je ne m'attendais pas à cet éternuement !"
     
     show Metalice PoseSpeciale Gene
-    met "Je t'avoue que ca m'aide beaucoup pour attraper mon coup de vent de petit ami !"
+    met "Je t'avoue que ça m'aide beaucoup pour attraper mon coup de vent de petit ami !"
 
     show Metalice BrasCroises Sourire
     met "D'ailleurs, tu ne l'aurais pas vu par hasard ? Je le cherche... Il doit encore trainer au Respawn Point, le café où se retrouvent les joueurs de sa trempe."
     if sex=="f":
-        pov "Je ne l'ai pas vue, désolé(e)."
+        pov "Je ne l'ai pas vue, désolée."
     else:
         pov "Je ne l'ai pas vue, désolé."
     met "Mais, qu'est ce que tu fais dans ces couloirs au fait ?"
@@ -143,8 +143,8 @@ label Clubtechfoulk:
     foulk "Tu l'as ? Steack.... Eric, Ramzy, grosse source d'inspiration... Ni vous, minou...? Non ?"
 
     show Foulk PoseDroite Rougit
-    foulk "Haha, t'aimes pas l'humour ? Moi j'adore l'humour ! L'humour ca fait bouger le monde !"
-    innerpov "pourquoi il me mets tellement mal à l'aise ?"
+    foulk "Haha, t'aimes pas l'humour ? Moi j'adore l'humour ! L'humour ça fait bouger le monde !"
+    innerpov "Pourquoi il me mets tellement mal à l'aise ?"
 
     show Foulk PoseDroite Sourire Yeuxfermes
     foulk "J'déconne Cong ! Tu trouveras le club tech en prenant à gauche au prochain couloir. Et surtout, passe voir mon spectacle !"
@@ -153,10 +153,10 @@ label Clubtechfoulk:
     innerpov "Ces deux perspectives m'angoissent..."
 
     show Foulk BrasCroises Triste
-    foulk "Ah, et si tu croises un type de mauvais gout, à la cravate et aux chaussettes bleues, n'ecoute pas ses indications : à part la droite, il ne connait rien d'autre."
-    foulk "eh beh, appelez moi Joseph Gordon Levitt'riole aujourd'hui ! Il faut que je la note celle-là, elle est trop fraiche !"
+    foulk "Ah, et si tu croises un type de mauvais gout, à la cravate et aux chaussettes bleues, n'écoute pas ses indications : à part la droite, il ne connait rien d'autre."
+    foulk "Eh beh, appelez moi Joseph Gordon Levitt'riole aujourd'hui ! Il faut que je la note celle-là, elle est trop fraiche !"
     pov "Ok ! Salut hein !"
-    innerpov "rho le lourd..."
+    innerpov "Rho le lourd..."
 
     jump ChooseCouloir
 
@@ -181,7 +181,7 @@ label Clubtechcheerleaders:
     innerpov "Ils font flipper ces types !"
     clornide "Des étincelles voleront\n si nous crions non..."
     samael "Ô Grand Pansepignon, nous nous inclinons devant ton Drop !"
-    clornide "Ce n'est pas comme ca que nous partirons \n nous sommes ceux qui ne lachons jamais !!"
+    clornide "Ce n'est pas comme ça que nous partirons \n nous sommes ceux qui ne lachons jamais !!"
     clornide "(pas compris)\n Nous ne grandirons jamaiiiis !!!"
     innerpov "Ils se partagent des pillules bizarres... Le Drop ! Metalice m'avait prévenu(e) !"
     clornide "Mais qui est là ? KONTAK !"
@@ -195,28 +195,34 @@ label Clubtechcheerleaders:
 
 label Clubtechdin:
 
-    innerpov "bon, je ne trouve pas ce satané club #tech ! "
-    innerpov "je suis perdu, j'ai mal aux pieds, ces Pansepignoufs m'ont terrorisé ! Je n'en peux plus ! "
+    innerpov "Bon, je ne trouve pas ce satané club #tech ! "
+    if sex=="f":
+        innerpov "Je suis perdue, j'ai mal aux pieds, ces Pansepignoufs m'ont terrorisée ! Je n'en peux plus ! "
+    else:
+        innerpov "Je suis perdu, j'ai mal aux pieds, ces Pansepignoufs m'ont terrorisé ! Je n'en peux plus ! "
     
     show din PoseSpeciale Cligne Rougit
     din    "Tiens, [povname] ! QU'est ce que tu fais là ?"
-    pov    "Oh Din ! tu tombes bien ! Je cherchais la salle du club #tech... J'ai suivi des panneaux, mais tout les couloirs se ressemblent ici."
+    pov    "Oh Din ! Tu tombes bien ! Je cherchais la salle du club #tech... J'ai suivi des panneaux, mais tous les couloirs se ressemblent ici."
     
     show din PoseSpeciale Degoute
     din    "Ah, le club #tech ? Ecoute, je l'ai cherché pendant longtemps aussi... Mais..."
-    din "Je crois que c'est une légende urbaine... Tout le monde en parle, mais personne ne l'a jamais vu."
+    din    "Je crois que c'est une légende urbaine... Tout le monde en parle, mais personne ne l'a jamais vu."
     pov    "Quoi ? Mais comment je fais mes photocopies ?"
     
     show din PoseSpeciale Cligne
-    din    "Si tu n'es pas pressée, passe au club Otaku, on en a une !"
-    
+    if sex=="f":
+        din    "Si tu n'es pas pressée, passe au club Otaku, on en a une !"
+    else:
+        din    "Si tu n'es pas pressé, passe au club Otaku, on en a une !"
+
     show din PoseSpeciale Triste
-    din    "Je t'aurai bien accompagnée, mais ca va être l'heure de l'entrainement des cheerleaders, et j'en profite pour travailler des poses anatomiques réalistes."
+    din    "Je t'aurai bien accompagnée, mais ça va être l'heure de l'entrainement des cheerleaders, et j'en profite pour travailler des poses anatomiques réalistes."
     pov    "Ta pugnacité t'honore Din ! Tu seras une super artiste !"
 
     show din PoseSpeciale Perv
     din    "Oh, l'important c'est de prendre du plaisir en ce que tu fais ! Et les corps tendus et en sueurs des cheerleaders sont une source d'inspiration sans fin... mais c'est TOI qui es supair !"
-    din "Je file, je ne veux pas en râter une miette ! A très vite [povname] !"
+    din    "Je file, je ne veux pas en râter une miette ! A très vite [povname] !"
 
     jump club_otaku
 
@@ -292,7 +298,7 @@ label ChooseCouloir:
 
             elif count_couloir==4:
 
-                innerpov "Mais pourquoi ca sent le melon de Lectoure et le fois gras ?"
+                innerpov "Mais pourquoi ça sent le melon de Lectoure et le fois gras ?"
                 jump Clubtechfoulk
 
             elif count_couloir==5:
@@ -315,7 +321,7 @@ label ChooseCouloir:
 
             elif count_couloir==8:
                 if sex=="f":
-                    innerpov "Mais pourquoi il fait si froid d'un coup ici ? Je suis glacé(e)"
+                    innerpov "Mais pourquoi il fait si froid d'un coup ici ? Je suis glacée"
                 else:
                     innerpov "Mais pourquoi il fait si froid d'un coup ici ? Je suis glacé"
                 jump Clubtechcheerleaders
