@@ -62,12 +62,12 @@ label intro:
 
 
     if sex=="f":
-        mog "Bienvenue à la Cosy Académie, gamine. Ne t'inquiète pas, on n'est pas tous aussi bourru que lui !"
+        mog "Bienvenue à la Cosy Académie, gamine. Ne t'inquiète pas, on n'est pas tous aussi bourrus que lui !"
         innerpov "Je suis presque sûre qu'on a le même âge, mais le fait qu'il m'appelle gamine ne me déplait pas particulièrement."
         pov "Aaaah, merci... Je tâcherai de me faire plus discrete, désolée !"
         mog "Mais non enfin ! Si tu es ici, c'est que tu as ta place. Aucune raison de se faire discrète !"
     else:
-        mog "Bienvenue à la Cosy Académie, gamin. Ne t'inquiète pas, on n'est pas tous aussi bourru que lui !"
+        mog "Bienvenue à la Cosy Académie, gamin. Ne t'inquiète pas, on n'est pas tous aussi bourrus que lui !"
         innerpov "Je suis presque sûr qu'on a le même âge, mais le fait qu'il m'appelle gamin ne me déplait pas particulièrement."
         pov "Aaaah, merci... Je tâcherai de me faire plus discret, désolé !"
         mog "Mais non enfin ! Si tu es ici, c'est que tu as ta place. Aucune raison de se faire discret !"
@@ -101,7 +101,7 @@ label intro:
     hide Medoc with dissolve
 
     pov "Ouf."
-    pov "Ca commence fort."
+    pov "Ok, ça commence fort."
     pov "Même de dos ils sont impressionants..."
     pov "Aller, ça va le faire ! On y va !"
 
