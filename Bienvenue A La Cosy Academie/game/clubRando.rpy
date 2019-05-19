@@ -2,7 +2,7 @@
 image skip_very_smallI = im.FactorScale("Assets/skip_btn_idle.png", .10)
 image skip_very_smallH = im.FactorScale("Assets/skip_btn_hover.png", .10)
 
-screen skip_von_very_small:
+screen skip_von_very_small():
     vbox :
         imagebutton:
             idle "skip_very_smallI" 
@@ -12,7 +12,7 @@ screen skip_von_very_small:
 image skip_smallI = im.FactorScale("Assets/skip_btn_idle.png", .25)
 image skip_smallH = im.FactorScale("Assets/skip_btn_hover.png", .25)
 
-screen skip_von_small:
+screen skip_von_small():
     vbox :
         imagebutton:
             idle "skip_smallI" 
@@ -23,7 +23,7 @@ image skip_mediumI = im.FactorScale("Assets/skip_btn_idle.png", 0.5)
 image skip_mediumH = im.FactorScale("Assets/skip_btn_hover.png", 0.5)
 
       
-screen skip_von_medium:
+screen skip_von_medium():
     vbox :
         imagebutton:
             idle "skip_mediumI" 
@@ -34,14 +34,14 @@ screen skip_von_medium:
 image skip_bigI = im.FactorScale("Assets/skip_btn_idle.png", 0.75)
 image skip_bigH = im.FactorScale("Assets/skip_btn_hover.png", 0.75)
 
-screen skip_von_big:
+screen skip_von_big():
     vbox :
         imagebutton:
             idle "skip_bigI" 
             hover "skip_bigH"
             action [Skip()]
 
-screen skip_von_huge:
+screen skip_von_huge():
     vbox :
         imagebutton:
             idle "Assets/skip_btn_idle.png"
@@ -183,7 +183,12 @@ label club_rando:
     von "C’est un joyau architectural unique que chaque personne de goût se doit de visiter au moins une fois dans sa vie ![von_monologue_tags]"
     von "Un témoignage unique de la richesse d’une ville dont on dit qu’elle était tellement raffinée qu’elle était l’hôte de quarante-sept horlogers simultanément sous Gaston d’Orléans.[von_monologue_tags]"
     
+    python:
+        if renpy.is_skipping():
+            renpy.run(Skip())
+       
     hide screen skip_von_huge
+    
     menu:
         von "Quarante-sept, tu te rends compte ? C’est fou ! Mais d’ailleurs, en parlant d’horlogerie, quelle heure est-il ?"
 

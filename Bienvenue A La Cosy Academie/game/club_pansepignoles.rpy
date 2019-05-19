@@ -113,12 +113,12 @@ label club_pansepignoles:
     chuen "Allez les gars ! En place !"
     show Cheerleaders at go_back_in_place
     pause 1.0
-    clornide clornide Fail "Attends... moi j'en peux plus... j'ai pas l'habitude.... on fait une pause...."
-    decade decade Fail "Pareil... j'suis trop vieux pour ces bêtises..."
+    clornide Clornide Fail "Attends... moi j'en peux plus... j'ai pas l'habitude.... on fait une pause...."
+    decade Decade Fail "Pareil... j'suis trop vieux pour ces bêtises..."
     show Chuenpodo PoseSpeciale Colere
     chuen "Bah quoi, vous voulez pas votre DROP ?"
     show Cheerleaders Cheer
-    decade decade Cheer "SI ! SI C'EST BON, ALLEZ GO LES MECS !"
+    decade Decade Cheer "SI ! SI C'EST BON, ALLEZ GO LES MECS !"
     show Chuenpodo PoseSpeciale Sourire
     chuen "Trois, quatre et..."
     show Cheerleaders at jumping
