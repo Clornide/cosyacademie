@@ -2,7 +2,7 @@ label cosy_culture_club:
     play music wonderful
 
     scene black
-    image name_ccc = Text("{size=80}Chapitre 8 :\nLe Cosy Culture Club", text_align=0.5)
+    image name_ccc = Text("{size=80}Chapitre 9 :\nLe Cosy Culture Club", text_align=0.5)
     window hide
     show name_ccc:
         yanchor 0.5 ypos 0.5

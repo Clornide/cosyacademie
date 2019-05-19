@@ -53,7 +53,7 @@ label club_rando:
     play music wonderful    
 
     scene black
-    image name_club_rando = Text("{size=80}Chapitre 6 :\nLe club de Rando", text_align=0.5)
+    image name_club_rando = Text("{size=80}Chapitre 7 :\nLe club de Rando", text_align=0.5)
     window hide
     show name_club_rando:
         yanchor 0.5 ypos 0.5

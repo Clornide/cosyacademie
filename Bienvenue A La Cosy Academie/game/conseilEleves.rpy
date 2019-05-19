@@ -7,7 +7,7 @@ label conseil_eleves:
     met "Bon, je t'emmène à la salle du conseil des élèves."
 
     scene black
-    image name_club_conseil = Text("{size=80}Chapitre 7 :\nLe conseil des élèves", text_align=0.5)
+    image name_club_conseil = Text("{size=80}Chapitre 8 :\nLe conseil des élèves", text_align=0.5)
     window hide
     show name_club_conseil:
         yanchor 0.5 ypos 0.5

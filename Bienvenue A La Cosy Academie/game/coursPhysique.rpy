@@ -52,7 +52,8 @@ label cours_physique:
     med "Kr kr krr"
     play sound woosh
     hide Medoc
-    show Esprism at left
+    show Esprism:
+     xpos 0.1 xanchor 0.0 ypos .8 yanchor 1.0
     with flash   
     esprism "Mais oui Je suis là !" with hpunch
     esprism "Asseyez-vous !"
@@ -61,9 +62,53 @@ label cours_physique:
     play music wonderful
 
     esprism "Je fais l'appel..."    
+    show Esprism:
+        xpos 0.0 xanchor 0.0 ypos .8 yanchor 1.0
+
+    show Medoc PoseDroite Sourire at right
+    show Moguri PoseDroite Sourire behind Esprism
+
+    esprism "Je vois Medoc et Moguri qui font les pitres là derrière..."
+    hide Medoc
+    hide Moguri
+    esprism "Dieuvomi et Foulk ?"
+
+    show Dieuvomi PoseDroite Sourire at right
+    show Foulk PoseDroite Sourire behind Esprism
+    dieuv "Ouais !" 
+    foulk "Présent cong !"
+
+    esprism "Caro ?" 
+
+    hide Dieuvomi
+    hide Foulk
+    show Caro PoseDroite Sourire at right       
+    caro "Présente !"
+    show din PoseDroite Sourire behind Esprism with dissolve
+    esprism "Et son amie din à côté, très bien..." 
+    
+    
+    esprism "Mathilde ?" 
+    hide Caro
+    hide din
+
+
+    if name_mathilde == "???":
+        python:
+            name_mathilde = "Mathilde"
+        show Mathilde PoseDroite Sourire at right
+        mat "Présente !"
+        esprism "Ha Mathilde, je ne pourrais pas venir à ton club ce soir..."
+        show Mathilde PoseDroite Triste at right
+        esprism "Même si c'est facile, je n'ai pas terminé ma nouvelle théorie des jeux..."
+        innerpov "Un club de jeux ? Il faudra que j'aille faire un tour là bas si je ne trouve rien d'autre !"
+        hide Mathilde
+
+    esprism "[povname] ?"
+    pov "Heuu présent !"
     esprism "Ha, [povname], je vois que ta fiche n'est pas complète !"
     esprism "Va au secrétariat de suite !"
-
+    innerpov "Argh !"
 
     jump club_tech
     return

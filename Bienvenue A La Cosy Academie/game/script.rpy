@@ -238,7 +238,7 @@ label start:
         name_esprism = "Esprism"
         name_von = "Von Yaourt"
         name_chuen = "???"
-        name_mathilde = "Mathilde"
+        name_mathilde = "???"
         name_caro = "Caro"
         name_din = "din"
         name_foulk = "Foulk"
@@ -252,7 +252,7 @@ label start:
         pointsmoguri=0
         pointsincel=0
 
-        
+        mathilde_medoc = False
 
         if sex=="m":
             povname = renpy.input("Veuillez renseigner votre prénom ? Par défaut vous serez appelé Hector.", length = 40)
@@ -275,6 +275,7 @@ label start:
                 povname="Cassandre"
 
     window auto
+
     jump intro
 
         

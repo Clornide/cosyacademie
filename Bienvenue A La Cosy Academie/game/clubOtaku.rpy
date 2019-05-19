@@ -3,7 +3,7 @@ label club_otaku:
     
     play music kawaii
     scene black
-    image name_club_otak = Text("{size=80}Chapitre 3 :\nLe club Otaku", text_align=0.5)
+    image name_club_otak = Text("{size=80}Chapitre 4 :\nLe club Otaku", text_align=0.5)
     window hide
     show name_club_otak:
         yanchor 0.5 ypos 0.5

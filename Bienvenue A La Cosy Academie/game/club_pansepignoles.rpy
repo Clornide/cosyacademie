@@ -30,7 +30,7 @@ label club_pansepignoles:
 
     play music wonderful
     scene tracks with fade
-    show Cheerleaders Groupe Cheer at full_right
+    show Cheerleaders Groupe Cheer at right
     show Chuenpodo PoseSpeciale Sourire zorder 101 at full_left, mediumzoom
     
     chuen  "Et les voilà ! Nos stars du campus ! Est-ce qu'ils sont pas merveilleux ?"
@@ -90,7 +90,7 @@ label club_pansepignoles:
     show Chuenpodo PoseSpeciale Colere Rougit
     chuen "Non mais il faut le garder en tête. C'est lui. Bref, il était tout aussi fascinant qu'il était bavard."
     show Chuenpodo PoseSpeciale Sourire
-    show Cheerleaders at dezoom, go_right_to_left
+    show Cheerleaders  at dezoom, go_right_to_left
     chuen "Insupportable selon certain. Des mauvaises langues lui demandait souvent d'arrêter de \"spammer\". Jusqu'au jour où..."
     show Chuenpodo PoseSpeciale Triste
     chuen "Notre Pansepignon a disparu..."
@@ -105,7 +105,7 @@ label club_pansepignoles:
     pov "Et comment vous faites ça ?"
     
     chuen "Et bien on scande son nom bien sûr ! Du moins on essaie, je pense qu'on est maudit, ou que toute l'école est liguée contre nous..."
-    show Cheerleaders Cheer at dezoom, go_right_to_left
+    show Cheerleaders at dezoom, go_right_to_left
 
     chuen "Tiens ! Les revoilà, attends, on va te montrer !"
     innerpov "Mais de quoi il parle..."
@@ -113,11 +113,12 @@ label club_pansepignoles:
     chuen "Allez les gars ! En place !"
     show Cheerleaders at go_back_in_place
     pause 1.0
-    clornide "Attends... moi j'en peux plus... j'ai pas l'habitude.... on fait une pause...."
-    decade "Pareil... j'suis trop vieux pour ces bêtises..."
+    clornide clornide Fail "Attends... moi j'en peux plus... j'ai pas l'habitude.... on fait une pause...."
+    decade decade Fail "Pareil... j'suis trop vieux pour ces bêtises..."
     show Chuenpodo PoseSpeciale Colere
     chuen "Bah quoi, vous voulez pas votre DROP ?"
-    decade "SI ! SI C'EST BON, ALLEZ GO LES MECS !"
+    show Cheerleaders Cheer
+    decade decade Cheer "SI ! SI C'EST BON, ALLEZ GO LES MECS !"
     show Chuenpodo PoseSpeciale Sourire
     chuen "Trois, quatre et..."
     show Cheerleaders at jumping

@@ -2,7 +2,7 @@
     play music wonderful
 
     scene black
-    image name_club_jeux = Text("{size=80}Chapitre 5 :\nLe club de Jeux", text_align=0.5)
+    image name_club_jeux = Text("{size=80}Chapitre 6 :\nLe club de Jeux", text_align=0.5)
     window hide
     show name_club_jeux:
         yanchor 0.5 ypos 0.5
@@ -16,7 +16,7 @@
 
     innerpov "Allez, jeux de société maintenant ! J'espère que les membres seront normaux cette fois parce qu'il faut vraiment que je trouve un club à la fin de la semaine…"
 
-    innerpov "Ah je crois que c'est ici"
+    innerpov "Ah je crois que c'est ici."
 
     noName "*Knock knock knock*"
 
@@ -31,10 +31,10 @@
     noName "BIENVENUE, MORTEL, DANS L'ANTRE DE… Hmm… FLUTE J'AI OUBLIÉ !!!"
 
     show Mathilde BrasCroises Colere with dissolve
-
-    pov "Hum Mathilde, c'est ça ? Celle qui traine avec Médoc ? Je savais pas que tu étais membre de ce club !"
-    python:
-        name_mathilde = "Mathilde"
+    if mathilde_medoc == True:
+        pov "Hum Mathilde, c'est ça ? Celle qui traine avec Médoc ? Je savais pas que tu étais membre de ce club !"
+    else:
+        pov "Hum Mathilde, c'est ça ? On s'est croisé au cours de physique... J'ai entendu que tu faisais partie de ce club ?"
 
     show Mathilde BrasCroises Sourire
 

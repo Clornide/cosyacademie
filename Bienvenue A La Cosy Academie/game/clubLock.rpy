@@ -7,7 +7,7 @@ label club_lock:
     play music gym    
 
     scene black
-    image name_club_bagarre = Text("{size=80}Chapitre 4 :\nLe club de Bagarre", text_align=0.5)
+    image name_club_bagarre = Text("{size=80}Chapitre 5 :\nLe club de Bagarre", text_align=0.5)
     window hide
     show name_club_bagarre:
         yanchor 0.5 ypos 0.5

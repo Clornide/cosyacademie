@@ -133,51 +133,51 @@ transform dezoom:
 
 transform go_left_to_right:
     xpos 1.5
-    linear 0.1 xpos 1.5 ypos 1.1
-    linear 0.1 xpos 1.4 ypos .9
-    linear 0.1 xpos 1.3 ypos 1.1
-    linear 0.1 xpos 1.2 ypos .9
-    linear 0.1 xpos 1.1 ypos 1.1
-    linear 0.1 xpos 1.0 ypos .9
-    linear 0.1 xpos 0.9 ypos 1.1
-    linear 0.1 xpos 0.8 ypos .9
-    linear 0.1 xpos 0.7 ypos 1.1
-    linear 0.1 xpos 0.6 ypos .9
-    linear 0.1 xpos 0.5 ypos 1.1
-    linear 0.1 xpos 0.4 ypos .9
-    linear 0.1 xpos 0.3 ypos 1.1
-    linear 0.1 xpos 0.2 ypos .9
-    linear 0.1 xpos 0.1 ypos 1.1
-    linear 0.1 xpos 0.0 ypos .9
-    linear 0.1 xpos -0.1 ypos 1.1
-    linear 0.1 xpos -0.2 ypos .9
-    linear 0.1 xpos -0.3 ypos 1.1
-    linear 0.1 xpos -0.4 ypos .9
-    linear 0.1 xpos -0.5 ypos 1.1
+    linear 0.2 xpos 1.5 ypos 1.1
+    linear 0.2 xpos 1.4 ypos 1.0
+    linear 0.2 xpos 1.3 ypos 1.1
+    linear 0.2 xpos 1.2 ypos 1.0
+    linear 0.2 xpos 1.1 ypos 1.1
+    linear 0.2 xpos 1.0 ypos 1.0
+    linear 0.2 xpos 0.9 ypos 1.1
+    linear 0.2 xpos 0.8 ypos 1.0
+    linear 0.2 xpos 0.7 ypos 1.1
+    linear 0.2 xpos 0.6 ypos 1.0
+    linear 0.2 xpos 0.5 ypos 1.1
+    linear 0.2 xpos 0.4 ypos 1.0
+    linear 0.2 xpos 0.3 ypos 1.1
+    linear 0.2 xpos 0.2 ypos 1.0
+    linear 0.2 xpos 0.1 ypos 1.1
+    linear 0.2 xpos 0.0 ypos 1.0
+    linear 0.2 xpos -0.1 ypos 1.1
+    linear 0.2 xpos -0.2 ypos 1.0
+    linear 0.2 xpos -0.3 ypos 1.1
+    linear 0.2 xpos -0.4 ypos 1.0
+    linear 0.2 xpos -0.5 ypos 1.1
     
 transform go_right_to_left:
     xpos -0.5
-    linear 0.1 xpos -0.5 ypos 1.1
-    linear 0.1 xpos -0.4 ypos .9
-    linear 0.1 xpos -0.3 ypos 1.1
-    linear 0.1 xpos -0.2 ypos .9
-    linear 0.1 xpos -0.1 ypos 1.1
-    linear 0.1 xpos 0.0 ypos .9
-    linear 0.1 xpos 0.1 ypos 1.1
-    linear 0.1 xpos 0.2 ypos .9
-    linear 0.1 xpos 0.3 ypos 1.1
-    linear 0.1 xpos 0.4 ypos .9
-    linear 0.1 xpos 0.5 ypos 1.1
-    linear 0.1 xpos 0.6 ypos .9
-    linear 0.1 xpos 0.7 ypos 1.1
-    linear 0.1 xpos 0.8 ypos .9
-    linear 0.1 xpos 0.9 ypos 1.1
-    linear 0.1 xpos 1.0 ypos .9
-    linear 0.1 xpos 1.1 ypos 1.1
-    linear 0.1 xpos 1.2 ypos .9
-    linear 0.1 xpos 1.3 ypos 1.1
-    linear 0.1 xpos 1.4 ypos .9
-    linear 0.1 xpos 1.5 ypos 1.1
+    linear 0.2 xpos -0.5 ypos 1.1
+    linear 0.2 xpos -0.4 ypos 1.0
+    linear 0.2 xpos -0.3 ypos 1.1
+    linear 0.2 xpos -0.2 ypos 1.0
+    linear 0.2 xpos -0.1 ypos 1.1
+    linear 0.2 xpos 0.0 ypos 1.0
+    linear 0.2 xpos 0.1 ypos 1.1
+    linear 0.2 xpos 0.2 ypos 1.0
+    linear 0.2 xpos 0.3 ypos 1.1
+    linear 0.2 xpos 0.4 ypos 1.0
+    linear 0.2 xpos 0.5 ypos 1.1
+    linear 0.2 xpos 0.6 ypos 1.0
+    linear 0.2 xpos 0.7 ypos 1.1
+    linear 0.2 xpos 0.8 ypos 1.0
+    linear 0.2 xpos 0.9 ypos 1.1
+    linear 0.2 xpos 1.0 ypos 1.0
+    linear 0.2 xpos 1.1 ypos 1.1
+    linear 0.2 xpos 1.2 ypos 1.0
+    linear 0.2 xpos 1.3 ypos 1.1
+    linear 0.2 xpos 1.4 ypos 1.0
+    linear 0.2 xpos 1.5 ypos 1.1
 
 transform go_to_center:
     linear 1.0 xpos 2.0
