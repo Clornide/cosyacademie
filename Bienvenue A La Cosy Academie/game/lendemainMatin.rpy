@@ -14,7 +14,7 @@ label lendemainMatin:
 
     scene school entrance with longfade
 
-if sex=="m":
+    if sex=="m":
        innerpov "Alors... Il faut que j'aille voir les cheerleaders ce matin. Mieux vaut attendre Chuenpodo, je ne suis pas encore très familier des locaux de l'école, j'ai pas envie de me perdre..."
     else:
        innerpov "Alors... Il faut que j'aille voir les cheerleaders ce matin. Mieux vaut attendre Chuenpodo, je ne suis pas encore très familière des locaux de l'école, j'ai pas envie de me perdre..."
