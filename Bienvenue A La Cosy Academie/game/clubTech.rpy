@@ -106,7 +106,7 @@ label club_tech:
         pov "Merci ! Je vous laisse ! Désolé de vous avoir interrompu... Et bon courage avec Jarod..."
 
     scene school hallway choice with longfade
-    call .ChooseCouloir(0)
+    call .ChooseCouloir(0) from _call_club_tech_ChooseCouloir_1
     jump club_otaku
     return
 
