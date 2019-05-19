@@ -21,7 +21,7 @@ label club_lock:
 
     show Metalice Standard Sourire
     met "Voilà, on y est..."
-    pov "Mais, c'est une salle d'entrainement aux sports de combat ?"
+    pov "Mais, c'est une salle d'entraînement aux sports de combat ?"
     show Metalice Standard Cligne
     met "Non! C'est une salle de bagarre !"
     show Metalice Standard Sourire
@@ -58,7 +58,10 @@ label club_lock:
     show Lock Standard Degoute at mediumzoom
     lock "Pour faire partie de mon club tu devras triompher des trois épreuves !"
     show Lock Standard Sourire
-    lock "Es-tu prêt ?"
+    if sex=="m":
+        lock "Es-tu prêt ?"
+    else:
+        lock "Es-tu prête ?"
     pov "Oui... Je crois..."
     show Lock Standard Triste
     lock "Première épreuve : La Question !"
@@ -202,7 +205,7 @@ label club_lock:
     play music "<from 31.0>music/sb_tomorrow.mp3"
 
     show din Standard Colere Rougit at center
-    din "Ouais bah en attendant je dessine, et je décide qu'on est pas dans un shônen !"
+    din "Ouais bah en attendant je dessine, et je décide qu'on n'est pas dans un shônen !"
     hide din
     show ZePilot PoseSpeciale Colere
     zep "Ouais puis tous ces effets, vous croyez que ça ce fait comme ça tout seul !? J'envoie la facture à qui ??"   

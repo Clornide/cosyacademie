@@ -1,7 +1,7 @@
 label Ichoosemedoc:
     scene school hallway with longfade
 
-    innerpov "Ca commence à faire un petit bout de temps que je l'attends, il ne devrait plus tarder..."
+    innerpov "Ça commence à faire un petit bout de temps que je l'attends, il ne devrait plus tarder..."
     innerpov "Je crois que je l'entends d'ailleurs, mais il a l'air de discuter avec quelqu'un."
 
     med "Bon, et t'y fais attention surtout. J'aurais l'air fin si quelqu'un d'autre que toi les lisait !"
@@ -35,11 +35,11 @@ label Ichoosemedoc:
     
     show Medoc BrasCroises Triste    
     med "Tu... Tu crois ?"
-    med "Je ne suis pas sur d'en être capable tu sais..."
+    med "Je ne suis pas sûr d'en être capable tu sais..."
     if sex=="m":
-        mat "C'est une nécessité... A moins qu'il n'avoue ses crimes... Je vais chercher ma barre à mine."
+        mat "C'est une nécessité... À moins qu'il n'avoue ses crimes... Je vais chercher ma barre à mine."
     else:
-        mat "C'est une nécessité... A moins qu'elle n'avoue ses crimes... Je vais chercher ma barre à mine."
+        mat "C'est une nécessité... À moins qu'elle n'avoue ses crimes... Je vais chercher ma barre à mine."
 
     med "Mathilde attends... N'en venons pas à ces extrêmes..."
     show Mathilde PoseDroite Badboy
@@ -64,7 +64,7 @@ label Ichoosemedoc:
     mat "..."
     show Mathilde PoseGauche Sourire Yeuxfermes
     mat "Huhuhuhuh !!"
-    mat "Evidemment que je ne vais pas te faire de mal ! J'ai besoin de nouvelles recrues pour mon club moi !"
+    mat "Évidemment que je ne vais pas te faire de mal ! J'ai besoin de nouvelles recrues pour mon club moi !"
     show Medoc PoseGauche Gene
     med "Mathilde..."
     mat "Hmmm ?"
@@ -74,7 +74,7 @@ label Ichoosemedoc:
     if sex=="m":
         mat "Tu vois il a rien vu, Medoc, alors tout va bien !"
     else:
-        mat "Tu vois il a rien vu, Medoc, alors tout va bien !"
+        mat "Tu vois elle a rien vu, Medoc, alors tout va bien !"
     show Mathilde Standard Badboy
     mat "N'est-ce pas ?"
     pov "M-m-mais... Bien sûr ! Je n'sais même pas de quoi on parle ahahah !"
@@ -95,7 +95,7 @@ label Ichoosemedoc:
     pov "Ah oui pardon..."
     pov "Bon ben je suppose que je vais devoir passer au club jeux de société alors, c'est ça Medoc ?"
     show Medoc PoseDroite Sourire at center
-    med "Effectivement... C'est dommage, je te voyais plus du genre physique ! A l'occasion tu devrais quand même aller voir les cheerleaders."
+    med "Effectivement... C'est dommage, je te voyais plus du genre physique ! À l'occasion tu devrais quand même aller voir les cheerleaders."
     pov "Ah bah alors là, avec plaisir ! Je dois m'adresser à qui ?"
     show Medoc PoseDroite Sourire Yeuxfermes
     med "Notre Chuenpodo national ! Tu verras, tu peux le repérer aussi facilement qu'un phare dans la nuit !"
