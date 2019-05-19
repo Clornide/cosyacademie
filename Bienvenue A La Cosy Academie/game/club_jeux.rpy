@@ -44,7 +44,7 @@ label club_jeux_societe:
 
     mat "Attends c'est tout ce que t'inspire mon introduction ? Tu sais que ça fait des mois que j'attends que quelqu'un entre pour la placer !"
 
-    pov "Pardon, mais le fait que tu ne te sois pas rappelé du nom a un peu minimiser l'effet…"
+    pov "Pardon, mais le fait que tu aies oublié le nom a un peu minimiser l'effet..."
 
     pov "D'ailleurs, comment ça plusieurs mois ? Me dis pas que tu es toute seule dans ce club ?"
 
