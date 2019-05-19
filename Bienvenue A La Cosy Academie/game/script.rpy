@@ -91,12 +91,12 @@ init python:
         if event == "show" or event == "begin":
             
             
-            renpy.music.set_pause(False, channel="talking")
-            #renpy.sound.play("sounds/text-sound.mp3", channel="talking")
+            #renpy.music.set_pause(False, channel="talking")
+            renpy.sound.play("sounds/text-sound.mp3", channel="talking")
 
         if event == "slow_done" or event == "end":
-            renpy.music.set_pause(True, channel="talking")
-            #renpy.sound.stop(channel="talking")
+            #renpy.music.set_pause(True, channel="talking")
+            renpy.sound.stop(channel="talking")
 
 
         showing_tags = renpy.get_showing_tags(layer='master')
