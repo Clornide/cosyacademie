@@ -50,7 +50,7 @@ label Meeting_Metalice:
 
     menu:
 
-        met "Alors, t'as flashé sur lequel ?"
+        met "{cps=0}Alors, t'as flashé sur lequel ?{/cps}"
 
         "Medoc et son air breu-som...":
             python:

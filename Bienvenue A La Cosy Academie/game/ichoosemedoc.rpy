@@ -26,7 +26,7 @@ label Ichoosemedoc:
     med "[povname] ?! Mais qu'est-ce que tu fais là ? Tu es là depuis longtemps ? T'as rien entendu j'espère ?"
     pov "Q-quoi ? Non rien, je te promets !"
 
-    show Mathilde BrasCroises Bad Girl
+    show Mathilde PoseSpeciale Bad Girl
 
     if sex=="m":
         mat "Il ment Medoc... Il va falloir s'en débarasser..."
@@ -46,7 +46,7 @@ label Ichoosemedoc:
     pov "J'en sais pas plus, je le jure !"
 
 
-    jump lendemainMatin
+    jump Rentreavecmetalice
 
 
 

@@ -76,6 +76,8 @@ label hard_night:
 
     mog "On dirait que t'es pas le seul qui n'a pas dormi cette nuit Medoc..."
     menu:
+    
+            mog "{cps=0}On dirait que t'es pas le seul qui n'a pas dormi cette nuit Medoc...{/cps}"
             "Mais pas du tout enfin !! Moi je dors la nuit!":
                 python:
                     pointsincel+=1

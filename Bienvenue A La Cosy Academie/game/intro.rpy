@@ -22,7 +22,7 @@ label intro:
     show Moguri Standard Badboy
     with flash
 
-    "BOOONG!!!!!"
+    noName "BOOONG!!!!!"
 
     pov "Hey !! Mais ça va pas de foncer dans les gens comme ç- !?"
 
@@ -34,7 +34,7 @@ label intro:
     show Medoc Standard Badboy
     with flash
 
-    "BOOONG!!!!!"
+    noName "BOOONG!!!!!"
 
 
     show Moguri Standard Badboy at right

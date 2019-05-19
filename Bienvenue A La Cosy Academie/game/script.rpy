@@ -153,28 +153,30 @@ image we1:
     pause .2
     repeat
 
-define pov = Character("[povname]", color="#fff", image="player")
+define pov = Character("[povname]", color="#fff", image="player", screen = "say_classic")
 define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-5}[toSelf]{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
-define med = Character('name_medoc', color="#fff", image="Medoc", dynamic = True)
-define mog = Character('name_moguri', color="#fff", image="Moguri", dynamic = True)
-define met = Character('name_metalice', color="#fff", image="Metalice", dynamic = True)
-define mic = Character('name_mickey', color="#fff" , image="Mickey", dynamic = True)
-define dieuv = Character('name_dieuvomi', color="#fff", image="Dieuvomi", dynamic = True)
-define esprism = Character('name_esprism', color="#fff", image="Esprism", dynamic = True)
-define lock = Character('name_lock', color="#fff", image="Lock", dynamic = True)
-define zep = Character('name_zep', color="#fff", image="ZePilot", dynamic = True)
+define med = Character('name_medoc', color="#fff", image="Medoc", dynamic = True, screen = "say_classic" )
+define mog = Character('name_moguri', color="#fff", image="Moguri", dynamic = True, screen = "say_classic")
+define met = Character('name_metalice', color="#fff", image="Metalice", dynamic = True, screen = "say_classic")
+define mic = Character('name_mickey', color="#fff" , image="Mickey", dynamic = True, screen = "say_classic")
+define dieuv = Character('name_dieuvomi', color="#fff", image="Dieuvomi", dynamic = True, screen = "say_classic")
+define esprism = Character('name_esprism', color="#fff", image="Esprism", dynamic = True, screen = "say_classic")
+define lock = Character('name_lock', color="#fff", image="Lock", dynamic = True, screen = "say_classic")
+define zep = Character('name_zep', color="#fff", image="ZePilot", dynamic = True, screen = "say_classic")
 define von = Character('name_von', color="#fff", image="Von", screen="say_von", dynamic = True)
-define mat = Character('name_mathilde', color="#fff", image="Mathilde", dynamic = True)
+define mat = Character('name_mathilde', color="#fff", image="Mathilde", dynamic = True, screen = "say_classic")
 define chuen = Character('name_chuen', color="#fff", image="Chuenpodo", screen="say_chuen", dynamic = True)
-define caro = Character('name_caro', color="#fff", image="Caro", dynamic = True)
-define din = Character('name_din', color="#fff", image="din", dynamic = True)
-define foulk = Character('name_foulk', color="#fff", image="Foulk", dynamic = True)
-define clornide = Character('Clornide', color="#fff", image="Clornide")
-define samael = Character('Samael', color="#fff", image="Samael")
-define decade = Character('Decade', color="#fff", image="Decade")
-define cheers = Character('name_cheers', color="#fff", dynamic = True)
-define inc = Character('???', color="#fff")
-define tlm = Character('Tout le monde', color="#fff")
+define caro = Character('name_caro', color="#fff", image="Caro", dynamic = True, screen = "say_classic")
+define din = Character('name_din', color="#fff", image="din", dynamic = True, screen = "say_classic")
+define foulk = Character('name_foulk', color="#fff", image="Foulk", dynamic = True, screen = "say_classic")
+define clornide = Character('Clornide', color="#fff", image="Clornide", screen = "say_classic")
+define samael = Character('Samaël', color="#fff", image="Samael", screen = "say_classic")
+define decade = Character('Decade', color="#fff", image="Decade", screen = "say_classic")
+define cheers = Character('name_cheers', color="#fff", dynamic = True, screen = "say_classic")
+define inc = Character('???', color="#fff", screen = "say_classic")
+define tlm = Character('Tout le monde', color="#fff", screen = "say_classic")
+define noName = Character('', color="#fff", screen = "say_classic")
+
 
 #Effets nouveaux
 define longfade = Fade(0.8, 0.2, 0.8, color="#000")
@@ -211,7 +213,7 @@ label start:
 
     menu:
 
-        "Avant de commencer, voulez-vous incarner un personnage féminin ou masculin ?"
+        noName "Avant de commencer, voulez-vous incarner un personnage féminin ou masculin ?"
 
         "Féminin.":
             python:
@@ -222,6 +224,9 @@ label start:
                 sex = "m"
                 toSelf= "à lui-même"
 
+    noName "{nw}"
+    #window hide
+    
 
     python:
 
@@ -250,7 +255,7 @@ label start:
         
 
         if sex=="m":
-            povname = renpy.input("Veuillez renseigner votre prénom ? Par défaut vous serez appelé Hector.")
+            povname = renpy.input("Veuillez renseigner votre prénom ? Par défaut vous serez appelé Hector.", length = 40)
             povname = povname.strip()
 
             while povname=="moguri" or povname=="Moguri" or povname=="medoc" or povname=="Medoc" :
@@ -260,7 +265,7 @@ label start:
                 povname="Hector"
 
         else:
-            povname = renpy.input("Veuillez renseigner votre prénom ? Par défaut vous serez appelé Cassandre.")
+            povname = renpy.input("Veuillez renseigner votre prénom ? Par défaut vous serez appelé Cassandre.", length = 40)
             povname = povname.strip()
 
             while povname=="moguri" or povname=="Moguri" or povname=="medoc" or povname=="Medoc" :
@@ -269,7 +274,8 @@ label start:
             if not povname:
                 povname="Cassandre"
 
-jump intro
+    window auto
+    jump intro
 
         
 

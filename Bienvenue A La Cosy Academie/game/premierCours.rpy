@@ -55,7 +55,7 @@ label Premiercours:
     with shortflash
     show Medoc PoseGauche Degoute with shortflash
 
-    "BLAM!!"
+    noName "BLAM!!"
     med "Bon t'as pas bientôt fini avec ses histoires de 'Je n'ai pas ma place ici, vous valez mieux que moi' ou je sais pas quoi !?"
     med "T'as pas écouté ce que t'a dit Moguri ou quoi ?!"
 
@@ -191,7 +191,7 @@ label Premiercours:
 
     menu:
 
-        met "Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?"
+        met "{cps=0}Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?{/cps}"
 
         "Allez ! Je te suis !":
             python:

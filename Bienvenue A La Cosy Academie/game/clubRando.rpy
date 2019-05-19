@@ -134,8 +134,9 @@ label club_rando:
     python:
         von_monologue_tags = "{fast}"
     
+    von "Première question : où est né Jean II le Bon, roi de France de 1350 à 1364 ?"
     menu:
-        von "Première question : où est né Jean II le Bon, roi de France de 1350 à 1364 ?"
+        von "{cps=0}Première question : où est né Jean II le Bon, roi de France de 1350 à 1364 ?{/cps}"
         
         "A Blois, ville royale et d’une importance culturelle et historique majeure.":
             show Von PoseSpeciale Badboy

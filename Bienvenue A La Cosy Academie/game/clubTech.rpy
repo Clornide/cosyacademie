@@ -18,7 +18,27 @@ label club_tech:
     scene school hallway with longfade
 
     python:
-        count_couloir=0
+        last_choice = -1
+
+        inner_pov_couloirs = ["Pourquoi il n'y pas de carte de l'Académie... Ça sert de lire une carte !",
+                "Pourquoi il n'y pas de carte de l'Académie... Ça sert de lire une carte !",
+                "Le club #tech ne doit plus être très loin !",
+                "Nom de nom ! J'en reviens pas que Metalice éternue de la sorte. C'est vraiment la preuve que c'est une femme de caractère !",
+                "J'en reviens pas qu'ils laissent faire des spectacles à ce Foulk. C'est surement subventionné par la région...",
+                "Le club #tech ne doit plus être très loin, ça sent les nouilles !",
+                "Trouvons ce club #tech ! Ze PilOt avait l'air tellement talentueux !",
+                "Le Club #tech ? ah non, c'est #radiohead... aucun intérêt.",
+                "Mais #tech et Matt Pokora... J'en peux plus, vivement que j'arrive...",
+                "Encore un couloir et pas de club #tech...",
+                "Ce club #tech est une opportunité unique ! ",
+                "Dépot sauvage de peuneus interdit. Signé La direction.",
+                "Mais c'est pas possible, je tourne en rond !",
+                "Encore un couloir et pas de club #tech..."
+        ]
+
+        num_inner_pov_couloirs = len(inner_pov_couloirs)
+        inner_pov_chosen = range(0, num_inner_pov_couloirs)
+
 
     innerpov "La Cosy Académie... Je n'arrive toujours pas à y croire... C'est comme si je rêvais..."
     innerpov "Le secrétariat m'a indiqué de finaliser mon inscription auprès du club #tech afin d'obtenir ma Cosy carte d'élève... Ça sera la preuve que je ne rêve pas !"
@@ -85,12 +105,12 @@ label club_tech:
         pov "Merci ! Je vous laisse ! Désolé de vous avoir interrompu... Et bon courage avec Jarod..."
 
     scene school hallway choice with longfade
-    jump ChooseCouloir
+    jump .ChooseCouloir
     return
 
     
 
-label Clubtechmetalice:
+label .Clubtechmetalice:
     innerpov "Mais où se trouve ce club #tech ? C'est un vrai dédale cette Académie..."
     innerpov "Là ! un panneau !"
     met "WAAAAAARRRGGGGTCCHHHAAAAAA !" with vpunch
@@ -126,13 +146,12 @@ label Clubtechmetalice:
     innerpov "Elle est partie si vite !"
     innerpov "Cette histoire de drogue m'inquiète..."
 
-    jump ChooseCouloir
     return
 
 
 
 
-label Clubtechfoulk:
+label .Clubtechfoulk:
 
     innerpov "Ah ! Enfin quelqu'un ! Peut-être qu'il pourra me renseigner..."
     pov "Bonjour, est-ce que tu pourrais me dire où se trouve le club #tech ?"
@@ -160,24 +179,23 @@ label Clubtechfoulk:
     pov "Ok ! Salut hein !"
     innerpov "Rho le lourd..."
 
-    jump ChooseCouloir
     return
 
 
 
-label Clubtechcheerleaders:
+label .Clubtechcheerleaders:
 
     innerpov "Mais quel est ce bruit ?"
-    "..."
+    noName "..."
     innerpov "On dirait des prières..."
     innerpov "Ça vient de derrière cette porte."
 
-    "Ne regarde pas en arrière, nous sommes là pour rester \n la vie que nous avons connu, viendra un jour,"
-    scene classroom night with longfade
-    show Cheerleaders Groupe Cheer 
+    noName "Ne regarde pas en arrière, nous sommes là pour rester \n la vie que nous avons connu, viendra un jour,"
+    scene school hallway choice creepy with longfade
+    show Cheerleaders Groupe Drop 
     innerpov "Encore eux ? Ces cheerleaders sont vraiment étranges ! Qu'est-ce qu'ils font ? "
-    clornide Clornide Cheer "On y est, à la limite, là où le futur (pas compris) \nle feu brulera, et ne mourra jamais..."
-    samael Samael Cheer "Ô grand Pansepignon, nous invoquons ton nom !"
+    clornide Clornide Drop "On y est, à la limite, là où le futur (pas compris) \nle feu brulera, et ne mourra jamais..."
+    samael Samael Drop "Ô grand Pansepignon, nous invoquons ton nom !"
     clornide "Regarde dans les yeux d'une nouvelle vie\n alors trouve moi, juste, trouve moi..."
     samael "Ô Grand Pansepignon, Bénis Nous de ta Présence, et Accepte ces Offrandes !"
     innerpov "Ils font flipper ces types !"
@@ -192,11 +210,10 @@ label Clubtechcheerleaders:
     else:
         innerpov "Je suis reperé ! Vite le couloir !"
 
-    jump ChooseCouloir
     return
 
 
-label Clubtechdin:
+label .Clubtechdin:
 
     innerpov "Bon, je ne trouve pas ce satané club #tech ! "
     if sex=="f":
@@ -227,14 +244,13 @@ label Clubtechdin:
     din    "Oh, l'important c'est de prendre du plaisir en ce que tu fais ! Et les corps tendus et en sueurs des cheerleaders sont une source d'inspiration sans fin... mais c'est TOI qui es supair !"
     din    "Je file, je ne veux pas en râter une miette ! A très vite [povname] !"
 
-    jump club_otaku
     return
 
-label ChooseCouloir:
+
+label .ChooseCouloir(count_couloir = 0):
+
     if count_couloir == 0:
         scene school hallway choice
-    elif count_couloir == 8:
-        scene school hallway choice creepy
     else:
         $ randomnum = renpy.random.randint(1,10)
         if randomnum == 1:
@@ -258,6 +274,8 @@ label ChooseCouloir:
         elif randomnum == 10:
             scene school hallway choice alt9
 
+    with fade
+
     $ line_choice = "ERROR !!!"
     if count_couloir == 5:
         $ line_choice = "Ils auraient quand même pu faire un peu d'efforts sur ces décors, ça se voit le color swap.."
@@ -265,6 +283,8 @@ label ChooseCouloir:
         $ line_choice = "J'espère que ce n'est pas réellement un labyrinthe !"
     elif count_couloir == 7:
         $ line_choice = "Plus le temps passe, et plus la droite me tente..."
+    elif count_couloir == 8:
+        $ line_choice = "Ces types sont des malades ! Ils m'ont fait flipper !"
 
     else:
         $ randomnum = renpy.random.randint(1,5)
@@ -279,190 +299,88 @@ label ChooseCouloir:
         elif randomnum == 5:
             $ line_choice = "Gauche droite, c'est pareil au final non ?"
 
+    
+    innerpov "[line_choice]"
     menu:
-
-        innerpov "[line_choice]"
+        innerpov "{cps=0}[line_choice]{/cps}"
 
         "Prendre le couloir de Gauche":
             python:
-                count_couloir+=1
-
-            if count_couloir==1:
-                jump Clubtechmetalice
-
-            elif count_couloir==2:
-            
-                innerpov "Pourquoi il n'y pas de carte de l'Académie... Ça sert de lire une carte !"
-                jump ChooseCouloir
-            
-            elif count_couloir==3:
-
-                innerpov "Le club #tech ne doit plus être très loin !"
-                jump ChooseCouloir
-
-            elif count_couloir==4:
-
-                innerpov "Mais pourquoi ça sent le melon de Lectoure et le fois gras ?"
-                jump Clubtechfoulk
-
-            elif count_couloir==5:
-
-                innerpov "Là un panneau ! Enfin !"
-                show panneau  at truecenter
-                pause 4.0
-                jump ChooseCouloir
-
-            elif count_couloir==6:
-
-                innerpov "Nom de nom ! J'en reviens pas que Metalice éternue de la sorte. C'est vraiment la preuve que c'est une femme de caractère !"
-                jump ChooseCouloir
-
-            elif count_couloir==7:
-
-                show Von PoseSpeciale Colere
-                von "C'EST À DROITE !"
-                jump ChooseCouloir
-
-            elif count_couloir==8:
-                if sex=="f":
-                    innerpov "Mais pourquoi il fait si froid d'un coup ici ? Je suis glacée"
-                else:
-                    innerpov "Mais pourquoi il fait si froid d'un coup ici ? Je suis glacé"
-                jump Clubtechcheerleaders
-
-            elif count_couloir==9:
-
-                innerpov "J'en reviens pas qu'ils laissent faire des spectacles à ce Foulk. C'est surement subventionné par la région..."
-                jump ChooseCouloir
-
-            elif count_couloir==10:
-
-                innerpov "Ça sent le matcha et la peinture à l'huile. J'espère que c'est le club #tech !"
-                jump Clubtechdin
-
-            else:
-
-                jump ChooseCouloir
-
+                last_choice = 0
 
         "Aller tout droit":
             python:
-                count_couloir+=1
-
-            if count_couloir==1:
-                jump Clubtechmetalice
-
-            elif count_couloir==2:
-            
-                innerpov "Le club #tech ne doit plus être très loin, ça sent les nouilles !"
-                jump ChooseCouloir
-            
-            elif count_couloir==3:
-
-                innerpov "Trouvons ce club #tech ! Ze PilOt avait l'air tellement talentueux !"
-                jump ChooseCouloir
-
-            elif count_couloir==4:
-
-                innerpov "Mais pourquoi ça sent le melon de Lectoure et le fois gras ?"
-                jump Clubtechfoulk
-            
-            elif count_couloir==5:
-                innerpov "Là un panneau ! Enfin !"
-                show panneau  at truecenter
-                pause 4.0
-                jump ChooseCouloir
-
-            elif count_couloir==6:
-
-                innerpov "le Club #tech ? ah non, c'est #radiohead... aucun intérêt."
-                jump ChooseCouloir
-
-            elif count_couloir==7:
-
-                show Von Standard Badboy
-                von "Ne va pas à gauche, c'est un mirage. Droit devant, c'est une impasse."
-                jump ChooseCouloir
-
-            elif count_couloir==8:
-
-                innerpov "C'est lugubre par ici..."
-                jump Clubtechcheerleaders
-
-            elif count_couloir==9:
-
-                innerpov "Mais #tech et Matt Pokora... J'en peux plus, vivement que j'arrive..."
-                jump ChooseCouloir
-
-            elif count_couloir==10:
-
-                innerpov "Ça sent le matcha et les crayons de couleurs. J'espère que c'est le club #tech !"
-                jump Clubtechdin
-
-            else:
-
-                innerpov "Encore un couloir et pas de club #tech..."
-                jump ChooseCouloir
-
-            jump ChooseCouloir
+                last_choice = 1        
 
         "Prendre le couloir de Droite":
             python:
-                count_couloir+=1
+                last_choice = 2
+    python:
+        count_couloir+=1
 
-            if count_couloir==1:
-                jump Clubtechmetalice
+    if count_couloir == 1:
+        call .Clubtechmetalice
 
-            elif count_couloir==2:
-            
-                innerpov "Ce club #tech est une opportunité unique ! "
-                jump ChooseCouloir
-            
-            elif count_couloir==3:
+    elif count_couloir == 3 and last_choice == 2:
+        show Von Standard Sourire with dissolve
+        von "A droite, toujours à droite !"
+        hide von with dissolve
 
-                show Von Standard Sourire
-                von "A droite, toujours à droite !"
-                jump ChooseCouloir
+    elif count_couloir == 4:
+        if last_choice == 0:
+            innerpov "Mais pourquoi ça sent le melon de Lectoure et le fois gras ?"
+        else:
+            innerpov "J'ai comme envie d'une croustade à la pomme vanillée..."
 
-            elif count_couloir==4:
+        call .Clubtechfoulk
 
-                innerpov "J'ai comme envie d'une croustade à la pomme vanillée..."
-                jump Clubtechfoulk
+    elif count_couloir == 5:
+        innerpov "Là un panneau ! Enfin !"
+        show panneau  at truecenter
+        pause 4.0        
 
-            elif count_couloir==5:
+    elif count_couloir == 7:
+        if last_choice == 0:
+            show Von PoseSpeciale Colere with dissolve
+            von "C'EST À DROITE !"
+            hide von with dissolve
+        elif last_choice == 1:
+            show Von Standard Badboy with dissolve
+            von "Ne va pas à gauche, c'est un mirage. Droit devant, c'est une impasse."
+            hide von with dissolve
 
-                innerpov "Là un panneau ! Enfin !"
-                show panneau  at truecenter
-                pause 4.0
-                jump ChooseCouloir
 
-            elif count_couloir==6:
-                "Dépot sauvage de peuneus interdit. Signé La direction."
-                jump ChooseCouloir
-
-            elif count_couloir==7:
-
-                innerpov "Mais c'est pas possible, je tourne en rond !"
-                jump ChooseCouloir
-
-            elif count_couloir==8:
-                innerpov "Quelque chose d'inhumain/de diabolique se dégage de ces murs..."
-                jump Clubtechcheerleaders
-
-            elif count_couloir==9:
-
-                innerpov "Ces types sont des malades ! Ils m'ont fait flipper !"
-                jump ChooseCouloir
-
-            elif count_couloir==10:
-
-                innerpov "Ça sent le thé et les petits gateaux... J'espère que c'est le club #tech !"
-                jump Clubtechdin
-
+    elif count_couloir == 8:
+        if last_choice == 0:
+            if sex=="f":
+                innerpov "Mais pourquoi il fait si froid d'un coup ici ? Je suis glacée !"
             else:
+                innerpov "Mais pourquoi il fait si froid d'un coup ici ? Je suis glacé !"
+        elif last_choice == 1:
+            innerpov "C'est lugubre par ici..."
+        else:
+            innerpov "Quelque chose d'inhumain/de diabolique se dégage de ces murs..."
 
-                innerpov "Encore un couloir et pas de club #tech..."
-                jump ChooseCouloir
+        call .Clubtechcheerleaders
 
-            jump ChooseCouloir
+        
+    
 
+    elif count_couloir==10:
+        if last_choice == 0:
+            innerpov "Ça sent le matcha et la peinture à l'huile. J'espère que c'est le club #tech !"
+        elif last_choice == 1:
+            innerpov "Ça sent le matcha et les crayons de couleurs. J'espère que c'est le club #tech !"
+        else:
+            innerpov "Ça sent le thé et les petits gateaux... J'espère que c'est le club #tech !"
+        call .Clubtechdin
+        jump club_otaku
+        return
+
+    else:
+        python:
+            inner_chosen = inner_pov_couloirs[inner_pov_chosen.pop(renpy.random.randint(0,len(inner_pov_chosen)-1))]
+        innerpov "[inner_chosen]"
+    
+    call .ChooseCouloir(count_couloir)
+    return

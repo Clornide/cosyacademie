@@ -102,19 +102,13 @@ screen say(who, what):
         id "window"
 
         if who is not None:
-
             window:
                 id "namebox"
                 style "namebox"
                 text who id "who"
 
+
         text what id "what"
-
-
-    ## If there's a side image, display it above the text. Do not display on the
-    ## phone variant - there's no room.
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 0.0 xoffset 155 yoffset 687
 
 
 screen say_chuen(who, what):
@@ -200,6 +194,27 @@ screen say_innerpov(who, what):
     if not renpy.variant("small"):
         add SideImage() xalign 0.0 yalign 0.0 xoffset 155 yoffset 687
 
+screen say_classic(who, what):
+    style_prefix "say"
+
+    window:
+        id "window"
+        background "gui/textbox_cosy.png"
+
+        if who is not None  and who != "":
+
+            window:
+                id "namebox"
+                style "namebox"
+                text who id "who"
+
+        text what id "what"
+
+
+    ## If there's a side image, display it above the text. Do not display on the
+    ## phone variant - there's no room.
+    if not renpy.variant("small"):
+        add SideImage() xalign 0.0 yalign 0.0 xoffset 155 yoffset 687
 
 
 ## Make the namebox available for styling through the Character object.
@@ -263,7 +278,7 @@ screen input(prompt):
     style_prefix "input"
 
     window:
-
+        background "gui/textbox_cosy.png"
         vbox:
             xalign gui.dialogue_text_xalign
             xpos gui.dialogue_xpos

@@ -112,8 +112,8 @@ label cosy_culture_club:
 
     show Moguri PoseGauche Sourire
     show Medoc PoseDroite Sourire
-    mog "Bon, [povname], faut quand même qu'on t'explique ce qu'on fait ici."
-    med "On fait les choses super importantes !"
+    med "Bon, [povname], faut quand même qu'on t'explique ce qu'on fait ici."
+    mog "On fait les choses super importantes et cruciales !"
     pov "Vraiment ?"
 
     mog "On se réunit tous les 15 jours, et on discute de ce qu'on aime."
@@ -194,11 +194,9 @@ label cosy_culture_club:
 
     med "Hé hé calmes toi gars, c'est la cosy académie ici, c'est normal !"
     mog "Allez, assieds toi confortablement, tu va nous regarder jouer à un jeu aujourd'hui..."
-
+    med "En buvant des verres bien sûr.. Quel serait le jeu idéal pour ça ?"
     menu:
-
-        med "En buvant des verres bien sûr.. Quel serait le jeu idéal pour ça ?"
-
+        med "{cps=0}En buvant des verres bien sûr.. Quel serait le jeu idéal pour ça ?{/cps}"
         "Cul à cul sec !":
             med "Haha t'es un chef [povname] !"
         "Le gin te nique !":

@@ -19,6 +19,11 @@ label Rentreavecmetalice:
     met "Tu dis ça mais je te vois très bien rougir hein !"
     pov "Tu parles quand même d'eux beaucoup plus que moi, c'est peut être toi qui est intéressée finalement !"
 
+    jump Rentreavecmetalice2
+    return
+
+label Rentreavecmetalice2:
+
     show Metalice PoseSpeciale Sourire Yeuxfermes
 
     met "Moi ? Mais je suis déjà prise enfin !"

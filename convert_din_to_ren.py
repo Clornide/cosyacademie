@@ -302,6 +302,7 @@ if __name__ == '__main__':
 		if "CHEERLEADERS" in perso:
 			process_pansepignoles(perso_img)
 		else:
-			process_din_art(perso_img)
+			pass
+			#process_din_art(perso_img)
 
 	#process_din_art(din_arts_chuen)

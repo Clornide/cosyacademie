@@ -1,4 +1,4 @@
-label club_jeux_societe:
+﻿label club_jeux_societe:
     play music wonderful
 
     scene black
@@ -18,7 +18,7 @@ label club_jeux_societe:
 
     innerpov "Ah je crois que c'est ici"
 
-    "*Knock knock knock*"
+    noName "*Knock knock knock*"
 
     innerpov "Wow… La porte s'est ouverte toute seule... Ça a l'air desert… Et pourtant plutôt cosy !"
 
@@ -28,7 +28,7 @@ label club_jeux_societe:
 
     pov "Bon et bien… Demi-tour alors…"
 
-    "BIENVENUE, MORTEL, DANS L'ANTRE DE… Hmm… FLUTE J'AI OUBLIÉ !!!"
+    noName "BIENVENUE, MORTEL, DANS L'ANTRE DE… Hmm… FLUTE J'AI OUBLIÉ !!!"
 
     show Mathilde BrasCroises Colere with dissolve
 

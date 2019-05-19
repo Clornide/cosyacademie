@@ -50,9 +50,9 @@ label conseil_eleves:
     mic "Bonjour [povname] !"
     show Lock PoseGauche Colere
     lock "Tu tombes bien [povname], tu vas pouvoir trancher :"
-    
+    lock "Il vaut mieux respecter les règles qui nous permettent de vivre correctement en société ou bien tomber dans la destruction et le chaos ?"
     menu:
-        lock "Il vaut mieux respecter les règles qui nous permettent de vivre correctement en société ou bien tomber dans la destruction et le chaos ?"
+        lock "{cps=0}Il vaut mieux respecter les règles qui nous permettent de vivre correctement en société ou bien tomber dans la destruction et le chaos ?{/cps}"    
         
         "Les règles c'est important !":
             show Metalice PoseDroite Colere Rougit
@@ -168,9 +168,9 @@ label conseil_eleves:
 
     lock "Concernant les délations, l'élève Von Yaourt a encore rempli la banette. Principalement pour des délis mineurs commis par, je cite : ''des personnes aux accents étrange(r)s''. Je donne suite ?"
     met "Comme tu veux Lock, mais fais le loin."
-
+    met "Alors [povname], je t'inscris au conseil ?"
     menu:
-        met "Alors [povname], je t'inscris au conseil ?"
+        met "{cps=0}Alors [povname], je t'inscris au conseil ?{/cps}"
         
         "Ah, j'aurai adoré, mais je crois que vous avez la maitrise de la situation.":
             show Metalice PoseDroite Colere Rougit

@@ -63,10 +63,10 @@ label club_lock:
     show Lock Standard Triste
     lock "Première épreuve : La Question !"
     lock "Cherche au plus profond de ton coeur et tu trouveras l'évidente réponse."
-
+    lock "Qui saura, mieux que quiconque, t'enseigner l'art de la bagarre ?"
     menu:
 
-        "{cps=0}Qui saura, mieux que quiconque, t'enseigner l'art de la bagarre ?{/cps}"
+        lock "{cps=0}Qui saura, mieux que quiconque, t'enseigner l'art de la bagarre ?{/cps}"
 
         "Patrick DELTAFORCE !":
             python:
@@ -101,7 +101,7 @@ label club_lock:
     show Lock Standard Colere
     lock "Deuxième épreuve : la bagarre !"
     pov "???"
-    show Moguri PoseGauche Colere at left with flash
+    show Moguri PoseGauche Colere at left behind Lock with flash
     show Lock Standard Colere at right, normalzoom with hpunch
     mog "Lock ! Non ! Je ne te laisserai pas assouvir tes pulsions destructrices sur [povname] !"
     show Lock PoseDroite Colere at right
@@ -153,16 +153,23 @@ label club_lock:
     din "STOOOOOP !!!" with hpunch
     din "On a dit que c'était un visual novel, pas un shônen ! Alors on se calme !"
     hide din
+
+    scene gym_shonen
+    play music "<from 31.0>music/sb_pursuit.mp3"
+    show aura3 zorder 1000
     show Lock Standard Colere at center with flash
     lock "TU te calmes ! C'est MON arc narratif !"
+    hide aura3
     hide Lock
-    scene gym_shonen
+
+    
     show Medoc Standard Sourire at center
-    play music "<from 31.0>music/sb_pursuit.mp3"
+    
     show auraSaintSeya behind Medoc with flash 
     play sound auraSeiya
     med "Brûle ! Brûle ! Ma cosmo-énergie !" with hpunch
     stop sound
+    hide auraSaintSeya
     hide Medoc
 
     scene gym with fade
@@ -224,12 +231,9 @@ label club_lock:
     mog "C'est complètement baisé votre truc là !"
     show Moguri Standard Badboy
     mog "Ah bah d'ailleurs, moi aussi je parle la langue des serpents ! Allez hop !"
-    hide Moguri
-
+    noName "Moguri décide que c'est la fin du jeu. Avec quel personnage souhaites-tu vivre longtemps et avoir beaucoup d'enfants ? Ou juste passer la nuit, c'est comme tu veux..."
+    
     menu:
-
-        "{cps=0}Moguri décide que c'est la fin du jeu. Avec quel personnage souhaites-tu vivre longtemps et avoir beaucoup d'enfants ? Ou juste passer la nuit, c'est comme tu veux...{/cps}"
-
         "Moguri évidemment ! ":
             python:
                 pointsmoguri+=1
@@ -241,20 +245,29 @@ label club_lock:
         "Medoc ! (Mais en fait non ! Moguri !)":
             python:
                 pointsmoguri+=1
-
+    
+    show auraDBZ zorder 1000
+    play sound auraDBZ loop
     show Moguri Standard Sourire at center
     mog "Meilleur choix !"
     hide Moguri
     hide auraDBZ
     stop sound
     show aura3 zorder 1000
-    show Lock PoseSpeciale Furie with flash
+    show Lock PoseDroite Colere
     lock "Ici c'est l'école du petit couteau ! Pas le club tech ! Alors CALMEZ-VOUS ! "
-    scene gym
+    show Lock Standard Colere
+    pause(0.5)
+    show Lock PoseSpeciale Colere 
+    pause(0.2)
+    show Lock PoseSpeciale Furie with hpunch
+    pause(0.2)
+    hide Lock
+    hide aura3
+    
     python:
         pointsmoguri-=1
         renpy.movie_cutscene("movies/le_petit_couteau.webm", stop_music=False)
-    hide Lock
 
     
     show din Standard Colere  with flash
@@ -273,9 +286,10 @@ label club_lock:
     show Lock PoseSpeciale Colere at center
     lock "Allez ! Cassez-vous avant que je ne m'énerve vraiment !"
     lock "C'est pas un club de bébé Cadum ici!"
+    scene gym
     show Lock Standard Badboy at center
     lock "[povname], c'est bon on peut continuer ?!"
-    lock "Troisème épreuve : le lancer des mille petits couteaux !"
+    lock "Troisième épreuve : le lancer des mille petits couteaux !"
     pov "Ça, je devrais pouvoir y arriver."
     show Lock Standard Sourire at center
     lock "Ah! Mais c'est moi qui lance, toi tu fais la cible !"

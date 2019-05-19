@@ -117,7 +117,32 @@ label Ichoosemoguri:
     mog "Si tu le dis... Bon, je te raccompagne ?"
     pov "Allons-y."
 
-    jump lendemainMatin
+    scene street day with longfade
+    show Metalice Standard Sourire Yeuxfermes at left
+    show Moguri BrasCroises Sourire Yeuxfermes at right
+    mog "Ho ! Voilà Metalice !"
+    met "Salut vous deux ! Tout va bien ?"
+    mog "Oui, je raccompagnais [povname] chez lui.. Mais tu habites dans son quartier non ?"
+    mog "Je te laisse entre de bonnes mains, je vais dans l'autre direction !"
+    innerpov "Oh nooon...."
+    hide Moguri with dissolve
 
+    if sex=="m":       
+        met "Je suis à peine surprise que tu sois rentré avec un de tes prétendants..."
+    else:
+        met "Je suis à peine surprise que tu sois rentrée avec un de tes prétendants..."
+
+    pov "Comment ça ?"
+
+    show Metalice Standard Sourire Yeuxfermes
+
+    met "Moguri enfin !"
+
+    pov "Raaah mais laisse moi avec lui !"
+
+    met "Tu dis ça mais je te vois très bien rougir hein !"
+    pov "Tu parles quand même de lui beaucoup plus que moi, c'est peut être toi qui est intéressée finalement !"
+
+    jump Rentreavecmetalice2
 
     return
