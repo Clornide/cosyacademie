@@ -70,10 +70,10 @@ label cosy_culture_club:
     med "Le club tech, c'était pour lui faire plaisir. Puis il est seul dedans..."
     mog "Il est seul et j'aime pas ça. La dernière fois que j'ai utilisé mon portable, il m'a demandé de plus l'utiliser aux toilettes, il trouvait ça dégueulasse !"
     med "Ouais c'est vrai que ... J'pense qu'il m'a hackou avec ses trucs..."
-    mog "T'imagines, il a suremment des photos private !"
-    innerpov "interessant..."
+    mog "T'imagines, il a sûrement des photos privates !"
+    innerpov "Intéressant..."
     show Moguri PoseGauche Sourire
-    mog "Et quitte à faire plaisir à quelqu'un, tu devrais retourner au club de comédie, tu as vu ce qu'ils font ? Ca rime à rien et c'est génant !"
+    mog "Et quitte à faire plaisir à quelqu'un, tu devrais retourner au club de comédie, tu as vu ce qu'ils font ? Ça rime à rien et c'est génant !"
     show Medoc PoseDroite Triste
     med "Ouais c'est un peu triste, mais tu sais avec les histoires je peux pas..."
     mog "C'est du passé ! Et puis Mr Tshirt est heureux au SNL..."
