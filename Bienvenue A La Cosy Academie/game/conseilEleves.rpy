@@ -22,9 +22,9 @@ label conseil_eleves:
     met "Par contre je te demanderais de te tenir tranquille certains membres sont... un peu à cheval sur le protocole."
     innerpov "Houlà, ça a l'air hyper sérieux !"
     if sex == "m":
-        pov "Ok pas de soucis, je me ferait tout petit."
+        pov "Ok pas de soucis, je me ferai tout petit."
     else:
-        pov "Ok pas de soucis, je me ferait toute petite."
+        pov "Ok pas de soucis, je me ferai toute petite."
 
     scene classroom night with longfade
 
@@ -103,7 +103,7 @@ label conseil_eleves:
     pov "NON ?!"
     show Mickey Standard Badboy Rougit
     show Lock PoseGauche Degoute
-    lock "Si. Résultats : 2 chevilles brisées nets, pour un total de 6 fractures ouvertes dont a résulté une interdiction de mettre des échelles dans l'Académie."
+    lock "Si. Résultats : 2 chevilles brisées nettes, pour un total de 6 fractures ouvertes ! D'où l'interdiction de mettre des échelles dans l'Académie."
     show Mickey Standard Badboy
     show Metalice PoseDroite Degoute
     met "Des milliers d'euros pour changer toutes les échelles de secours en escalier. Mais qu'est-ce que l'argent quand il s'agit de la vie d'un élève aussi turbulent soit-il ?"
@@ -126,7 +126,7 @@ label conseil_eleves:
     show Lock PoseGauche Badboy
     lock "Le fleuron de la justice nationnale de la région, le défenseur de la veuve, de l'orphelin et du mignon !"
     show Metalice PoseDroite Degoute
-    met "Alors, déjà on a pas de veuves et les orphelins se débrouillent très biens tous seuls à nos âge."
+    met "Alors, déjà, on a pas de veuves et les orphelins se débrouillent très biens tous seuls à nos âges."
     show Metalice PoseDroite Cligne
     met "Pour le nom à rallonge, c'est le nom de code que Lock s'attribue quand il est en patrouille."
     show Metalice PoseDroite Gene
@@ -147,16 +147,16 @@ label conseil_eleves:
 
     lock "Pourquoi personne ne m'a prévenu ? Où se trouve son formulaire d'inscription ? Comment je peux préserver le calme si on me met des bâtons dans les roues ?"
     met "Au moins tes roues ont toujours leur peuneus..."
-    innerpov "Oh Dieuvomi, mais qu'est tu devenu ?"
+    innerpov "Oh Dieuvomi, mais qu'es tu devenu ?"
     lock "Tu vois [povname], on a clairement besoin de quelqu'un qui sait remplir les formulaires."
     lock "D'ailleurs, remplis-moi ce petit questionnaire à destination des nouveaux élèves s'il te plait ? Il en va de la sécurité de tout un chacun."
-    innerpov "wow, mais ya au moins 100 pages ! Ce type est fou !"
+    innerpov "Wow, mais il y a au moins 100 pages ! Ce type est fou !"
     met "Mais Lock ? On avait dit non au questionnaire à la dernière réunion !"
-    lock "Non, vous m'avez demander de condenser. J'ai condensé divisé par 4 le nombre de questions."
+    lock "Non, vous m'avez demandé de condenser. J'ai condensé et divisé par 4 le nombre de questions."
     met "..."
     mic "..."
     lock "Faites bien attention."
-    met "A quoi ?"
+    met "À quoi ?"
     lock "Réflechissez-y, vous le saurez. Moi. Je. Sais."
 
     show Mickey PoseSpeciale Sourire
