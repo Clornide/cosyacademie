@@ -169,7 +169,7 @@ label .Clubtechfoulk:
 
     show Foulk PoseDroite Sourire Yeuxfermes
     foulk "J'déconne Cong ! Tu trouveras le club tech en prenant à gauche au prochain couloir. Et surtout, passe voir mon spectacle !"
-    hide foulk with dissolve
+    hide Foulk with dissolve
     innerpov "Un spectacle !? Mais je l'ai déjà vu ! Soit il y a un problème temporel, soit ils ont un AUTRE spectacle..."
     innerpov "Ces deux perspectives m'angoissent..."
 
@@ -319,12 +319,12 @@ label .ChooseCouloir(count_couloir = 0):
         count_couloir+=1
 
     if count_couloir == 1:
-        call .Clubtechmetalice
+        call .Clubtechmetalice from _call_club_tech_Clubtechmetalice
 
     elif count_couloir == 3 and last_choice == 2:
         show Von Standard Sourire with dissolve
         von "A droite, toujours à droite !"
-        hide von with dissolve
+        hide Von with dissolve
 
     elif count_couloir == 4:
         if last_choice == 0:
@@ -332,7 +332,7 @@ label .ChooseCouloir(count_couloir = 0):
         else:
             innerpov "J'ai comme envie d'une croustade à la pomme vanillée..."
 
-        call .Clubtechfoulk
+        call .Clubtechfoulk from _call_club_tech_Clubtechfoulk
 
     elif count_couloir == 5:
         innerpov "Là un panneau ! Enfin !"
@@ -343,11 +343,11 @@ label .ChooseCouloir(count_couloir = 0):
         if last_choice == 0:
             show Von PoseSpeciale Colere with dissolve
             von "C'EST À DROITE !"
-            hide von with dissolve
+            hide Von with dissolve
         elif last_choice == 1:
             show Von Standard Badboy with dissolve
             von "Ne va pas à gauche, c'est un mirage. Droit devant, c'est une impasse."
-            hide von with dissolve
+            hide Von with dissolve
 
 
     elif count_couloir == 8:
@@ -361,7 +361,7 @@ label .ChooseCouloir(count_couloir = 0):
         else:
             innerpov "Quelque chose d'inhumain/de diabolique se dégage de ces murs..."
 
-        call .Clubtechcheerleaders
+        call .Clubtechcheerleaders from _call_club_tech_Clubtechcheerleaders
 
         
     
@@ -373,7 +373,7 @@ label .ChooseCouloir(count_couloir = 0):
             innerpov "Ça sent le matcha et les crayons de couleurs. J'espère que c'est le club #tech !"
         else:
             innerpov "Ça sent le thé et les petits gateaux... J'espère que c'est le club #tech !"
-        call .Clubtechdin
+        call .Clubtechdin from _call_club_tech_Clubtechdin
         jump club_otaku
         return
 
@@ -382,5 +382,5 @@ label .ChooseCouloir(count_couloir = 0):
             inner_chosen = inner_pov_couloirs[inner_pov_chosen.pop(renpy.random.randint(0,len(inner_pov_chosen)-1))]
         innerpov "[inner_chosen]"
     
-    call .ChooseCouloir(count_couloir)
+    call .ChooseCouloir(count_couloir) from _call_club_tech_ChooseCouloir
     return

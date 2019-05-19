@@ -82,7 +82,7 @@ style frame:
 ################################################################################
 
 
-screen affection:
+screen affection():
     text ("Medoc : %d\nMoguri : %d\nIncel %d\n" % (pointsmedoc, pointsmoguri, pointsincel)):
         xpos 0
         ypos 0

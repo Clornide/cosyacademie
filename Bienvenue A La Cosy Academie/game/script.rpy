@@ -12,7 +12,6 @@ image side player = ConditionSwitch("sex==\"m\"", "boy.png", "True", "girl.png")
 image brise = "vent.png"
 
 #fonds
-image classePhysique = "classePhysique.jpg"
 image reverie = "reverie.jpg"
 image school entrance = "background/schoolEntrance.png"
 image school hallway = "background/hallway.png"
