@@ -154,7 +154,7 @@ image we1:
     repeat
 
 define pov = Character("[povname]", color="#fff", image="player")
-define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-15}[toSelf]{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
+define innerpov = Character("[povname]", color="#a1e7df", text_color="#a1e7df", image="player", who_suffix=" {i}{size=-5}[toSelf]{/size}{/i}", what_prefix="{i}", what_suffix="{/i}", screen="say_innerpov" )
 define med = Character('name_medoc', color="#fff", image="Medoc", dynamic = True)
 define mog = Character('name_moguri', color="#fff", image="Moguri", dynamic = True)
 define met = Character('name_metalice', color="#fff", image="Metalice", dynamic = True)
@@ -224,11 +224,6 @@ label start:
 
 
     python:
-
-
-        renpy.music.queue("sounds/text-sound.mp3", channel = "talking", loop = True)
-        renpy.pause(0.2)
-        renpy.music.set_pause(True, channel="talking")
 
         name_dieuvomi = "???"
         name_medoc = "Medoc"

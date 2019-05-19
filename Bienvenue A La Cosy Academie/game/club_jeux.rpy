@@ -256,7 +256,7 @@ label club_jeux_societe:
 
     pov "Mais j'étais pas au courant moi ! C'est quoi ce club de l'entourloupe !"
 
-    show Mathilde PoseDroite Sourire Yeuxfermes Rougit at right
+    show Mathilde PoseSpeciale Sourire Yeuxfermes Rougit at right
 
     mat "Huhuhu… Comme tu n'étais pas au courant, je te donnerai un truc simple… Mais vous m'sieur Max, c'est tarif !"
 
@@ -296,7 +296,7 @@ label club_jeux_societe:
 
     mic "Ahahah, tu sais je reste prof, et même à la Cosy Académie c'est pas la folie ! En plus j'ai beaucoup de frais, je refais ma terrasse à neuf en ce moment..."
 
-    show Mathilde Standard Sourire Yeuxfermes
+    show Mathilde PoseSpeciale Rire Ojosama
 
     mat "Assez blablater, oust M'sieur Max ! J'vous revois la semaine prochaine, et n'oubliez pas vos pompons ! Huhuhu…"
 
@@ -356,7 +356,7 @@ label club_jeux_societe:
 
     mat "Allez c'est pas grave, pense à autres choses !"
 
-    show Mathilde Standard Sourire Yeuxfermes Rougit
+    show Mathilde PoseSpeciale Sourire Yeuxfermes Rougit
 
     mat "Comme rejoindre mon club par exemple !"
 

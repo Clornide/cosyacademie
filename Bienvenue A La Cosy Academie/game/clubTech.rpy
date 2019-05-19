@@ -86,6 +86,7 @@ label club_tech:
 
     scene school hallway choice with longfade
     jump ChooseCouloir
+    return
 
     
 
@@ -126,6 +127,7 @@ label Clubtechmetalice:
     innerpov "Cette histoire de drogue m'inquiète..."
 
     jump ChooseCouloir
+    return
 
 
 
@@ -159,7 +161,7 @@ label Clubtechfoulk:
     innerpov "Rho le lourd..."
 
     jump ChooseCouloir
-
+    return
 
 
 
@@ -191,6 +193,7 @@ label Clubtechcheerleaders:
         innerpov "Je suis reperé ! Vite le couloir !"
 
     jump ChooseCouloir
+    return
 
 
 label Clubtechdin:
@@ -225,6 +228,7 @@ label Clubtechdin:
     din    "Je file, je ne veux pas en râter une miette ! A très vite [povname] !"
 
     jump club_otaku
+    return
 
 label ChooseCouloir:
     if count_couloir == 0:

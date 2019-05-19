@@ -10,7 +10,7 @@ label credits:
         pause 5.0
         "din/main_PoseSpeciale_06_Sourire.png"
         pause 5.0
-        "Lock/main_Standard_06_Sourire.png"    
+        "Lock/main_PoseSpeciale_06_Sourire.png"    
         pause 5.0    
         "Metalice/main_PoseSpeciale_06_Sourire.png"
         pause 5.0
@@ -30,7 +30,7 @@ label credits:
         xpos 1.0 xanchor 1.0 ypos 1.1 yanchor 1.0 zoom 0.9
         "Foulk/main_PoseSpeciale_06_Sourire.png"
         pause 5.0
-        "Mathilde/main_Standard_06_Sourire.png"
+        "Mathilde/main_PoseSpeciale_06_Sourire.png"
         pause 5.0
         "Mickey/main_PoseSpeciale_06_Sourire.png"
         pause 5.0

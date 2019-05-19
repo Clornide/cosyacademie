@@ -248,7 +248,7 @@ label club_lock:
     hide auraDBZ
     stop sound
     show aura3 zorder 1000
-    show Lock Standard Colere  with flash
+    show Lock PoseSpeciale Furie with flash
     lock "Ici c'est l'école du petit couteau ! Pas le club tech ! Alors CALMEZ-VOUS ! "
     scene gym
     python:
@@ -270,7 +270,7 @@ label club_lock:
     zep "On dépasse clairement le budget là !"
     hide ZePilot  
     
-    show Lock Standard Colere at center
+    show Lock PoseSpeciale Colere at center
     lock "Allez ! Cassez-vous avant que je ne m'énerve vraiment !"
     lock "C'est pas un club de bébé Cadum ici!"
     show Lock Standard Badboy at center
@@ -285,6 +285,4 @@ label club_lock:
     show Lock Standard Degoute at center
     pause 3.0
     jump club_jeux_societe
-    
-
     return
