@@ -108,7 +108,7 @@ label club_rando:
     show Von PoseSpeciale Colere Rougit
     von "Je vous ai déjà dit d’arrêter de collecter des plantes pendant les randos !"
     show Foulk PoseSpeciale Sourire Yeuxfermes
-    foulk "Et qu’est-ce qui te dérange là-dedans ? On se contente de s’en servir pour agrémenter notre terrasse, c’est prof Mickey qui nous l’a demandé."
+    foulk "Et qu’est-ce qui te dérange là-dedans ? On se contente de s’en servir pour agrémenter notre terrasse, c’est M. Max qui nous l’a demandé."
     show Von PoseDroite Degoute
     von "Ce qui me dérange, c’est que vos plantes empestent à trois kilomètres et que vous n’arrêtez pas de hurler dès que vous trouvez le moindre truc qui a l’air comestible !"
     foulk "T’es en train de dire que ce qui te dérange c’est…"
