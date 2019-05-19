@@ -115,7 +115,7 @@ label club_rando:
     show Von PoseDroite Colere
     von "Parfaitement, l’odeur et le bruit !"
     show Dieuvomi Standard Sourire Yeuxfermes
-    dieuv "WOW foulk REGARDE J’AI TROUVE UN CHAMPI, TAING’"
+    dieuv "WOW foulk REGARDE J’AI TROUVE UN CHAMPI, TAING’."
     show Von Standard Triste
     von "Allez les gars, le club de randonnée c’est pour marcher, mais c’est pas pour vos errements prophylactiques à base de pharmacopée hallucinogène…"
     show Foulk PoseGauche Badboy
@@ -164,15 +164,15 @@ label club_rando:
     show screen skip_von_medium    
 
 
-    von "Ce qui lui vaudra la sienne, de tête. On se demande bien pourquoi, d’ailleurs, on nomme des stations de métro d’après ce genre de personnages, d’ailleurs, mais passons, Lorent Deustch, grand historien, a déjà fait un livre sur le sujet.[von_monologue_tags]"
+    von "Ce qui lui vaudra la sienne, de tête. On se demande bien pourquoi, d’ailleurs, on nomme des stations de métro d’après ce genre de personnages, d’ailleurs. Mais passons, Lorent Deustch, grand historien, a déjà fait un livre sur le sujet.[von_monologue_tags]"
     von "Je disais donc que Jean II Le Bon ne méritait pas d’être né à Blois. Blois est une ville d’importance, capitale du comté de Blois avant qu’elle ne soit intégrée au duché d’Orléans en 1397.[von_monologue_tags]"
 
 
     hide screen skip_von_medium
     show screen skip_von_big        
 
-    von "De nombreuses personnalités y sont nées ou mortes, car la ville était un centre culturel majeur à la fin du Moyen-Age et à la Renaissance, comme le prouve son château.[von_monologue_tags]"
-    von "Né des vestiges d’une forteresse, le château royal est aujourd’hui composé de trois ailes possédant chacun un style distinct :[von_monologue_tags]"
+    von "De nombreuses personnalités y sont nées ou mortes, car la ville était un centre culturel majeur à la fin du Moyen-Âge et à la Renaissance, comme le prouve son château.[von_monologue_tags]"
+    von "Né des vestiges d’une forteresse, le château royal est aujourd’hui composé de trois ailes possédant chacune un style distinct :[von_monologue_tags]"
     
     hide screen skip_von_big
     show screen skip_von_huge
