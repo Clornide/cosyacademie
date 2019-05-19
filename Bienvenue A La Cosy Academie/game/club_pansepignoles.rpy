@@ -21,11 +21,14 @@ label club_pansepignoles:
     show Chuenpodo PoseSpeciale Sourire
     chuen "Ah [povname], c'est pour l'inscription chez les cheerleaders c'est ça ?"
 
-    pov "Oui enfin inscription... Je suis là pour venir voir déjà, on verra ensuite"
+    pov "Oui enfin inscription... Je suis là pour venir voir déjà, on verra ensuite."
 
     show Chuenpodo PoseSpeciale Sourire Rougit
-    chuen "Ah ! Mais c'est tout vu ! Une fois que tu auras posé les yeux sur eux tu seras comme... hypnotisé..."
-
+    if sex=="m":
+        chuen "Ah ! Mais c'est tout vu ! Une fois que tu auras posé les yeux sur eux tu seras comme... hypnotisé..."
+    else:
+        chuen "Ah ! Mais c'est tout vu ! Une fois que tu auras posé les yeux sur eux tu seras comme... hypnotisée..."
+        
     pov "Moui admettons. Je te suis alors !"
 
     play music wonderful
@@ -39,9 +42,9 @@ label club_pansepignoles:
     pov "Momentanément en attendant quoi ?"
     show Chuenpodo PoseSpeciale Triste at full_left, mediumzoom
     chuen "Que... tu les rejoignes ?"
-    innerpov "Ok. Je sens le traquenard a plein nez."
+    innerpov "Ok. Je sens le traquenard à plein nez."
     show Chuenpodo PoseSpeciale Sourire Yeuxfermes  at full_left, mediumzoom
-    chuen "Ok, faut l'impressionner les gars ! Alors je te présente Clornide, Samaël et Décade, et ce sont... Les Panthusiasts !"
+    chuen "Ok, faut l'impressionner les gars ! Alors je te présente Clornide, Samaël et Décade, et ce sont... les Panthusiasts !"
     python:
         name_cheers = "Les Panthusiasts"
     cheers "Yeeeah !"
@@ -62,7 +65,7 @@ label club_pansepignoles:
 
     chuen "NE PARLEZ PAS COMME CA DE DIEUVOMI, VOUS NE CONNAISSEZ PAS SON HISTOIRE !"
 
-    innerpov "Tiens ? Je ne les aurais pas pensé si proche..."
+    innerpov "Tiens ? Je ne les aurais pas pensé si proches..."
 
     chuen "ALLEZ VOUS ME FAITES TROIS TOURS DE TERRAIN ET PLUS VITE QUE ÇA !"
     show Cheerleaders at go_away
@@ -76,9 +79,9 @@ label club_pansepignoles:
 
     pov "Si tu le dis... Dis moi, ça vient d'où ce nom du coup ?"
     show Chuenpodo PoseSpeciale Sourire 
-    chuen "Et bien en voilà une bonne question ! C'est en hommage à notre ancien manager Pansepignon... À l'époque j'étais moi même cheerleaders !"
+    chuen "Et bien en voilà une bonne question ! C'est en hommage à notre ancien manager Pansepignon... À l'époque j'étais moi même cheerleader !"
     show Chuenpodo PoseSpeciale Sourire Yeuxfermes
-    chuen "C'était un étudiant a la Cosy Académie comme nous, mais il était genial." 
+    chuen "C'était un étudiant à la Cosy Académie comme nous, mais il était genial." 
     show Chuenpodo PoseSpeciale Sourire Yeuxfermes Rougit
     chuen "C'était le meilleur. Et il n'arrêtait pas de dire que c'était moi le meilleur."
     show Cheerleaders at dezoom, go_left_to_right
@@ -91,7 +94,7 @@ label club_pansepignoles:
     chuen "Non mais il faut le garder en tête. C'est lui. Bref, il était tout aussi fascinant qu'il était bavard."
     show Chuenpodo PoseSpeciale Sourire
     show Cheerleaders  at dezoom, go_right_to_left
-    chuen "Insupportable selon certain. Des mauvaises langues lui demandait souvent d'arrêter de \"spammer\". Jusqu'au jour où..."
+    chuen "Insupportable selon certains. Des mauvaises langues lui demandaient souvent d'arrêter de \"spammer\". Jusqu'au jour où..."
     show Chuenpodo PoseSpeciale Triste
     chuen "Notre Pansepignon a disparu..."
     
@@ -104,12 +107,12 @@ label club_pansepignoles:
 
     pov "Et comment vous faites ça ?"
     
-    chuen "Et bien on scande son nom bien sûr ! Du moins on essaie, je pense qu'on est maudit, ou que toute l'école est liguée contre nous..."
+    chuen "Et bien on scande son nom bien sûr ! Du moins on essaie, je pense qu'on est maudits, ou que toute l'école est liguée contre nous..."
     show Cheerleaders at dezoom, go_right_to_left
 
     chuen "Tiens ! Les revoilà, attends, on va te montrer !"
     innerpov "Mais de quoi il parle..."
-    pov "Oui oui allez y montrez moi !"
+    pov "Oui oui allez-y montrez moi !"
     chuen "Allez les gars ! En place !"
     show Cheerleaders at go_back_in_place
     pause 1.0
@@ -147,7 +150,7 @@ label club_pansepignoles:
     show Chuenpodo PoseSpeciale Triste
     chuen "MAIS C'EST PAS POSSIBLE !!!!"
     show Medoc PoseGauche Gene
-    med "Oula ! Ils ont l'air tendu... Bon, bah je m'éclipse hein ! À plus tard !"
+    med "Oula ! Ils ont l'air tendus... Bon, bah je m'éclipse hein ! À plus tard !"
     show Medoc at go_away_interrupt
     pause 1.5
     show Chuenpodo PoseSpeciale Colere
@@ -233,7 +236,7 @@ label club_pansepignoles:
 
     pov "Non, ils sont carrément bizarres... dis, c'est quoi cette histoire d'invocation ?"
     show Metalice Standard Cligne
-    met "t'as bien vu qu'ils n'arrivent jamais a épeler Pansepignon correctement sans être interrompu ?"
+    met "T'as bien vu qu'ils n'arrivent jamais a épeler Pansepignon correctement sans être interrompus ?"
 
     pov "Oui Chuenpodo m'a même dit qu'ils devaient être maudits !"
     show Metalice Standard Sourire
@@ -258,7 +261,7 @@ label club_pansepignoles:
     pov "Bah EUX ! Enfin j'espère !"
 
     show Metalice PoseGauche Sourire Yeuxfermes
-    met "Ahah, je pense que tu vas aller de surprise en surprise ici "
+    met "Ahah, je pense que tu vas aller de surprise en surprise ici. "
 
     pov "Bon je raye les cheerleaders alors, une autre proposition ?"
 
@@ -270,7 +273,7 @@ label club_pansepignoles:
     show Metalice PoseSpeciale Cligne
     met "Bon... Laissons le club de comédie de côté alors..."
 
-    pov "Quoi ! mais si ! J'ai bien envie d'aller y faire un tour moi !"
+    pov "Quoi ! Mais si ! J'ai bien envie d'aller y faire un tour moi !"
     show Metalice Standard Sourire
     met "Très bien, alors suis moi, mais je te préviens, je ne mettrai pas les pieds dans cet endroit !"
 

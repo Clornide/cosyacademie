@@ -26,7 +26,7 @@ label cours_physique:
     show Foulk Standard Colere
 
     foulk "Normalement il faut attendre 15 min !"
-    foulk "Et de toutes façons, c'est le prof qui a les clés, on est coincés ici..."    
+    foulk "Et de toute façon, c'est le prof qui a les clés, on est coincés ici..."    
 
     show Dieuvomi BrasCroises Badboy
     
