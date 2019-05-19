@@ -41,6 +41,7 @@ label club_comedie:
     dieuv "Et Foulk, lui se charge de transmettre le message."
     pov "Et du coup, par exemple, de quoi vous parlez ?"
     show Dieuvomi Standard Sourire
+    
     if sex=="m":
         dieuv "Ahahahah t'es curieux, c'est marrant et je te comprends."
     else:
@@ -220,7 +221,8 @@ label club_comedie:
     show Foulk PoseGauche Badboy
     innerpov "QUOI ? Mais qu'est-ce qu'il me fait là !?"
     show Dieuvomi Standard Sourire Rougit
-     if sex=="m":
+
+    if sex == "m":
          dieuv "Tu vois, je peux te le dire à toi, t'as l'air inoffensif. Mais... Tu sais avé le Médoc... T'as peut-être vu qu'on était... En froid..."
     else:
          dieuv "Tu vois, je peux te le dire à toi, t'as l'air inoffensive. Mais... Tu sais avé le Médoc... T'as peut-être vu qu'on était... En froid..."

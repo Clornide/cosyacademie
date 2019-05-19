@@ -94,7 +94,7 @@
     show Medoc PoseDroite Badboy at right 
     with dissolve
 
-if sex=="m":
+    if sex=="m":
         mat "Ah super nous revoilà [povname] ! Prêt ?"
     else:
         mat "Ah super nous revoilà [povname] ! Prête ?"
@@ -112,7 +112,7 @@ if sex=="m":
 
     med "PUH ! On n'a qu'à faire un tour et on verra !"
 
-if sex=="m":
+    if sex=="m":
         pov "Je suis pas sûr que…"
     else:
         pov "Je suis pas sûre que…"

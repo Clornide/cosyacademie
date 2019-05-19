@@ -19,7 +19,7 @@ label sad_no_club:
     innerpov "???"
     
     show Medoc PoseGauche Sourire at left with dissolve
-      if sex=="m":
+    if sex=="m":
         med "Ben où tu vas comme ça gars ?"
     else:
         med "Ben où tu vas comme ça meuf ?"
