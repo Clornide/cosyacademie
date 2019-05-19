@@ -1,75 +1,38 @@
-show Pansepignon PoseDroite Sourire Yeuxfermes
 show Caro BrasCroises Cligne
-show Pansepignon PoseDroite Sourire Yeuxfermes Rougit
 show Caro BrasCroises Cligne Rougit
-show Pansepignon PoseDroite Triste
 show Caro BrasCroises Colere
-show Pansepignon PoseDroite Gene
 show Caro BrasCroises Colere Rougit
-show Pansepignon PoseGauche Cligne
 show Caro BrasCroises Degoute
 show Caro BrasCroises Sourire
-show Pansepignon PoseGauche Cligne Rougit
 show Caro BrasCroises Sourire Rougit
-show Pansepignon PoseGauche Colere
 show Caro BrasCroises Sourire Yeuxfermes
-show Pansepignon PoseGauche Colere Rougit
 show Caro BrasCroises Sourire Yeuxfermes Rougit
-show Pansepignon PoseGauche Degoute
 show Caro BrasCroises Triste
-show Pansepignon PoseGauche Sourire
 show Caro BrasCroises Gene
-show Pansepignon PoseGauche Sourire Rougit
 show Caro PoseDroite Cligne
-show Pansepignon PoseGauche Sourire Yeuxfermes
 show Caro PoseDroite Cligne Rougit
-show Pansepignon PoseGauche Sourire Yeuxfermes Rougit
-show Pansepignon PoseGauche Triste
 show Caro PoseDroite Colere
-show Pansepignon PoseGauche Gene
 show Caro PoseDroite Colere Rougit
-show Pansepignon PoseSpeciale Cligne
 show Caro PoseDroite Degoute
-show Pansepignon PoseSpeciale Cligne Rougit
 show Caro PoseDroite Sourire
-show Pansepignon PoseSpeciale Colere
-show Pansepignon PoseSpeciale Colere Rougit
 show Caro PoseDroite Sourire Rougit
-show Pansepignon PoseSpeciale Degoute
 show Caro PoseDroite Sourire Yeuxfermes
-show Pansepignon PoseSpeciale Sourire
 show Caro PoseDroite Sourire Yeuxfermes Rougit
-show Pansepignon PoseSpeciale Sourire Rougit
-show Pansepignon PoseSpeciale Sourire Yeuxfermes
 show Caro PoseDroite Triste
-show Pansepignon PoseSpeciale Sourire Yeuxfermes Rougit
 show Caro PoseDroite Gene
-show Pansepignon PoseSpeciale Triste
 show Caro PoseGauche Cligne
-show Pansepignon PoseSpeciale Gene
 show Caro PoseGauche Cligne Rougit
-show Pansepignon Standard Cligne
 show Caro PoseGauche Colere
-show Pansepignon Standard Cligne Rougit
 show Caro PoseGauche Colere Rougit
-show Pansepignon Standard Colere
 show Caro PoseGauche Degoute
-show Pansepignon Standard Colere Rougit
 show Caro PoseGauche Sourire
-show Pansepignon Standard Degoute
 show Caro PoseGauche Sourire Rougit
-show Pansepignon Standard Sourire
 show Caro PoseGauche Sourire Yeuxfermes
-show Pansepignon Standard Sourire Rougit
 show Caro PoseGauche Sourire Yeuxfermes Rougit
-show Pansepignon Standard Sourire Yeuxfermes
 show Caro PoseGauche Triste
-show Pansepignon Standard Sourire Yeuxfermes Rougit
 show Caro PoseGauche Gene
 show Caro PoseMainVisage Cligne
-show Pansepignon Standard Triste
 show Caro PoseMainVisage Cligne Rougit
-show Pansepignon Standard Gene
 show Caro PoseMainVisage Colere
 show Caro PoseMainVisage Colere Rougit
 show Caro PoseMainVisage Degoute
@@ -360,6 +323,18 @@ show Lock PoseGauche Sourire Yeuxfermes
 show Lock PoseGauche Sourire Yeuxfermes Rougit
 show Lock PoseGauche Triste
 show Lock PoseGauche Gene
+show Lock PoseSpeciale Badboy
+show Lock PoseSpeciale Badboy Rougit
+show Lock PoseSpeciale Colere
+show Lock PoseSpeciale Colere Rougit
+show Lock PoseSpeciale Degoute
+show Lock PoseSpeciale Sourire
+show Lock PoseSpeciale Sourire Rougit
+show Lock PoseSpeciale Sourire Yeuxfermes
+show Lock PoseSpeciale Sourire Yeuxfermes Rougit
+show Lock PoseSpeciale Triste
+show Lock PoseSpeciale Gene
+show Lock PoseSpeciale Furie
 show Lock Standard Badboy
 show Lock Standard Badboy Rougit
 show Lock Standard Colere
@@ -407,6 +382,18 @@ show Mathilde PoseGauche Sourire Yeuxfermes
 show Mathilde PoseGauche Sourire Yeuxfermes Rougit
 show Mathilde PoseGauche Triste
 show Mathilde PoseGauche Gene
+show Mathilde PoseSpeciale Bad Girl
+show Mathilde PoseSpeciale Bad Girl Rougit
+show Mathilde PoseSpeciale Colere
+show Mathilde PoseSpeciale Colere Rougit
+show Mathilde PoseSpeciale Degoute
+show Mathilde PoseSpeciale Sourire
+show Mathilde PoseSpeciale Sourire Rougit
+show Mathilde PoseSpeciale Sourire Yeuxfermes
+show Mathilde PoseSpeciale Sourire Yeuxfermes Rougit
+show Mathilde PoseSpeciale Triste
+show Mathilde PoseSpeciale Gene
+show Mathilde PoseSpeciale Rire Ojosama
 show Mathilde Standard Badboy
 show Mathilde Standard Bad Girl
 show Mathilde Standard Badboy Rougit
