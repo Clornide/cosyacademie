@@ -1,4 +1,0 @@
-Moguri : 1000 pixels de hauteur
-Medoc : 950 pixels de hauteur
-Metalice: 900 pix
-dieuv: 1000 pix
