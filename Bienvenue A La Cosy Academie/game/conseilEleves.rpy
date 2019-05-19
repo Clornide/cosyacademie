@@ -32,7 +32,7 @@ label conseil_eleves:
     met "Coucou tout le mo..."
     show Metalice PoseSpeciale Degoute
     show Lock BrasCroises Colere at left
-    lock "NON ! JE VOUS LAISSERAIS PAS FAIRE ! C'EST CONTRE LES RÈGLES !" with vpunch
+    lock "NON ! JE VOUS LAISSERAI PAS FAIRE ! C'EST CONTRE LES RÈGLES !" with vpunch
     innerpov "Ouah, ça chauffe !"
     show Metalice BrasCroises Degoute
     show Mickey PoseSpeciale Colere with vpunch
@@ -80,10 +80,10 @@ label conseil_eleves:
     show Lock PoseGauche Sourire
     show Mickey Standard Sourire Yeuxfermes
     show Metalice PoseDroite Cligne
-    met "C'est rien de le dire!"
+    met "C'est rien de le dire !"
     show Metalice PoseDroite Gene
     show Mickey Standard Sourire 
-    met"Avec toutes les fortes tête de la Cosy Académie et les différentes tensions internes, on est tout le temps sur la brèche."
+    met"Avec toutes les fortes têtes de la Cosy Académie et les différentes tensions internes, on est tout le temps sur la brèche."
     pov "Ça c'est sûr. Mais vous avez déjà réglé des problèmes graves ou dû prendre des décisions difficiles ?"
     show Metalice PoseDroite Sourire
     met "Bien sûr, c'est notre pain quotidien même."
@@ -97,16 +97,16 @@ label conseil_eleves:
     show Metalice PoseDroite Cligne
     show Mickey Standard Triste
     mic "Oui, pendant un cours de sport, les élèves devaient effectuer un parcours d'obstacles avec un moment donné un mur avec une échelle à monter et une à descendre."
-    mic "La plupart des élèves s'en sont sortis haut la main... A part..."
+    mic "La plupart des élèves s'en sont sortis haut la main... À part..."
     show Mickey Standard Gene
-    mic "A part Médoc... C'est sans doute par fierté, mais il n'a jamais voulu avouer qu'il ne savait pas descendre les échelles. Un traumatisme de l'enfance, surement... Donc une fois arriver en haut, il a sauté."
+    mic "À part Medoc... C'est sans doute par fierté, mais il n'a jamais voulu avouer qu'il ne savait pas descendre les échelles. Un traumatisme de l'enfance, sûrement... Donc une fois arrivé en haut, il a sauté."
     pov "NON ?!"
     show Mickey Standard Badboy Rougit
     show Lock PoseGauche Degoute
     lock "Si. Résultats : 2 chevilles brisées nettes, pour un total de 6 fractures ouvertes ! D'où l'interdiction de mettre des échelles dans l'Académie."
     show Mickey Standard Badboy
     show Metalice PoseDroite Degoute
-    met "Des milliers d'euros pour changer toutes les échelles de secours en escalier. Mais qu'est-ce que l'argent quand il s'agit de la vie d'un élève aussi turbulent soit-il ?"
+    met "Des milliers d'euros pour changer toutes les échelles de secours en escaliers. Mais qu'est-ce que l'argent quand il s'agit de la vie d'un élève, aussi turbulent soit-il ?"
     show Metalice PoseDroite Sourire
     show Mickey Standard Sourire
     pov "Vous ne rigolez pas avec la sécurité !"
@@ -120,11 +120,11 @@ label conseil_eleves:
     show Metalice PoseDroite Cligne
     met "Oh non, pas encore..."
     show Mickey PoseGauche Gene
-    mic "Et il remet ca..."
+    mic "Et il remet ça..."
     show Lock PoseGauche Sourire
-    lock "Le DELTA FORCE, le membre le plus actif en terme de sécurité de la Cosy Académie!"
+    lock "Le DELTA FORCE, le membre le plus actif en terme de sécurité de la Cosy Académie !"
     show Lock PoseGauche Badboy
-    lock "Le fleuron de la justice nationnale de la région, le défenseur de la veuve, de l'orphelin et du mignon !"
+    lock "Le fleuron de la justice nationale de la région, le défenseur de la veuve, de l'orphelin et du mignon !"
     show Metalice PoseDroite Degoute
     met "Alors, déjà, on a pas de veuves et les orphelins se débrouillent très biens tous seuls à nos âges."
     show Metalice PoseDroite Cligne
@@ -134,22 +134,22 @@ label conseil_eleves:
     innerpov "Il a l'air un peu trop dans son délire sécurité, il me fait limite penser à Von Yaourt quand il est comme ça."
 
     lock "Je crois que vous ne vous rendez pas compte des enjeux qui se jouent sous nos yeux."
-    lock "Pas plus tard qu'hier, j'ai croisé un type bizarre au regard louche qui trainait autour des labos de chimie."
+    lock "Pas plus tard qu'hier, j'ai croisé un type bizarre au regard louche qui traînait autour des labos de chimie."
     met "Moguri ?"
     lock "Non ! Je l'ai intimé de décliner son identité, mais il a disparu dans un nuage de fumée."
-    met "Ah ! Un petit ? avec une oeil tourné vers le passé, et l'autre vers l'avenir ?"
+    met "Ah ! Un petit ? Avec une oeil tourné vers le passé, et l'autre vers l'avenir ?"
     lock "Oui ! c'est le bon signalement !"
-    met "Plutot caucasien, la chevelure bouclée ? Portant une tunique ?"
+    met "Plutôt caucasien, la chevelure bouclée ? Portant une tunique ?"
     lock "Tout à fait !"
-    met "Ah non, ca ne me dit rien du tout..."
+    met "Ah non, ça ne me dit rien du tout..."
     lock "MAIS...?"
     mic "Alors, il me semble qu'il s'agit du Sire Flamel... C'est un intervenant extérieur ! Il est la pour dispenser des cours de chimie autour du thème ''le THC Philosophal'', un type brillant."
 
     lock "Pourquoi personne ne m'a prévenu ? Où se trouve son formulaire d'inscription ? Comment je peux préserver le calme si on me met des bâtons dans les roues ?"
     met "Au moins tes roues ont toujours leur peuneus..."
-    innerpov "Oh Dieuvomi, mais qu'es tu devenu ?"
+    innerpov "Oh Dieuvomi, mais qu'es-tu devenu ?"
     lock "Tu vois [povname], on a clairement besoin de quelqu'un qui sait remplir les formulaires."
-    lock "D'ailleurs, remplis-moi ce petit questionnaire à destination des nouveaux élèves s'il te plait ? Il en va de la sécurité de tout un chacun."
+    lock "D'ailleurs, remplis-moi ce petit questionnaire à destination des nouveaux élèves s'il te plaît. Il en va de la sécurité de tout un chacun."
     innerpov "Wow, mais il y a au moins 100 pages ! Ce type est fou !"
     met "Mais Lock ? On avait dit non au questionnaire à la dernière réunion !"
     lock "Non, vous m'avez demandé de condenser. J'ai condensé et divisé par 4 le nombre de questions."
@@ -167,12 +167,12 @@ label conseil_eleves:
     met "En plus de la rédaction des formulaires, leur diffusion, leur réception, ainsi que le maintien de l'odre, ou la délation, nous aurions besoin de tes compétences."
 
     lock "Concernant les délations, l'élève Von Yaourt a encore rempli la banette. Principalement pour des délis mineurs commis par, je cite : ''des personnes aux accents étrange(r)s''. Je donne suite ?"
-    met "Comme tu veux Lock, mais fais le loin."
+    met "Comme tu veux Lock, mais fais-le loin."
     met "Alors [povname], je t'inscris au conseil ?"
     menu:
         met "{cps=0}Alors [povname], je t'inscris au conseil ?{/cps}"
         
-        "Ah, j'aurai adoré, mais je crois que vous avez la maitrise de la situation.":
+        "Ah, j'aurais adoré, mais je crois que vous avez la maîtrise de la situation.":
             show Metalice PoseDroite Colere Rougit
             met "Je comprends, j'ai l'habitude de carry tout le monde. Je me rends compte du vertige que donnent les responsabilités du conseil."
         "Bien entendu. Mais pas de facon officielle, je préfère euh... être un agent de l'ombre ?":
