@@ -1,6 +1,29 @@
 
 image panneau = "Assets/PanneauxTech.png"
 
+init python:
+
+    last_choice = -1
+
+    inner_pov_couloirs = ["Pourquoi il n'y pas de carte de l'Académie... Ça sert de lire une carte !",
+            "Pourquoi il n'y pas de carte de l'Académie... Ça sert de lire une carte !",
+            "Le club #tech ne doit plus être très loin !",
+            "Nom de nom ! J'en reviens pas que Metalice éternue de la sorte. C'est vraiment la preuve que c'est une femme de caractère !",
+            "J'en reviens pas qu'ils laissent faire des spectacles à ce Foulk. C'est surement subventionné par la région...",
+            "Le club #tech ne doit plus être très loin, ça sent les nouilles !",
+            "Trouvons ce club #tech ! Ze PilOt avait l'air tellement talentueux !",
+            "Le Club #tech ? ah non, c'est #radiohead... aucun intérêt.",
+            "Mais #tech et Matt Pokora... J'en peux plus, vivement que j'arrive...",
+            "Encore un couloir et pas de club #tech...",
+            "Ce club #tech est une opportunité unique ! ",
+            "Dépot sauvage de peuneus interdit. Signé La direction.",
+            "Mais c'est pas possible, je tourne en rond !",
+            "Encore un couloir et pas de club #tech..."
+    ]
+
+    num_inner_pov_couloirs = len(inner_pov_couloirs)
+    inner_pov_chosen = range(0, num_inner_pov_couloirs)
+
 label club_tech:
     play music rainbow
     scene black
@@ -16,29 +39,6 @@ label club_tech:
 
     
     scene school hallway with longfade
-
-    python:
-        last_choice = -1
-
-        inner_pov_couloirs = ["Pourquoi il n'y pas de carte de l'Académie... Ça sert de lire une carte !",
-                "Pourquoi il n'y pas de carte de l'Académie... Ça sert de lire une carte !",
-                "Le club #tech ne doit plus être très loin !",
-                "Nom de nom ! J'en reviens pas que Metalice éternue de la sorte. C'est vraiment la preuve que c'est une femme de caractère !",
-                "J'en reviens pas qu'ils laissent faire des spectacles à ce Foulk. C'est surement subventionné par la région...",
-                "Le club #tech ne doit plus être très loin, ça sent les nouilles !",
-                "Trouvons ce club #tech ! Ze PilOt avait l'air tellement talentueux !",
-                "Le Club #tech ? ah non, c'est #radiohead... aucun intérêt.",
-                "Mais #tech et Matt Pokora... J'en peux plus, vivement que j'arrive...",
-                "Encore un couloir et pas de club #tech...",
-                "Ce club #tech est une opportunité unique ! ",
-                "Dépot sauvage de peuneus interdit. Signé La direction.",
-                "Mais c'est pas possible, je tourne en rond !",
-                "Encore un couloir et pas de club #tech..."
-        ]
-
-        num_inner_pov_couloirs = len(inner_pov_couloirs)
-        inner_pov_chosen = range(0, num_inner_pov_couloirs)
-
 
     innerpov "La Cosy Académie... Je n'arrive toujours pas à y croire... C'est comme si je rêvais..."
     innerpov "Le secrétariat m'a indiqué de finaliser mon inscription auprès du club #tech afin d'obtenir ma Cosy carte d'élève... Ça sera la preuve que je ne rêve pas !"
@@ -71,6 +71,7 @@ label club_tech:
     mog "Ze PilOt, je te présen..."
 
     python:
+        global name_zep
         name_zep="Ze_PilOt"
 
     show ZePilot Standard Sourire Yeuxfermes    
@@ -105,7 +106,8 @@ label club_tech:
         pov "Merci ! Je vous laisse ! Désolé de vous avoir interrompu... Et bon courage avec Jarod..."
 
     scene school hallway choice with longfade
-    jump .ChooseCouloir
+    call .ChooseCouloir(0)
+    jump club_otaku
     return
 
     
@@ -374,7 +376,6 @@ label .ChooseCouloir(count_couloir = 0):
         else:
             innerpov "Ça sent le thé et les petits gateaux... J'espère que c'est le club #tech !"
         call .Clubtechdin from _call_club_tech_Clubtechdin
-        jump club_otaku
         return
 
     else:

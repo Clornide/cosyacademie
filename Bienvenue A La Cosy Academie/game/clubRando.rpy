@@ -183,7 +183,12 @@ label club_rando:
     von "C’est un joyau architectural unique que chaque personne de goût se doit de visiter au moins une fois dans sa vie ![von_monologue_tags]"
     von "Un témoignage unique de la richesse d’une ville dont on dit qu’elle était tellement raffinée qu’elle était l’hôte de quarante-sept horlogers simultanément sous Gaston d’Orléans.[von_monologue_tags]"
     
+    python:
+        if renpy.is_skipping():
+            renpy.run(Skip())
+       
     hide screen skip_von_huge
+    
     menu:
         von "Quarante-sept, tu te rends compte ? C’est fou ! Mais d’ailleurs, en parlant d’horlogerie, quelle heure est-il ?"
 

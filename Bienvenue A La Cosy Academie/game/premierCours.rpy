@@ -79,7 +79,7 @@ label Premiercours:
     else:
         dieuv "Ouais Medoc, c'est son problème de confiance en elle, pas le tieng !"
 
-    "Ce type a vraiment un drôle d'accent..."
+    innerpov "Ce type a vraiment un drôle d'accent..."
 
     show Dieuvomi BrasCroises Sourire
 
