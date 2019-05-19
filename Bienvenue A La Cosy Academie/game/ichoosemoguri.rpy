@@ -6,7 +6,7 @@ label Ichoosemoguri:
 
     mog "Et donc ?"
     inc "Et bien là je lui ai dit, 'QUOI !? JEUDICOUVERTE !?'. C'était hilarant !"
-    mog "Oui enfin, comme à ton habitude quoi... Tu devrais peut être arrêter de le taquiner avec ça, un jour il pourrait mal le prendre."
+    mog "Oui enfin, comme à ton habitude quoi... Tu devrais peut-être arrêter de le taquiner avec ça, un jour il pourrait mal le prendre."
     inc "Ahahah mais non, tout le monde sait que Dieuvomi et moi, c'est pour la vie !"
 
     innerpov "Ah, je les vois !"
@@ -35,7 +35,7 @@ label Ichoosemoguri:
     show Chuenpodo Standard Sourire Rougit
     chuen "Ahahah mais arrête enfin Moguri..."
     show Moguri BrasCroises Sourire
-    mog "Il est aussi manager de l'équipe de cheerleaders de l'école, donc si tu veux l'intégrer, il faudra te présenter à lui."
+    mog "Il est aussi manager de l'équipe de cheerleaders de l'école, donc si tu veux t'intégrer, il faudra te présenter à lui."
     show Chuenpodo Standard Sourire
     chuen "Effectivement, je te les présenterai demain après les cours si ça t'intéresse."
     pov "Avec plaisir !"
@@ -59,8 +59,11 @@ label Ichoosemoguri:
     show Moguri Standard Sourire with dissolve
 
     mog "Tu voulais me parler de quelque chose donc ?"
-    pov "Je voulais juste te remercier de m'avoir défendu tout à l'heure."
-
+    if sex=="m":
+        pov "Je voulais juste te remercier de m'avoir défendu tout à l'heure."
+    else:
+        pov "Je voulais juste te remercier de m'avoir défendue tout à l'heure."
+    
     show Moguri BrasCroises Badboy
 
     mog "Sans vouloir paraître désagréable, je ne suis pas vraiment intervenu pour toi..."
@@ -68,7 +71,7 @@ label Ichoosemoguri:
 
     show Moguri BrasCroises Degoute
 
-    mog "A vrai dire ton comportement m'énerve un peu aussi, mais je ne peux pas y faire grand chose, le changement doit venir de toi, pas des autres."
+    mog "À vrai dire ton comportement m'énerve un peu aussi, mais je ne peux pas y faire grand chose, le changement doit venir de toi, pas des autres."
 
     if sex=="m":
         pov "D-désolé..."
@@ -105,44 +108,18 @@ label Ichoosemoguri:
 
     show Moguri BrasCroises Badboy Rougit
 
-    mog "Je ne suis peut être pas la personne la mieux placée pour t'aider sur ce point..."
+    mog "Je ne suis peut-être pas la personne la mieux placée pour t'aider sur ce point..."
     pov "Comment ça ?"
     mog "J'ai... Pas vraiment envie d'en parler..."
-    pov "Sois tu acceptes, sois tu m'en parles !"
+    pov "Soit tu acceptes, soit tu m'en parles !"
 
     show Moguri BrasCroises Sourire Yeuxfermes
 
     mog "Ahaha ! Alors disons que j'accepte."
-    pov "Mais j'aurais ma réponse, un jour !"
+    pov "Mais j'aurai ma réponse, un jour !"
     mog "Si tu le dis... Bon, je te raccompagne ?"
     pov "Allons-y."
 
-    scene street day with longfade
-    show Metalice Standard Sourire Yeuxfermes at left
-    show Moguri BrasCroises Sourire Yeuxfermes at right
-    mog "Ho ! Voilà Metalice !"
-    met "Salut vous deux ! Tout va bien ?"
-    mog "Oui, je raccompagnais [povname] chez lui.. Mais tu habites dans son quartier non ?"
-    mog "Je te laisse entre de bonnes mains, je vais dans l'autre direction !"
-    innerpov "Oh nooon...."
-    hide Moguri with dissolve
-
-    if sex=="m":       
-        met "Je suis à peine surprise que tu sois rentré avec un de tes prétendants..."
-    else:
-        met "Je suis à peine surprise que tu sois rentrée avec un de tes prétendants..."
-
-    pov "Comment ça ?"
-
-    show Metalice Standard Sourire Yeuxfermes
-
-    met "Moguri enfin !"
-
-    pov "Raaah mais laisse moi avec lui !"
-
-    met "Tu dis ça mais je te vois très bien rougir hein !"
-    pov "Tu parles quand même de lui beaucoup plus que moi, c'est peut être toi qui est intéressée finalement !"
-
-    jump Rentreavecmetalice2
+    jump lendemainMatin 
 
     return

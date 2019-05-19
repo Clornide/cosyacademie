@@ -2,7 +2,7 @@ label sad_no_club:
     scene street day with longfade
     play music memento
     innerpov "Et voilà, la semaine est finie et je n'ai toujours pas de club..."
-    innerpov "Je vais sans doute devoir quitter la Cosy Académie.."
+    innerpov "Je vais sans doute devoir quitter la Cosy Académie..."
 
     menu:
         "Et sans avoir avoué mes sentiments à Moguri":
@@ -19,7 +19,10 @@ label sad_no_club:
     innerpov "???"
     
     show Medoc PoseGauche Sourire at left with dissolve
-    med "Ben où tu vas comme ça gars ?"
+    if sex=="m":
+        med "Ben où tu vas comme ça gars ?"
+    else:
+        med "Ben où tu vas comme ça meuf ?"
     show Moguri PoseDroite Sourire at right with dissolve
     mog "On va à notre club, tu veux venir ?"
 

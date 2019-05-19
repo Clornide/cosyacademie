@@ -79,7 +79,7 @@ label Premiercours:
     else:
         dieuv "Ouais Medoc, c'est son problème de confiance en elle, pas le tieng !"
 
-    "Ce type a vraiment un drôle d'accent..."
+    innerpov "Ce type a vraiment un drôle d'accent..."
 
     show Dieuvomi BrasCroises Sourire
 
@@ -177,14 +177,14 @@ label Premiercours:
     met "Dieuvomi a crevé tous les pneus de tous les BMX du gang en l'espace d'une heure, en pleine nuit..."
     pov "Ouaaaaah..."
     show Metalice Standard Sourire
-    met "N'est-ce pas ? Du coup, sans pneus, le gang s'est dissout de lui même. C'est aussi pour ça qu'il est tant respecté !"
+    met "N'est-ce pas ? Du coup, sans pneus, le gang s'est dissous de lui-même. C'est aussi pour ça qu'il est tant respecté !"
     met "Et autre point de détail de cette anecdote, le leader de ce gang était un cousin de Medoc..."
     pov "Aaaaaah ! C'est donc de là que vient cette animosité entre eux ?"
     show Metalice PoseSpeciale Sourire Yeuxfermes
     met "Pas du tout ! Medoc ne tolérait absolument pas les agissements de son cousin."
     pov "D'où est-ce que ça vient alors ?"
     show Metalice Standard Triste
-    met "On n'aime pas trop en parler ici... Ca nous rappelle des événements un peu sombre. Tu l'apprendras bien assez tôt je pense."
+    met "On n'aime pas trop en parler ici... Ça nous rappelle des événements un peu sombres. Tu l'apprendras bien assez tôt je pense."
     pov "..."
     show Metalice PoseSpeciale Sourire Yeuxfermes
     met "Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?"
@@ -221,7 +221,7 @@ label Premiercours:
 
             jump Ichoosemoguri
 
-        "Si ça ne te dérange pas, j'aimerai bien attendre un peu Medoc...":
+        "Si ça ne te dérange pas, j'aimerais bien attendre un peu Medoc...":
             python:
                 acomp="Med"
                 pointsmedoc+=1

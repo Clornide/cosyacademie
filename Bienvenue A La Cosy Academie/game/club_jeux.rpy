@@ -32,7 +32,7 @@
 
     show Mathilde BrasCroises Colere with dissolve
     if mathilde_medoc == True:
-        pov "Hum Mathilde, c'est ça ? Celle qui traine avec Médoc ? Je savais pas que tu étais membre de ce club !"
+        pov "Hum Mathilde, c'est ça ? Celle qui traîne avec Médoc ? Je savais pas que tu étais membre de ce club !"
     else:
         pov "Hum Mathilde, c'est ça ? On s'est croisé au cours de physique... J'ai entendu que tu faisais partie de ce club ?"
 
@@ -44,7 +44,7 @@
 
     mat "Attends c'est tout ce que t'inspire mon introduction ? Tu sais que ça fait des mois que j'attends que quelqu'un entre pour la placer !"
 
-    pov "Pardon, mais le fait que tu aies oublié le nom a un peu minimiser l'effet..."
+    pov "Pardon, mais le fait que tu aies oublié le nom a un peu minimisé l'effet..."
 
     pov "D'ailleurs, comment ça plusieurs mois ? Me dis pas que tu es toute seule dans ce club ?"
 
@@ -67,13 +67,13 @@
 
     show Mathilde Standard Colere Rougit
 
-    mat "LA FERME ! Ca ne me dérange pas ! C'est juste que les gens sont trop stupides pour jouer à mes jeux !"
+    mat "LA FERME ! Ça ne me dérange pas ! C'est juste que les gens sont trop stupides pour jouer à mes jeux !"
 
     pov "Je peux essayer quand même ?"
 
     show Mathilde Standard Degoute
 
-    mat "Quoi ? Tu veux jouer ? A mes jeux ? Avec moi ? Arrete, je te crois pas !"
+    mat "Quoi ? Tu veux jouer ? À mes jeux ? Avec moi ? Arrête, je te crois pas !"
 
 
     
@@ -94,7 +94,11 @@
     show Medoc PoseDroite Badboy at right 
     with dissolve
 
-    mat "Ah super nous revoilà [povname] ! Prêt ?"
+    if sex=="m":
+        mat "Ah super nous revoilà [povname] ! Prêt ?"
+    else:
+        mat "Ah super nous revoilà [povname] ! Prête ?"
+    
 
     med "[povname] ?"
 
@@ -108,7 +112,11 @@
 
     med "PUH ! On n'a qu'à faire un tour et on verra !"
 
-    pov "Je suis pas sûr que…"
+    if sex=="m":
+        pov "Je suis pas sûr que…"
+    else:
+        pov "Je suis pas sûre que…"
+    
 
     show Mathilde PoseGauche Sourire
 
@@ -195,7 +203,7 @@
 
     show Mickey BrasCroises Triste
 
-    mic "Malheureusement je crois que vu l'écart des scores, il va falloir qu'on se mette a tricher aussi…"
+    mic "Malheureusement je crois que vu l'écart des scores, il va falloir qu'on se mette à tricher aussi…"
 
     pov "Quoi ? Mais je suis le pire menteur que je connaisse ! On va jamais y arriver !"
 
@@ -298,7 +306,7 @@
 
     show Mathilde PoseSpeciale Rire Ojosama
 
-    mat "Assez blablater, oust M'sieur Max ! J'vous revois la semaine prochaine, et n'oubliez pas vos pompons ! Huhuhu…"
+    mat "Assez blablaté, oust M'sieur Max ! J'vous revois la semaine prochaine, et n'oubliez pas vos pompons ! Huhuhu…"
 
     show Mickey PoseGauche Sourire
 
@@ -354,7 +362,7 @@
 
     show Mathilde Standard Sourire
 
-    mat "Allez c'est pas grave, pense à autres choses !"
+    mat "Allez c'est pas grave, pense à autre chose !"
 
     show Mathilde PoseSpeciale Sourire Yeuxfermes Rougit
 
@@ -370,8 +378,11 @@
 
     show Mathilde PoseGauche Sourire
     mat "Et en parlant de Von... Tu peux toujours essayer son club de randonnée ! Ils partent demain matin !"
-    mat "Ils visitent des coins en bordure de la ville. C'est un peu dangereux à cause des cailloux, mais tu es un dur !"
-
+    if sex=="m":
+        mat "Ils visitent des coins en bordure de la ville. C'est un peu dangereux à cause des cailloux, mais tu es un dur !"
+    else:
+        mat "Ils visitent des coins en bordure de la ville. C'est un peu dangereux à cause des cailloux, mais tu es une dure !"
+    
     pov "Merci du conseil !"
     show Mathilde PoseDroite Sourire Yeuxfermes
 

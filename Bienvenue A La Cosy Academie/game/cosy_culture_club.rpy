@@ -39,7 +39,7 @@ label cosy_culture_club:
     mog "Non mais regarde les pansepignoles là..."
     show Medoc PoseDroite Gene
     med "Ouais bon okay, leur keikaku il est pas tight..."
-    med "Pourtant j'essaie de les aider, la dernière fois je leur ai dis que même s'ils étaient pas dans l'ordre c'était bon !"
+    med "Pourtant j'essaie de les aider, la dernière fois je leur ai dit que même s'ils étaient pas dans l'ordre c'était bon !"
     show Moguri PoseGauche Sourire
     mog "Et ?"
     show Medoc BrasCroises Sourire
@@ -65,7 +65,7 @@ label cosy_culture_club:
     show Moguri PoseGauche Badboy
     show Medoc BrasCroises Badboy
     med "Hé gars ! C'est toi qui l'a incité avec ton mod chépa quoi là !"
-    mog "J'ai rien demandé, j'ai juste dis que j'aimais les portes ! Regarde ce qui se passe comme bordel dans l'académie maintenant !" 
+    mog "J'ai rien demandé, j'ai juste dit que j'aimais les portes ! Regarde ce qui se passe comme bordel dans l'académie maintenant !" 
     show Medoc PoseDroite Badboy
     med "Le club tech, c'était pour lui faire plaisir. Puis il est seul dedans..."
     mog "Il est seul et j'aime pas ça. La dernière fois que j'ai utilisé mon portable, il m'a demandé de plus l'utiliser aux toilettes, il trouvait ça dégueulasse !"
@@ -73,7 +73,7 @@ label cosy_culture_club:
     mog "T'imagines, il a sûrement des photos privates !"
     innerpov "Intéressant..."
     show Moguri PoseGauche Sourire
-    mog "Et quitte à faire plaisir à quelqu'un, tu devrais retourner au club de comédie, tu as vu ce qu'ils font ? Ça rime à rien et c'est génant !"
+    mog "Et quitte à faire plaisir à quelqu'un, tu devrais retourner au club de comédie, tu as vu ce qu'ils font ? Ça rime à rien et c'est gênant !"
     show Medoc PoseDroite Triste
     med "Ouais c'est un peu triste, mais tu sais avec les histoires je peux pas..."
     mog "C'est du passé ! Et puis Mr Tshirt est heureux au SNL..."
@@ -98,7 +98,11 @@ label cosy_culture_club:
             show Moguri BrasCroises Colere
             show Medoc BrasCroises Colere
             mog "Hé ! Poucaves obtiennent marrave !" with hpunch
-            med "C'est tellement sale ce que tu fais gars !" with vpunch
+            if sex=="m":
+                med "C'est tellement sale ce que tu fais gars !" with vpunch
+            else:
+                med "C'est tellement sale ce que tu fais meuf !" with vpunch
+            
             python:
                 pointsincel+=1
             
@@ -127,13 +131,13 @@ label cosy_culture_club:
     show Moguri PoseGauche Gene
     mog "Faut lâcher la pression !"
     show Medoc PoseDroite Sourire
-    innerpov "A propos de lâcher la pression, il fait chaud ici..."
-    pov "A propos de lâcher la pression, il fait chaud ici..."
+    innerpov "À propos de lâcher la pression, il fait chaud ici..."
+    pov "À propos de lâcher la pression, il fait chaud ici..."
     show Medoc BrasCroises Degoute
     show Moguri BrasCroises Degoute
     med "Hein ?"
 
-    innerpov "J'ai dis ça tout haut !?"
+    innerpov "J'ai dit ça tout haut !?"
     show Moguri PoseGauche Degoute
     show Medoc PoseDroite Degoute
     pov "Je dis qu'il fait chaud ici, avec ce feu ouvert et tout ça..."
@@ -143,9 +147,9 @@ label cosy_culture_club:
 
     show Moguri PoseGauche Badboy
     show Medoc PoseDroite Sourire
-    mog "Il y a un soucis par contre..."
+    mog "Il y a un souci par contre..."
     show Moguri PoseGauche Sourire Rougit
-    mog "On aime bien faire ça à qu'à deux..."
+    mog "On aime bien faire ça qu'à deux..."
 
     innerpov "Houlàlà !"
     show Medoc PoseDroite Degoute
@@ -157,14 +161,14 @@ label cosy_culture_club:
 
     show Medoc PoseDroite Sourire
     show Moguri PoseGauche Sourire
-    med "Mais non ! Attend on va trouver un truc !"
+    med "Mais non ! Attends on va trouver un truc !"
     mog "Ouais nous on veut que tu sois confortable à l'académie !"
 
     innerpov "Ouuuuuuh..."
 
     pov "C'est très gentil..."
 
-    mog "Qu'est-ce que tu dirais qu'on t'invite et c'est toi qui nous raconte des trucs !"
+    mog "Qu'est-ce que tu dirais qu'on t'invite et c'est toi qui nous racontes des trucs !"
     mog "Mais n'importe quoi hein, le principal c'est que tu sois à l'aise !"
     
     show Medoc BrasCroises Sourire Yeuxfermes Rougit
@@ -184,19 +188,23 @@ label cosy_culture_club:
 
     innerpov "Faire une \"tape\" avec Medoc et Moguri.. Ouah !"
 
-    pov "Heu ça ne devrait pas être un soucis..."
+    pov "Heu ça ne devrait pas être un souci..."
 
     mog "Parfait ! Parce que mine de rien on a 6 mois de retard sur les rapports..."
 
     innerpov "J'ai attendu toute ma vie pour ce rapport !"
     
     pov "Je vais vous aider ! C'est le plus beau jour de ma vie !"
-
-    med "Hé hé calmes toi gars, c'est la cosy académie ici, c'est normal !"
-    mog "Allez, assieds toi confortablement, tu va nous regarder jouer à un jeu aujourd'hui..."
+  
+    if sex=="m":
+        med "Hé hé calme-toi gars, c'est la cosy académie ici, c'est normal !"
+    else:
+        med "Hé hé calme-toi meuf, c'est la cosy académie ici, c'est normal !"
+    
+    mog "Allez, assieds-toi confortablement, tu vas nous regarder jouer à un jeu aujourd'hui..."
     med "En buvant des verres bien sûr.. Quel serait le jeu idéal pour ça ?"
     menu:
-        med "{cps=0}En buvant des verres bien sûr.. Quel serait le jeu idéal pour ça ?{/cps}"
+        med "{cps=0}En buvant des verres bien sûr... Quel serait le jeu idéal pour ça ?{/cps}"
         "Cul à cul sec !":
             med "Haha t'es un chef [povname] !"
         "Le gin te nique !":

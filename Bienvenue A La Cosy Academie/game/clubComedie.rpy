@@ -21,7 +21,7 @@ label club_comedie:
     dieuv "Hey, salut ? Bah alors t'as décidé de pas rester avec les gros nazes ? Tu viens avec nous ?"
     
 
-    pov "Ca dépend, heu vous faites quoi concrètement ?"
+    pov "Ça dépend, heu vous faites quoi concrètement ?"
     
     show Dieuvomi Standard Sourire
     dieuv "Ce qu'on fait ? Mais on change le monde une blague à la fois avé le Foulk là."
@@ -30,7 +30,7 @@ label club_comedie:
     dieuv "Si, si je te jure. On utilise un genre d'humour pour lutter contre l'oppression de droite, et aussi pour crever des peuneus."
     show Dieuvomi BrasCroises Sourire
     dieuv "C'est que ça fait voyager. Et bah oui c'est un club, on a pas trouvé autre chose encore."
-    pov "et... ça marche ?"
+    pov "Et... ça marche ?"
     show Dieuvomi PoseGauche Degoute
     dieuv "Bah pour l'instant on a été à une salle des fêtes à coté une fois... pour voir un autre truc. Mais hé. C'est normal qu'on galère, on dérange, on bouge les choses."
     show Dieuvomi PoseGauche Sourire
@@ -41,7 +41,12 @@ label club_comedie:
     dieuv "Et Foulk, lui se charge de transmettre le message."
     pov "Et du coup, par exemple, de quoi vous parlez ?"
     show Dieuvomi Standard Sourire
-    dieuv "Ahahahah t'es curieux, c'est marrant et je te comprends."
+    
+    if sex=="m":
+        dieuv "Ahahahah t'es curieux, c'est marrant et je te comprends."
+    else:
+        dieuv "Ahahahah t'es curieuse, c'est marrant et je te comprends."
+    
     dieuv "Je peux rien te dire, imagine un peu que les pouvoirs en place tombent sur ce brulôt d'humour, comment on serait pas dans la merde."
     show Dieuvomi Standard Sourire Rougit
     dieuv "Pour l'instant je peux dévoiler que le titre : « Foulk'on Rigole »"
@@ -54,13 +59,20 @@ label club_comedie:
     dieuv "Mais ouais, Foulk voulait faire le sien d'abord. J'y peux quoi ? Hein tu me cherches en fait ?"
     pov "Non... je.."
     show Dieuvomi Standard Sourire
-    dieuv "AHAHAHAHAH je déconne, tu vois, tu t'es laissé piéger par les piéges de mon humour."
-    dieuv "T'as gambergé un peu le délire ? Tu crois que je vais te casser la gueule à coups de chaines et en fait c'était pour déconner. La base de l'humour."
+    dieuv "AHAHAHAHAH je déconne, tu vois, tu t'es laissé piéger par les pièges de mon humour."
+    dieuv "T'as gambergé un peu le délire ? Tu crois que je vais te casser la gueule à coups de chaînes et en fait c'était pour déconner. La base de l'humour."
     pov "Ahahah..."
-    innerpov "C'est génant."
+    innerpov "C'est gênant."
     pov "Ben c'est vrai que c'est plutôt étonnant effectivement."
-    innerpov "Mon dieu qu'ils sont nuls je suis plus vraiment sur d'avoir envie de faire partie de ça."
-    dieuv "Bon alors, tu penses que tu pourrais nous rejoindre ? Tu m'as l'air un peu trop mignon pour ça."
+    if sex=="m":
+        innerpov "Mon dieu qu'ils sont nuls je suis plus vraiment sûr d'avoir envie de faire partie de ça."
+    else:
+        innerpov "Mon dieu qu'ils sont nuls je suis plus vraiment sûre d'avoir envie de faire partie de ça."
+    
+    if sex=="m":
+        dieuv "Bon alors, tu penses que tu pourrais nous rejoindre ? Tu m'as l'air un peu trop mignon pour ça."
+    else:
+        dieuv "Bon alors, tu penses que tu pourrais nous rejoindre ? Tu m'as l'air un peu trop mignonne pour ça."
     innerpov "Oh je vais rougir..."
     innerpov "On dirait bien que dieuvomi a des sentiments sous cette carapace de gros dur, peut-être que... "
     show Dieuvomi BrasCroises Badboy
@@ -82,14 +94,14 @@ label club_comedie:
     dieuv "Mais bon on fait avec ce qu'on a. Bon alors Foulk va t'interpréter un extrait de son spectacle."
     pov "Wah vraiment ? Tu crois que... "
     show Dieuvomi PoseGauche Colere
-    dieuv "Tais toi, tu dois dire à personne ce que t'as vu. Comment t'es venu au bahut ce matin ?"
+    dieuv "Tais-toi, tu dois dire à personne ce que t'as vu. Comment t'es venu au bahut ce matin ?"
     pov "Ben à vélo comme tous les... "
     show Dieuvomi PoseGauche Degoute
     dieuv "Très bien, disons que... si tu dis quoi que ce soit t'aimerais pas que... hein ?"
     pov "J'ai rien compris..."
     show Dieuvomi PoseGauche Badboy
     dieuv "Ben dis rien et ça se passera bien pour une certaine partie de l'anatomie mécanique de ton vélo. Tu piges ?"
-    innerpov "Il pense vraiment qu'à crever des trucs... Et... Il crève vraiment des pneus avec ses chaines ? C'est physiquement possible ? "
+    innerpov "Il pense vraiment qu'à crever des trucs... Et... Il crève vraiment des pneus avec ses chaînes ? C'est physiquement possible ? "
     show Dieuvomi PoseGauche Colere with hpunch
     dieuv "FOULK !"
     show Dieuvomi PoseGauche Badboy
@@ -106,7 +118,7 @@ label club_comedie:
     show Foulk BrasCroises Badboy at center with fade
 
     
-    foulk "Tout le monde : *se drague sur Tinder et en soirée, créée un jeu de séduction sensuel et mystérieux ou se mêle le non-dit et une promesse de luxure*"
+    foulk "Tout le monde : *se drague sur Tinder et en soirée, crée un jeu de séduction sensuel et mystérieux où se mêle le non-dit et une promesse de luxure*"
     foulk "Moi : des fois je prends des douches tout nu !"
     show Foulk PoseDroite Sourire Yeuxfermes
     pause 1.0
@@ -123,7 +135,7 @@ label club_comedie:
     pause 1.0
     
     show Foulk PoseSpeciale Sourire
-    foulk "Hé, je vous ai pas dis ? J'ai ajouté fafiot à mon vocabulaire comme tu ajoutes un poulet rôti à ta panse !"
+    foulk "Hé, je vous ai pas dit ? J'ai ajouté fafiot à mon vocabulaire comme tu ajoutes un poulet rôti à ta panse !"
     play sound badamtsss
     pause 1.0
     
@@ -175,13 +187,17 @@ label club_comedie:
     show Foulk Standard Sourire Rougit at left with fade
     foulk "Alors cong ? T'as bieng aimé ? Je sais je suis le poil à gratter dans la chaussure au vitriol."
     foulk " Mais voilà aussi cong, il faut bieng dénoncer."
-    innerpov "Ouah je suis pas sur d'avoir déjà vu un truc aussi nul de ma vie !"
+    if sex=="m":
+        innerpov "Ouah je suis pas sûr d'avoir déjà vu un truc aussi nul de ma vie !"
+    else:
+        innerpov "Ouah je suis pas sûre d'avoir déjà vu un truc aussi nul de ma vie !"
+    
     show Foulk Standard Sourire at left
     show Dieuvomi BrasCroises Sourire Rougit at right
 
     dieuv "Alors ? Je te demande pas ton avis en vrai, je sais que c'est drôle."
     show Foulk Standard Sourire Rougit
-    dieuv "Par contre je suis pas sur que t'aies tout compris, je t'ai pas vu rigoler."
+    dieuv "Par contre je suis pas sûr que t'aies tout compris, je t'ai pas vu rigoler."
     pov "Heu ben c'est spécial, c'est beaucoup d'informations...."
     show Dieuvomi PoseDroite Sourire
     dieuv "Je sais, c'est possible que tu mettes plusieurs jours à saisir les subtilités de notre génie comique."
@@ -196,16 +212,21 @@ label club_comedie:
     show Dieuvomi PoseDroite Sourire Yeuxfermes
     pov "J'en doute pas une seconde..."
     innerpov "Mon dieu ils sont bien mignons les deux là, mais je vais quand même tenter de me tirer discrètement..."
-    innerpov "Je peux pas faire partie de ce club c'est... Nul."
+    innerpov "Je peux pas faire partie de ce club c'est... nul."
     show Foulk PoseGauche Badboy
     show Dieuvomi Standard Sourire
-    dieuv "Eh ouais... En vérité, j'utilise l'humour pour tenter de faire comprendre aux gens que sous ces chaines se cache un coeur qui bat."
+    dieuv "Eh ouais... En vérité, j'utilise l'humour pour tenter de faire comprendre aux gens que sous ces chaînes se cache un coeur qui bat."
     show Foulk PoseGauche Gene
     foulk "NONG dieuvomi, ne te livre pas comme ça puté !"
     show Foulk PoseGauche Badboy
     innerpov "QUOI ? Mais qu'est-ce qu'il me fait là !?"
     show Dieuvomi Standard Sourire Rougit
-    dieuv "Tu vois, je peux te le dire à toi, t'as l'air inoffensif. Mais... Tu sais avé le Médoc... T'as peut-être vu qu'on était... En froid..."
+
+    if sex == "m":
+         dieuv "Tu vois, je peux te le dire à toi, t'as l'air inoffensif. Mais... Tu sais avé le Médoc... T'as peut-être vu qu'on était... En froid..."
+    else:
+         dieuv "Tu vois, je peux te le dire à toi, t'as l'air inoffensive. Mais... Tu sais avé le Médoc... T'as peut-être vu qu'on était... En froid..."
+   
     show Foulk PoseGauche Sourire Yeuxfermes
     foulk "Oulala et voilà, tu nous l'as rendu triste. Attends je RT."
     pov "Oh ben à peine tu sais c'est norm..."
@@ -253,16 +274,16 @@ label club_comedie:
     pov "Non ?"
     show Foulk PoseGauche Badboy
     show Dieuvomi BrasCroises Triste
-    dieuv "Comme j'te dis. Il a monté son spectacle. Il a eu le succès qu'on connait."
+    dieuv "Comme j'te dis. Il a monté son spectacle. Il a eu le succès qu'on connaît."
     show Dieuvomi PoseDroite Triste
-    dieuv "Tu en as surement entendu parler ? C'était « Moi, Médoc et Jeudicouverte »."
+    dieuv "Tu en as sûrement entendu parler ? C'était « Moi, Médoc et Jeudicouverte »."
     show Dieuvomi BrasCroises Triste
     dieuv "Tout le monde a adoré. Et, bien sur, il m'a pas crédité."
     show Dieuvomi BrasCroises Colere
     dieuv "Pire, il m'a accusé de lui avoir volé concept."
     pov "Mais... C'est horrible."
     show Dieuvomi PoseDroite Colere
-    pov "Et t'es sur qu'il n'y a pas eu de malentendu ? Enfin, Médoc a l'air d'être une chouette personne, non ?"
+    pov "Et t'es sûr qu'il n'y a pas eu de malentendu ? Enfin, Médoc a l'air d'être une chouette personne, non ?"
     show Dieuvomi PoseDroite Triste
     dieuv "Gaffe à ce que tu dis. C'est sensible. Arf, je peux pas m'empêcher de toujours bien l'aimer, mais ça... il ne le sait pas."
     show Foulk PoseGauche Colere
@@ -281,7 +302,7 @@ label club_comedie:
     dieuv "Enfin, depuis j'ai sombré dans la délinquance et je crève des peuneus."
     show Dieuvomi PoseSpeciale Sourire
     dieuv "Comme un acte de désespoir. Pour dire « je t'aime », BONNEUH MEREUH."
-    pov "J'espère que ça s'arrangera"  
+    pov "J'espère que ça s'arrangera."  
     show Dieuvomi BrasCroises Triste
     innerpov  "Mince qui aurait cru que ce délinquant juvénile cachait des sentiments ?"
     show Dieuvomi PoseDroite Badboy
@@ -312,12 +333,12 @@ label club_comedie:
     foulk "Ouh oui, lui il est bieng. Il est siiiii bieng. On devrait être comme lui. TOUT LE MONDE. T'y es pas comme Bo Burnam toi, le nouveau là."
     show Foulk PoseSpeciale Sourire Yeuxfermes
     show Dieuvomi BrasCroises Badboy
-    innerpov "Ok, donc c'est un psychopathe... je vais couper court"
+    innerpov "Ok, donc c'est un psychopathe... je vais couper court."
     pov "Ahahah si, mais t'as raison."
     show Foulk PoseGauche Sourire Yeuxfermes
     show Dieuvomi PoseDroite Badboy
     pov "Je pense qu'il me reste beaucoup à apprendre sur l'humour."
-    pov "Je vais pour l'instant garder ma place dans le public et je vous rejoindrai quand j'aurais saisi toutes les subtilités, d'accord ?"
+    pov "Je vais pour l'instant garder ma place dans le public et je vous rejoindrai quand j'aurai saisi toutes les subtilités, d'accord ?"
     show Dieuvomi PoseDroite Triste
     dieuv "C'est le mieux pour l'instant."
     show Dieuvomi BrasCroises Colere at normalzoom
@@ -339,7 +360,7 @@ label club_comedie:
 
         
     
-    foulk "Foulk-ATTENDS T'AS PAS VU LE SKETCHE DU SNL !!"
+    foulk "ATTENDS T'AS PAS VU LE SKETCHE DU SNL !!"
     window hide
     pause 0.5
     show SNL zorder 1000 at snl_pos

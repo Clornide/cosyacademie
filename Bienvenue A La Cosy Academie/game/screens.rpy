@@ -150,7 +150,7 @@ screen say_von(who, what):
 
     window:
         id "window"
-
+        background "gui/textbox_cosy.png"
 
         if who is not None:
             window:

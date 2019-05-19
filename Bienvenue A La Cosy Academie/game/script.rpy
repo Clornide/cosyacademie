@@ -225,34 +225,34 @@ label start:
 
     noName "{nw}"
     #window hide
+
+    #Points routes
+    $ pointsmedoc=0
+    $ pointsmoguri=0
+    $ pointsincel=0
+
+    $ mathilde_medoc = False
+
+    $ name_dieuvomi = "???"
+    $ name_medoc = "Medoc"
+    $ name_moguri = "Moguri"
+    $ name_metalice = "Metalice"
+    $ name_mickey = "Mickey"
+    $ name_esprism = "Esprism"
+    $ name_von = "Von Yaourt"
+    $ name_chuen = "???"
+    $ name_mathilde = "???"
+    $ name_caro = "Caro"
+    $ name_din = "din"
+    $ name_foulk = "Foulk"
+    $ name_lock = "Lock"
+    $ name_zep = "???"
+    $ name_clornide = "Clornide"
+    $ name_cheers = "Panthusiasts"
+
     
     show screen affection
     python:
-
-        name_dieuvomi = "???"
-        name_medoc = "Medoc"
-        name_moguri = "Moguri"
-        name_metalice = "Metalice"
-        name_mickey = "Mickey"
-        name_esprism = "Esprism"
-        name_von = "Von Yaourt"
-        name_chuen = "???"
-        name_mathilde = "???"
-        name_caro = "Caro"
-        name_din = "din"
-        name_foulk = "Foulk"
-        name_lock = "Lock"
-        name_zep = "???"
-        name_clornide = "Clornide"
-        name_cheers = "Panthusiasts"
-
-        #Points routes
-        pointsmedoc=0
-        pointsmoguri=0
-        pointsincel=0
-
-        mathilde_medoc = False
-
         if sex=="m":
             povname = renpy.input("Veuillez renseigner votre prénom ? Par défaut vous serez appelé Hector.", length = 40)
             povname = povname.strip()
