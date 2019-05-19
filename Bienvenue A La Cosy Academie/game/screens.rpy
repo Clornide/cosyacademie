@@ -82,6 +82,11 @@ style frame:
 ################################################################################
 
 
+screen affection:
+    text ("Medoc : %d\nMoguri : %d\nIncel %d\n" % (pointsmedoc, pointsmoguri, pointsincel)):
+        xpos 0
+        ypos 0
+
 ## Écran des dialogues #########################################################
 ##
 ## L’écran des dialogues est utilisé pour afficher les dialogues du joueur. Il

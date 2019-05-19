@@ -227,7 +227,7 @@ label start:
     noName "{nw}"
     #window hide
     
-
+    show screen affection
     python:
 
         name_dieuvomi = "???"
@@ -275,6 +275,7 @@ label start:
                 povname="Cassandre"
 
     window auto
+    
 
     jump intro
 
