@@ -104,7 +104,7 @@ label club_rando:
     von "C’est moi dieuv ! On est en pleine randonnée là !"
     von "Déjà que foulk nous ralentit en ramassant la moitié des fleurs sauvages sur le bas-côté, faut que tu crées des éboulements par-dessus le marché !"
     show Dieuvomi PoseGauche Sourire Yeuxfermes Rougit
-    dieuv "Désolé, je ne savais pas que vous passeriez par ici, si j’avais su je serais venu dès le début avec vous, c’est le dernier club qui me permet de récolter mes psilocybes."
+    dieuv "Désolé, je ne savais pas que vous passeriez par ici. Si j’avais su, je serais venu dès le début avec vous. C’est le dernier club qui me permet de récolter mes psilocybes."
     show Von PoseSpeciale Colere Rougit
     von "Je vous ai déjà dit d’arrêter de collecter des plantes pendant les randos !"
     show Foulk PoseSpeciale Sourire Yeuxfermes
