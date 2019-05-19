@@ -148,7 +148,7 @@ label Premiercours:
     show Mickey Standard Sourire
     with longfade
 
-    mic "Allez, ce sera tout pour aujourd'hui, vous pouvez y aller !"
+    mic "Allez, ce sera tout pour aujourd'hui, vous pouvez sortir !"
     show Mickey Standard Degoute
     mic "Sauf vous, Medoc et Dieuvomi, évidemment..."
 
@@ -177,7 +177,7 @@ label Premiercours:
     met "Dieuvomi a crevé tous les pneus de tous les BMX du gang en l'espace d'une heure, en pleine nuit..."
     pov "Ouaaaaah..."
     show Metalice Standard Sourire
-    met "N'est-ce pas ? Du coup, sans pneus, le gang s'est dissout de lui même. C'est aussi pour ça qu'il est aussi respecté !"
+    met "N'est-ce pas ? Du coup, sans pneus, le gang s'est dissout de lui même. C'est aussi pour ça qu'il est tant respecté !"
     met "Et autre point de détail de cette anecdote, le leader de ce gang était un cousin de Medoc..."
     pov "Aaaaaah ! C'est donc de là que vient cette animosité entre eux ?"
     show Metalice PoseSpeciale Sourire Yeuxfermes
@@ -216,7 +216,7 @@ label Premiercours:
             pov "Oh, ça suffit hein !!"
             show Metalice Standard Sourire
 
-            met "Allez, je te laisse aller lui parler alors. On se revoit demain ?"
+            met "Bien ! Je te laisse aller lui parler alors. On se revoit demain ?"
             pov "Bien sûr ! A demain Metalice !"
 
             jump Ichoosemoguri

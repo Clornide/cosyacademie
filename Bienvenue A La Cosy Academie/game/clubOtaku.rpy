@@ -54,9 +54,9 @@ label club_otaku:
     innerpov "C'est louche..."
     pov "Et en quoi consistent vos activités ?"
     show Caro BrasCroises Cligne
-    caro "Eh bien par exemple on discute de nos derniers coups de cœur, on se prête nos manga."
+    caro "Eh bien par exemple on discute de nos derniers coups de cœur, on se prête nos mangas."
     show din Standard Sourire
-    din "C'est carrément le club du partage, on se refile même nos identifiants de sites de VOD pour regarder des anime."
+    din "C'est carrément le club du partage, on se refile même nos identifiants de sites de VOD pour regarder des animes."
     show Caro BrasCroises Sourire Yeuxfermes Rougit
     caro "Et des dramas bien sûr."
     innerpov "OK, jusqu'ici ça a l'air normal."
@@ -74,7 +74,7 @@ label club_otaku:
     pov "Vous avez l'air motivées !"
     innerpov "... Et d'avoir vraiment beaucoup de temps à disposition..."
     show din PoseSpeciale Sourire Yeuxfermes Rougit
-    din "Et on laisse libre cours à notre passion en en écrivant et dessinant nous-même, aussi."
+    din "Et on laisse libre cours à notre passion en écrivant et dessinant nous-même nos fanfics !"
     show Caro PoseSpeciale Gene
     $ word_effect("personnages")
     caro "Faut dire qu'on aime tellement de séries ! Tellement de {image=we1} !"
