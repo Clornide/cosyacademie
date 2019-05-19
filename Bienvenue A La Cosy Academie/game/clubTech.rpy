@@ -133,8 +133,8 @@ label .Clubtechmetalice:
 
     show Metalice BrasCroises Sourire
     met "D'ailleurs, tu ne l'aurais pas vu par hasard ? Je le cherche... Il doit encore trainer au Respawn Point, le café où se retrouvent les joueurs de sa trempe."
-"
-        pov "Je ne l'ai pas vu, désolé."
+
+    pov "Je ne l'ai pas vu, désolé."
     met "Mais, qu'est-ce que tu fais dans ces couloirs au fait ?"
     pov "Je cherche le club #tech. J'ai croisé Ze PilOt qui m'a indiqué que des photocopieuses sont là bas."
     met "Oui, tu devrais trouver facilement !"
@@ -245,7 +245,7 @@ label .Clubtechdin:
         din    "Si tu n'es pas pressé, passe au club Otaku, on en a une !"
 
     show din PoseSpeciale Triste
-     if sex=="f":
+    if sex=="f":
         din    "Je t'aurais bien accompagnée, mais ça va être l'heure de l'entraînement des cheerleaders, et j'en profite pour travailler des poses anatomiques réalistes."
     else:
         din    "Je t'aurais bien accompagné, mais ça va être l'heure de l'entraînement des cheerleaders, et j'en profite pour travailler des poses anatomiques réalistes."

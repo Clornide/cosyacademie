@@ -99,9 +99,9 @@ label cosy_culture_club:
             show Medoc BrasCroises Colere
             mog "Hé ! Poucaves obtiennent marrave !" with hpunch
             if sex=="m":
-        med "C'est tellement sale ce que tu fais gars !" with vpunch
-    else:
-        med "C'est tellement sale ce que tu fais meuf !" with vpunch
+                med "C'est tellement sale ce que tu fais gars !" with vpunch
+            else:
+                med "C'est tellement sale ce que tu fais meuf !" with vpunch
             
             python:
                 pointsincel+=1
@@ -196,7 +196,7 @@ label cosy_culture_club:
     
     pov "Je vais vous aider ! C'est le plus beau jour de ma vie !"
   
-  if sex=="m":
+    if sex=="m":
         med "Hé hé calme-toi gars, c'est la cosy académie ici, c'est normal !"
     else:
         med "Hé hé calme-toi meuf, c'est la cosy académie ici, c'est normal !"
