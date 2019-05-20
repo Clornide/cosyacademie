@@ -115,6 +115,7 @@ label club_tech:
 label .Clubtechmetalice:
     innerpov "Mais où se trouve ce club #tech ? C'est un vrai dédale cette Académie..."
     innerpov "Là ! un panneau !"
+    play sound metaltchoum
     met "WAAAAAARRRGGGGTCCHHHAAAAAA !" with vpunch
     pov "Kya !"
 

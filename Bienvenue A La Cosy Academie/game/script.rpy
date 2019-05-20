@@ -206,7 +206,7 @@ define audio.auraDBZStart = "sounds/aura_dbz_start.mp3"
 define audio.auraDBZ = "sounds/aura_dbz.mp3"
 define audio.auraSeiya = "sounds/aura_seiya.mp3"
 define audio.ATATATATA = "sounds/ATATATATA.mp3"
-
+define audio.metaltchoum = "sounds/metaltchoum.mp3"
 # Le jeu commence ici
 label start:
 
