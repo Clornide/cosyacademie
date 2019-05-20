@@ -1,13 +1,13 @@
 label cours_physique:
     
     scene school hallway with fade
-
+    play music extrapolation
     window auto
     innerpov "Bon c'est pas tout ça mais je vais être en retard pour le cours de physique..."
 
     scene classroom with fade
 
-    play music wonderful
+    
 
     show Dieuvomi BrasCroises Badboy at left
     dieuv "Ouah le prof est pas là !"

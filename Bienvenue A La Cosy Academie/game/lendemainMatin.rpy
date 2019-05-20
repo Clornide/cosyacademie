@@ -1,4 +1,5 @@
 label lendemainMatin:
+    play music skyward
     scene black with longfade
 
     

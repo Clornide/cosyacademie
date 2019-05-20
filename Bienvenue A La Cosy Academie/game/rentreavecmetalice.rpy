@@ -1,4 +1,5 @@
 label Rentreavecmetalice:
+    play music tomorrow
     scene street day with longfade
     show Metalice Standard Sourire Yeuxfermes
     if sex=="m":

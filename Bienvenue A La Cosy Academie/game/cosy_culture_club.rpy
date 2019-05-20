@@ -1,5 +1,5 @@
 label cosy_culture_club:
-    play music wonderful
+    play music sundaysmooth
 
     scene black
     image name_ccc = Text("{size=80}Chapitre 9 :\nLe Cosy Culture Club", text_align=0.5)

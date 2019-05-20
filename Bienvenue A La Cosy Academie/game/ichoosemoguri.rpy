@@ -1,4 +1,5 @@
 label Ichoosemoguri:
+    play music tomorrow
     scene school hallway with longfade
 
     innerpov "Ca commence à faire un petit bout de temps que je l'attends, il ne devrait plus tarder..."

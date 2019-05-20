@@ -197,6 +197,11 @@ define audio.gym = "music/sb_red_altmix.mp3"
 define audio.epic = "music/sb_pursuit.mp3"
 define audio.rainbow = "music/sb_rainbows.mp3"
 define audio.kawaii = "music/Cute_Upbeat_Kawaii.mp3"
+define audio.quirkylane = "music/sb_iha_quirkylane.mp3"
+define audio.sundaysmooth  "music/sb_sundaysmooth.mp3"
+define audio.ashes = "music/sb_ashesofafallenyear_remaster.mp3"
+define audio.skyward = "music/sb_skyward.mp3"
+define audio.extrapolation = "music/sb_extrapolation.mp3"
 
 #FX
 define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"

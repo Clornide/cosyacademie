@@ -1,4 +1,5 @@
 label Premiercours:
+    play music skyward
     scene classroom with fade
 
     inc "Allez allez, un peu de silence !"

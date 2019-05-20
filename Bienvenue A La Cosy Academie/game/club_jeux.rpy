@@ -1,5 +1,5 @@
 ﻿label club_jeux_societe:
-    play music wonderful
+    play music ashes
 
     scene black
     image name_club_jeux = Text("{size=80}Chapitre 6 :\nLe club de Jeux", text_align=0.5)

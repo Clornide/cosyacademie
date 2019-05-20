@@ -50,7 +50,7 @@ screen skip_von_huge():
 
 label club_rando:
 
-    play music wonderful    
+    play music quirkylane    
 
     scene black
     image name_club_rando = Text("{size=80}Chapitre 7 :\nLe club de Rando", text_align=0.5)
