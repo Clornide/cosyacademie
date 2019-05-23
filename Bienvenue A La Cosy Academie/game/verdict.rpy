@@ -6,7 +6,7 @@ image ending medoc = ConditionSwitch("sex == \"m\"", "ending/Photo-de-fin_Medoc-
 
 label verdict:
     play music wonderful
-
+    
     scene black
     image name_ccc = Text("{size=80}Chapitre Final :\nLe Verdict", text_align=0.5)
     window hide
@@ -98,12 +98,12 @@ label verdict:
 
         innerpov "Et voilà qu'il a l'air plus excité que moi !"
 
-        show Medoc PoseGauche Sourit Rougit
+        show Medoc PoseGauche Sourire Rougit
 
         innerpov "Allez, je me lance !"
         pov "Medoc !"
 
-        show Medoc BrasCroises Sourit Rougit
+        show Medoc BrasCroises Sourire Rougit
 
         med "[povname] ! J'aimerais commencer si ça te dérange pas..."
         pov "Euh non bien sûr vas-y."
@@ -113,7 +113,7 @@ label verdict:
 
         pov "Ma petite entreprise ?"
 
-        show Medoc Standard Sourit Yeuxfermes Rougit
+        show Medoc Standard Sourire Yeuxfermes Rougit
 
         med "Ahaha, si tu crois que je ne t'ai pas vu tourner autour de Moguri !"
         med "J'vais tout faire pour t'aider à concrétiser ton p'tit crush, t'inquiète pas !"
