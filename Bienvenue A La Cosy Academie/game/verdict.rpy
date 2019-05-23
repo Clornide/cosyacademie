@@ -57,7 +57,7 @@ label verdict:
         innerpov "Ahaha... Je suis passé de 'gamin' à 'mon grand', ça fait plaisir..."
     else:
         mog "Il va falloir commencer à réaliser ma grande !"
-        innerpov "Ahaha... Je suis passé de 'gamin' à 'mon grand', ça fait plaisir..."
+        innerpov "Ahaha... Je suis passée de 'p'tite tête' à 'ma grande', ça fait plaisir..."
     med "Bon, alors on se dit à dans deux semaines ?"
     mog "A dans deux semaines !"
 
