@@ -276,13 +276,14 @@ label verdict:
 
         window hide
 
-        #ET LA, LA PHOTO MIGNONNE AVEC MEDOC
+        pause 0.5
+        show ending medoc with longfade
+        pause 10
 
 
     elif pointsmoguri > pointsmedoc and pointsmoguri > pointsincel:
-            innerpov "Non... Pas maintenant... Pas après tout ça...."
+        innerpov "Non... Pas maintenant... Pas après tout ça...."
         pov "MOGURI ! ATTENDS !"   
-
         show Moguri PoseDroite Sourire with dissolve
 
         mog "[povname] ? Tout va bien ?"
@@ -427,7 +428,9 @@ label verdict:
     
         window hide
 
-        #ET LA, LA PHOTO MIGNONNE AVEC MOGURI
+        pause 0.5
+        show ending moguri with longfade
+        pause 10
     
     
     
@@ -447,9 +450,9 @@ label verdict:
             pov "Après c'est peut être un peu pitoyable de boire tout seul..."
             pov "Déjà que je parle tout seul depuis 2-3 minutes..."
         else:
-        pov "Après c'est peut être un peu pitoyable de boire toute seule..."
-        pov "Déjà que je parle toute seule depuis 2-3 minutes..."
-        
+            pov "Après c'est peut être un peu pitoyable de boire toute seule..."
+            pov "Déjà que je parle toute seule depuis 2-3 minutes..."
+            
         pov "Après, j'ai rencontré pas mal de gens depuis que je suis arrivé !"
         pov "J'ai qu'à les inviter à boire un coup ici !"
         pov "Un p'tit Dieuvomi, un Foulk, peut être un VonYaourt..."
@@ -568,7 +571,7 @@ label verdict:
         window hide
 
         pause 0.5
-        show ending alone
+        show ending alone with longfade
         pause 10
 
 
