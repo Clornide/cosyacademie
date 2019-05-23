@@ -12,32 +12,34 @@ image side player = ConditionSwitch("sex==\"m\"", "boy.png", "True", "girl.png")
 image brise = "vent.png"
 
 #fonds
-image reverie = "reverie.jpg"
-image school entrance = "background/schoolEntrance.png"
-image school hallway = "background/hallway.png"
-image school hallway night = "background/hallway_night.png"
+
+image school entrance = ConditionSwitch("persistent.ultra_quality", "background/schoolEntrance.png", "True", "background/schoolEntrance_low.png")
+image school hallway = ConditionSwitch("persistent.ultra_quality", "background/hallway.png", "True", "background/hallway_low.png")
+image school hallway night = ConditionSwitch("persistent.ultra_quality", "background/hallway_night.png", "True", "background/hallway_night_low.png")
 
 
-image school hallway choice = "background/hallway_choice.png"
-image school hallway choice alt1 = "background/hallway_choice_alt_1.png"
-image school hallway choice alt2 = "background/hallway_choice_alt_2.png"
-image school hallway choice alt3 = "background/hallway_choice_alt_3.png"
-image school hallway choice alt4 = "background/hallway_choice_alt_4.png"
-image school hallway choice alt5 = im.Flip("background/hallway_choice.png", horizontal=True)
-image school hallway choice alt6 = im.Flip("background/hallway_choice_alt_1.png", horizontal=True)
-image school hallway choice alt7 = im.Flip("background/hallway_choice_alt_2.png", horizontal=True)
-image school hallway choice alt8 = im.Flip("background/hallway_choice_alt_3.png", horizontal=True)
-image school hallway choice alt9 = im.Flip("background/hallway_choice_alt_4.png", horizontal=True)
-image school hallway choice creepy = "background/couloir_creepy.png"
+image school hallway choice = ConditionSwitch("persistent.ultra_quality", "background/hallway_choice.png", "True", "background/hallway_choice_low.png")
+image school hallway choice alt1 = ConditionSwitch("persistent.ultra_quality", "background/hallway_choice_alt_1.png", "True", "background/hallway_choice_low.png")
+image school hallway choice alt2 = ConditionSwitch("persistent.ultra_quality", "background/hallway_choice_alt_2.png", "True", "background/hallway_choice_low.png")
+image school hallway choice alt3 = ConditionSwitch("persistent.ultra_quality", "background/hallway_choice_alt_3.png", "True", "background/hallway_choice_low.png")
+image school hallway choice alt4 = ConditionSwitch("persistent.ultra_quality", "background/hallway_choice_alt_4.png", "True", "background/hallway_choice_low.png")
+image school hallway choice alt5 = ConditionSwitch("persistent.ultra_quality", im.Flip("background/hallway_choice.png", horizontal=True), "True", im.Flip("background/hallway_choice_low.png", horizontal=True))
+image school hallway choice alt6 = ConditionSwitch("persistent.ultra_quality", im.Flip("background/hallway_choice_alt_1.png", horizontal=True), "True", im.Flip("background/hallway_choice_low.png", horizontal=True))
+image school hallway choice alt7 = ConditionSwitch("persistent.ultra_quality", im.Flip("background/hallway_choice_alt_2.png", horizontal=True), "True", im.Flip("background/hallway_choice_low.png", horizontal=True))
+image school hallway choice alt8 = ConditionSwitch("persistent.ultra_quality", im.Flip("background/hallway_choice_alt_3.png", horizontal=True), "True", im.Flip("background/hallway_choice_low.png", horizontal=True))
+image school hallway choice alt9 = ConditionSwitch("persistent.ultra_quality", im.Flip("background/hallway_choice_alt_4.png", horizontal=True), "True", im.Flip("background/hallway_choice_low.png", horizontal=True))
+image school hallway choice creepy = ConditionSwitch("persistent.ultra_quality", "background/couloir_creepy.png", "True", "background/hallway_choice_low.png")
 
-image theater = "background/theater.png"
-image bar = "background/cosyBar.png"
-image gym = "background/gym.png"
-image tracks = "background/tracks.png"
-image street day = "background/streetDay.png"
-image rando = "background/rando.png"
-image classroom = "background/classroom.png"
-image classroom night = "background/classroom_night.png"
+image theater = ConditionSwitch("persistent.ultra_quality", "background/theater.png", "True", "background/theater_low.png")
+image bar = ConditionSwitch("persistent.ultra_quality", "background/cosyBar.png", "True",  "background/cosyBar_low.png")
+image gym = ConditionSwitch("persistent.ultra_quality", "background/gym.png", "True", "background/gym_low.png")
+image tracks = ConditionSwitch("persistent.ultra_quality", "background/tracks.png", "True", "background/tracks_low.png")
+image street day = ConditionSwitch("persistent.ultra_quality", "background/streetDay.png", "True", "background/streetDay_low.png")
+image rando = ConditionSwitch("persistent.ultra_quality", "background/rando.png", "True", "background/rando_low.png")
+image classroom = ConditionSwitch("persistent.ultra_quality", "background/classroom.png", "True", "background/classroom_low.png")
+image classroom sunset = ConditionSwitch("persistent.ultra_quality", "background/classroom_night_2.png", "True", "background/classroom_night_2_low.png")
+
+image classroom night = ConditionSwitch("persistent.ultra_quality", "background/classroom_night.png", "True", "background/classroom_night_low.png")
 
 
 # Déclarez les personnages utilisés dans le jeu.
@@ -198,7 +200,7 @@ define audio.epic = "music/sb_pursuit.mp3"
 define audio.rainbow = "music/sb_rainbows.mp3"
 define audio.kawaii = "music/Cute_Upbeat_Kawaii.mp3"
 define audio.quirkylane = "music/sb_iha_quirkylane.mp3"
-define audio.sundaysmooth  "music/sb_sundaysmooth.mp3"
+define audio.sundaysmooth = "music/sb_sundaysmooth.mp3"
 define audio.ashes = "music/sb_ashesofafallenyear_remaster.mp3"
 define audio.skyward = "music/sb_skyward.mp3"
 define audio.extrapolation = "music/sb_extrapolation.mp3"
