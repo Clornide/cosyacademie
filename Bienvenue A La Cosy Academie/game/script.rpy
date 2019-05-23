@@ -15,7 +15,7 @@ image brise = "vent.png"
 
 image school entrance = ConditionSwitch("persistent.ultra_quality", "background/schoolEntrance.png", "True", "background/schoolEntrance_low.png")
 image school hallway = ConditionSwitch("persistent.ultra_quality", "background/hallway.png", "True", "background/hallway_low.png")
-image school hallway night = ConditionSwitch("persistent.ultra_quality", "background/hallway_night.png", "True", "background/hallway_night_low.png")
+image school hallway night = ConditionSwitch("persistent.ultra_quality", "background/hallway_night.png", "True", "background/hallway_low.png")
 
 
 image school hallway choice = ConditionSwitch("persistent.ultra_quality", "background/hallway_choice.png", "True", "background/hallway_choice_low.png")
