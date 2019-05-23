@@ -216,5 +216,5 @@ label cosy_culture_club:
     pause 3
 
     scene black with longfade
-    jump credits
+    jump verdict
     return

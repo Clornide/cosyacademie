@@ -1,15 +1,21 @@
+
+image ending alone = ConditionSwitch("sex == \"m\"", "ending/Photo-de-fin_Medoc-et-Moguri-etudiant.png", "True", "ending/Photo-de-fin_Medoc-et-Moguri-etudiante.png")
+image ending moguri = ConditionSwitch("sex == \"m\"", "ending/Photo-de-fin_Moguri-etudiant.png", "True", "ending/Photo-de-fin_Moguri-etudiante.png")
+image ending medoc = ConditionSwitch("sex == \"m\"", "ending/Photo-de-fin_Medoc-etudiant.png", "True", "ending/Photo-de-fin_Medoc-etudiante.png")
+
+
 label verdict:
     play music wonderful
 
     scene black
-    image name_verdict = Text("{size=80}Chapitre Final :\nLe Verdict", text_align=0.5)
+    image name_ccc = Text("{size=80}Chapitre Final :\nLe Verdict", text_align=0.5)
     window hide
-    show name_verdict:
+    show name_ccc:
         yanchor 0.5 ypos 0.5
         xanchor 0.5 xpos 0.5
     with dissolve
     with Pause(2)
-    hide name_verdict
+    hide name_ccc
     window auto
 
 
@@ -22,6 +28,10 @@ label verdict:
     mog "Ouais ?"
     med "Bah allez, on a qu'à dire Cosy !"    
     mog "Et bah on part sur ça alors !"
+
+    med "..."
+    mog "..."
+
     mog "Et... Hop ! C'est coupé !"
     
     pov "C'était.... PHENOMENAL !"
@@ -59,12 +69,368 @@ label verdict:
         
         innerpov "Non... Pas maintenant... Pas après tout ça...."
         pov "MEDOC ! ATTENDS !"
+        
+        show Medoc PoseDroite Sourire with dissolve
+
+        med "Et bah [povname], faut se rentrer hein !"
+
+        show Medoc PoseGauche Sourire 
+
+        med "Nan parce que tu sais, il se fait tard et puis bon..."
+
+        show Medoc PoseDroite Sourire Yeuxfermes
+
+        med "Moi après je veux bien te raccompagner, pour pas que tu tombes sur un type chelou..."
+
+        show Medoc PoseGauche Sourire Yeuxfermes
+
+        med "Enfin, j'veux dire si tu veux parce que je veux pas te forcer à quoi que ce soit..."
+
+        show Medoc PoseDroite Sourire Rougit
+
+        innerpov "Attends qu'est-ce qu'il se passe là ?"
+        
+        show Medoc PoseGauche Sourire Rougit
+
+        innerpov "Je voulais avouer mes sentiments à Medoc..."
+
+        show Medoc PoseDroite Sourire Rougit
+
+        innerpov "Et voilà qu'il a l'air plus excité que moi !"
+
+        show Medoc PoseGauche Sourit Rougit
+
+        innerpov "Allez, je me lance !"
+        pov "Medoc !"
+
+        show Medoc BrasCroises Sourit Rougit
+
+        med "[povname] ! J'aimerais commencer si ça te dérange pas..."
+        pov "Euh non bien sûr vas-y."
+        med "Ça me fait vraiment plaisir que tu sois venu t'inscrire au Cosy Culture Club."
+        med "Vraiment, ça me touche beaucoup ! Surtout avec le rough start qu'on a eu tous les deux."
+        med "Et sache que je suis prêt à t'aider dans ta petite entrerprise !"
+
+        pov "Ma petite entreprise ?"
+
+        show Medoc Standard Sourit Yeuxfermes Rougit
+
+        med "Ahaha, si tu crois que je ne t'ai pas vu tourner autour de Moguri !"
+        med "J'vais tout faire pour t'aider à concrétiser ton p'tit crush, t'inquiète pas !"
+
+        pov "Quoi ? Mais non !"
+        med "Roh, hey, arrête ! Pas à moi ! Pour quelle autre raison tu seras rentré au Cosy Culture Club ?"
+        pov "Bah pour toi !"
+        innerpov "Wow... C'était carrément plus facile à dire que je ne le pensais..."
+        med "Hein ?"
+        pov "Quoi ?"
+        med "Ahahaha j'ai mal entendu !"
+        med "Donc je disais..."
+        pov "Non tu as bien entendu ! Je suis là pour toi Medoc !"
+        med "Ah !"
+
+        show Medoc BrasCroises Gene
+
+        med "Aaaaaaaah..."
+        pov "Ça ne va pas ?"
+
+        med "Je... Je dois y aller..."
+
+        hide Medoc with dissolve
+
+        pov "Medoc attends !!"
+        pov "Non..."
+        pov "J'aurais dû patienté un peu plus... Prendre plus le temps de le connaître..."
+        pov "Mais j'ai juste tout gâché... Comme d'habitude..."
+
+        show Medoc BrasCroises Sourire Rougit with dissolve
+
+        med "Mais non, tu n'as rien gâché, ne t'inquiète pas..."
+        med "J'ai juste été un peu surpris, c'est tout."
+        med "Tu sais, c'est la première fois qu'on me fait une déclaration."
+        
+        show Medoc BrasCroises Sourire Yeuxfermes Rougit
+
+        med "Les gens me croient froid, distant, inaccessible..."
+        
+        show Medoc PoseGauche Sourire Rougit
+
+        med "Alors qu'en réalité, c'est juste un masque que je me suis créé, pour palier mon manque d'assurance..."
+        med "C'est pour ça que quand je t'ai vu arrivé, je t'ai un peu brusqué. Je ne voulais pas que tu aies à subir les mêmes choses que j'ai vécu."
+
+        show Medoc PoseGauche Sourire Yeuxfermes Rougit
+        med "Et tu as tellement évolué !"
+        med "En à peine quelques jours, tu as rencontré les élèves les plus enfluants de l'Académie, et t'en es fait des amis !"
+        med "Et surtout, tu m'as bien percé à jour ahaha..."
+
+        med "Allez, sèche moi ces larmes et viens près de moi..."
+
+        pov "Merci... Pour tout..."
+
+        show Medoc PoseGauche Sourire Rougit
+        med "Merci à toi enfin §"
+
+        innerpov "Dis donc, il est plus musclé qui n'en a l'air sous son uniforme. D'ailleurs il gratte un peu à vrai dire..."
+        med "Il gratte cet uniforme n'est-ce pas ?"
+        pov "Ah... Euh oui, un peu !"
+
+        med "J'ai peut-être une solution pour toi !"
+
+        pov "Oui on m'a conseillé une marque d'adoucissant et..."
+
+        show Medoc PoseGauche Sourire Yeuxfermes Rougit
+
+        med "Plus radical !"
+
+        hide Medoc with dissolve
+        show Medoc PoseSpeciale Gene
+
+        med "C'est un peu génant finalement..."
+        med "C'était beaucoup plus smooth dans ma tête..."
+        pov "Ahahah, ce n'est pas grave, je vois autre chose de smooth, et ça me parait bien plus intéressant !"
+        show Medoc PoseSpeciale Sourire Yeuxfermes Rougit
+        med "Et bah alors ! En voilà une prise d'assurance bien rapide ahaha ! Allez viens là !"
+        pov "Ouiiii !"
+
+        with longfade
+
+        show Medoc PoseSpeciale Sourire Rougit
+
+        med "Cette fois, il commence à se faire vraiiiment tard... On devrait pas tarder à rentrer."
+        pov "Ou alors, on pourrait passer la nuit ici !"
+
+        show Medoc PoseSpeciale Sourire Yeuxfermes Rougit
+
+        med "Ahahah ! Mais que diraient nos parents ? Faudrait pas les inquiéter non plus !"
+        pov "Mmmmmm... Mais je voulais rester encore un peu..."
+
+        show Medoc PoseSpeciale Sourire
+
+        med "Ne t'inquiète pas, il nous reste du temps à passer ensemble, tu peux compter là dessus."
+        pov "C'est une promesse ?"
+        med "Un engagement, on ne peut plus solennel !"
+        pov "Déjà ? Tu ne vas pas un peu vite en besogne ?"
+
+        show Medoc PoseSpeciale Gene
+
+        med "Quoi ? N-nan, c'est pas ce que je voulais dire..."
+        pov "Ahahah ! Mais je plaisante enfin !"
+
+        show Medoc PoseSpeciale Sourire Rougit
+
+        med "Aaaaah... Je le savais ahahah..."
+        med "Bon... Rentrons..."
+        pov "Comme ça ?"
+        med "AH OUI ! Passe-moi ma chemise s'il-te-plait..."
+        pov "Tu ne veux pas garder la mienne plus tôt ?"
+
+        show Medoc PoseSpeciale Gene
+        med "Arrête !"
+        pov "Ahahah ! Tu es si mignon quand tu es géné... Tiens prends !"
+
+        med "Merci..."
+        hide Medoc with dissolve
+        show Medoc PoseDroite Sourire Rougit
+
+        med "Allez, je te raccompagne ?"
+        pov "Avec plaisir !"
+
+        scene school hallway choice with longfade
+
+        show Medoc PoseDroite Sourire Yeuxfermes
+
+        med "Et donc là, le mec me regarde et me dis 'Ah tiens ! V'là les mecs de la SDR !'"
+        med "Mais moi j'sais pas c'est quoi la SDR ! Mais j'vais pas lui dire tu vois !"
+
+        innerpov "Il a l'air tellement plus heureux quand il s'ouvre aux gens..."
+        innerpov "J'ai bien fait de lui avouer mes sentiments ce soir !"
+        innerpov "J'espère que l'on pourra se tirer l'un l'autre vers le haut !"
+        innerpov "On a tous les deux les même problème de self-esteem finalement..."
+        innerpov "Ahah ! Il commence déjà à déteindre sur moi avec ses anglicismes ! C'est bon signe !"
+
+        med "Et là, le mec me dis, 'Alors, comment il va Karim ?'. Et là je me dis, nan, attends y a un trap c'est..."
+
+        show Medoc PoseGauche Degoute
+
+        med "Dis... J'ai l'impression que tu m'écoutes plus du tout là."
+
+
+        if sex=="m":
+            pov "Désolé, j'étais distrait, tu es si beau quand tu es heureux !"
+        else:
+            pov "Désolée, j'étais distraite, tu es si beau quand tu es heureux !" 
+
+        show Medoc PoseGauche Gene
+
+        med "Q-quoi ?"
+
+        pov "Ahahah ! Ça devient presque trop facile !"
+
+        show Medoc PoseDroite Gene
+
+        med "Hmpf... Allez, rentrons !"
+
+        pov "J'vous suis !"
+
+        innerpov "Ouaip... C'est vraiment une très bonne année qui commence, vivement la suite !"
+
+        window hide
+
+        #ET LA, LA PHOTO MIGNONNE AVEC MEDOC
 
 
     elif pointsmoguri > pointsmedoc and pointsmoguri > pointsincel:
-        innerpov "Non... Pas maintenant... Pas après tout ça...."
-        pov "MOGURI ! ATTENDS !"      
+            innerpov "Non... Pas maintenant... Pas après tout ça...."
+        pov "MOGURI ! ATTENDS !"   
 
+        show Moguri PoseDroite Sourire with dissolve
+
+        mog "[povname] ? Tout va bien ?"
+        innerpov "OK."
+        innerpov "C'est une discussion comme les autres."
+        innerpov "Aucun enjeu particulier."
+        pov "Souffle."
+
+        show Moguri Standard Sourire Yeuxfermes
+        mog "Ahaha, tu as la même expression que lorsqu'on s'est rencontrés la première fois..."
+        innerpov "Qu'il arrête de rire... Qu'il m'écoute..."
+        pov "MOGURI !"
+
+        show Moguri BrasCroises Rougit
+
+        mog "Q-quoi ? Ne me crie pas dessus, je suis juste en face de toi..."
+        pov "Ne m'interrompts plus !"
+
+        show Moguri BrasCroises Gene
+
+        mog "..."
+
+        pov "Depuis que je suis arrivé à l'Académie, on n'a pas eu beaucoup l'occasion de discuter..."
+        pov "Mais les quelques fois où on a intéragit, tu as toujours été la personne la plus compréhensive et douce avec moi..."
+        pov "Et c'est pour ça que..."
+        innerpov "Allez... Dis-le !"
+        pov "Que..."
+
+        show Moguri PoseDroite Sourire Rougit
+
+        mog "Oui ?"
+
+        innerpov "Aaaarghh, pas ce sourire !"
+        pov "Eh-Dis-Donc-Il-Fait-Pas-Un-Peu-Chaud-Tu-Voudrais-Pas-Boire-Un-Coup ?"
+    
+        show Moguri BrasCroises Sourire
+
+        mog "Oh ! Tu voulais juste demander l'autorisation d'utiliser les tireuses ! Bien sûr, allez, c'est ma tournée !"
+        pov "Quoi ? N-..."
+        innerpov "Remarque... Un peu d'alcool ne fera de mal à ma timidité..."
+        pov "Pourquoi pas finalement !"
+        mog "Allez hop ! A la tienne !"
+
+        with longfade
+
+
+        show Moguri PoseDroite Colere Rougit
+
+        mog "Mais j'te dis ! Bordeaux ça s'est grave gentrifié !"
+        pov "Moguri..."
+        mog "Parce qu'à mon époque, les bars, c'étaient carrément pas ce standing là..."
+        pov "Moguri."
+        mog "Après, ça a un p'tit côté appréciable, mais moi j'aimais bien les bars un peu undergrounds. Mais ça ça exist pl-"
+        pov "MOGURIIIIIIIIIIIIIIIII !"
+        mog "QUOI ?"
+        pov "Moguri. J'te kiffe mon gars... Genre *hic* vraiment..."
+        
+        show Moguri PoseGauche Sourire Yeuxfermes Rougit
+        
+        mog "Ahahaha, moi aussi [povname], moi aussi..."
+        pov "Nan mais... VRAIMENT ! J'ai envie de te serrer foooooooort dans mes bras comme ça !!"
+        pov "Et c'est pas l'alcool qui m'fait parler hein !"
+        show Moguri Standard Sourire Rougit
+        mog "Ca je m'en doute, puisque tu n'en as pas bu..."
+        pov "Boh si quand même ! TROIS VERRES !"
+        mog "Tu crois vraiment que l'Académie mettrait à disposition de l'alcool à volonté pour ses élèves ?"
+        mog "C'est du jus de pomme tout ça !"
+        pov "Hein ? Mais ? Tu..."
+        mog "FaisaiS semblant... Pour te mettre en confiance..."
+        pov "Mais ça n'a aucun sens !"
+        show Moguri BrasCroises Sourire Yeuxfermes Rougit
+        mog "Comme si c'était à moi qu'il fallait se plaindre..."
+        show Moguri PoseDroite Sourire Rougit
+        mog "Mais du coup, ça y est, nous nous sommes enfin avoués nos sentiments..."
+        pov "Wow... C'était si simple finalement... Comme quoi, ça sert à rien de se prendre la tête parfois !"
+        pov "Du coup, on fait quoi maintenant ?"
+        mog "Tu as mentionné la température tout à l'heure, ça te dérange si je me mets à l'aise ?"
+        pov "Non bien sûr, mais je ne vois pas en quoi ça répond à ma -"
+        hide Moguri with dissolve
+        show Moguri PoseSpeciale Sourire Rougit with dissolve
+        pov "Wow."
+        pov "Erm... Je crois avoir mentionné le fait de te serrer contre moi aussi ?"
+        pov "Ça te dérange si JE me mets à l'aise ?"
+        show Moguri PoseSpeciale Sourire Rougit Yeuxfermes
+        mog "Ahahah, un peu plus d'assurance, ça me plait !"
+
+        with longfade
+
+
+        show Moguri PoseSpeciale Sourire
+        mog "Dis-moi... Il commence à se faire tard... Tu voudrais pas que je te ramène chez toi ?"
+        pov "Si... Tu as raison c'est plus raisonnable, on ne vas pas dormir ici non plus !"
+        show Moguri PoseSpeciale Sourire Yeuxfermes Rougit
+        mog "Pas aujourd'hui en tout cas !"
+        pov "MOGURI !"
+        mog "Ahaha, je te taquine..."
+        mog "Allez hop..."
+        hide Moguri with dissolve
+        show Moguri Standard Sourire with dissolve
+
+        mog "Allons-y !"
+    
+        scene school hallway choice with longfade
+
+        show Moguri PoseDroite Sourire Rougit
+
+        mog "Dis [povname]..."
+        pov "Oui ?"
+        mog "Tu... As quelque chose de prévu pour les vacances qui arrivent ?"
+        pov "Non pas vraiment pourquoi ?"
+        mog "J'aurais aimé te montrer Bordeaux... Ses bulots... Ses églises..."
+        pov "Ses églises ?"
+        
+        show Moguri Standard Sourire Yeuxfermes Rougit
+        mog "Ouaip ! J'suis plutôt balaise en escalade !"
+        pov "Je t'avoue ne pas voir le rapport direct..."
+        mog "Je te déclarerai officiellement mon amour de là-haut !"
+        pov "Quoi ? Mais tu vas te blesser !"
+
+        show Moguri BrasCroises Sourire Rougit
+        mog "Mais nan ! Je l'ai déjà fait !"
+        pov "Et ça c'était bien passé ?"
+        show Moguri BrasCroises Gene
+        mog "..."
+        show Moguri Standard Sourire Rougit
+        mog "L'important, c'est que je l'ai déjà fait ! Tout ira bien cette fois !"
+        mog "Allez, assez discuter rentrons !"
+        pov "Moi tout ce que j'ai retenu, c'est que tu veux me déclarer ton amour de façon dangereusement grandiose..."
+        show Moguri Standard Gene
+        mog "RENTRONS !"
+        hide Moguri with dissolve
+
+        innerpov "Tout est allé si vite..."    
+        if sex=="m":
+            innerpov "Et j'en suis si heureux !"
+        else:
+            innerpov "Et j'en suis si heureuse !"
+        innerpov "J'ai l'impression que plus rien ne peut m'arrêter !"
+        mog "Dépèche-toi [povname] ! Il va falloir t'habituer à marcher plus vite si tu veux rester à mes côtés !"
+        pov "J'arrive, j'arrive !"
+        innerpov "Ouaip... C'est vraiment une très bonne année qui commence, vivement la suite !"
+    
+        window hide
+
+        #ET LA, LA PHOTO MIGNONNE AVEC MOGURI
+    
+    
+    
     else:
     
         pov "BON !"
@@ -77,9 +443,14 @@ label verdict:
         pov "Tiens, j'avais pas vu toutes ces tireuses là..."
         pov "Elles marchent ?"
         pov "OUAH ELLES MARCHENT !"
-        pov "Après c'est peut être un peu pitoyable de boire tout seul..."
-        pov "Déjà que je parle tout seul depuis 2-3 minutes..."
-        pov "Après, j'ai recontré pas mal de gens depuis que je suis arrivé !"
+        if sex=="m":
+            pov "Après c'est peut être un peu pitoyable de boire tout seul..."
+            pov "Déjà que je parle tout seul depuis 2-3 minutes..."
+        else:
+        pov "Après c'est peut être un peu pitoyable de boire toute seule..."
+        pov "Déjà que je parle toute seule depuis 2-3 minutes..."
+        
+        pov "Après, j'ai rencontré pas mal de gens depuis que je suis arrivé !"
         pov "J'ai qu'à les inviter à boire un coup ici !"
         pov "Un p'tit Dieuvomi, un Foulk, peut être un VonYaourt..."
         pov "J'peux inviter tout le monde en fait, je suis un membre à part entière du Cosy Culture Club !"
@@ -103,14 +474,107 @@ label verdict:
 
         with dissolve
 
+        pause 1
+
         hide Chuenpodo
         hide Pansepignon
         
         with dissolve
 
-        show Caro Pose
+        show Mathilde PoseSpeciale Rire Ojosama at right
+        show Caro PoseGauche Sourire Yeuxfermes at left
+
+        pause 1
+
+        hide Mathilde
+        hide Caro
+
+        with dissolve
+
+        show Lock PoseDroite Sourire Yeuxfermes at right
+        show Dieuvomi PoseGauche Sourire Yeuxfermes at left        
+        with dissolve
+        pause 1
+
+        hide Lock
+        hide Dieuvomi
+        with dissolve
+
+        show din PoseDroite Sourire Yeuxfermes at right
+        show ZePilot PoseGauche Sourire Yeuxfermes at left        
+        with dissolve
+        pause 1
+
+        hide din
+        hide ZePilot
+        with dissolve
+
+        show Metalice BrasCroises Sourire Yeuxfermes with dissolve
+
+        if sex=="m":
+            met "Dis-donc, tu m'as l'air bien seul pour quelqu'un qui a rassemblé autant de gens..."
+        else:
+            met "Dis-donc, tu m'as l'air bien seule pour quelqu'un qui a rassemblé autant de gens..."
+        show Metalice PoseSpeciale Cligne
+        met "Peut-être que les personnes les plus importantes ne sont pas présentes..."
+        pov "Erf... Tu avais raison finalement, je n'aurais pas du rester focus seulement sur Medoc et Moguri..."
+        pov "J'ai perdu mon temps..."
+        pov "Ils ne sont pas intéressés..."
+        pov "Et maintenant..."
+        pov "J'ai plus personnes."
+        
+        show Metalice BrasCroises Sourire
+
+        met "Allons allons... Sèche-moi ces grosses larmes, et regarde un peu autour de toi !"
+        met "Comment tu peux dire que tu n'as plus personnes, tous ces gens sont venus parce que tu les as invité, tu comptes pour eux !"
+        met "Et tu comptes même pour Medoc et Moguri. Tu sais, tu es quand même la seule personne à intégrer le Cosy Culture Club depuis sa fondation."
+        pov "Tu crois ?"
 
 
+        show Metalice Standard Sourire Yeuxfermes
 
+        met "J'en suis sure !"
+        met "Et puis si tu tiens tant que ça à vivre ton histoire d'amour estudiantine, regarde toutes les belles personnes qui sont venus rien que pour toi !"
+
+        show Metalice PoseSpeciale Cligne
+        met "Même si personnellement, je ne suis pas disponible..."
+        pov "Tu as raison... Peut-être que le Cosy, finalement, c'est juste les amis que l'on s'est fait sur le chemin !"
+
+        show Metalice BrasCroises Degoute
+        met "..."
+        pov "Quoi ?"
+
+        show Metalice BrasCroises Sourire
+        met "Je pensais que tu en viendrais à une conclusion un peu moins cliché, mais qui suis-je pour juger."
+        pov "Pas Moguri, dans un premier temps..."
+        show Metalice Standard Sourire Yeuxfermes
+        met "Ahahahah !"
+
+        show Metalice Standard Sourire 
+        met "Je vois que le moral t'es déjà un peu revenu."
+        pov "Bah ! Je me dis que c'est le début d'une scolarité pleine de bons moments !"
+        pov "Avec des personnages comme vous en même temps..."
+
+        show Metalice PoseSpeciale Sourire Yeuxfermes Rougit
+
+        met "Allez, viens donc boire un peu ! Ça t'apprendra à raconter n'importe quoi !"
+        pov "Comme d'habitude, je te suis !"
+
+        hide Metalice with longfade
+
+        pov "Fiouf... Tout le monde est parti, j'ai tout rangé... Nickel !"
+        pov "Eh... Elle commence pas si mal cette année finalement, vivement la suite !"
+
+        window hide
+
+        pause 0.5
+        show ending alone
+        pause 10
+
+
+        #ET LA, LA PHOTO MIGNONNE AVEC TOUT LE MONDE 
+
+
+    scene black with longfade
     jump credits
     return
