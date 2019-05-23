@@ -245,7 +245,7 @@ label club_pansepignoles:
     pov "Sans rire ?"
     show Metalice PoseSpeciale Cligne
     met "Je te jure ! Leur local est flippant !"
-    met "Du coup ils sont convaincus que s'ils arrivent a scander Pansepignon jusqu'au bout, ils pourront l'invoquer."
+    met "Du coup ils sont convaincus que s'ils arrivent à scander Pansepignon jusqu'au bout, ils pourront l'invoquer."
     show Metalice PoseSpeciale Gene
     met "Chuen a vraiment mal vécu sa disparition..."
 
@@ -275,7 +275,7 @@ label club_pansepignoles:
 
     pov "Quoi ! Mais si ! J'ai bien envie d'aller y faire un tour moi !"
     show Metalice Standard Sourire
-    met "Très bien, alors suis moi, mais je te préviens, je ne mettrai pas les pieds dans cet endroit !"
+    met "Très bien, alors suis-moi, mais je te préviens, je ne mettrai pas les pieds dans cet endroit !"
 
     pov "Je te suis !"
 
