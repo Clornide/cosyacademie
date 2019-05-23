@@ -368,7 +368,7 @@
 
     mat "Comme rejoindre mon club par exemple !"
 
-    pov "Dit-elle apres m'avoir fait chanter ! Il faudrait vraiment que Von Yaourt paie très cher pour me faire intégrer ce club…"
+    pov "Dit-elle après m'avoir fait chanter ! Il faudrait vraiment que ce Von Yaourt me paie très cher pour me faire intégrer ce club…"
 
     show Mathilde PoseGauche Triste
 
