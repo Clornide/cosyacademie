@@ -208,13 +208,41 @@ label club_rando:
         show Foulk PoseGauche Colere 
         foulk "C’est n’importe quoi !"
         show Dieuvomi PoseSpeciale Colere at right
-        dieuv "C’est moyen malin tout ça ! Venez, on se casse !"
+        dieuv "C’est moyen malin tout ça !"
+        Foulk « Bon on redescend ? J’ai pas encore regardé le SNL de cette semaine et faut que je passe à la boulangerie. »
+        Pov « Ah oui bonne idée ! J’en profiterai pour prendre un pain au chocolat. »
+        Von « Mais vous allez vous le faire piquer par des voyous ! »
+        Dieuv « Oh non, regardez son aura ! Il va encore basculer du côté obscur de la droite ! »
+        Von « Je ne suis pas raciste ma meilleure amie est Tchadienne, donc plus noire qu’une arabe ! »
+        Foulk « Non ! Résiste à la tentation ! Si tu te laisses dépasser tu ne pourras plus revenir en arrière ! »
+        Von « Jeanne au secours !!! »
+        Foulk « Oh non, il a presque atteint le point de non-retour ! »
+        Von « Je vais te faire courir, moi, rouquin ! »
+        Dieuv « Vite Foulk, fais-lui la morale avec une blague dont tu as le secret, sinon il sera définitivement perdu ! »
+        Foulk « C’est deux types de droite arrêtés pour fraude fiscale. L’un est de Levallois et l’autre de Serbie. Pendant le procès, le gars de Levallois admet et celui des Balkans… nie ! »
+        Dieuv « Wow, si avec ça on ne lui a pas ouvert les yeux sur les injustices du monde ! Il ne peut pas rester insensible à notre esprit de gauche. »
+        Von « Il faut terroriser les terroristes ! »
+        Dieuv « Vas-y Foulk, il est presque revenu, continue ! »
+        Foulk « Tu sais pourquoi François Fillon ne pourra jamais être caissier ? Parce qu’il ne sait pas rendre l’argent ! »
+        Dieuv « Haha, terrible ! Avec ça c’est sûr, on a définitivement vaincu l’extrémisme ! »
+        Von « C’est beau mais c’est loin. »
+        Foulk « Ok c’est bon, il a l’air d’être revenu à un niveau de droite à peu près compatible avec les valeurs de la République. »
+        Pov « Mais vous n’avez pas essayé de continuer pour voir à quel point il pourrait devenir de gauche ? »
+        Foulk « Surtout pas, un grand pouvoir implique de grandes responsabilités ! »
+        Dieuv « On ne plaisante pas avec l’humour, quand on peut changer l’âme des gens, il faut faire attention à ce que l’on fait d’un don pareil. »
+        Von « C’est sérieux la politique. »
+        Innerpov « J’ai rarement vu des tarés pareils… »
+        Pov « Ok, on redescend ? »
+        Dieuv « Ouais, cong »
+        Foulk « Millediou, en avant ! »
+        Von « La route est droite, mais la pente est forte. »
+        
 
     hide Dieuvomi with dissolve
     hide Foulk with dissolve
     hide Von with dissolve
 
-    innerpov "J'ai essayé tous les clubs qu'on m'a conseillé... Je vais retourner voir Metalice, elle aura suremment une idée !"
+    innerpov "J'ai essayé tous les clubs qu'on m'a conseillés... Je vais retourner voir Metalice, elle aura sûremment une idée !"
 
     jump conseil_eleves
     return
