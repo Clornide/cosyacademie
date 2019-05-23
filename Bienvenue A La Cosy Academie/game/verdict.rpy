@@ -168,7 +168,7 @@ label verdict:
         pov "Merci... Pour tout..."
 
         show Medoc PoseGauche Sourire Rougit
-        med "Merci à toi enfin §"
+        med "Merci à toi enfin !"
 
         innerpov "Dis donc, il est plus musclé qui n'en a l'air sous son uniforme. D'ailleurs il gratte un peu à vrai dire..."
         med "Il gratte cet uniforme n'est-ce pas ?"
