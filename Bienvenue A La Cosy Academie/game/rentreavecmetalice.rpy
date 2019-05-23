@@ -57,15 +57,15 @@ label Rentreavecmetalice2:
 
     met "Adresse-toi à Chuenpodo, c'est leur manager."
     pov "Il ressemble à quoi ?"
-    met "Un grand blond à lunettes. Tu verras, il resplendissant. Eblouissant même !"
+    met "Un grand blond à lunettes. Tu verras, il est resplendissant. Eblouissant même !"
     pov "Dis donc, je croyais que tu étais déjà prise !"
     met "Non mais... Littéralement !  Il a une espèce d'aura lumineuse qui... Enfin, tu comprendras quand tu le rencontreras je suppose !"
     pov "Je verrai, merci du conseil !"
 
     show Metalice Standard Sourire Yeuxfermes
 
-    met "Il commence à faire froid tu ne trouves pas ? On devrait peut être se dépécher de rentrer..."
-    pov "Effectivement, alons-y !"
+    met "Il commence à faire froid tu ne trouves pas ? On devrait peut être se dépêcher de rentrer..."
+    pov "Effectivement, allons-y !"
 
     show Metalice Standard Sourire with longfade
 
@@ -88,7 +88,7 @@ label Rentreavecmetalice2:
     hide Metalice with dissolve
 
     pov "Comment ça de beaux rêves ?"
-    pov "Elle a vraiment un don pour l'espièglerie celle là..."
+    pov "Elle a vraiment un don pour l'espièglerie celle-là..."
 
 
 
