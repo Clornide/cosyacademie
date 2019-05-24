@@ -88,7 +88,7 @@ label club_pansepignoles:
     pov "Une admiration réciproque on va dire..."
     show Chuenpodo PoseSpeciale Colere Rougit
     chuen "MAIS C'ÉTAIT LUI LE MEILLEUR !"
-
+    innerpov "Tiens... ça me rappelle vaguement quelqu'un..."
     pov "Oui oui bon d'accord... et ensuite ?"
     show Chuenpodo PoseSpeciale Colere Rougit
     chuen "Non mais il faut le garder en tête. C'est lui. Bref, il était tout aussi fascinant qu'il était bavard."
