@@ -89,16 +89,16 @@ label club_rando:
     show Foulk PoseGauche Sourire
     foulk "Je crois qu’il est déjà en train de cueillir des champis dans la forêt, on le trouvera en chemin."
     pov "A propos de chemin, il y a un éboulement qui nous barre la route sur le sentier, là…"
-    hide Foulk
-    hide Von
+    hide Foulk with dissolve
+    hide von
     show Von Standard Badboy at center
     von "Vous en avez assez de cette bande de rocailles ?"
     show Von PoseSpeciale Badboy
     von "Et bien on va vous en débarrasser." 
     pov "Mais pourquoi il dit \"vous\" en parlant de lui ?"
-    show Foulk PoseGauche Sourire at left
+    show Foulk PoseGauche Sourire at left with dissolve
     foulk "Ne t’inquiète pas, au bout d’un moment tu n’y feras plus gaffe. En attendant, il a vraiment dégagé la route, ce cong…"
-    show Dieuvomi PoseSpeciale Colere at right
+    show Dieuvomi PoseSpeciale Colere at right behind Von with dissolve
     dieuv "Qui a démoli mon barrage ? Il était là pour arrêter les cyclistes, que je puisse leur CREVER LES PEUNEUS !"
     show Von Standard Colere
     von "C’est moi dieuv ! On est en pleine randonnée là !"
@@ -124,7 +124,7 @@ label club_rando:
     dieuv "Quoi ?"
     show Von Standard Sourire
     von "Le club de randonnée c’est surtout pour admirer les merveilles de notre terroir, la beauté de nos paysages ! C’est ressentir l’atavisme qui coule dans nos veines ! C’est vouloir défendre son patrimoine et ses valeurs !"
-    foulk "Ah ouais, Jacques Atavisme, j’en ai entendu parler"
+    foulk "Ah ouais, Jacques Atavisme, j’en ai entendu parler !"
     hide Dieuvomi with dissolve
     hide Foulk with dissolve
     show Von BrasCroises Badboy at center
@@ -201,48 +201,96 @@ label club_rando:
     label after_skip:
         show Von PoseDroite Sourire Yeuxfermes
         von "Non, attends, c’est l’heure d’enfiler nos doudounes, il fait froid !"
-        show Foulk PoseGauche Degoute at left
+        show Foulk PoseGauche Degoute at left with dissolve
         foulk "Elles sont bleues…"
         von "Parfaitement ! Et si vous croisez un troll d’ébène, dites-le-moi, on le reconduira à la frontière ensemble."
         pov "…"
         show Foulk PoseGauche Colere 
         foulk "C’est n’importe quoi !"
-        show Dieuvomi PoseSpeciale Colere at right
+        show Dieuvomi PoseSpeciale Colere at right with dissolve
         dieuv "C’est moyen malin tout ça !"
-        Foulk « Bon on redescend ? J’ai pas encore regardé le SNL de cette semaine et faut que je passe à la boulangerie. »
-        Pov « Ah oui bonne idée ! J’en profiterai pour prendre un pain au chocolat. »
-        Von « Mais vous allez vous le faire piquer par des voyous ! »
-        Dieuv « Oh non, regardez son aura ! Il va encore basculer du côté obscur de la droite ! »
-        Von « Je ne suis pas raciste ma meilleure amie est Tchadienne, donc plus noire qu’une arabe ! »
-        Foulk « Non ! Résiste à la tentation ! Si tu te laisses dépasser tu ne pourras plus revenir en arrière ! »
-        Von « Jeanne au secours !!! »
-        Foulk « Oh non, il a presque atteint le point de non-retour ! »
-        Von « Je vais te faire courir, moi, rouquin ! »
-        Dieuv « Vite Foulk, fais-lui la morale avec une blague dont tu as le secret, sinon il sera définitivement perdu ! »
-        Foulk « C’est deux types de droite arrêtés pour fraude fiscale. L’un est de Levallois et l’autre de Serbie. Pendant le procès, le gars de Levallois admet et celui des Balkans… nie ! »
-        Dieuv « Wow, si avec ça on ne lui a pas ouvert les yeux sur les injustices du monde ! Il ne peut pas rester insensible à notre esprit de gauche. »
-        Von « Il faut terroriser les terroristes ! »
-        Dieuv « Vas-y Foulk, il est presque revenu, continue ! »
-        Foulk « Tu sais pourquoi François Fillon ne pourra jamais être caissier ? Parce qu’il ne sait pas rendre l’argent ! »
-        Dieuv « Haha, terrible ! Avec ça c’est sûr, on a définitivement vaincu l’extrémisme ! »
-        Von « C’est beau mais c’est loin. »
-        Foulk « Ok c’est bon, il a l’air d’être revenu à un niveau de droite à peu près compatible avec les valeurs de la République. »
-        Pov « Mais vous n’avez pas essayé de continuer pour voir à quel point il pourrait devenir de gauche ? »
-        Foulk « Surtout pas, un grand pouvoir implique de grandes responsabilités ! »
-        Dieuv « On ne plaisante pas avec l’humour, quand on peut changer l’âme des gens, il faut faire attention à ce que l’on fait d’un don pareil. »
-        Von « C’est sérieux la politique. »
-        Innerpov « J’ai rarement vu des tarés pareils… »
-        Pov « Ok, on redescend ? »
-        Dieuv « Ouais, cong »
-        Foulk « Millediou, en avant ! »
-        Von « La route est droite, mais la pente est forte. »
         
+        show Foulk PoseDroite Colere
+        foulk "Bon on redescend ? J’ai pas encore regardé le SNL de cette semaine et faut que je passe à la boulangerie."
+        pov "Ah oui bonne idée ! J’en profiterai pour prendre un pain au chocolat."
 
-    hide Dieuvomi with dissolve
-    hide Foulk with dissolve
-    hide Von with dissolve
+        show auraFN zorder 101
+        play sound auraDBZ loop
+        show Von BrasCroises Degoute
+        show auraFN_back behind Von            
 
-    innerpov "J'ai essayé tous les clubs qu'on m'a conseillés... Je vais retourner voir Metalice, elle aura sûremment une idée !"
+        von "Mais vous allez vous le faire piquer par des voyous !"
+        play music marechal
+        show Dieuvomi PoseDroite Degoute
+        show Foulk PoseGauche Degoute
+        dieuv "Oh non, regardez son aura ! Il va encore basculer du côté obscur de la droite !"
+
+        show Von BrasCroises Degoute
+        von "Je ne suis pas raciste ma meilleure amie est Tchadienne, donc plus noire qu’une arabe !"
+
+        show Foulk PoseGauche Colere
+        foulk "Non ! Résiste à la tentation ! Si tu te laisses dépasser tu ne pourras plus revenir en arrière !"
+        von "Jeanne au secours !!!"
+
+        show Foulk PoseGauche Degoute
+        foulk "Oh non, il a presque atteint le point de non-retour !"
+        von "Je vais te faire courir, moi, rouquin !"
+
+        show Dieuvomi PoseDroite Colere
+        dieuv "Vite Foulk, fais-lui la morale avec une blague dont tu as le secret, sinon il sera définitivement perdu !"
+
+        show Foulk PoseGauche Sourire
+        foulk "C’est deux types de droite arrêtés pour fraude fiscale."
+        foulk "L’un est de Levallois et l’autre de Serbie. Pendant le procès, le gars de Levallois admet et celui des Balkans… nie !"
+        play sound badamtsss
+        pause 1.0
+        play sound auraDBZ loop
+
+        show Dieuvomi PoseDroite Sourire
+        dieuv "Wow, si avec ça on ne lui a pas ouvert les yeux sur les injustices du monde ! Il ne peut pas rester insensible à notre esprit de gauche."
+        show Von PoseGauche Degoute
+        von "Il faut terroriser les terroristes !"
+        show Dieuvomi PoseDroite Colere
+        dieuv "Vas-y Foulk, il est presque revenu, continue !"
+
+        show Foulk PoseGauche Sourire Yeuxfermes
+        foulk "Tu sais pourquoi François Fillon ne pourra jamais être caissier ?"
+        foulk "Parce qu’il ne sait pas rendre l’argent !"
+        play sound badamtsss
+        show Dieuvomi PoseDroite Sourire
+        pause 1.0
+        play sound auraDBZ loop
+
+        dieuv "Haha, terrible ! Avec ça c’est sûr, on a définitivement vaincu l’extrémisme !"
+        hide auraFN        
+        hide auraFN_back
+        stop sound
+        play music quirkylane
+        von "C’est beau mais c’est loin."
+
+        show Foulk PoseGauche Sourire
+        foulk "Ok c’est bon, il a l’air d’être revenu à un niveau de droite à peu près compatible avec les valeurs de la République."
+        pov "Mais vous n’avez pas essayé de continuer pour voir à quel point il pourrait devenir de gauche ?"
+        show Foulk PoseSpeciale Sourire
+        foulk "Surtout pas, un grand pouvoir implique de grandes responsabilités !"
+        show Dieuvomi PoseSpeciale Sourire
+        dieuv "On ne plaisante pas avec l’humour, quand on peut changer l’âme des gens, il faut faire attention à ce que l’on fait d’un don pareil."
+        show Von PoseSpeciale Degoute
+        von "C’est sérieux la politique."
+        innerpov "J’ai rarement vu des tarés pareils…"
+        pov "Ok, on redescend ?"
+        dieuv "Ouais, cong !"
+        hide Dieuvomi with dissolve
+        foulk "Millediou, en avant !"
+        hide Foulk with dissolve
+        show Von PoseSpeciale Sourire
+        von "La route est droite, mais la pente est forte."
+        hide Von with dissolve
+
+    innerpov "Ce club est extrement à droite !"
+    innerpov "Je pense que je vais éviter d'y revenir..."
+    innerpov "Mais j'ai essayé tous les clubs qu'on m'a conseillés... Qu'est-ce que je vais faire ?"
+    innerpov "Bon, je vais retourner voir Metalice, elle aura sûremment une idée !"
 
     jump conseil_eleves
     return

@@ -204,6 +204,7 @@ define audio.sundaysmooth = "music/sb_sundaysmooth.mp3"
 define audio.ashes = "music/sb_ashesofafallenyear_remaster.mp3"
 define audio.skyward = "music/sb_skyward.mp3"
 define audio.extrapolation = "music/sb_extrapolation.mp3"
+define audio.marechal = "music/marechal_nous_voila.mp3"
 
 #FX
 define audio.woosh = "sounds/creepy-hifreq-woosh.mp3"
@@ -216,9 +217,6 @@ define audio.ATATATATA = "sounds/ATATATATA.mp3"
 define audio.metaltchoum = "sounds/metaltchoum.mp3"
 # Le jeu commence ici
 label start:
-
-    
-    show Von PoseGauche Sourire Yeuxfermes
 
     menu:
 
