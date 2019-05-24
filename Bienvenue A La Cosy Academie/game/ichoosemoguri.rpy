@@ -2,7 +2,7 @@ label Ichoosemoguri:
     play music tomorrow
     scene school hallway with longfade
 
-    innerpov "Ca commence à faire un petit bout de temps que je l'attends, il ne devrait plus tarder..."
+    innerpov "Ça commence à faire un petit bout de temps que je l'attends, il ne devrait plus tarder..."
     innerpov "Je crois que je l'entends d'ailleurs, mais il a l'air de discuter avec quelqu'un."
 
     mog "Et donc ?"
@@ -85,7 +85,7 @@ label Ichoosemoguri:
     show Moguri BrasCroises Triste
 
     mog "Tu fais partie de la Cosy Académie maintenant, il faut arrêter de s'écraser comme ça..."
-    mog "Il va falloir changer. Je comprends que le début soit compliqué pour toi, mais sache que ton comportements affecte d'autres personnes."
+    mog "Il va falloir changer. Je comprends que le début soit compliqué pour toi, mais sache que ton comportement affecte d'autres personnes."
 
     show Moguri Standard Badboy
     mog "Et ça, je ne peux pas l'accepter."
@@ -100,7 +100,7 @@ label Ichoosemoguri:
     show Moguri Standard Badboy with dissolve
 
     pov "Je veux changer... Vraiment ! Mais je pense qu'il va me falloir de l'aide..."
-    pov "Et si possible, j'aimerais que la personne qui m'aide... Ce soit toi."
+    pov "Et si possible, j'aimerais que la personne qui m'aide... ce soit toi."
 
     show Moguri Gene
 
@@ -111,7 +111,7 @@ label Ichoosemoguri:
 
     mog "Je ne suis peut-être pas la personne la mieux placée pour t'aider sur ce point..."
     pov "Comment ça ?"
-    mog "J'ai... Pas vraiment envie d'en parler..."
+    mog "J'ai... pas vraiment envie d'en parler..."
     pov "Soit tu acceptes, soit tu m'en parles !"
 
     show Moguri BrasCroises Sourire Yeuxfermes
