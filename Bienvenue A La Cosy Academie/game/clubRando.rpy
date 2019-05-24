@@ -90,7 +90,7 @@ label club_rando:
     foulk "Je crois qu’il est déjà en train de cueillir des champis dans la forêt, on le trouvera en chemin."
     pov "A propos de chemin, il y a un éboulement qui nous barre la route sur le sentier, là…"
     hide Foulk with dissolve
-    hide von
+
     show Von Standard Badboy at center
     von "Vous en avez assez de cette bande de rocailles ?"
     show Von PoseSpeciale Badboy
