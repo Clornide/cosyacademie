@@ -169,6 +169,7 @@ define mat = Character('name_mathilde', color="#fff", image="Mathilde", dynamic 
 define chuen = Character('name_chuen', color="#fff", image="Chuenpodo", screen="say_chuen", dynamic = True)
 define caro = Character('name_caro', color="#fff", image="Caro", dynamic = True, screen = "say_classic")
 define din = Character('name_din', color="#fff", image="din", dynamic = True, screen = "say_classic")
+define panse = Character ('name_pansepignon', color="#fff", image="Pansepignon", dynamic = True, screen = "say_classic")
 define foulk = Character('name_foulk', color="#fff", image="Foulk", dynamic = True, screen = "say_classic")
 define clornide = Character('Clornide', color="#fff", image="Clornide", screen = "say_classic")
 define samael = Character('Samaël', color="#fff", image="Samael", screen = "say_classic")
@@ -255,6 +256,7 @@ label start:
     $ name_foulk = "Foulk"
     $ name_lock = "Lock"
     $ name_zep = "???"
+    $ name_pansepignon = "???"
     $ name_clornide = "Clornide"
     $ name_cheers = "Panthusiasts"
 
