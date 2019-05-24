@@ -189,7 +189,7 @@ label .Clubtechfoulk:
 
 
 label .Clubtechcheerleaders:
-
+    play music haunted
     innerpov "Mais quel est ce bruit ?"
     noName "..."
     innerpov "On dirait des prières..."
@@ -206,8 +206,8 @@ label .Clubtechcheerleaders:
     scene school hallway choice creepy
     show Cheerleaders Groupe Drop 
     window auto
-    
-    innerpov "OH PUTAIN J'AI EU PEUR !"
+
+    innerpov "OH MERDE J'AI EU PEUR !"
     innerpov "Encore eux ? Ces cheerleaders sont vraiment étranges ! Qu'est-ce qu'ils font ? "
     clornide Clornide Drop "On y est, à la limite, là où le futur (pas compris) \nle feu brûlera, et ne mourra jamais..."
     samael Samael Drop "Ô grand Pansepignon, nous invoquons ton nom !"
@@ -229,6 +229,7 @@ label .Clubtechcheerleaders:
     else:
         innerpov "Je suis reperé ! Vite le couloir !"
 
+    play music rainbow
     return
 
 
