@@ -217,6 +217,9 @@ define audio.metaltchoum = "sounds/metaltchoum.mp3"
 # Le jeu commence ici
 label start:
 
+    
+    show Von PoseGauche Sourire Yeuxfermes
+
     menu:
 
         noName "Avant de commencer, voulez-vous incarner un personnage féminin ou masculin ?"

@@ -196,6 +196,26 @@ image gym_shonen:
 
     repeat
 
+image auraFN:
+    zoom 1.0 ypos 1.0 alpha 1.0 yanchor 1.0 xpos 0.5
+    "Assets/auraVon/auraFN.0.png"
+    pause 0.03        
+    "Assets/auraVon/auraFN.1.png"  
+    pause 0.03
+    "Assets/auraVon/auraFN.2.png"
+    pause 0.03
+    "Assets/auraVon/auraFN.3.png"
+    pause 0.03
+    "Assets/auraVon/auraFN.4.png"
+    pause 0.03
+    "Assets/auraVon/auraFN.5.png"
+    pause 0.03
+    "Assets/auraVon/auraFN.6.png"
+    pause 0.03
+    "Assets/auraVon/auraFN.7.png"
+    pause 0.03        
+    repeat
+
 image auraDBZ:
     zoom 2.0 ypos -0.6 alpha 0.5 yanchor 0.0 xpos 0.48
     "Assets/aura/Aura.1.png"  
