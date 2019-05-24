@@ -57,7 +57,7 @@ label verdict:
         innerpov "Ahaha... Je suis passé de 'gamin' à 'mon grand', ça fait plaisir..."
     else:
         mog "Il va falloir commencer à réaliser ma grande !"
-        innerpov "Ahaha... Je suis passé de 'gamin' à 'mon grand', ça fait plaisir..."
+        innerpov "Ahaha... Je suis passée de 'p'tite tête' à 'ma grande', ça fait plaisir..."
     med "Bon, alors on se dit à dans deux semaines ?"
     mog "A dans deux semaines !"
 
@@ -168,7 +168,7 @@ label verdict:
         pov "Merci... Pour tout..."
 
         show Medoc PoseGauche Sourire Rougit
-        med "Merci à toi enfin §"
+        med "Merci à toi enfin !"
 
         innerpov "Dis donc, il est plus musclé qui n'en a l'air sous son uniforme. D'ailleurs il gratte un peu à vrai dire..."
         med "Il gratte cet uniforme n'est-ce pas ?"
