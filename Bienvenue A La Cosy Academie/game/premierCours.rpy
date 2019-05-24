@@ -1,4 +1,5 @@
 label Premiercours:
+    play music skyward
     scene classroom with fade
 
     inc "Allez allez, un peu de silence !"
@@ -40,13 +41,13 @@ label Premiercours:
 
     innerpov "Celui là par exemple, dégage une aura de malfrat."
     innerpov "Mais il étudie ici... Je ne pense pas qu'il soit si méchant que ça !"
-    innerpov "Ca ne me ressemble pas de juger sur les apparences pourtant..."
+    innerpov "Ça ne me ressemble pas de juger sur les apparences pourtant..."
     innerpov "Bref."
 
     hide Dieuvomi
 
     pov "Bonjour tout le monde. Mon nom est [povname] et c'est mon premier jour à l'Académie."
-    pov "Mes passions sont la littérature, le cinéma et les jeux-vidéo..."
+    pov "Mes passions sont la littérature, le cinéma et les jeux vidéo..."
     if sex=="m":
         pov "Je suis ravi d'avoir été accepté dans cette classe, même si je ne suis pas aussi exceptionnel que v-"
     else:
@@ -162,7 +163,7 @@ label Premiercours:
     show Metalice PoseSpeciale Cligne
     met "Dieuvomi ? C'est pas VRAIMENT un voyou, c'est juste un style qu'il se donne."
     show Metalice Standard Sourire
-    met "Il ne te fera jamais de mal, à moins que tu sois un apocope de bandage pneumatique"
+    met "Il ne te fera jamais de mal, à moins que tu sois un apocope de bandage pneumatique."
     pov "Un quoi ?"
     show Metalice Standard Degoute
     met "Un pneu. Il a un souci avec ça je crois, il aime beaucoup les crever."
@@ -173,7 +174,7 @@ label Premiercours:
     met "La spécificité de ce gang était que ses membres ne se déplaçaient qu'en BMX. Leur principale méthode d'agression était de rouler sur leurs victimes..."
     pov "Mais... C'est stupide ?"
     show Metalice PoseSpeciale Sourire Yeuxfermes
-    met "Peut être, mais ça fait mal !"
+    met "Peut-être, mais ça fait mal !"
     met "Dieuvomi a crevé tous les pneus de tous les BMX du gang en l'espace d'une heure, en pleine nuit..."
     pov "Ouaaaaah..."
     show Metalice Standard Sourire
@@ -191,7 +192,7 @@ label Premiercours:
 
     menu:
 
-        met "{cps=0}Bon allez, je te ramène chez toi ? J'ai encore pas mal de chose à te raconter tu sais ?{/cps}"
+        met "{cps=0}Bon allez, je te ramène chez toi ? J'ai encore pas mal de choses à te raconter tu sais ?{/cps}"
 
         "Allez ! Je te suis !":
             python:

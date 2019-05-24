@@ -19,7 +19,7 @@ label conseil_eleves:
 
     scene school hallway night
     show Metalice BrasCroises Cligne
-    met "Par contre je te demanderais de te tenir tranquille certains membres sont... un peu à cheval sur le protocole."
+    met "Par contre je te demanderai de te tenir tranquille certains membres sont... un peu à cheval sur le protocole."
     innerpov "Houlà, ça a l'air hyper sérieux !"
     if sex == "m":
         pov "Ok pas de soucis, je me ferai tout petit."
@@ -56,13 +56,13 @@ label conseil_eleves:
         
         "Les règles c'est important !":
             show Metalice PoseDroite Colere Rougit
-            met "Ça suffit Lock![povname] n'est pas là pour ça."
+            met "Ça suffit Lock ! [povname] n'est pas là pour ça."
         "Le fun avant tout !":
             show Metalice PoseDroite Colere Rougit
-            met "Ça suffit Lock![povname] n'est pas là pour ça."
+            met "Ça suffit Lock ! [povname] n'est pas là pour ça."
         "Elle est pas un peu orientée ta question ?":
             show Metalice PoseDroite Colere Rougit
-            met "Ça suffit Lock![povname] n'est pas là pour ça."
+            met "Ça suffit Lock ! [povname] n'est pas là pour ça."
 
     show Mickey Standard Badboy
     mic "Alors comme ça tu veux rejoindre le conseil des élèves ?"
@@ -126,7 +126,7 @@ label conseil_eleves:
     show Lock PoseGauche Badboy
     lock "Le fleuron de la justice nationale de la région, le défenseur de la veuve, de l'orphelin et du mignon !"
     show Metalice PoseDroite Degoute
-    met "Alors, déjà, on a pas de veuves et les orphelins se débrouillent très biens tous seuls à nos âges."
+    met "Alors, déjà, on a pas de veuves et les orphelins se débrouillent très bien tous seuls à nos âges."
     show Metalice PoseDroite Cligne
     met "Pour le nom à rallonge, c'est le nom de code que Lock s'attribue quand il est en patrouille."
     show Metalice PoseDroite Gene
@@ -138,7 +138,7 @@ label conseil_eleves:
     met "Moguri ?"
     lock "Non ! Je l'ai intimé de décliner son identité, mais il a disparu dans un nuage de fumée."
     met "Ah ! Un petit ? Avec une oeil tourné vers le passé, et l'autre vers l'avenir ?"
-    lock "Oui ! c'est le bon signalement !"
+    lock "Oui ! C'est le bon signalement !"
     met "Plutôt caucasien, la chevelure bouclée ? Portant une tunique ?"
     lock "Tout à fait !"
     met "Ah non, ça ne me dit rien du tout..."

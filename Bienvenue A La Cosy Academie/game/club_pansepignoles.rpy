@@ -63,7 +63,7 @@ label club_pansepignoles:
 
     clornide "Tsk... de toute façon je suis convaincu que c'est Dieuvomi qui a truqué les votes..."
 
-    chuen "NE PARLEZ PAS COMME CA DE DIEUVOMI, VOUS NE CONNAISSEZ PAS SON HISTOIRE !"
+    chuen "NE PARLEZ PAS COMME ÇA DE DIEUVOMI, VOUS NE CONNAISSEZ PAS SON HISTOIRE !"
 
     innerpov "Tiens ? Je ne les aurais pas pensé si proches..."
 
@@ -77,7 +77,7 @@ label club_pansepignoles:
     show Chuenpodo PoseSpeciale Badboy at full_left, mediumzoom
     chuen "Meuh non ! Regarde, ils en pleurent de joie !"
 
-    pov "Si tu le dis... Dis moi, ça vient d'où ce nom du coup ?"
+    pov "Si tu le dis... Dis-moi, ça vient d'où ce nom du coup ?"
     show Chuenpodo PoseSpeciale Sourire 
     chuen "Et bien en voilà une bonne question ! C'est en hommage à notre ancien manager Pansepignon... À l'époque j'étais moi même cheerleader !"
     show Chuenpodo PoseSpeciale Sourire Yeuxfermes
@@ -87,7 +87,7 @@ label club_pansepignoles:
     show Cheerleaders at dezoom, go_left_to_right
     pov "Une admiration réciproque on va dire..."
     show Chuenpodo PoseSpeciale Colere Rougit
-    chuen "MAIS C'ETAIT LUI LE MEILLEUR !"
+    chuen "MAIS C'ÉTAIT LUI LE MEILLEUR !"
 
     pov "Oui oui bon d'accord... et ensuite ?"
     show Chuenpodo PoseSpeciale Colere Rougit
@@ -157,7 +157,7 @@ label club_pansepignoles:
     show Cheerleaders Fail at normalalpha
     hide Medoc
 
-    chuen "C'EST TOUJOURS COMME CA ! TOUJOURS !"
+    chuen "C'EST TOUJOURS COMME ÇA ! TOUJOURS !"
     decade Decade Fail "Ouais, on en a marre... On en a besoin de ce DROP..."
     show Chuenpodo PoseSpeciale Colere Rougit
     chuen "SI VOUS Y ARRIVEZ UN JOUR ! ALLEZ ON REPREND !!"
@@ -234,7 +234,7 @@ label club_pansepignoles:
     show Metalice Standard Sourire
     met "Ahahah, et bien quoi il te plaît pas ce club ?"
 
-    pov "Non, ils sont carrément bizarres... dis, c'est quoi cette histoire d'invocation ?"
+    pov "Non, ils sont carrément bizarres... Dis, c'est quoi cette histoire d'invocation ?"
     show Metalice Standard Cligne
     met "T'as bien vu qu'ils n'arrivent jamais a épeler Pansepignon correctement sans être interrompus ?"
 
@@ -245,7 +245,7 @@ label club_pansepignoles:
     pov "Sans rire ?"
     show Metalice PoseSpeciale Cligne
     met "Je te jure ! Leur local est flippant !"
-    met "Du coup ils sont convaincus que s'ils arrivent a scander Pansepignon jusqu'au bout, ils pourront l'invoquer."
+    met "Du coup ils sont convaincus que s'ils arrivent à scander Pansepignon jusqu'au bout, ils pourront l'invoquer."
     show Metalice PoseSpeciale Gene
     met "Chuen a vraiment mal vécu sa disparition..."
 
@@ -271,11 +271,11 @@ label club_pansepignoles:
 
     pov "Oui, comme tout le monde je suppose."
     show Metalice PoseSpeciale Cligne
-    met "Bon... Laissons le club de comédie de côté alors..."
+    met "Bon... laissons le club de comédie de côté alors."
 
     pov "Quoi ! Mais si ! J'ai bien envie d'aller y faire un tour moi !"
     show Metalice Standard Sourire
-    met "Très bien, alors suis moi, mais je te préviens, je ne mettrai pas les pieds dans cet endroit !"
+    met "Très bien, alors suis-moi, mais je te préviens, je ne mettrai pas les pieds dans cet endroit !"
 
     pov "Je te suis !"
 

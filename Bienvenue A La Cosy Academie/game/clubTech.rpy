@@ -48,9 +48,9 @@ label club_tech:
     mog "... Mais utiliser mon nom, comme ça, tu aurais pu me demander avant quand même !"
 
     show ZePilot BrasCroises Sourire at left with dissolve
-    zep "Ne le prend pas mal Mog' c'est juste un hommage... C'est un petit mod de Final Fantasy, personne ne remarquera que ça existe, et ça finira dans l'ombre."
+    zep "Ne le prends pas mal Mog' c'est juste un hommage... C'est un petit mod de Final Fantasy, personne ne remarquera que ça existe, et ça finira dans l'ombre."
     mog "Mais, tu ne te rends pas compte... Ton hommage, aussi génial soit-il, me met une pression de fou. J'ai déjà le Kevins Battle Royal à préparer ! C'est bien plus qu'un tournoi !"
-    mog "Alors oui, c'est gentil, mais la prochaine fois, demande moi avant de diffuser ça sur les interwebs s'il te plaît !"
+    mog "Alors oui, c'est gentil, mais la prochaine fois, demande-moi avant de diffuser ça sur les interwebs s'il te plaît !"
 
     show ZePilot PoseGauche Sourire Yeuxfermes
     zep "Euh... on dit Internet Mog'."
@@ -101,9 +101,9 @@ label club_tech:
 
     mog "Ouh, ça devient génant ! File [povname],  tu n'as qu'à suivre les panneaux #tech, c'est relativement indiqué."
     if sex=="f":
-        pov "Merci ! Je vous laisse ! Désolée de vous avoir interrompu... Et bon courage avec Jarod..."
+        pov "Merci ! Je vous laisse ! Désolée de vous avoir interrompus... Et bon courage avec Jarod..."
     else:
-        pov "Merci ! Je vous laisse ! Désolé de vous avoir interrompu... Et bon courage avec Jarod..."
+        pov "Merci ! Je vous laisse ! Désolé de vous avoir interrompus... Et bon courage avec Jarod..."
 
     scene school hallway choice with longfade
     call .ChooseCouloir(0) from _call_club_tech_ChooseCouloir_1
@@ -115,6 +115,7 @@ label club_tech:
 label .Clubtechmetalice:
     innerpov "Mais où se trouve ce club #tech ? C'est un vrai dédale cette Académie..."
     innerpov "Là ! un panneau !"
+    play sound metaltchoum
     met "WAAAAAARRRGGGGTCCHHHAAAAAA !" with vpunch
     pov "Kya !"
 
@@ -200,7 +201,7 @@ label .Clubtechcheerleaders:
     innerpov "Encore eux ? Ces cheerleaders sont vraiment étranges ! Qu'est-ce qu'ils font ? "
     clornide Clornide Drop "On y est, à la limite, là où le futur (pas compris) \nle feu brûlera, et ne mourra jamais..."
     samael Samael Drop "Ô grand Pansepignon, nous invoquons ton nom !"
-    clornide "Regarde dans les yeux d'une nouvelle vie\n alors trouve moi, juste, trouve-moi..."
+    clornide "Regarde dans les yeux d'une nouvelle vie\n alors trouve-moi, juste, trouve-moi..."
     samael "Ô Grand Pansepignon, Bénis-Nous de ta Présence, et Accepte ces Offrandes !"
     innerpov "Ils font flipper ces types !"
     clornide "Des étincelles voleront\n si nous crions non..."
@@ -230,11 +231,11 @@ label .Clubtechdin:
         innerpov "Je suis perdu, j'ai mal aux pieds, ces Pansepignoufs m'ont terrorisé ! Je n'en peux plus ! "
     
     show din PoseSpeciale Cligne Rougit
-    din    "Tiens, [povname] ! QU'est-ce que tu fais là ?"
+    din    "Tiens, [povname] ! Qu'est-ce que tu fais là ?"
     pov    "Oh Din ! Tu tombes bien ! Je cherchais la salle du club #tech... J'ai suivi des panneaux, mais tous les couloirs se ressemblent ici."
     
     show din PoseSpeciale Degoute
-    din    "Ah, le club #tech ? Ecoute, je l'ai cherché pendant longtemps aussi... Mais..."
+    din    "Ah, le club #tech ? Écoute, je l'ai cherché pendant longtemps aussi... mais..."
     din    "Je crois que c'est une légende urbaine... Tout le monde en parle, mais personne ne l'a jamais vu."
     pov    "Quoi ? Mais comment je fais mes photocopies ?"
     

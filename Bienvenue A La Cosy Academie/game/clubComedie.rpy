@@ -94,7 +94,10 @@ label club_comedie:
     dieuv "Mais bon on fait avec ce qu'on a. Bon alors Foulk va t'interpréter un extrait de son spectacle."
     pov "Wah vraiment ? Tu crois que... "
     show Dieuvomi PoseGauche Colere
-    dieuv "Tais-toi, tu dois dire à personne ce que t'as vu. Comment t'es venu au bahut ce matin ?"
+    if sex=="m":
+        dieuv "Tais-toi, tu dois dire à personne ce que t'as vu. Comment t'es venu au bahut ce matin ?"
+    else:
+        dieuv "Tais-toi, tu dois dire à personne ce que t'as vu. Comment t'es venue au bahut ce matin ?"
     pov "Ben à vélo comme tous les... "
     show Dieuvomi PoseGauche Degoute
     dieuv "Très bien, disons que... si tu dis quoi que ce soit t'aimerais pas que... hein ?"
@@ -109,7 +112,7 @@ label club_comedie:
     foulk "QUOI ?"
     show Dieuvomi PoseGauche Colere
     show Foulk PoseDroite Badboy
-    dieuv "T'AS DU PUBLIC, T'ES PRET ?"
+    dieuv "T'AS DU PUBLIC, T'ES PRÊT ?"
     show Foulk PoseDroite Colere
     show Dieuvomi PoseGauche Badboy
     foulk "OUAIS CONG MILADIOU!"
@@ -223,9 +226,9 @@ label club_comedie:
     show Dieuvomi Standard Sourire Rougit
 
     if sex == "m":
-         dieuv "Tu vois, je peux te le dire à toi, t'as l'air inoffensif. Mais... Tu sais avé le Médoc... T'as peut-être vu qu'on était... En froid..."
+         dieuv "Tu vois, je peux te le dire à toi, t'as l'air inoffensif. Mais... tu sais avé le Médoc... t'as peut-être vu qu'on était... en froid..."
     else:
-         dieuv "Tu vois, je peux te le dire à toi, t'as l'air inoffensive. Mais... Tu sais avé le Médoc... T'as peut-être vu qu'on était... En froid..."
+         dieuv "Tu vois, je peux te le dire à toi, t'as l'air inoffensive. Mais... tu sais avé le Médoc... t'as peut-être vu qu'on était... en froid..."
    
     show Foulk PoseGauche Sourire Yeuxfermes
     foulk "Oulala et voilà, tu nous l'as rendu triste. Attends je RT."
@@ -263,7 +266,7 @@ label club_comedie:
     dieuv "Génial je sais."
     show Dieuvomi PoseDroite Sourire
     show Foulk PoseGauche Badboy
-    dieuv "Hé bien figure toi que c'est ce que tout le monde pensait. On allait percer !"
+    dieuv "Hé bien figure-toi que c'est ce que tout le monde pensait. On allait percer !"
     show Dieuvomi PoseDroite Triste
     dieuv "On allait bousculer le monde. Et puis Médoc s'est mis à changer, il était plus solitaire, plus secret. Il s'est attribué Jeudicouverte."
     
@@ -278,10 +281,10 @@ label club_comedie:
     show Dieuvomi PoseDroite Triste
     dieuv "Tu en as sûrement entendu parler ? C'était « Moi, Médoc et Jeudicouverte »."
     show Dieuvomi BrasCroises Triste
-    dieuv "Tout le monde a adoré. Et, bien sur, il m'a pas crédité."
+    dieuv "Tout le monde a adoré. Et, bien sûr, il m'a pas crédité."
     show Dieuvomi BrasCroises Colere
     dieuv "Pire, il m'a accusé de lui avoir volé concept."
-    pov "Mais... C'est horrible."
+    pov "Mais... c'est horrible."
     show Dieuvomi PoseDroite Colere
     pov "Et t'es sûr qu'il n'y a pas eu de malentendu ? Enfin, Médoc a l'air d'être une chouette personne, non ?"
     show Dieuvomi PoseDroite Triste
@@ -321,7 +324,7 @@ label club_comedie:
     dieuv "Non, pourquoi faire ? Il était au sommet et j'étais si petit. Je pouvais plus rien faire. Alors j'ai crevé des peuneus."
     pov "Mais... quel est le rapport ?"
     show Dieuvomi BrasCroises Badboy
-    dieuv "Tu vois pas ? Hm je suis pas sur que tu aies l'étoffe d'un vrai comique."
+    dieuv "Tu vois pas ? Hm je suis pas sûr que tu aies l'étoffe d'un vrai comique."
     dieuv "Tu vois pas à quel point c'est drôle de voir des peuneus crevés ? Ou des trucs en feu à la limite ? Ou les deux ?"
     show Dieuvomi PoseDroite Sourire Yeuxfermes Rougit
     dieuv "MMOUAHAHAHAHAHAHAHAH"
@@ -342,7 +345,7 @@ label club_comedie:
     show Dieuvomi PoseDroite Triste
     dieuv "C'est le mieux pour l'instant."
     show Dieuvomi BrasCroises Colere at normalzoom
-    dieuv "Mais RAPPELLE TOI -"
+    dieuv "Mais RAPPELLE-TOI -"
     show Dieuvomi BrasCroises Colere with vpunch
     dieuv "PERSONNE -"
     show Dieuvomi BrasCroises Colere at lightzoom with vpunch

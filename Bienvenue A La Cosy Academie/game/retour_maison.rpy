@@ -20,5 +20,5 @@ label fin_journee:
     hide Metalice with dissolve
     innerpov "Quelle ninja..."
 
-    jump hard_night
+    jump club_lock
     return

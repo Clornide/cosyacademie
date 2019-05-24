@@ -218,7 +218,7 @@ label club_lock:
     show aura3 zorder 1000 with flash
 
 
-    lock "Wowowowo ! C'est MON arc narratif!"
+    lock "Wowowowo ! C'est MON arc narratif ! Laissez-moi faire lectrisité !"
     hide Lock
 
     hide aura3

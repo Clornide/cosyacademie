@@ -18,9 +18,7 @@ label club_otaku:
     innerpov "Bon, din m'a dit qu'ils avaient une photocopieuse dans ce club..."
     innerpov "C'est ici !"
 
-    scene classroom night with longfade
-
-    
+    scene classroom sunset with longfade
 
     innerpov "Tiens ? Ça sent le matcha."
 
