@@ -182,7 +182,7 @@ label cosy_culture_club:
     show Medoc PoseDroite Sourire
     med "Ouais, on a dit qu'on faisait un club, mais ils pensent que c'est juste une excuse pour se voir et boire des coups !"
     show Medoc BrasCroises Degoute
-    med "Comme si on avait besoin d'un excuse pour faire la fête..."
+    med "Comme si on avait besoin d'une excuse pour faire la fête..."
     show Medoc PoseDroite Sourire
     mog "Ouais enfin bon soit, on doit rendre des comptes, donc on doit enregister !"
 
