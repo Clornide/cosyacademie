@@ -48,7 +48,7 @@ label cours_physique:
     med "Bon ok..."
     med "Alors..."
     show Medoc Standard Sourire Yeuxfermes
-    med "Esprism... Es-tu là ?"
+    med "Esprism... es-tu là ?"
     med "Kr kr krr"
     play sound woosh
     hide Medoc
@@ -98,14 +98,19 @@ label cours_physique:
             name_mathilde = "Mathilde"
         show Mathilde PoseDroite Sourire at right
         mat "Présente !"
-        esprism "Ha Mathilde, je ne pourrais pas venir à ton club ce soir..."
+        esprism "Ha Mathilde, je ne pourrai pas venir à ton club ce soir..."
         show Mathilde PoseDroite Triste at right
         esprism "Même si c'est facile, je n'ai pas terminé ma nouvelle théorie des jeux..."
         innerpov "Un club de jeux ? Il faudra que j'aille faire un tour là bas si je ne trouve rien d'autre !"
         hide Mathilde
 
     esprism "[povname] ?"
-    pov "Heuu présent !"
+    
+    if sex=="m":
+        pov "Heuu présent !"
+    else:
+        pov "Heuu présente !"
+    
     esprism "Ha, [povname], je vois que ta fiche n'est pas complète !"
     esprism "Va au secrétariat de suite !"
     innerpov "Argh !"
