@@ -196,8 +196,18 @@ label .Clubtechcheerleaders:
     innerpov "Ça vient de derrière cette porte."
 
     noName "Ne regarde pas en arrière, nous sommes là pour rester \n la vie que nous avons connue, viendra un jour,"
-    scene school hallway choice creepy with longfade
+
+    window hide
+    scene black with longfade
+    play sound jumpscare
+    show jumpscare
+    pause 4.0
+    hide jumpscare
+    scene school hallway choice creepy
     show Cheerleaders Groupe Drop 
+    window auto
+    
+    innerpov "OH PUTAIN J'AI EU PEUR !"
     innerpov "Encore eux ? Ces cheerleaders sont vraiment étranges ! Qu'est-ce qu'ils font ? "
     clornide Clornide Drop "On y est, à la limite, là où le futur (pas compris) \nle feu brûlera, et ne mourra jamais..."
     samael Samael Drop "Ô grand Pansepignon, nous invoquons ton nom !"

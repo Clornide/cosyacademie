@@ -196,6 +196,16 @@ image gym_shonen:
 
     repeat
 
+image jumpscare:
+    xpos 0.5 xanchor 0.5 ypos 0.0 yanchor 0.0 zoom 2.0
+    "Cheerleaders/main_Groupe_03_Drop.png"
+    pause 0.1
+    xpos 0.5 xanchor 0.5 ypos 0.0 yanchor 0.0 zoom 2.5 
+    pause 0.1
+    repeat
+
+
+
 image auraFN:
     zoom 1.0 ypos 1.0 alpha 0.4 yanchor 0.85 xpos 0.5
     "Assets/auraVon/auraFN.0.png"

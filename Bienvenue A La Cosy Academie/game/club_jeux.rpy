@@ -208,7 +208,7 @@
 
     mic "Malheureusement je crois que vu l'écart des scores, il va falloir qu'on se mette à tricher aussi…"
 
-   if sex=="m":
+    if sex=="m":
         pov "Quoi ? Mais je suis le pire menteur que je connaisse ! On va jamais y arriver !"
     else:
         pov "Quoi ? Mais je suis la pire menteuse que je connaisse ! On va jamais y arriver !" 
