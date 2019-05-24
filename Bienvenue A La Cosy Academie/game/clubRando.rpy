@@ -50,6 +50,9 @@ screen skip_von_huge():
 
 label club_rando:
 
+    python:
+        name_von = "Von Yaourt"
+    
     play music quirkylane    
 
     scene black

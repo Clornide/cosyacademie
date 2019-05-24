@@ -247,7 +247,7 @@ label start:
     $ name_metalice = "Metalice"
     $ name_mickey = "Mickey"
     $ name_esprism = "Esprism"
-    $ name_von = "Von Yaourt"
+    $ name_von = "???"
     $ name_chuen = "???"
     $ name_mathilde = "???"
     $ name_caro = "Caro"
