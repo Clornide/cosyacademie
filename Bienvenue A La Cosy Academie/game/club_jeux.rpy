@@ -26,16 +26,19 @@
 
     pov "Hello ? Y a quelqu'un ? Personne ?"
 
-    pov "Bon et bien… Demi-tour alors…"
+    pov "Bon et bien… demi-tour alors…"
 
-    noName "BIENVENUE, MORTEL, DANS L'ANTRE DE… Hmm… FLUTE J'AI OUBLIÉ !!!"
+    noName "BIENVENUE, MORTEL, DANS L'ANTRE DE… Hmm… FLÛTE J'AI OUBLIÉ !!!"
 
     show Mathilde BrasCroises Colere with dissolve
     if mathilde_medoc == True:
         pov "Hum Mathilde, c'est ça ? Celle qui traîne avec Médoc ? Je savais pas que tu étais membre de ce club !"
     else:
-        pov "Hum Mathilde, c'est ça ? On s'est croisé au cours de physique... J'ai entendu que tu faisais partie de ce club ?"
-
+        if sex=="m":
+             pov "Hum Mathilde, c'est ça ? On s'est croisés au cours de physique. J'ai entendu dire que tu faisais partie de ce club ?"
+        else:
+             pov "Hum Mathilde, c'est ça ? On s'est croisées au cours de physique. J'ai entendu dire que tu faisais partie de ce club ?"
+        
     show Mathilde BrasCroises Sourire
 
     mat "Oui c'est moi ! Je suis même présidente du club pour tout te dire !"
@@ -61,7 +64,7 @@
 
     pov "Donc deux membres ?"
 
-    mat "Medoc n'est pas... Vraiment membre en fait… Il vient pour être sympa je pense."
+    mat "Medoc n'est pas... vraiment membre en fait. Il vient pour être sympa je pense."
 
     pov "Donc tu es bien toute seule ?"
 
@@ -197,7 +200,7 @@
 
     mic "Quoi ?! Mais évidemment qu'ils trichent ! C'est presque le principe de ce club !"
 
-    mic "Je viens souvent jouer avec eux, et leur but c'est juste de m'ecraser, peu importe les moyens mis en œuvre !"
+    mic "Je viens souvent jouer avec eux, et leur but c'est juste de m'écraser, peu importent les moyens mis en œuvre !"
 
     pov "Mais j'avais pas cette info ! Donc faut qu'on les en empêche je suppose ?"
 
@@ -205,7 +208,10 @@
 
     mic "Malheureusement je crois que vu l'écart des scores, il va falloir qu'on se mette à tricher aussi…"
 
-    pov "Quoi ? Mais je suis le pire menteur que je connaisse ! On va jamais y arriver !"
+   if sex=="m":
+        pov "Quoi ? Mais je suis le pire menteur que je connaisse ! On va jamais y arriver !"
+    else:
+        pov "Quoi ? Mais je suis la pire menteuse que je connaisse ! On va jamais y arriver !" 
 
     show Mickey BrasCroises Sourire Yeuxfermes
 
@@ -292,11 +298,11 @@
 
     mic "Oui… Je sais.…"
 
-    pov "C'EST DÉGOÛTANT, VOUS ETES UN PERVERS !" with hpunch
+    pov "C'EST DÉGOÛTANT, VOUS ÊTES UN PERVERS !" with hpunch
 
     show Mickey BrasCroises Colere Rougit
 
-    mic "Hein ? Quoi ? Mais non ! Je parles des cartes des pickup lines ! Von Yaourt me paie grassement pour participer à ces jeux et les récupérer à son profit…"
+    mic "Hein ? Quoi ? Mais non ! Je parle des cartes des pickup lines ! Von Yaourt me paie grassement pour participer à ces jeux et les récupérer à son profit…"
 
     pov "Ah… J'ai eu peur… Mais vous avez tant besoin d'argent ?"
 
