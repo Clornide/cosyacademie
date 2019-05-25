@@ -98,7 +98,7 @@ label club_otaku:
     caro "D'ailleurs din, dis-moi que tu as vu {image=we1} tout à l'heure pendant la pause déjeuner hi hi hi"
     show din PoseGauche Cligne Rougit
     $ word_effect("tactiles")
-    din "Il faut toujours qu'ils soient {image=we1} entre eux, ces deux-là hu hu hu"
+    din "Ils ne sont jamais {image=we1} ces deux-là, mais tout est dans le regard hi hi"
     innerpov "Mais enfin..."
     show Caro BrasCroises Degoute
     $ word_effect("Moguri x Chuen")
