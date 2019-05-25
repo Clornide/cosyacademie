@@ -3,10 +3,41 @@ label cours_physique:
     scene school hallway with fade
     play music extrapolation
     window auto
-    innerpov "Bon c'est pas tout ça mais je vais être en retard pour le cours de physique..."
+    
 
+    show Pansepignon PoseSpeciale Sourire with dissolve
+    pov "HEP TOI LA BAS !"   
+    pov "Je te reconnais, je t'ai croisé à l'entrée je ne sais plus quand..."
+    panse "Effectivement, tu as bonne mémoire !"
+    pov "Tu es Pansepignon n'est-ce pas ?"
+    show Pansepignon PoseSpeciale Gene
+    panse "Oh... Je vois qu'on t'a déjà parlé de ce jeune génie incompris..."
+    show Pansepignon PoseSpeciale Sourire Yeuxfermes
+    panse "Si dans ton coeur, c'est ce que tu ressens, alors oui. Je suis Pansepignon."
+    innerpov "Ok... c'est complètement lui..."
+    $ name_panse = "Pansepignon"
+    panse "Mais tu sais, son histoire est bien plus compliquée qu'on ne le Panse."
+    show Pansepignon PoseSpeciale Cligne
+    panse "Pignon."
+    pov "..."
+    panse "Bref. J'ai à faire ! Faut que je file !"
+    pov "Attends ! Qu'est-ce-que tu fais ici ? Que cherche-tu à accomplir ?"
+    show Pansepignon PoseSpeciale Degoute
+    panse "La... vengeance..."
+    pov "Nan, mais en vrai ?"
+    show Pansepignon PoseSpeciale Triste
+    panse "En vrai ? J'ai perdu un truc dans l'école, j'aimerai bien le retrouver..."
+    pov "Ah c'est tout ? Je peux peut-être t'aider du coup, tu cherches quel genre de truc ?"
+    show Pansepignon PoseSpeciale Gene
+    panse "Mon... Innocence..."
+    pov "..."
+    panse "Nan, c'est un p'tit disque, que j'avais ramené à un ami, il doit être dans le coin !"
+    panse "Allez, je file vraiment cette fois ! Bon courage pour la suite !"
+    hide Pansepignon with dissolve
+    innerpov "Bon c'est pas tout ça mais je vais être en retard pour le cours de physique..."
     scene classroom with fade
 
+    
     
 
     show Dieuvomi BrasCroises Badboy at left

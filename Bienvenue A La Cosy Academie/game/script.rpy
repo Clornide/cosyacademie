@@ -174,6 +174,7 @@ define clornide = Character('Clornide', color="#fff", image="Clornide", screen =
 define samael = Character('Samaël', color="#fff", image="Samael", screen = "say_classic")
 define decade = Character('Decade', color="#fff", image="Decade", screen = "say_classic")
 define cheers = Character('name_cheers', color="#fff", dynamic = True, screen = "say_classic")
+define panse = Character('name_panse', color="#fff", image="Pansepignon", dynamic = True, screen = "say_classic")
 define inc = Character('???', color="#fff", screen = "say_classic")
 define tlm = Character('Tout le monde', color="#fff", screen = "say_classic")
 define noName = Character('', color="#fff", screen = "say_classic")
@@ -257,6 +258,7 @@ label start:
     $ name_zep = "???"
     $ name_clornide = "Clornide"
     $ name_cheers = "Panthusiasts"
+    $ name_panse = "???"
 
     
     show screen affection

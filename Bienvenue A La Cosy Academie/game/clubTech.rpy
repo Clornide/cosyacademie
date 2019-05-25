@@ -110,7 +110,7 @@ label club_tech:
     jump club_otaku
     return
 
-    
+  
 
 label .Clubtechmetalice:
     innerpov "Mais où se trouve ce club #tech ? C'est un vrai dédale cette Académie..."
@@ -178,8 +178,11 @@ label .Clubtechfoulk:
     innerpov "Un spectacle !? Mais je l'ai déjà vu ! Soit il y a un problème temporel, soit ils ont un AUTRE spectacle..."
     innerpov "Ces deux perspectives m'angoissent..."
 
+    show Foulk PoseGauche Sourire with dissolve
+    foulk "J'oubliais !"
     show Foulk BrasCroises Triste
-    foulk "Ah, et si tu croises un type de mauvais goût, à la cravate et aux chaussettes bleues, n'écoute pas ses indications : à part la droite, il ne connaît rien d'autre."
+    foulk "Si tu croises un type de mauvais goût, à la cravate et aux chaussettes bleues, n'écoute pas ses indications : à part la droite, il ne connaît rien d'autre."
+    show Foulk PoseSpeciale Sourire
     foulk "Eh beh, appelez moi Joseph Gordon Levitt'riole aujourd'hui ! Il faut que je la note celle-là, elle est trop fraiche !"
     pov "Ok ! Salut hein !"
     innerpov "Rho le lourd..."
@@ -198,9 +201,9 @@ label .Clubtechcheerleaders:
     noName "Ne regarde pas en arrière, nous sommes là pour rester \n la vie que nous avons connue, viendra un jour,"
 
     window hide
-    scene black with longfade
+    scene black with fade
     play sound jumpscare
-    show jumpscare
+    show jumpscare with hpunch
     pause 4.0
     hide jumpscare
     scene school hallway choice creepy
@@ -209,15 +212,15 @@ label .Clubtechcheerleaders:
 
     innerpov "OH MERDE J'AI EU PEUR !"
     innerpov "Encore eux ? Ces cheerleaders sont vraiment étranges ! Qu'est-ce qu'ils font ? "
-    clornide Clornide Drop "On y est, à la limite, là où le futur (pas compris) \nle feu brûlera, et ne mourra jamais..."
+    clornide Clornide Drop "On y est, à la limite, là où le futur nous laisse en arrière,\nle feu brûlera, et ne mourra jamais..."
     samael Samael Drop "Ô grand Pansepignon, nous invoquons ton nom !"
-    clornide "Regarde dans les yeux d'une nouvelle vie\n alors trouve-moi, juste, trouve-moi..."
+    clornide "Regarde dans les yeux d'une nouvelle vie,\nalors trouve-moi, juste, trouve-moi..."
     samael "Ô Grand Pansepignon, Bénis-Nous de ta Présence, et Accepte ces Offrandes !"
     innerpov "Ils font flipper ces types !"
-    clornide "Des étincelles voleront\n si nous crions non..."
+    clornide "Des étincelles voleront,\nsi nous crions maintenant..."
     samael "Ô Grand Pansepignon, nous nous inclinons devant ton Drop !"
-    clornide "Ce n'est pas comme ça que nous partirons \n nous sommes ceux qui ne lâchons jamais !!"
-    clornide "(pas compris)\n Nous ne grandirons jamaiiiis !!!"
+    clornide "Ce n'est pas comme ça que nous partirons,\nnous sommes ceux qui ne lâchent jamais !!"
+    clornide "Il suffit de te regarder tourbiller là où personne ne sait.\nNous ne grandirons jamaiiiis !!!"
     if sex=="f":
         innerpov "Ils se partagent des pillules bizarres... Le Drop ! Metalice m'avait prévenue !"
     else:
@@ -305,7 +308,7 @@ label .ChooseCouloir(count_couloir = 0):
     if count_couloir == 5:
         $ line_choice = "Ils auraient quand même pu faire un peu d'efforts sur ces décors, ça se voit le color swap.."
     elif count_couloir == 2:
-        $ line_choice = "J'espère que ce n'est pas réellement un labyrinthe !"
+        $ line_choice = "J'espère que ce n'est pas réellement un labyrinthe ! Je devrais peut-être prendre des notes au cas où ?"
     elif count_couloir == 7:
         $ line_choice = "Plus le temps passe, et plus la droite me tente..."
     elif count_couloir == 8:
