@@ -22,28 +22,28 @@ label intro:
     show Moguri Standard Badboy
     with flash
 
-    noName "BOOONG!!!!!"
+    noName "BOOONG!!!!!"  with hpunch
 
     pov "Hey !! Mais ça va pas de foncer dans les gens comme ç- !?"
 
-    pov "Oh non...."
-    pov "C'est Moguri..."
-    pov "Mais s'il est ici, ça veut dire que..."
+    innerpov "Oh non...."
+    innerpov "C'est Moguri..."
+    innerpov "Mais s'il est ici, ça veut dire que..."
 
     hide Moguri
     show Medoc Standard Badboy
     with flash
 
-    noName "BOOONG!!!!!"
+    noName "BOOONG!!!!!" with hpunch
 
 
     show Moguri Standard Badboy at right
     show Medoc Standard Badboy at left
 
-    pov "C'est pas vrai..."
-    pov "Medoc et Moguri. Dès mon premier jour, je tombe sur eux."
-    pov "Littéralement en plus."
-    pov "Moi qui voulais faire une rentrée à peu près discrète, c'est rapé."
+    innerpov "C'est pas vrai..."
+    innerpov "Medoc et Moguri. Dès mon premier jour, je tombe sur eux."
+    innerpov "Littéralement en plus."
+    innerpov "Moi qui voulais faire une rentrée à peu près discrète, c'est rapé."
 
     show Medoc Standard Degoute at left
 

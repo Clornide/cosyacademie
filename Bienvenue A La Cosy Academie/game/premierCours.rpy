@@ -1,5 +1,5 @@
 label Premiercours:
-    play music skyward
+    play music ashes
     scene classroom with fade
 
     inc "Allez allez, un peu de silence !"
@@ -56,7 +56,7 @@ label Premiercours:
     with shortflash
     show Medoc PoseGauche Degoute with shortflash
 
-    noName "BLAM!!"
+    noName "BLAM!!" with hpunch
     med "Bon t'as pas bientôt fini avec ses histoires de 'Je n'ai pas ma place ici, vous valez mieux que moi' ou je sais pas quoi !?"
     med "T'as pas écouté ce que t'a dit Moguri ou quoi ?!"
 

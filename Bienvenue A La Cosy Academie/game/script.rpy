@@ -274,7 +274,7 @@ label start:
                 povname="Hector"
 
         else:
-            povname = renpy.input("Veuillez renseigner votre prénom ? Par défaut vous serez appelé Cassandre.", length = 40)
+            povname = renpy.input("Veuillez renseigner votre prénom. Par défaut vous serez appelé Cassandre.", length = 40)
             povname = povname.strip()
 
             while povname=="moguri" or povname=="Moguri" or povname=="medoc" or povname=="Medoc" :
