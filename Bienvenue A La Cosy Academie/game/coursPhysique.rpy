@@ -21,12 +21,12 @@ label cours_physique:
     panse "Pignon."
     pov "..."
     panse "Bref. J'ai à faire ! Faut que je file !"
-    pov "Attends ! Qu'est-ce-que tu fais ici ? Que cherche-tu à accomplir ?"
+    pov "Attends ! Qu'est-ce-que tu fais ici ? Que cherches-tu à accomplir ?"
     show Pansepignon PoseSpeciale Degoute
     panse "La... vengeance..."
     pov "Nan, mais en vrai ?"
     show Pansepignon PoseSpeciale Triste
-    panse "En vrai ? J'ai perdu un truc dans l'école, j'aimerai bien le retrouver..."
+    panse "En vrai ? J'ai perdu un truc dans l'école, j'aimerais bien le retrouver..."
     pov "Ah c'est tout ? Je peux peut-être t'aider du coup, tu cherches quel genre de truc ?"
     show Pansepignon PoseSpeciale Gene
     panse "Mon... Innocence..."
