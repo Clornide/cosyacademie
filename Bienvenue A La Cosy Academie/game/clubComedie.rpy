@@ -59,7 +59,12 @@ label club_comedie:
     dieuv "Mais ouais, Foulk voulait faire le sien d'abord. J'y peux quoi ? Hein tu me cherches en fait ?"
     pov "Non... je.."
     show Dieuvomi Standard Sourire
-    dieuv "AHAHAHAHAH je déconne, tu vois, tu t'es laissé piéger par les pièges de mon humour."
+   
+   if sex=="m":
+        dieuv "AHAHAHAHAH je déconne, tu vois, tu t'es laissé piéger par les pièges de mon humour."
+    else:
+        dieuv "AHAHAHAHAH je déconne, tu vois, tu t'es laissée piéger par les pièges de mon humour."
+    
     dieuv "T'as gambergé un peu le délire ? Tu crois que je vais te casser la gueule à coups de chaînes et en fait c'était pour déconner. La base de l'humour."
     pov "Ahahah..."
     innerpov "C'est gênant."
