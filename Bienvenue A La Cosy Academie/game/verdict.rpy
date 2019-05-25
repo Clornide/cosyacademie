@@ -34,14 +34,14 @@ label verdict:
 
     mog "Et... Hop ! C'est coupé !"
     
-    pov "C'était.... PHENOMENAL !"
+    pov "C'était.... PHÉNOMENAL !"
 
     mog "Ahahah !"
     med "Arrête tu vas nous faire rougir !"
 
     pov "Non mais vraiment ! Vous avez vraiment une alchimie digne des plus grands !"
 
-    med "Mais tu sais... Si tu rejoins ce club, tu pourras faire partie de cette alchimie."
+    med "Mais tu sais... si tu rejoins ce club, tu pourras faire partie de cette alchimie."
     pov "Vraiment ? Je peux ? Je veux dire, vous avez l'air si proches ! Et il n'y a que deux personnes dans ce club, je voudrais pas ruiner ça..."
 
     mog "Tu sais, si on te propose, c'est qu'on a senti qu'il y avait quelque chose de spécial..."
@@ -469,7 +469,7 @@ label verdict:
             
         pov "Après, j'ai rencontré pas mal de gens depuis que je suis là !"
         pov "J'ai qu'à les inviter à boire un coup ici !"
-        pov "Un p'tit Dieuvomi, un Foulk, peut-être un VonYaourt..."
+        pov "Un p'tit Dieuvomi, un Foulk, peut-être un Von Yaourt..."
         pov "J'peux inviter tout le monde en fait, je suis un membre à part entière du Cosy Culture Club !"
         pov "Boire des coups fait partie du concept en plus !"
         pov "Bon j'vais les chercher alors !"
