@@ -219,7 +219,7 @@ define audio.metaltchoum = "sounds/metaltchoum.mp3"
 define audio.jumpscare = "sounds/jumpscare.mp3"
 # Le jeu commence ici
 label start:
-
+    $ quick_menu = False
     menu:
         noName "Avant de commencer, voulez-vous incarner un personnage féminin ou masculin ?"
 
@@ -261,7 +261,7 @@ label start:
     $ name_panse = "???"
 
     
-    show screen affection
+    #show screen affection
     python:
         if sex=="m":
             povname = renpy.input("Veuillez renseigner votre prénom ? Par défaut vous serez appelé Hector.", length = 40)
@@ -284,7 +284,7 @@ label start:
                 povname="Cassandre"
 
     window auto
-    
+    $ quick_menu = True
 
     jump intro
 

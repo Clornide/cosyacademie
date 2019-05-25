@@ -71,6 +71,7 @@ label club_rando:
     show Von PoseSpeciale Sourire Yeuxfermes
     von "C’est bon, tout le monde est là ? Alors bienvenue au club de randonnée !"
     von "Ici on marche pour se détendre, entretenir le corps mais aussi cultiver l’esprit."
+
     von "Un seul mot d’ordre : bonne humeur obligatoire."
     pov "Et on va où exactement ?"
     show Von PoseSpeciale Sourire Yeuxfermes
@@ -133,8 +134,10 @@ label club_rando:
     show Von BrasCroises Badboy at center
     von "Allez, passons aux choses sérieuses. C’est l’heure du… questionnaire d’histoire ! Vous ne croyiez tout de même pas que vous alliez vous en tirer sans vous cultiver !"
 
-
+    
     python:
+        old_pref_skip = _preferences.skip_unseen
+        _preferences.skip_unseen = True
         von_monologue_tags = "{fast}"
     
     von "Première question : où est né Jean II le Bon, roi de France de 1350 à 1364 ?"
@@ -159,15 +162,18 @@ label club_rando:
     hide screen skip_von_very_small
     show screen skip_von_small
 
-    von "C’est lors de cet événement qu’il est fait prisonnier, puis conduit à Londres où il mourra huit ans plus tard après être revenu en France et reparti en Angleterre pour verser la rançon demandée pour sa libération, cédant au passage un tiers du royaume.[von_monologue_tags]"
-    von "Pendant la vacance du pouvoir, c’est le prévôt des marchands de Paris, Etienne Marcel, qui en tant que délégué du tiers état lors des états généraux convoqués en 1355, 1356 et 1357, devient le chef du mouvement réformateur, et donc à la tête de l’opposition au pouvoir royal.[von_monologue_tags]"
+    von "C’est lors de cet événement qu’il est fait prisonnier, puis conduit à Londres où il mourra huit ans plus tard après être revenu en France et reparti en Angleterre...[von_monologue_tags]"
+    von "pour verser la rançon demandée pour sa libération, cédant au passage un tiers du royaume.[von_monologue_tags]"
+    von "Pendant la vacance du pouvoir, c’est le prévôt des marchands de Paris, Etienne Marcel, qui en tant que délégué du tiers état lors des états généraux convoqués en 1355, 1356 et 1357,...[von_monologue_tags]"
+    von "devient le chef du mouvement réformateur, et donc à la tête de l’opposition au pouvoir royal.[von_monologue_tags]"
 
 
     hide screen skip_von_small
     show screen skip_von_medium    
 
 
-    von "Ce qui lui vaudra la sienne, de tête. On se demande bien pourquoi, d’ailleurs, on nomme des stations de métro d’après ce genre de personnages, d’ailleurs. Mais passons, Lorent Deustch, grand historien, a déjà fait un livre sur le sujet.[von_monologue_tags]"
+    von "Ce qui lui vaudra la sienne, de tête. On se demande bien pourquoi, d’ailleurs, on nomme des stations de métro d’après ce genre de personnages, d’ailleurs.[von_monologue_tags]"
+    von "Mais passons, Lorent Deustch, grand historien, a déjà fait un livre sur le sujet.[von_monologue_tags]"
     von "Je disais donc que Jean II Le Bon ne méritait pas d’être né à Blois. Blois est une ville d’importance, capitale du comté de Blois avant qu’elle ne soit intégrée au duché d’Orléans en 1397.[von_monologue_tags]"
 
 
@@ -186,9 +192,13 @@ label club_rando:
     von "C’est un joyau architectural unique que chaque personne de goût se doit de visiter au moins une fois dans sa vie ![von_monologue_tags]"
     von "Un témoignage unique de la richesse d’une ville dont on dit qu’elle était tellement raffinée qu’elle était l’hôte de quarante-sept horlogers simultanément sous Gaston d’Orléans.[von_monologue_tags]"
     
+    pause (0.1)
     python:
+        _preferences.skip_unseen = old_pref_skip
         if renpy.is_skipping():
             renpy.run(Skip())
+
+            
        
     hide screen skip_von_huge
     
@@ -290,7 +300,7 @@ label club_rando:
         von "La route est droite, mais la pente est forte."
         hide Von with dissolve
 
-    innerpov "Ce club est extrement à droite !"
+    innerpov "Ce club est extrêmement à droite !"
     innerpov "Je pense que je vais éviter d'y revenir..."
     innerpov "Mais j'ai essayé tous les clubs qu'on m'a conseillés... Qu'est-ce que je vais faire ?"
     innerpov "Bon, je vais retourner voir Metalice, elle aura sûremment une idée !"

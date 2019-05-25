@@ -15,14 +15,14 @@ label verdict:
         xanchor 0.5 xpos 0.5
     with dissolve
     with Pause(2)
-    hide name_ccc
+    hide name_ccc with longfade
     window auto
 
 
-    scene bar with fade
+    scene bar with longfade
    
-    show Moguri PoseGauche Sourire Yeuxfermes at left
-    show Medoc PoseDroite Sourire Yeuxfermes at right
+    show Moguri PoseGauche Sourire Yeuxfermes at left with dissolve
+    show Medoc PoseDroite Sourire Yeuxfermes at right with dissolve
     mog "Bon ben nickel alors Medoc, on se revoit dans deux semaines, et d'ici là tu fais quoi ?"
     med "Oh j'vais essayer de rester..."
     mog "Ouais ?"
@@ -282,6 +282,7 @@ label verdict:
 
         innerpov "Ouaip... C'est vraiment une très bonne année qui commence, vivement la suite !"
 
+        $ quick_menu = False
         window hide
 
         pause 0.5
@@ -438,6 +439,7 @@ label verdict:
         pov "J'arrive, j'arrive !"
         innerpov "Ouaip... C'est vraiment une très bonne année qui commence, vivement la suite !"
     
+        $ quick_menu = False
         window hide
 
         pause 0.5
@@ -580,8 +582,10 @@ label verdict:
         pov "Fiouf... Tout le monde est parti, j'ai tout rangé... Nickel !"
         pov "Eh... Elle commence pas si mal cette année finalement, vivement la suite !"
 
+        $ quick_menu = False
         window hide
-
+    
+        
         pause 0.5
         show ending alone with longfade
         pause 10

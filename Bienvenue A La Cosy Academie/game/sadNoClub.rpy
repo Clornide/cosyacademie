@@ -1,6 +1,7 @@
 label sad_no_club:
-    scene street day with longfade
     play music memento
+    scene street day with longfade
+    
     innerpov "Et voilà, la semaine est finie et je n'ai toujours pas de club..."
     innerpov "Je vais sans doute devoir quitter la Cosy Académie..."
 
