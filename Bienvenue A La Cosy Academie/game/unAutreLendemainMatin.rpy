@@ -47,7 +47,7 @@ label unAutreLendemainMatin:
     pov "Les cheerleaders !"
     show Pansepignon Standard Sourire Yeuxfermes
     panse "Aaaaah ! Chuen a recruté des branques exprès... Il va bientôt obtenir son diplôme lui aussi, et ce club, c'est le symbole de notre relation !"   
-    panse "Du coup il voulait que le club meurt à son départ de l'Académie, c'est pour ça qu'il leur fait faire n'importe quoi !"
+    panse "Du coup il voulait que le club meure à son départ de l'Académie, c'est pour ça qu'il leur fait faire n'importe quoi !"
     pov "Chuenpodo était donc de mèche depuis le début !"
     show Pansepignon Standard Degoute
 
@@ -60,13 +60,13 @@ label unAutreLendemainMatin:
     panse "Un DROP de folie !"
     panse "Une fois entendu, il devient une source de motivation très puissante, on peut même y voir des traces d'addiction !"
     show Pansepignon Standard Gene
-    panse "Quand je managais les cheerleaders, je m'en servais un peu."
+    panse "Quand je manageais les cheerleaders, je m'en servais un peu."
 
     show Pansepignon Standard Degoute
     panse "Chuenpodo a repris mes méthodes, mais j'ai mené quelques recherches après avoir observé des effets secondaires étranges, et il se trouve que..."
 
     show Pansepignon BrasCroises Colere
-    panse "C'EST UNE HYMNE AUX INCELS  !!"
+    panse "C'EST UN HYMNE AUX INCELS  !!"
 
     pov "Hein ?"
 
@@ -75,10 +75,10 @@ label unAutreLendemainMatin:
     pov "Ah oui quand même..."
 
     show Pansepignon PoseGauche Degoute
-    panse "MAIS OUAIS ! Du coup bah c'est chaud... On a coupé toute distribution de DROP et... Bah ils sont en manque quoi..."
+    panse "MAIS OUAIS ! Du coup bah c'est chaud. On a coupé toute distribution de DROP et... bah ils sont en manque quoi..."
     show Pansepignon PoseGauche Cligne
     panse "Mais ça va passer, je ne m'inquiète pas pour eux !"
-    pov "Donc... Cette drogue dont j'ai entendue parler..."
+    pov "Donc... cette drogue dont j'ai entendu parler..."
 
     show Pansepignon BrasCroises Sourire
     panse "Ah mais c'était sûrement ça du coup ! Tout va bien, le problème est réglé maintenant !"
