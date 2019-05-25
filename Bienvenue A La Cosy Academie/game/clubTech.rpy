@@ -220,7 +220,7 @@ label .Clubtechcheerleaders:
     clornide "Des étincelles voleront,\nsi nous crions maintenant..."
     samael "Ô Grand Pansepignon, nous nous inclinons devant ton Drop !"
     clornide "Ce n'est pas comme ça que nous partirons,\nnous sommes ceux qui ne lâchent jamais !!"
-    clornide "Il suffit de te regarder tourbiller là où personne ne sait.\nNous ne grandirons jamaiiiis !!!"
+    clornide "Il suffit de te regarder tourbillonner là où personne ne sait.\nNous ne grandirons jamaiiiis !!!"
     if sex=="f":
         innerpov "Ils se partagent des pillules bizarres... Le Drop ! Metalice m'avait prévenue !"
     else:
