@@ -44,7 +44,7 @@ label Rentreavecmetalice2:
 
     show Metalice PoseSpeciale Sourire Yeuxfermes
 
-    met "Personnellement je fais partie du conseil des élèves, donc je te dirai bien de me rejoindre..."
+    met "Personnellement je fais partie du conseil des élèves, donc je te dirais bien de me rejoindre..."
     met "Mais je pense que tu irais à merveille dans l'équipe de cheerleaders !"
 
     pov "Tu crois ? Merci pour le compliment !"
@@ -57,14 +57,14 @@ label Rentreavecmetalice2:
 
     met "Adresse-toi à Chuenpodo, c'est leur manager."
     pov "Il ressemble à quoi ?"
-    met "Un grand blond à lunettes. Tu verras, il est resplendissant. Eblouissant même !"
+    met "Un grand blond à lunettes. Tu verras, il est resplendissant. Éblouissant même !"
     pov "Dis donc, je croyais que tu étais déjà prise !"
-    met "Non mais... Littéralement !  Il a une espèce d'aura lumineuse qui... Enfin, tu comprendras quand tu le rencontreras je suppose !"
+    met "Non mais... littéralement !  Il a une espèce d'aura lumineuse qui... enfin, tu comprendras quand tu le rencontreras je suppose !"
     pov "Je verrai, merci du conseil !"
 
     show Metalice Standard Sourire Yeuxfermes
 
-    met "Il commence à faire froid tu ne trouves pas ? On devrait peut être se dépêcher de rentrer..."
+    met "Il commence à faire froid tu ne trouves pas ? On devrait peut-être se dépêcher de rentrer..."
     pov "Effectivement, allons-y !"
 
     show Metalice Standard Sourire with longfade
@@ -79,7 +79,7 @@ label Rentreavecmetalice2:
     show Metalice PoseSpeciale Sourire Yeuxfermes
 
     met "Je te dis à demain alors ! Et pense bien à aller voir les cheerleaders !"
-    pov "Bien sûr ! A demain Metalice !"
+    pov "Bien sûr ! À demain Metalice !"
 
     show Metalice PoseSpeciale Cligne
 
@@ -98,12 +98,12 @@ label Rentreavecmetalice2:
     show brise at truecenter with dissolve
 #avec un bruit de vent, je sais pas trop encore comment faire, je verrai après
 
-    inc "Oui... Il en a beaucoup..."
+    inc "Oui... il en a beaucoup..."
     pov "?"
     pov "Quelqu'un a parlé ?"
     inc "..."
 
-    pov "Brrr... Il fait froid d'un coup, je ferai mieux d'y aller !"
+    pov "Brrr... Il fait froid d'un coup, je ferais mieux d'y aller !"
 
     jump lendemainMatin
 
