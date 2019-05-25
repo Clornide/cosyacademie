@@ -60,7 +60,7 @@ label club_comedie:
     pov "Non... je.."
     show Dieuvomi Standard Sourire
    
-   if sex=="m":
+    if sex=="m":
         dieuv "AHAHAHAHAH je déconne, tu vois, tu t'es laissé piéger par les pièges de mon humour."
     else:
         dieuv "AHAHAHAHAH je déconne, tu vois, tu t'es laissée piéger par les pièges de mon humour."
