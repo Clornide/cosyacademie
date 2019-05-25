@@ -24,7 +24,7 @@ label lendemainMatin:
 
     
 
-    panse "Tu devrais surement te dépêcher, tu sais !"
+    panse "Tu devrais sûrement te dépêcher, tu sais !"
 
     pov "Ah merci ! Je viens d'arriver donc je ne connais pas tout le monde, tu es élève à l'Académie ?"
 
@@ -41,7 +41,7 @@ label lendemainMatin:
 
     pov "C'est... hyper vague."
     panse "Tu en apprendras sûrement plus bientôt, ne t'inquiète pas !"
-    panse "Tu devrais te dépêcher, je crois que tu as rendez-vous avec la meilleure personne de cette établissement."
+    panse "Tu devrais te dépêcher, je crois que tu as rendez-vous avec la meilleure personne de cet établissement."
     panse "Allez, bye !"
 
     hide Pansepignon with dissolve
