@@ -236,7 +236,7 @@ label club_pansepignoles:
 
     pov "Non, ils sont carrément bizarres... Dis, c'est quoi cette histoire d'invocation ?"
     show Metalice Standard Cligne
-    met "T'as bien vu qu'ils n'arrivent jamais a épeler Pansepignon correctement sans être interrompus ?"
+    met "T'as bien vu qu'ils n'arrivent jamais à épeler Pansepignon correctement sans être interrompus ?"
 
     pov "Oui Chuenpodo m'a même dit qu'ils devaient être maudits !"
     show Metalice Standard Sourire
