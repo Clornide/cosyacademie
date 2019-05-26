@@ -231,4 +231,4 @@ init python:
 ## Le nom d’utilisateur et du projet associé au projet itch.io, séparé par un
 ## slash.
 
-# define build.itch_project = "renpytom/test-project"
+define build.itch_project = "ze-pilot/bienvenue-a-la-cosy-academie"
