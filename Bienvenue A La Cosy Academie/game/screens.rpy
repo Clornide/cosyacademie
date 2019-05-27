@@ -672,7 +672,7 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
             python:
-                credits = ('Personnages', 'din'), ('Backgrounds', 'Ze_PilOt'), ('Les Cheerleaders', 'Ecrit par Clornide'),  ('Le club Otaku', 'Ecrit par din'), ('Le club Rando', 'Ecrit par Von Yaourt'), ('Le club Comédie', 'Ecrit par Dieuvomi'), ('Le club de Bagarre', 'Ecrit par KupowY'), ('Le club des Jeux', 'Ecrit par Clornide'), ('Le conseil des élèves', 'Ecrit par Decade'), ('Le club Tech', 'Ecrit par Decade'), ('Le Cosy Culture Club', 'Ecrit par Ze_PilOt'), ('Relecture', 'Dieuvomi'), ('Relecture', 'Von Yaourt'), ('Mise en scène', 'Ze_PilOt'), ('Musique (Creative Common)', 'Scott Buckley'), ('Musique (Creative Common)', 'Myuu')
+                credits = ('Personnages', 'din'), ('Backgrounds', 'Ze_PilOt'), ('Les Cheerleaders', 'Ecrit par Clornide'), ('Le club Comédie', 'Ecrit par Dieuvomi'),('Le club Comédie', 'Spectacle de Foulk : Twitter @Foulk32'), ('Le club Tech', 'Ecrit par Decade'), ('Le club Otaku', 'Ecrit par din'), ('Le club des Jeux', 'Ecrit par Clornide'), ('Le club Rando', 'Ecrit par Von Yaourt'), ('Le club de Bagarre', 'Ecrit par KupowY'), ('Le conseil des élèves', 'Ecrit par Decade'), ('Le Cosy Culture Club', 'Ecrit par Ze_PilOt'), ('Le Verdict', 'Ecrit par Clornide'), ('Relecture et corrections', 'KupowY'), ('Relecture et corrections', 'Samaël'),('Relecture et corrections', 'Von Yaourt'), ('Programmation', 'Ze_PilOt'), ('Mise en scène', 'Ze_PilOt'), ('Musique (Creative Common)', 'Scott Buckley'), ('Musique (Creative Common)', 'Myuu'), ('Musique (Creative Common)', 'KODOMOi')
                 
                 credits_s = ""
                 c1 = ''
