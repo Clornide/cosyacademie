@@ -166,9 +166,9 @@ label verdict:
         med "Alors qu'en réalité, c'est juste un masque que je me suis créé, pour pallier mon manque d'assurance..."
         
         if sex=="m":        
-        med "C'est pour ça que quand je t'ai vu arriver, je t'ai un peu brusqué. Je ne voulais pas que tu aies à subir les choses que j'ai vécues."
+            med "C'est pour ça que quand je t'ai vu arriver, je t'ai un peu brusqué. Je ne voulais pas que tu aies à subir les choses que j'ai vécues."
         else:
-        med "C'est pour ça que quand je t'ai vu arriver, je t'ai un peu brusquée. Je ne voulais pas que tu aies à subir les choses que j'ai vécues."
+            med "C'est pour ça que quand je t'ai vu arriver, je t'ai un peu brusquée. Je ne voulais pas que tu aies à subir les choses que j'ai vécues."
         
         show Medoc PoseGauche Sourire Yeuxfermes Rougit
         med "Et tu as tellement évolué !"
