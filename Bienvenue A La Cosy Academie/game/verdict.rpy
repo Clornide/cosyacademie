@@ -113,7 +113,7 @@ label verdict:
             med "Ça me fait vraiment plaisir que tu sois venue t'inscrire au Cosy Culture Club." 
         
         med "Vraiment, ça me touche beaucoup ! Surtout avec le rough start qu'on a eu tous les deux."
-        med "Et sache que je suis prêt à t'aider dans ta petite entrerprise !"
+        med "Et sache que je suis prêt à t'aider dans ta petite entreprise !"
 
         pov "Ma petite entreprise ?"
 
@@ -164,8 +164,12 @@ label verdict:
         show Medoc PoseGauche Sourire Rougit
 
         med "Alors qu'en réalité, c'est juste un masque que je me suis créé, pour pallier mon manque d'assurance..."
-        med "C'est pour ça que quand je t'ai vu arriver, je t'ai un peu brusqué. Je ne voulais pas que tu aies à subir les mêmes choses que j'ai vécues."
-
+        
+        if sex=="m":        
+        med "C'est pour ça que quand je t'ai vu arriver, je t'ai un peu brusqué. Je ne voulais pas que tu aies à subir les choses que j'ai vécues."
+        else:
+        med "C'est pour ça que quand je t'ai vu arriver, je t'ai un peu brusquée. Je ne voulais pas que tu aies à subir les choses que j'ai vécues."
+        
         show Medoc PoseGauche Sourire Yeuxfermes Rougit
         med "Et tu as tellement évolué !"
         med "En à peine quelques jours, tu as rencontré les élèves les plus influents de l'Académie, et t'en es fait des amis !"
@@ -197,7 +201,7 @@ label verdict:
         med "C'était beaucoup plus smooth dans ma tête..."
         pov "Ahahah, ce n'est pas grave, je vois autre chose de smooth, et ça me paraît bien plus intéressant !"
         show Medoc PoseSpeciale Sourire Yeuxfermes Rougit
-        med "Et bah alors ! En voilà une prise d'assurance bien rapide ahaha ! Allez viens là !"
+        med "Et bah alors ! En voilà une prise d'assurance bien rapide ahaha ! Allez, viens là !"
         pov "Ouiiii !"
 
         with longfade
@@ -365,7 +369,7 @@ label verdict:
         mog "Tu crois vraiment que l'Académie mettrait à disposition de l'alcool à volonté pour ses élèves ?"
         mog "C'est du jus de pomme tout ça !"
         pov "Hein ? Mais ? Tu..."
-        mog "FaisaiS semblant... pour te mettre en confiance..."
+        mog "Faisais semblant... pour te mettre en confiance..."
         pov "Mais ça n'a aucun sens !"
         show Moguri BrasCroises Sourire Yeuxfermes Rougit
         mog "Comme si c'était à moi qu'il fallait se plaindre..."
@@ -387,7 +391,7 @@ label verdict:
 
 
         show Moguri PoseSpeciale Sourire
-        mog "Dis-moi... il commence à se faire tard... Tu voudrais pas que je te ramène chez toi ?"
+        mog "Dis-moi... Il commence à se faire tard... Tu voudrais pas que je te ramène chez toi ?"
         pov "Si... tu as raison c'est plus raisonnable, on ne va pas dormir ici non plus !"
         show Moguri PoseSpeciale Sourire Yeuxfermes Rougit
         mog "Pas aujourd'hui en tout cas !"
