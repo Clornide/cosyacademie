@@ -137,7 +137,7 @@ label conseil_eleves:
     lock "Pas plus tard qu'hier, j'ai croisé un type bizarre au regard louche qui traînait autour des labos de chimie."
     met "Moguri ?"
     lock "Non ! Je l'ai intimé de décliner son identité, mais il a disparu dans un nuage de fumée."
-    met "Ah ! Un petit ? Avec une oeil tourné vers le passé, et l'autre vers l'avenir ?"
+    met "Ah ! Un petit ? Avec un oeil tourné vers le passé, et l'autre vers l'avenir ?"
     lock "Oui ! C'est le bon signalement !"
     met "Plutôt caucasien, la chevelure bouclée ? Portant une tunique ?"
     lock "Tout à fait !"
