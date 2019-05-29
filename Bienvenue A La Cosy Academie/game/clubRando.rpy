@@ -303,7 +303,7 @@ label club_rando:
     innerpov "Ce club est extrêmement à droite !"
     innerpov "Je pense que je vais éviter d'y revenir..."
     innerpov "Mais j'ai essayé tous les clubs qu'on m'a conseillés... Qu'est-ce que je vais faire ?"
-    innerpov "Bon, je vais retourner voir Metalice, elle aura sûremment une idée !"
+    innerpov "Bon, je vais retourner voir Metalice, elle aura sûrement une idée !"
 
     jump conseil_eleves
     return
