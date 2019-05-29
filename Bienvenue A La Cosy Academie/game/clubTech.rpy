@@ -222,15 +222,15 @@ label .Clubtechcheerleaders:
     clornide "Ce n'est pas comme ça que nous partirons,\nnous sommes ceux qui ne lâchent jamais !!"
     clornide "Il suffit de te regarder tourbillonner là où personne ne sait.\nNous ne grandirons jamaiiiis !!!"
     if sex=="f":
-        innerpov "Ils se partagent des pillules bizarres... Le Drop ! Metalice m'avait prévenue !"
+        innerpov "Ils se partagent des pilules bizarres... Le Drop ! Metalice m'avait prévenue !"
     else:
-        innerpov "Ils se partagent des pillules bizarres... Le Drop ! Metalice m'avait prévenu !"
+        innerpov "Ils se partagent des pilules bizarres... Le Drop ! Metalice m'avait prévenu !"
     
     clornide "Mais qui est là ? KONTAK !"
     if sex=="f":
-        innerpov "Je suis reperée ! Vite le couloir !"
+        innerpov "Je suis repérée ! Vite le couloir !"
     else:
-        innerpov "Je suis reperé ! Vite le couloir !"
+        innerpov "Je suis repéré ! Vite le couloir !"
 
     play music rainbow
     return
@@ -270,7 +270,7 @@ label .Clubtechdin:
 
     show din PoseSpeciale Perv
     din    "Oh, l'important c'est de prendre du plaisir à ce que tu fais ! Et les corps tendus, en sueur, des cheerleaders sont une source d'inspiration sans fin... mais c'est TOI qui es supair !"
-    din    "Je file, je ne veux pas en râter une miette ! À très vite [povname] !"
+    din    "Je file, je ne veux pas en rater une miette ! À très vite [povname] !"
 
     return
 
