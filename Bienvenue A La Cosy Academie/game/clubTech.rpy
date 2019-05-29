@@ -66,7 +66,7 @@ label club_tech:
     innerpov "Mais n'importe quoi ! Tu cherches le club #tech !"
 
     show Moguri PoseDroite Sourire Yeuxfermes
-    mog "Ok, ok, ça a l'air de te tenir à coeur...Tu as de la chance, je suis justement avec la personne qu'il te faut."
+    mog "Ok, ok, ça a l'air de te tenir à coeur... Tu as de la chance, je suis justement avec la personne qu'il te faut."
     mog "Ze PilOt est notre petit génie de l'informatique à l'Académie ! Il est président du club #tech."
     mog "Ze PilOt, je te présen..."
 
@@ -76,7 +76,7 @@ label club_tech:
 
     show ZePilot Standard Sourire Yeuxfermes    
     zep "Bonjour 192.168.1.77 !"
-    innerpov "Oh... ok...mais qu'est-ce que raconte ce type ?"
+    innerpov "Oh... ok... mais qu'est-ce que raconte ce type ?"
     pov "Bonjour ! Je suis [povname] et je viens d'arriver à l'Académie. C'est un honneur de vous rencontrer !"
     zep "C'est chouette que tu utilises le dernier Sansung, ses capacités d'encodage dynamique sont assez folles ! Tu feras attention, ton firmware a des failles de sécurité bien connues."
     innerpov "Mais comment il sait ça ?"
@@ -126,7 +126,7 @@ label .Clubtechmetalice:
     else:
         pov "Oh ! Metalice ! C'est toi ! Tu m'as... surpris. J'avais... la tête en l'air."
     
-    met "Pardonne-moi ! Je ne voulais pas te faire sursauter. J'ai tellement l'habitude de carry que j'ai développé un sens hyperdeveloppé de la discrétion."
+    met "Pardonne-moi ! Je ne voulais pas te faire sursauter. J'ai tellement l'habitude de carry que j'ai développé un sens hyperdéveloppé de la discrétion."
     innerpov "De la discré... Oh my... Je ne m'attendais pas à cet éternuement !"
     
     show Metalice PoseSpeciale Gene
@@ -137,7 +137,7 @@ label .Clubtechmetalice:
 
     pov "Je ne l'ai pas vu, désolé."
     met "Mais, qu'est-ce que tu fais dans ces couloirs au fait ?"
-    pov "Je cherche le club #tech. J'ai croisé Ze PilOt qui m'a indiqué que des photocopieuses sont là bas."
+    pov "Je cherche le club #tech. J'ai croisé Ze PilOt qui m'a indiqué que des photocopieuses sont là-bas."
     met "Oui, tu devrais trouver facilement !"
 
     show Metalice PoseGauche Degoute
@@ -173,7 +173,7 @@ label .Clubtechfoulk:
     innerpov "Pourquoi il me met tellement mal à l'aise ?"
 
     show Foulk PoseDroite Sourire Yeuxfermes
-    foulk "J'déconne Cong ! Tu trouveras le club tech en prenant à gauche au prochain couloir. Et surtout, passe voir mon spectacle !"
+    foulk "J'déconne Cong ! Tu trouveras le club #tech en prenant à gauche au prochain couloir. Et surtout, passe voir mon spectacle !"
     hide Foulk with dissolve
     innerpov "Un spectacle !? Mais je l'ai déjà vu ! Soit il y a un problème temporel, soit ils ont un AUTRE spectacle..."
     innerpov "Ces deux perspectives m'angoissent..."
@@ -269,7 +269,7 @@ label .Clubtechdin:
     pov    "Ta pugnacité t'honore Din ! Tu seras une super artiste !"
 
     show din PoseSpeciale Perv
-    din    "Oh, l'important c'est de prendre du plaisir en ce que tu fais ! Et les corps tendus et en sueur des cheerleaders sont une source d'inspiration sans fin... mais c'est TOI qui es supair !"
+    din    "Oh, l'important c'est de prendre du plaisir à ce que tu fais ! Et les corps tendus, en sueur, des cheerleaders sont une source d'inspiration sans fin... mais c'est TOI qui es supair !"
     din    "Je file, je ne veux pas en râter une miette ! À très vite [povname] !"
 
     return
@@ -306,7 +306,7 @@ label .ChooseCouloir(count_couloir = 0):
 
     $ line_choice = "ERROR !!!"
     if count_couloir == 5:
-        $ line_choice = "Ils auraient quand même pu faire un peu d'efforts sur ces décors, ça se voit le color swap.."
+        $ line_choice = "Ils auraient quand même pu faire un effort sur ces décors, ça se voit le color swap.."
     elif count_couloir == 2:
         $ line_choice = "J'espère que ce n'est pas réellement un labyrinthe ! Je devrais peut-être prendre des notes au cas où ?"
     elif count_couloir == 7:
@@ -325,7 +325,7 @@ label .ChooseCouloir(count_couloir = 0):
         elif randomnum == 4:
             $ line_choice = "J'aurais du m'acheter un mac."
         elif randomnum == 5:
-            $ line_choice = "Gauche droite, c'est pareil au final non ?"
+            $ line_choice = "Gauche, droite, c'est pareil au final non ?"
 
     
     innerpov "[line_choice]"
@@ -387,7 +387,7 @@ label .ChooseCouloir(count_couloir = 0):
         elif last_choice == 1:
             innerpov "C'est lugubre par ici..."
         else:
-            innerpov "Quelque chose d'inhumain/de diabolique se dégage de ces murs..."
+            innerpov "Quelque chose d'inhumain, de diabolique, se dégage de ces murs..."
 
         call .Clubtechcheerleaders from _call_club_tech_Clubtechcheerleaders
 
@@ -400,7 +400,7 @@ label .ChooseCouloir(count_couloir = 0):
         elif last_choice == 1:
             innerpov "Ça sent le matcha et les crayons de couleurs. J'espère que c'est le club #tech !"
         else:
-            innerpov "Ça sent le thé et les petits gateaux... J'espère que c'est le club #tech !"
+            innerpov "Ça sent le thé et les petits gâteaux... J'espère que c'est le club #tech !"
         call .Clubtechdin from _call_club_tech_Clubtechdin
         return
 
