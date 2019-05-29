@@ -202,7 +202,7 @@ label cosy_culture_club:
         med "Hé hé calme-toi meuf, c'est la cosy académie ici, c'est normal !"
     
     mog "Allez, assieds-toi confortablement, tu vas nous regarder jouer à un jeu aujourd'hui..."
-    med "En buvant des verres bien sûr.. Quel serait le jeu idéal pour ça ?"
+    med "En buvant des verres bien sûr... Quel serait le jeu idéal pour ça ?"
     menu:
         med "{cps=0}En buvant des verres bien sûr... Quel serait le jeu idéal pour ça ?{/cps}"
         "Cul à cul sec !":
