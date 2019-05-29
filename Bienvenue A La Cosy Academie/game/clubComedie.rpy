@@ -54,7 +54,7 @@ label club_comedie:
     show Dieuvomi Standard Colere at bigzoom with vpunch 
     dieuv "JE SAIS QUE C'EST NUL !"
     show Dieuvomi PoseDroite Colere
-    dieuv "C'est pas ce que je voulais de toute façon, j'avais « C'est quoi le problème avec la bouffe dans les avions », un spectacle qui crève les peuneus de l'esprit."
+    dieuv "C'est pas ce que je voulais de toute façon, j'avais « C'est quoi le problème avec la bouffe dans les avions ?», un spectacle qui crève les peuneus de l'esprit."
     show Dieuvomi BrasCroises Colere at normalzoom
     dieuv "Mais ouais, Foulk voulait faire le sien d'abord. J'y peux quoi ? Hein tu me cherches en fait ?"
     pov "Non... je.."
@@ -91,7 +91,7 @@ label club_comedie:
     play music comedy
     pov "Alors c'est ici que la magie opère ?"
     show Dieuvomi PoseGauche Badboy at left
-    dieuv "Et ouais, bon fais pas gaffe à l'esthétique bourgeoise, on va bosser là dessus."
+    dieuv "Et ouais, bon fais pas gaffe à l'esthétique bourgeoise, on va bosser là-dessus."
     show Dieuvomi PoseGauche Colere
     dieuv "Apparemment les bidons d'essences c'est interdit dans l'enceinte de l'académie... "
     dieuv "Tu parles, on aurait fait une super déco."
@@ -213,7 +213,10 @@ label club_comedie:
     dieuv "Mais fais gaffe, ta vie pourrait changer suite à ça."
 
     show Foulk PoseGauche Sourire
-    foulk "Hé oui milledieu, c'est normal si ça t'a dérangé, on est toujours engagé ici cong."
+    if sex=="m":
+        foulk "Hé oui milledieu, c'est normal que tu sois dérangé, on est toujours engagés ici cong."
+    else:
+        foulk "Hé oui milledieu, c'est normal que tu sois dérangée, on est toujours engagés ici cong."
     show Foulk PoseGauche Degoute
     foulk "J'espère que t'es pas de droite parce que sinon oulala. Je pense que tu vas changer d'avis."
     show Foulk PoseGauche Sourire Yeuxfermes
@@ -297,9 +300,9 @@ label club_comedie:
     show Foulk PoseGauche Colere
     foulk "Quel guindoule celui là aussi le Médoc hein ? On aurait pu être plus gros que Jimmy Fallon puté."
     show Foulk PoseGauche Gene
-    foulk "Et pis aussi ils s'aimaient bieng avec la dieuve là. C'était bieng ce temps là."
+    foulk "Et pis aussi ils s'aimaient bieng avec la dieuve là. C'était bieng ce temps-là."
     show Foulk PoseGauche Sourire Yeuxfermes
-    foulk "On était comme dans le SNL, attends je vais te montrer le sketche."
+    foulk "On était comme dans le SNL, attends je vais te montrer le sketch."
 
     pov "Tu... l'aimes toujours ?"
     show Dieuvomi BrasCroises Triste
@@ -368,7 +371,7 @@ label club_comedie:
 
         
     
-    foulk "ATTENDS T'AS PAS VU LE SKETCHE DU SNL !!"
+    foulk "ATTENDS T'AS PAS VU LE SKETCH DU SNL !!"
     window hide
     pause 0.5
     show SNL zorder 1000 at snl_pos
