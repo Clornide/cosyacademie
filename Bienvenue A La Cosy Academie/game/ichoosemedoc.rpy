@@ -30,9 +30,9 @@ label Ichoosemedoc:
     show Mathilde PoseSpeciale Bad Girl
 
     if sex=="m":
-        mat "Il ment Medoc... Il va falloir s'en débarasser..."
+        mat "Il ment Medoc... Il va falloir s'en débarrasser..."
     else:
-        mat "Elle ment Medoc... Il va falloir s'en débarasser..."
+        mat "Elle ment Medoc... Il va falloir s'en débarrasser..."
     
     show Medoc BrasCroises Triste    
     med "Tu... Tu crois ?"

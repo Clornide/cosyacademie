@@ -197,7 +197,7 @@ label verdict:
         hide Medoc with dissolve
         show Medoc PoseSpeciale Gene
 
-        med "C'est un peu génant finalement..."
+        med "C'est un peu gênant finalement..."
         med "C'était beaucoup plus smooth dans ma tête..."
         pov "Ahahah, ce n'est pas grave, je vois autre chose de smooth, et ça me paraît bien plus intéressant !"
         show Medoc PoseSpeciale Sourire Yeuxfermes Rougit
@@ -238,7 +238,7 @@ label verdict:
 
         show Medoc PoseSpeciale Gene
         med "Arrête !"
-        pov "Ahahah ! Tu es si mignon quand tu es géné... Tiens prends !"
+        pov "Ahahah ! Tu es si mignon quand tu es gêné... Tiens prends !"
 
         med "Merci..."
         hide Medoc with dissolve
@@ -260,7 +260,7 @@ label verdict:
         innerpov "On a tous les deux le même problème de self-esteem finalement..."
         innerpov "Ahah ! Il commence déjà à déteindre sur moi avec ses anglicismes ! C'est bon signe !"
 
-        med "Et là, le mec me dit, 'Alors, comment il va Karim ?'. Et là je me dis, nan, attends y a un trap c'est..."
+        med "Et là, le mec me dit, 'Alors, comment il va Karim ?'. Et là je me dis, nan, attends, y a un trap c'est..."
 
         show Medoc PoseGauche Degoute
 
@@ -324,7 +324,7 @@ label verdict:
         else:
             pov "Depuis que je suis arrivée à l'Académie, on n'a pas eu beaucoup l'occasion de discuter..."
 
-        pov "Mais les quelques fois où on a intéragi, tu as toujours été la personne la plus compréhensive et douce avec moi..."
+        pov "Mais les quelques fois où on a interagi, tu as toujours été la personne la plus compréhensive et douce avec moi..."
         pov "Et c'est pour ça que..."
         innerpov "Allez... Dis-le !"
         pov "Que..."
@@ -353,7 +353,7 @@ label verdict:
         pov "Moguri..."
         mog "Parce qu'à mon époque, les bars, c'était carrément pas ce standing là..."
         pov "Moguri."
-        mog "Après, ça a un p'tit côté appréciable, mais moi j'aimais bien les bars un peu undergrounds. Mais ça ça exist pl-"
+        mog "Après, ça a un p'tit côté appréciable, mais moi j'aimais bien les bars un peu undergrounds. Mais ça, ça n'existe pl-"
         pov "MOGURIIIIIIIIIIIIIIIII !"
         mog "QUOI ?"
         pov "Moguri. J'te kiffe mon gars... Genre *hic* vraiment..."

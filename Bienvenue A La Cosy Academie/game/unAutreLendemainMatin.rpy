@@ -53,7 +53,7 @@ label unAutreLendemainMatin:
 
 
     panse "Ahaha exactement ! Mais il commence à s'attacher  à ces trois rigolos... Je pense qu'il essaie de les former pour de bon en ce moment."
-    pov "Ok dernière question. Pourquoi ils étaient dans cet état là, la dernière fois que je les ai croisés ?"
+    pov "Ok dernière question. Pourquoi ils étaient dans cet état-là, la dernière fois que je les ai croisés ?"
     show Pansepignon Standard Triste
     panse "C'est justement lié à la raison de ma venue ici. L'objet que je cherchais quand on s'est vus précédemment, c'est un CD, avec un pur son dessus..."
     show Pansepignon BrasCroises Sourire

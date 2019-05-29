@@ -91,9 +91,9 @@ label Meeting_Metalice:
         show Metalice Standard Sourire
 
         if sex=="m":
-            met "Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloqué sur ces deux là !"
+            met "Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloqué sur ces deux-là !"
         else:
-            met "Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloquée sur ces deux là !"
+            met "Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloquée sur ces deux-là !"
 
     elif pointsmoguri!=0:
         show Metalice PoseSpeciale Sourire Yeuxfermes
@@ -115,9 +115,9 @@ label Meeting_Metalice:
         innerpov "Encore ce clin d'oeil..."
         show Metalice Standard Sourire
         if sex=="m":
-            met "Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloqué sur ces deux là !"
+            met "Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloqué sur ces deux-là !"
         else:
-            met "Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloquée sur ces deux là !"
+            met "Enfin bon ce ne sont pas les seuls étudiants de ce lycée, aucune raison de rester bloquée sur ces deux-là !"
 
     elif pointsincel!=0:
 
@@ -128,9 +128,9 @@ label Meeting_Metalice:
         show Metalice Standard Sourire
 
         if sex=="m":
-            met "Enfin bon tu as raison, ce ne sont pas les seuls étudiants de ce lycée. Aucune raison de rester bloqué sur ces deux là !"
+            met "Enfin bon tu as raison, ce ne sont pas les seuls étudiants de ce lycée. Aucune raison de rester bloqué sur ces deux-là !"
         else:
-            met "Enfin bon tu as raison, ce ne sont pas les seuls étudiants de ce lycée. Aucune raison de rester bloquée sur ces deux là !"
+            met "Enfin bon tu as raison, ce ne sont pas les seuls étudiants de ce lycée. Aucune raison de rester bloquée sur ces deux-là !"
 
 
     pov "D'ailleurs, ce serait possible de me présenter rapidement à d'autres élèves ?"

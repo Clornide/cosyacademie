@@ -92,7 +92,7 @@ label club_tech:
     pov "Non, je suis [povname]."
 
     show Moguri PoseGauche Sourire Rougit
-    mog "Haha, non, Ze PilOt a developpé un assistant personnel qui s'appelle Jarod... en référence à la Guerre des étoiles, je crois... Ils sont connectés en permanence, mais il y a encore quelques réglages à faire."
+    mog "Haha, non, Ze PilOt a développé un assistant personnel qui s'appelle Jarod... en référence à la Guerre des étoiles, je crois... Ils sont connectés en permanence, mais il y a encore quelques réglages à faire."
 
     show ZePilot Standard Colere Rougit
     zep "Mais arrête Jarod, puisque je te dis que non, je ne connais pas cette Siri !"

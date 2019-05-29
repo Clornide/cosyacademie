@@ -47,7 +47,7 @@ label club_comedie:
     else:
         dieuv "Ahahahah t'es curieuse, c'est marrant et je te comprends."
     
-    dieuv "Je peux rien te dire, imagine un peu que les pouvoirs en place tombent sur ce brulôt d'humour, comment on serait pas dans la merde."
+    dieuv "Je peux rien te dire, imagine un peu que les pouvoirs en place tombent sur ce brûlot d'humour, comment on serait pas dans la merde."
     show Dieuvomi Standard Sourire Rougit
     dieuv "Pour l'instant je peux dévoiler que le titre : « Foulk'on Rigole »"
     pov "Mais... c'est nul."

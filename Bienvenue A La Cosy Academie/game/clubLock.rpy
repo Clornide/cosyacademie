@@ -94,7 +94,7 @@ label club_lock:
         lock "Ce n'était pas vraiment à lui que je pensais, mais je veux bien admettre que ses discours sont inspirants et qu'une énergie particulière se dégage de lui."
     elif reponsebagarre==3:
         show Lock Standard Gene
-        lock "Qu'est ce que..."
+        lock "Qu'est-ce que..."
         lock "Serait-ce une technique secrète ? Bien ! Prépare-toi !"
     else:
         show Lock Standard Sourire
@@ -111,7 +111,7 @@ label club_lock:
     lock "??!!"
     hide Moguri
     show Medoc PoseGauche Colere at left
-    med "Moguri a raison! Ton règne tyrannique sur la salle de bagarre n'a que trop duré !"
+    med "Moguri a raison ! Ton règne tyrannique sur la salle de bagarre n'a que trop duré !"
     lock "Qu'est-ce que vous faites là vous deux ?"
     show Medoc Standard Rougit at left
     med "Heu, bah en fait on j'ai oublié mon t-shirt et..."
@@ -288,7 +288,7 @@ label club_lock:
     
     show Lock PoseSpeciale Colere at center
     lock "Allez ! Cassez-vous avant que je ne m'énerve vraiment !"
-    lock "C'est pas un club de bébé Cadum ici!"
+    lock "C'est pas un club de bébé Cadum ici !"
     scene gym
     show Lock Standard Badboy at center
     lock "[povname], c'est bon on peut continuer ?!"

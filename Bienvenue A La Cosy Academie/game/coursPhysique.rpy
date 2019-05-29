@@ -132,7 +132,7 @@ label cours_physique:
         esprism "Ha Mathilde, je ne pourrai pas venir à ton club ce soir..."
         show Mathilde PoseDroite Triste at right
         esprism "Même si c'est facile, je n'ai pas terminé ma nouvelle théorie des jeux..."
-        innerpov "Un club de jeux ? Il faudra que j'aille faire un tour là bas si je ne trouve rien d'autre !"
+        innerpov "Un club de jeux ? Il faudra que j'aille faire un tour là-bas si je ne trouve rien d'autre !"
         hide Mathilde
 
     esprism "[povname] ?"

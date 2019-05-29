@@ -184,7 +184,7 @@ label cosy_culture_club:
     show Medoc BrasCroises Degoute
     med "Comme si on avait besoin d'une excuse pour faire la fête..."
     show Medoc PoseDroite Sourire
-    mog "Ouais enfin bon soit, on doit rendre des comptes, donc on doit enregister !"
+    mog "Ouais enfin bon soit, on doit rendre des comptes, donc on doit enregistrer !"
 
     innerpov "Faire une \"tape\" avec Medoc et Moguri.. Ouah !"
 

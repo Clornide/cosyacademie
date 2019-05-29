@@ -13,12 +13,12 @@ label Rentreavecmetalice:
 
     met "Medoc ou Moguri enfin !"
 
-    pov "Raaah mais laisse moi avec eux enfin !"
+    pov "Raaah mais laisse-moi avec eux enfin !"
 
     show Metalice Standard Sourire
 
     met "Tu dis ça mais je te vois très bien rougir hein !"
-    pov "Tu parles quand même d'eux beaucoup plus que moi, c'est peut être toi qui est intéressée finalement !"
+    pov "Tu parles quand même d'eux beaucoup plus que moi, c'est peut-être toi qui est intéressée finalement !"
 
     jump Rentreavecmetalice2
     return

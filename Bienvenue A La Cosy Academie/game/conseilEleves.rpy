@@ -88,7 +88,7 @@ label conseil_eleves:
     show Metalice PoseDroite Sourire
     met "Bien sûr, c'est notre pain quotidien même."
     show Metalice PoseDroite Sourire
-    met "La fermeture du club d'archerie suite à un contact tête/flèche, la mise en place de vidéo surveillance autour du parc à vélo pour éviter le creuvage industriel de pneus..."
+    met "La fermeture du club d'archerie suite à un contact tête/flèche, la mise en place de vidéo surveillance autour du parc à vélo pour éviter le crevage industriel de pneus..."
     show Lock PoseGauche Badboy
     lock "On a fait retirer toutes les échelles suite à l'incident de La Chute aussi."
     pov "« L'incident de la chute ? »"
@@ -157,7 +157,7 @@ label conseil_eleves:
     mic "..."
     lock "Faites bien attention."
     met "À quoi ?"
-    lock "Réflechissez-y, vous le saurez. Moi. Je. Sais."
+    lock "Réfléchissez-y, vous le saurez. Moi. Je. Sais."
 
     show Mickey PoseSpeciale Sourire
     mic "Faudrait vraiment que tu penses à mieux suivre mes cours sur les terrasses Lock, ça te calmerait je pense."

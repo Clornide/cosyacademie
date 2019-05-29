@@ -81,7 +81,7 @@ label club_pansepignoles:
     show Chuenpodo PoseSpeciale Sourire 
     chuen "Et bien en voilà une bonne question ! C'est en hommage à notre ancien manager Pansepignon... À l'époque j'étais moi même cheerleader !"
     show Chuenpodo PoseSpeciale Sourire Yeuxfermes
-    chuen "C'était un étudiant à la Cosy Académie comme nous, mais il était genial." 
+    chuen "C'était un étudiant à la Cosy Académie comme nous, mais il était génial." 
     show Chuenpodo PoseSpeciale Sourire Yeuxfermes Rougit
     chuen "C'était le meilleur. Et il n'arrêtait pas de dire que c'était moi le meilleur."
     show Cheerleaders at dezoom, go_left_to_right

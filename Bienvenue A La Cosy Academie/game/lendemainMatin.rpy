@@ -20,7 +20,7 @@ label lendemainMatin:
     pov "Franchement, c'est pas sérieux..."
 
     show Pansepignon PoseSpeciale Sourire with dissolve
-    panse "Tout va bien, tu as encore quelque minutes avant d'être vraiment en retard !"
+    panse "Tout va bien, tu as encore quelques minutes avant d'être vraiment en retard !"
 
     
 
