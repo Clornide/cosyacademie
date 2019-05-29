@@ -51,7 +51,7 @@ screen skip_von_huge():
 label club_rando:
 
     python:
-        name_von = "Von Yaourt"
+        name_von = "VonYaourt"
     
     play music quirkylane    
 
